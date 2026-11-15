@@ -59,4 +59,7 @@ Réglages à faire une fois : **Settings → Pages → Source : GitHub Actions**
 Pensée pour iPhone : titres larges, listes groupées, barre d'onglets (Pratiques · Hadiths · Infos), écran de détail par pratique, mode sombre.
 
 ## Pratiques
-`data/seed/practices.json` : fiches concrètes (manger de la main droite, siwak avant la prière, sommeil, salutations…). Chaque fiche cite des hadiths du corpus ; `build.py` échoue si une référence n'existe pas. Les résumés sont rédigés par nous (brouillon) et ne donnent aucune qualification juridique.
+`data/seed/practices.json` + `data/seed/parts/*.json` : 206 fiches concrètes en 19 catégories (purification, prière, vendredi et fêtes, repas, habillement, sommeil, maison, voyage, famille, relations, parole, caractère, commerce, maladie et deuil, jeûne, aumône, invocations, Coran et science) (manger de la main droite, siwak avant la prière, ablution, sommeil, salutations…). Chaque fiche cite des hadiths du corpus ; `build.py` échoue si une référence n'existe pas. Les résumés sont rédigés par nous (brouillon) et ne donnent aucune qualification juridique.
+
+## Étendre les pratiques
+Ajouter un fichier `data/seed/parts/<nom>.json` (catégories, fiches, traductions), le valider avec `python3 scripts/check_parts.py <fichier>`, puis `python3 scripts/build.py`. Outil de recherche dans le corpus : `python3 scripts/find.py "كلمة" --col riyad --sahih`.

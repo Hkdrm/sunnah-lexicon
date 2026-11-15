@@ -61,6 +61,11 @@ def load_seed():
             prac["practices"].append(p); slugs.add(p["slug"])
         for k, v in part.get("translations", {}).items():
             tr["translations"].setdefault(k, v)
+    # Ordre d'affichage des catégories (celles qui ne sont pas listées vont à la fin)
+    ORDER = ["purification", "priere", "vendredi-fetes", "priere-hygiene", "repas", "habillement", "sommeil", "maison",
+             "voyage", "famille", "relations", "parole", "caractere", "affaires", "maladie-deuil", "jeune",
+             "aumone", "invocations", "coran-science"]
+    prac["categories"].sort(key=lambda c: ORDER.index(c["slug"]) if c["slug"] in ORDER else len(ORDER))
     return tr, prac
 
 

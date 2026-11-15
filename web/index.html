@@ -104,13 +104,25 @@ const CHEV = '<svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill=
 const BACK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>';
 
 const CAT = {
+ "purification":{c:"#0a84ff",i:'<path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/>'},
+ "priere":{c:"#0f766e",i:'<path d="M4 20v-7a8 8 0 0 1 16 0v7"/><path d="M12 5V2"/><path d="M9 20v-5a3 3 0 0 1 6 0v5"/>'},
+ "vendredi-fetes":{c:"#e08600",i:'<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/>'},
+ "priere-hygiene":{c:"#32ade6",i:'<path d="M12 3l1.8 4.6L18.5 9l-4.7 1.4L12 15l-1.8-4.6L5.5 9l4.7-1.4z"/><path d="M18 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>'},
  "repas":{c:"#ff9500",i:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/>'},
- "priere-hygiene":{c:"#0a84ff",i:'<path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/>'},
+ "habillement":{c:"#bf5af2",i:'<path d="M8 4l-5 3 2 4 2-1v10h10V10l2 1 2-4-5-3a4 4 0 0 1-8 0z"/>'},
  "sommeil":{c:"#5e5ce6",i:'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>'},
- "relations":{c:"#ff375f",i:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>'},
- "maison-voyage":{c:"#30b0c7",i:'<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/>'},
+ "maison":{c:"#30b0c7",i:'<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/>'},
+ "voyage":{c:"#a2845e",i:'<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>'},
+ "famille":{c:"#ff375f",i:'<circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6M15 14.4c3 0 6 1.7 6 5.6"/>'},
+ "relations":{c:"#ff6482",i:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>'},
+ "parole":{c:"#00a3a3",i:'<path d="M20 12a8 8 0 0 1-11.5 7.2L4 20l1-4.2A8 8 0 1 1 20 12z"/>'},
+ "caractere":{c:"#34c759",i:'<path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6L12 16.8 6.7 19.6l1.1-6L3.4 9.4l6-.8z"/>'},
+ "affaires":{c:"#636366",i:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5h6v2M3 13h18"/>'},
+ "maladie-deuil":{c:"#ff453a",i:'<path d="M3 12h4l2-4 3 8 2-4h7"/>'},
  "jeune":{c:"#af52de",i:'<path d="M3 18h18M6 18a6 6 0 0 1 12 0M12 5v3M5 9l2 2M19 9l-2 2"/>'},
- "caractere":{c:"#34c759",i:'<path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6L12 16.8 6.7 19.6l1.1-6L3.4 9.4l6-.8z"/>'}
+ "aumone":{c:"#d99a00",i:'<rect x="4" y="9" width="16" height="11" rx="1.5"/><path d="M12 9v11M4 13h16"/><path d="M12 9c-3 0-4-4-1-4 2 0 1 4 1 4zm0 0c3 0 4-4 1-4-2 0-1 4-1 4z"/>'},
+ "invocations":{c:"#7d7aff",i:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18"/>'},
+ "coran-science":{c:"#1d7a56",i:'<path d="M4 5.5C6.5 4 9.5 4 12 5.5c2.5-1.5 5.5-1.5 8 0V19c-2.5-1.5-5.5-1.5-8 0-2.5-1.5-5.5-1.5-8 0z"/><path d="M12 5.5V19"/>'}
 };
 const catIcon = slug => { const k = CAT[slug] || {c:"#8e8e93",i:'<circle cx="12" cy="12" r="8"/>'}; return `<span class="ic" style="background:${k.c}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${k.i}</svg></span>`; };
 let D, byKey, state = {q:"", hq:"", col:"", theme:"", sit:"", term:"", limit:30};

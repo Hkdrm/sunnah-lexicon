@@ -1,0 +1,638 @@
+{
+ "categories": [
+  {
+   "slug": "purification",
+   "label_fr": "Purification et ablution"
+  },
+  {
+   "slug": "priere",
+   "label_fr": "Prière"
+  },
+  {
+   "slug": "vendredi-fetes",
+   "label_fr": "Vendredi et fêtes"
+  }
+ ],
+ "practices": [
+  {
+   "slug": "wudu-bouche-nez-membres",
+   "category": "purification",
+   "title_fr": "Se rincer la bouche, aspirer l'eau par le nez et laver les membres dans l'ablution",
+   "summary_fr": "Interrogé sur l'ablution, le Prophète ﷺ a décrit : se rincer la bouche, aspirer l'eau par le nez et la rejeter, laver le visage, les mains jusqu'aux coudes, s'essuyer la tête, laver les pieds jusqu'aux chevilles. Il a dit que les péchés de chaque partie lavée tombent avec l'eau.",
+   "refs": [
+    [
+     "riyad",
+     1655
+    ],
+    [
+     "riyad",
+     349
+    ]
+   ]
+  },
+  {
+   "slug": "wudu-comme-prophete",
+   "category": "purification",
+   "title_fr": "Faire l'ablution comme l'a faite le Prophète ﷺ",
+   "summary_fr": "Othman (qu'Allah l'agrée) a rapporté avoir vu le Messager d'Allah ﷺ faire l'ablution comme la sienne, puis avoir entendu ces paroles : « Celui qui fait l'ablution ainsi, ses péchés antérieurs lui seront pardonnés. » Le Prophète ﷺ a aussi dit : « Celui qui fait l'ablution et la fait bien, ses péchés sortent de son corps, jusque de sous ses ongles. »",
+   "refs": [
+    [
+     "riyad",
+     348
+    ],
+    [
+     "riyad",
+     347
+    ]
+   ]
+  },
+  {
+   "slug": "wudu-eclat",
+   "category": "purification",
+   "title_fr": "Laver généreusement les membres lors de l'ablution",
+   "summary_fr": "Le Prophète ﷺ a dit que son peuple sera appelé le Jour de la Résurrection « ghurran muhajjalin » à cause des traces de l'ablution, et que « celui d'entre vous qui peut allonger son éclat, qu'il le fasse ». Il a aussi dit : « La parure du croyant atteindra l'endroit où atteint l'ablution. »",
+   "refs": [
+    [
+     "riyad",
+     345
+    ],
+    [
+     "riyad",
+     346
+    ]
+   ]
+  },
+  {
+   "slug": "wudu-malgre-difficultes",
+   "category": "purification",
+   "title_fr": "Parfaire l'ablution même quand c'est pénible",
+   "summary_fr": "Le Prophète ﷺ a demandé à ses compagnons : « Ne vous indiquerai-je pas ce par quoi Allah efface les fautes et élève les degrés ? » Puis il a dit : « Parfaire l'ablution malgré les choses pénibles, multiplier les pas vers les mosquées et attendre la prière après la prière : voilà le ribat, voilà le ribat. »",
+   "refs": [
+    [
+     "riyad",
+     351
+    ]
+   ]
+  },
+  {
+   "slug": "wudu-chahada",
+   "category": "purification",
+   "title_fr": "Dire la profession de foi après l'ablution",
+   "summary_fr": "Le Prophète ﷺ a dit : « Il n'est personne parmi vous qui fasse l'ablution en la parfaisant puis dise : Ash-hadu an la ilaha illa Llah wahdahu la sharika lah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh, sans que lui soient ouvertes les huit portes du Paradis ; il entre par celle qu'il veut. »",
+   "refs": [
+    [
+     "riyad",
+     353
+    ]
+   ]
+  },
+  {
+   "slug": "wudu-puis-prier",
+   "category": "purification",
+   "title_fr": "Prier après chaque ablution",
+   "summary_fr": "Le Prophète ﷺ a dit à Bilal : « Parle-moi de l'action en l'islam dont tu espères le plus. » Bilal a répondu qu'il n'avait jamais fait de purification, à aucun moment de la nuit ou du jour, sans prier avec cette purification ce qu'il lui avait été destiné de prier.",
+   "refs": [
+    [
+     "riyad",
+     467
+    ]
+   ]
+  },
+  {
+   "slug": "repondre-muezzin",
+   "category": "priere",
+   "title_fr": "Répéter ce que dit le muezzin",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand vous entendez l'appel, dites comme dit le muezzin. » Dans un autre hadith : « Quand vous entendez l'appel, dites comme il dit, puis invoquez la prière sur moi, car celui qui invoque une fois la prière sur moi, Allah l'invoque dix fois sur lui. »",
+   "refs": [
+    [
+     "riyad",
+     359
+    ],
+    [
+     "riyad",
+     358
+    ]
+   ]
+  },
+  {
+   "slug": "invocation-apres-adhan",
+   "category": "priere",
+   "title_fr": "Faire l'invocation après l'appel à la prière",
+   "summary_fr": "Le Prophète ﷺ a dit : « Celui qui dit en entendant l'appel : Allahumma rabba hadhihi d-da'wati t-tammati wa s-salati l-qa'imati, ati Muhammadan al-wasilata wa l-fadilata, wab'ath-hu maqaman mahmudan alladhi wa'adtah, mon intercession lui sera acquise le Jour de la Résurrection. »",
+   "refs": [
+    [
+     "riyad",
+     360
+    ],
+    [
+     "riyad",
+     358
+    ]
+   ]
+  },
+  {
+   "slug": "marcher-serenite-priere",
+   "category": "priere",
+   "title_fr": "Aller à la prière en marchant avec sérénité",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand la prière est annoncée, n'y venez pas en courant, mais venez en marchant, avec sérénité. Ce que vous rattrapez, priez-le, et ce qui vous échappe, complétez-le. » Muslim ajoute : « Car celui d'entre vous qui se dirige vers la prière est dans la prière. »",
+   "refs": [
+    [
+     "riyad",
+     24
+    ]
+   ]
+  },
+  {
+   "slug": "salut-mosquee",
+   "category": "priere",
+   "title_fr": "Prier deux rak'a en entrant dans la mosquée",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand l'un de vous entre dans la mosquée, qu'il ne s'assoie pas avant d'avoir prié deux rak'a. » Jabir (qu'Allah l'agrée) rapporte qu'il vint auprès du Prophète ﷺ dans la mosquée et que celui-ci lui dit : « Prie deux rak'a. »",
+   "refs": [
+    [
+     "riyad",
+     465
+    ],
+    [
+     "riyad",
+     466
+    ]
+   ]
+  },
+  {
+   "slug": "purifier-puis-mosquee",
+   "category": "priere",
+   "title_fr": "Se purifier chez soi puis se rendre à la mosquée",
+   "summary_fr": "Le Prophète ﷺ a dit : « Celui qui se purifie chez lui, puis se rend à l'une des maisons d'Allah pour accomplir l'une des prescriptions d'Allah, ses pas seront : l'un efface une faute, l'autre élève d'un degré. » Il a aussi dit que, pour celui qui sort vers la mosquée après une belle ablution, aucun pas n'est fait sans qu'un degré lui soit élevé et qu'une faute lui soit effacée.",
+   "refs": [
+    [
+     "riyad",
+     375
+    ],
+    [
+     "riyad",
+     386
+    ]
+   ]
+  },
+  {
+   "slug": "redresser-rangs",
+   "category": "priere",
+   "title_fr": "Redresser les rangs avant la prière",
+   "summary_fr": "Le Prophète ﷺ a dit : « Alignez vos rangs, car l'alignement du rang fait partie de l'accomplissement parfait de la prière. » Il disait aussi : « Dressez vos rangs et serrez-vous, car je vous vois derrière mon dos. » Il touchait les épaules des compagnons en disant : « Mettez-vous droits et ne divergez pas, sinon vos cœurs divergeront. »",
+   "refs": [
+    [
+     "riyad",
+     408
+    ],
+    [
+     "riyad",
+     409
+    ],
+    [
+     "riyad",
+     407
+    ]
+   ]
+  },
+  {
+   "slug": "serrer-rangs-combler-vides",
+   "category": "priere",
+   "title_fr": "Compléter les premiers rangs et combler les vides",
+   "summary_fr": "Le Prophète ﷺ a dit que les anges, auprès de leur Seigneur, « complètent les premiers rangs et se serrent dans le rang ». Il a aussi dit : « Alignez les épaules, comblez les vides, soyez souples sous les mains de vos frères, et ne laissez pas d'espaces pour le diable. Celui qui joint un rang, Allah le joint. »",
+   "refs": [
+    [
+     "riyad",
+     403
+    ],
+    [
+     "riyad",
+     412
+    ]
+   ]
+  },
+  {
+   "slug": "rakaat-avant-apres-prieres",
+   "category": "priere",
+   "title_fr": "Prier des rak'a surérogatoires avant et après les prières",
+   "summary_fr": "Umm Habiba (qu'Allah l'agrée) a rapporté ces paroles du Prophète ﷺ : « Tout serviteur musulman qui prie pour Allah, chaque jour, douze rak'a surérogatoires en dehors de la prière prescrite, Allah lui bâtit une maison au Paradis. » Ibn Omar a décrit celles qu'il a priées avec lui : deux avant le Dhouhr et deux après, deux après le Maghrib, deux après le 'Icha.",
+   "refs": [
+    [
+     "riyad",
+     418
+    ],
+    [
+     "riyad",
+     419
+    ],
+    [
+     "riyad",
+     436
+    ]
+   ]
+  },
+  {
+   "slug": "deux-rakaat-aube",
+   "category": "priere",
+   "title_fr": "Prier deux rak'a brèves avant la prière de l'aube",
+   "summary_fr": "Hafsa (qu'Allah l'agrée) a rapporté que, lorsque l'aube apparaissait, le Prophète ﷺ priait deux rak'a légères. Aïcha a dit qu'il ne veillait sur aucune prière surérogatoire avec plus d'assiduité que sur ces deux rak'a. Abou Hourayra a rapporté qu'il y récitait « Qul ya ayyuha l-kafirun » et « Qul huwa Llahu ahad ».",
+   "refs": [
+    [
+     "riyad",
+     426
+    ],
+    [
+     "riyad",
+     422
+    ],
+    [
+     "riyad",
+     429
+    ]
+   ]
+  },
+  {
+   "slug": "avant-maghrib",
+   "category": "priere",
+   "title_fr": "Prier deux rak'a avant la prière du Maghrib",
+   "summary_fr": "Le Prophète ﷺ a dit : « Priez avant le Maghrib », et, la troisième fois, il a ajouté : « pour qui le veut ». Anas (qu'Allah l'agrée) a rapporté qu'à Médine, quand le muezzin appelait au Maghrib, les compagnons se précipitaient vers les piliers et priaient deux rak'a.",
+   "refs": [
+    [
+     "riyad",
+     443
+    ],
+    [
+     "riyad",
+     446
+    ]
+   ]
+  },
+  {
+   "slug": "duha",
+   "category": "priere",
+   "title_fr": "Prier la prière du Duha",
+   "summary_fr": "Le Prophète ﷺ a dit : « Chaque matin, une aumône est due pour chacune des articulations de chacun de vous… et deux rak'a que l'on prie au moment du Duha suffisent pour cela. » Aïcha (qu'Allah l'agrée) a rapporté qu'il priait le Duha quatre rak'a et ajoutait ce qu'Allah voulait.",
+   "refs": [
+    [
+     "riyad",
+     461
+    ],
+    [
+     "riyad",
+     462
+    ],
+    [
+     "riyad",
+     463
+    ]
+   ]
+  },
+  {
+   "slug": "nuit-deux-par-deux",
+   "category": "priere",
+   "title_fr": "Prier la nuit deux rak'a par deux rak'a",
+   "summary_fr": "Le Prophète ﷺ a dit : « La prière de nuit se fait deux par deux ; si tu crains l'aube, prie une seule rak'a en witr. » Ibn Omar (qu'Allah l'agrée) a rapporté qu'il priait la nuit deux par deux et concluait par une rak'a à la fin de la nuit.",
+   "refs": [
+    [
+     "riyad",
+     489
+    ],
+    [
+     "riyad",
+     427
+    ]
+   ]
+  },
+  {
+   "slug": "witr-derniere-priere",
+   "category": "priere",
+   "title_fr": "Faire du witr la dernière prière de la nuit",
+   "summary_fr": "Le Prophète ﷺ a dit : « Faites de votre dernière prière de la nuit un witr. » Il a dit aussi : « Priez le witr avant d'entrer dans le matin. » Et : « Celui qui craint de ne pas se lever à la fin de la nuit, qu'il prie le witr au début ; celui qui espère se lever à la fin, qu'il le prie à la fin de la nuit. »",
+   "refs": [
+    [
+     "riyad",
+     455
+    ],
+    [
+     "riyad",
+     456
+    ],
+    [
+     "riyad",
+     459
+    ]
+   ]
+  },
+  {
+   "slug": "nuit-deux-rakaat-legeres",
+   "category": "priere",
+   "title_fr": "Commencer la prière de nuit par deux rak'a légères",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand l'un de vous se lève la nuit, qu'il commence sa prière par deux rak'a légères. » Aïcha (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ, lorsqu'il se levait la nuit, commençait sa prière par deux rak'a légères.",
+   "refs": [
+    [
+     "riyad",
+     500
+    ],
+    [
+     "riyad",
+     501
+    ]
+   ]
+  },
+  {
+   "slug": "coucher-droite-aube",
+   "category": "priere",
+   "title_fr": "S'allonger sur le côté droit après les deux rak'a de l'aube",
+   "summary_fr": "Aïcha (qu'Allah l'agrée) a rapporté que, lorsque le Prophète ﷺ avait prié les deux rak'a de l'aube, il s'allongeait sur son côté droit. Elle a précisé qu'il priait deux rak'a légères, puis s'allongeait ainsi sur le côté droit jusqu'à ce que le muezzin vienne pour l'iqama.",
+   "refs": [
+    [
+     "riyad",
+     431
+    ],
+    [
+     "riyad",
+     432
+    ]
+   ]
+  },
+  {
+   "slug": "dhikr-33-apres-priere",
+   "category": "priere",
+   "title_fr": "Glorifier, louer et proclamer la grandeur d'Allah après la prière",
+   "summary_fr": "Le Prophète ﷺ a dit : « Celui qui glorifie Allah après chaque prière trente-trois fois, Le loue trente-trois fois et proclame Sa grandeur trente-trois fois, puis dit pour compléter la centaine : La ilaha illa Llahu wahdahu la sharika lah, lahu l-mulku wa lahu l-hamd wa huwa 'ala kulli shay'in qadir, ses fautes lui seront pardonnées, fussent-elles comme l'écume de la mer. »",
+   "refs": [
+    [
+     "riyad",
+     740
+    ],
+    [
+     "riyad",
+     741
+    ],
+    [
+     "riyad",
+     739
+    ]
+   ]
+  },
+  {
+   "slug": "istighfar-apres-priere",
+   "category": "priere",
+   "title_fr": "Demander pardon à Allah en terminant la prière",
+   "summary_fr": "Thawban (qu'Allah l'agrée) a rapporté que, lorsqu'il terminait sa prière, le Messager d'Allah ﷺ demandait pardon trois fois, puis disait : « Allahumma anta s-salam wa minka s-salam, tabarakta ya dha l-jalali wa l-ikram. » Al-Awza'i a précisé que l'istighfar se dit : « Astaghfiru Llah, astaghfiru Llah ».",
+   "refs": [
+    [
+     "riyad",
+     736
+    ]
+   ]
+  },
+  {
+   "slug": "tahlil-apres-priere",
+   "category": "priere",
+   "title_fr": "Dire « La ilaha illa Llah wahdahu… » après la prière",
+   "summary_fr": "Al-Mughira (qu'Allah l'agrée) a rapporté que, lorsque le Messager d'Allah ﷺ avait terminé la prière et salué, il disait : « La ilaha illa Llahu wahdahu la sharika lah, lahu l-mulku wa lahu l-hamd, wa huwa 'ala kulli shay'in qadir. Allahumma la mani'a lima a'tayta, wa la mu'tiya lima mana'ta… »",
+   "refs": [
+    [
+     "riyad",
+     737
+    ]
+   ]
+  },
+  {
+   "slug": "invoquer-prosternation",
+   "category": "priere",
+   "title_fr": "Multiplier les invocations pendant la prosternation",
+   "summary_fr": "Le Prophète ﷺ a dit : « Le serviteur est au plus près de son Seigneur lorsqu'il est prosterné ; multipliez donc les invocations. » Il a dit aussi : « Quant à la prosternation, efforcez-vous d'y invoquer : il y a tout lieu que vous soyez exaucés. » Dans sa prosternation, il disait : « Allahumma ighfir li dhanbi kullahu, diqqahu wa jillahu, wa awwalahu wa akhirahu, wa 'alaniyatahu wa sirrahu. »",
+   "refs": [
+    [
+     "riyad",
+     749
+    ],
+    [
+     "riyad",
+     748
+    ],
+    [
+     "riyad",
+     750
+    ]
+   ]
+  },
+  {
+   "slug": "multiplier-prosternations",
+   "category": "priere",
+   "title_fr": "Multiplier les prosternations",
+   "summary_fr": "Thawban (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Multiplie les prosternations, car tu ne te prosternes pas une fois pour Allah sans qu'Allah t'élève d'un degré et t'efface une faute. » À Rabi'a, qui lui demandait sa compagnie au Paradis, il a répondu : « Aide-moi alors contre toi-même par de nombreuses prosternations. »",
+   "refs": [
+    [
+     "riyad",
+     1324
+    ],
+    [
+     "riyad",
+     1323
+    ]
+   ]
+  },
+  {
+   "slug": "glorifier-inclinaison-prosternation",
+   "category": "priere",
+   "title_fr": "Glorifier Allah dans l'inclinaison et la prosternation",
+   "summary_fr": "Aïcha (qu'Allah l'agrée) a rapporté que le Prophète ﷺ disait souvent dans son inclinaison et sa prosternation : « Soubhanaka Llahumma rabbana wa bihamdika, Allahumma ighfir li. » Elle a rapporté aussi qu'il disait : « Subbouh, Qouddous, Rabbou l-mala'ikati wa r-rouh. » Hudhayfa l'a entendu dire « Soubhana rabbiya l-'azim » à l'inclinaison et « Soubhana rabbiya l-a'la » à la prosternation.",
+   "refs": [
+    [
+     "riyad",
+     746
+    ],
+    [
+     "riyad",
+     747
+    ],
+    [
+     "riyad",
+     496
+    ]
+   ]
+  },
+  {
+   "slug": "invocation-avant-taslim",
+   "category": "priere",
+   "title_fr": "Invoquer entre le tashahhud et le taslim",
+   "summary_fr": "Ali (qu'Allah l'agrée) a rapporté que le Prophète ﷺ, lorsqu'il se levait pour la prière, disait parmi ses dernières paroles entre le tashahhud et le taslim : « Allahumma ighfir li ma qaddamtu wa ma akhkhartu, wa ma asrartu wa ma a'lantu, wa ma asraftu, wa ma anta a'lamu bihi minni. Anta l-Muqaddimu wa anta l-Mu'akhkhir, la ilaha illa anta. »",
+   "refs": [
+    [
+     "riyad",
+     745
+    ]
+   ]
+  },
+  {
+   "slug": "ghusl-vendredi",
+   "category": "vendredi-fetes",
+   "title_fr": "Se laver le vendredi avant de se rendre à la prière",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand l'un de vous vient à la prière du vendredi, qu'il se lave. » Il a dit aussi : « Un homme qui se lave le vendredi, se purifie autant qu'il peut, s'enduit de son huile ou met du parfum de sa maison, puis sort sans séparer deux personnes, se verra pardonner ce qu'il y a entre ce vendredi et l'autre. »",
+   "refs": [
+    [
+     "riyad",
+     472
+    ],
+    [
+     "riyad",
+     475
+    ]
+   ]
+  },
+  {
+   "slug": "venir-tot-vendredi",
+   "category": "vendredi-fetes",
+   "title_fr": "Se rendre tôt à la prière du vendredi",
+   "summary_fr": "Le Prophète ﷺ a dit : « Celui qui se lave le vendredi comme pour la janaba, puis part à la première heure, c'est comme s'il avait offert un chameau en sacrifice ; à la deuxième heure, une vache ; à la troisième, un bélier cornu ; à la quatrième, une poule ; à la cinquième, un œuf. Quand l'imam sort, les anges se présentent pour écouter le rappel. »",
+   "refs": [
+    [
+     "riyad",
+     476
+    ]
+   ]
+  },
+  {
+   "slug": "silence-pendant-priche",
+   "category": "vendredi-fetes",
+   "title_fr": "Garder le silence pendant le prêche du vendredi",
+   "summary_fr": "Le Prophète ﷺ a dit : « Celui qui fait l'ablution en la faisant bien, puis vient au vendredi, écoute et garde le silence, lui est pardonné ce qu'il y a entre ce vendredi et le suivant, plus trois jours. Et celui qui touche les petits cailloux a fait une chose vaine. » Il a aussi parlé de celui qui garde le silence quand l'imam parle.",
+   "refs": [
+    [
+     "riyad",
+     469
+    ],
+    [
+     "riyad",
+     475
+    ]
+   ]
+  },
+  {
+   "slug": "priere-prophete-vendredi",
+   "category": "vendredi-fetes",
+   "title_fr": "Invoquer abondamment la prière sur le Prophète ﷺ le vendredi",
+   "summary_fr": "Aws ibn Aws (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Parmi vos meilleurs jours est le vendredi : multipliez sur moi la prière en ce jour, car votre prière m'est présentée. »",
+   "refs": [
+    [
+     "riyad",
+     479
+    ]
+   ]
+  },
+  {
+   "slug": "heure-vendredi",
+   "category": "vendredi-fetes",
+   "title_fr": "Invoquer Allah à l'heure particulière du vendredi",
+   "summary_fr": "Le Prophète ﷺ a dit du vendredi : « Il s'y trouve une heure qu'aucun serviteur musulman ne rencontre alors qu'il est debout en prière, demandant quelque chose à Allah, sans qu'Allah le lui accorde. » À propos de cette heure, Abou Moussa a rapporté ces paroles du Prophète ﷺ : « Elle est entre le moment où l'imam s'assoit et la fin de la prière. »",
+   "refs": [
+    [
+     "riyad",
+     477
+    ],
+    [
+     "riyad",
+     478
+    ]
+   ]
+  },
+  {
+   "slug": "priere-apres-vendredi",
+   "category": "vendredi-fetes",
+   "title_fr": "Prier après la prière du vendredi",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand l'un de vous prie le vendredi, qu'il prie après cela quatre rak'a. » Ibn Omar (qu'Allah l'agrée) a rapporté qu'après la prière du vendredi, le Prophète ﷺ ne priait pas jusqu'à ce qu'il s'en aille, puis il priait deux rak'a chez lui.",
+   "refs": [
+    [
+     "riyad",
+     447
+    ],
+    [
+     "riyad",
+     448
+    ]
+   ]
+  },
+  {
+   "slug": "fete-changer-chemin",
+   "category": "vendredi-fetes",
+   "title_fr": "Changer de chemin le jour de la fête",
+   "summary_fr": "Jabir (qu'Allah l'agrée) a rapporté que, le jour de la fête, le Prophète ﷺ changeait de chemin.",
+   "refs": [
+    [
+     "riyad",
+     39
+    ]
+   ]
+  }
+ ],
+ "translations": {
+  "riyad:1655": "Amr ibn Abasa (qu'Allah l'agrée) a rapporté (extrait) : Je dis : « Ô Prophète d'Allah, parle-moi de l'ablution. » Il dit : « Il n'est aucun d'entre vous qui approche son eau d'ablution, se rince la bouche, aspire l'eau par le nez et la rejette, sans que les péchés de son visage, de sa bouche et de ses narines ne tombent. Puis, lorsqu'il se lave le visage comme Allah le lui a ordonné, les péchés de son visage tombent des extrémités de sa barbe avec l'eau. Puis il se lave les mains jusqu'aux coudes, et les péchés de ses mains tombent avec l'eau. Puis il s'essuie la tête, et les péchés de sa tête tombent des extrémités de ses cheveux avec l'eau. Puis il se lave les pieds jusqu'aux chevilles, et les péchés de ses pieds tombent avec l'eau. S'il se lève alors, prie, loue Allah, Le glorifie et L'exalte comme Il le mérite, et vide son cœur pour Allah, il ressort de sa faute tel qu'au jour où sa mère l'a mis au monde. »",
+  "riyad:349": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Lorsque le serviteur musulman — ou croyant — fait l'ablution et se lave le visage, tout péché que ses yeux ont regardé sort de son visage avec l'eau, ou avec la dernière goutte d'eau. Lorsqu'il se lave les mains, tout péché que ses mains ont commis sort de ses mains avec l'eau, ou avec la dernière goutte d'eau. Lorsqu'il se lave les pieds, tout péché vers lequel ses pieds ont marché sort avec l'eau, ou avec la dernière goutte d'eau, jusqu'à ce qu'il sorte purifié de ses péchés. »",
+  "riyad:348": "Othman (qu'Allah l'agrée) a rapporté : J'ai vu le Messager d'Allah ﷺ faire l'ablution comme cette ablution que voici, puis il a dit : « Celui qui fait l'ablution ainsi, ses péchés antérieurs lui seront pardonnés, et sa prière ainsi que sa marche vers la mosquée seront un surcroît. »",
+  "riyad:347": "Othman ibn Affan (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui fait l'ablution et la fait bien, ses péchés sortent de son corps, jusqu'à sortir de sous ses ongles. »",
+  "riyad:345": "Abou Hourayra (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Mon peuple sera appelé, le Jour de la Résurrection, « ghurran muhajjalin » à cause des traces de l'ablution. Que celui d'entre vous qui le peut allonge son éclat, qu'il le fasse. »",
+  "riyad:346": "Abou Hourayra (qu'Allah l'agrée) a rapporté : J'ai entendu mon intime ami ﷺ dire : « La parure du croyant atteindra l'endroit où atteint l'ablution. »",
+  "riyad:351": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Ne vous indiquerai-je pas ce par quoi Allah efface les fautes et élève les degrés ? » Ils dirent : « Si, ô Messager d'Allah. » Il dit : « Parfaire l'ablution malgré les choses pénibles, multiplier les pas vers les mosquées et attendre la prière après la prière : voilà le ribat, voilà le ribat. »",
+  "riyad:353": "Omar ibn al-Khattab (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Il n'est personne parmi vous qui fasse l'ablution en la parfaisant, puis dise : « Ash-hadu an la ilaha illa Llah wahdahu la sharika lah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh » (J'atteste qu'il n'y a de divinité qu'Allah, Seul, sans associé, et j'atteste que Muhammad est Son serviteur et Son messager), sans que lui soient ouvertes les huit portes du Paradis : il entre par celle qu'il veut. » Tirmidhi ajoute : « Allahumma j'alni mina t-tawwabin wa j'alni mina l-mutatahhirin » (Ô Allah, fais de moi l'un de ceux qui se repentent et l'un de ceux qui se purifient).",
+  "riyad:467": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ dit à Bilal : « Ô Bilal, parle-moi de l'action en l'islam dont tu espères le plus, car j'ai entendu le bruit de tes sandales devant moi au Paradis. » Il répondit : « Je n'ai rien fait que j'espère davantage, sinon que je n'ai jamais fait de purification, à aucun moment de la nuit ou du jour, sans prier avec cette purification ce qu'il m'a été destiné de prier. »",
+  "riyad:359": "Abou Sa'id al-Khoudri (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand vous entendez l'appel, dites comme dit le muezzin. »",
+  "riyad:358": "Abdallah ibn Amr ibn al-As (qu'Allah l'agrée) a rapporté qu'il a entendu le Messager d'Allah ﷺ dire : « Quand vous entendez l'appel, dites comme il dit, puis invoquez la prière sur moi, car celui qui invoque une fois la prière sur moi, Allah l'invoque dix fois sur lui. Puis demandez à Allah pour moi la wasila : c'est un rang au Paradis qui ne convient qu'à un seul serviteur parmi les serviteurs d'Allah, et j'espère être celui-là. Celui qui demande pour moi la wasila, l'intercession lui sera acquise. »",
+  "riyad:360": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui dit en entendant l'appel : « Allahumma rabba hadhihi d-da'wati t-tammati wa s-salati l-qa'imati, ati Muhammadan al-wasilata wa l-fadilata, wab'ath-hu maqaman mahmudan alladhi wa'adtah » (Ô Allah, Seigneur de cet appel parfait et de la prière qui s'établit, accorde à Muhammad la wasila et la fadila, et ressuscite-le à la station louée que Tu lui as promise), mon intercession lui sera acquise le Jour de la Résurrection. »",
+  "riyad:24": "Abou Hourayra (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Quand la prière est annoncée, n'y venez pas en courant, mais venez en marchant, avec sérénité. Ce que vous rattrapez, priez-le, et ce qui vous échappe, complétez-le. » Muslim ajoute dans une version : « Car celui d'entre vous qui se dirige vers la prière est dans la prière. »",
+  "riyad:465": "Abou Qatada (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand l'un de vous entre dans la mosquée, qu'il ne s'assoie pas avant d'avoir prié deux rak'a. »",
+  "riyad:466": "Jabir (qu'Allah l'agrée) a rapporté : Je vins auprès du Prophète ﷺ alors qu'il était dans la mosquée, et il me dit : « Prie deux rak'a. »",
+  "riyad:375": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui se purifie chez lui, puis se rend à l'une des maisons d'Allah pour accomplir l'une des prescriptions d'Allah, ses pas seront : l'un efface une faute, l'autre élève d'un degré. »",
+  "riyad:386": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « La prière de l'homme en groupe est multipliée de vingt-cinq fois par rapport à sa prière chez lui ou à son marché. Car, lorsqu'il fait l'ablution en la faisant bien, puis sort vers la mosquée sans que rien d'autre que la prière ne le fasse sortir, il ne fait pas un pas sans qu'un degré lui soit élevé et qu'une faute lui soit effacée. Puis, quand il a prié, les anges ne cessent de prier pour lui tant qu'il reste à son lieu de prière, tant qu'il n'a pas perdu son ablution, disant : « Ô Allah, prie sur lui ; ô Allah, fais-lui miséricorde. » Et il est dans la prière tant qu'il attend la prière. »",
+  "riyad:408": "Anas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Alignez vos rangs, car l'alignement du rang fait partie de l'accomplissement parfait de la prière. » Dans la version de Boukhari : « …car l'alignement des rangs fait partie de l'établissement de la prière. »",
+  "riyad:409": "Anas (qu'Allah l'agrée) a rapporté : La prière fut annoncée, et le Messager d'Allah ﷺ se tourna vers nous et dit : « Dressez vos rangs et serrez-vous, car je vous vois derrière mon dos. » Dans une version de Boukhari : Chacun de nous collait son épaule à l'épaule de son voisin et son pied à son pied.",
+  "riyad:407": "Abou Mas'oud (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ nous touchait les épaules pendant la prière et disait : « Mettez-vous droits et ne divergez pas, sinon vos cœurs divergeront. Que se tiennent près de moi ceux qui ont du discernement et de l'intelligence, puis ceux qui viennent après eux, puis ceux qui viennent après eux. »",
+  "riyad:403": "Jabir ibn Samura (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ sortit vers nous et dit : « Ne vous rangez-vous pas comme se rangent les anges auprès de leur Seigneur ? » Nous dîmes : « Ô Messager d'Allah, comment les anges se rangent-ils auprès de leur Seigneur ? » Il dit : « Ils complètent les premiers rangs et se serrent dans le rang. »",
+  "riyad:412": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Dressez les rangs, alignez les épaules, comblez les vides, soyez souples sous les mains de vos frères, et ne laissez pas d'espaces pour le diable. Celui qui joint un rang, Allah le joint ; et celui qui coupe un rang, Allah le coupe. »",
+  "riyad:418": "Umm Habiba (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Tout serviteur musulman qui prie pour Allah, chaque jour, douze rak'a surérogatoires en dehors de la prière prescrite, Allah lui bâtit une maison au Paradis », ou : « une maison lui est bâtie au Paradis. »",
+  "riyad:419": "Ibn Omar (qu'Allah l'agrée) a rapporté : J'ai prié avec le Messager d'Allah ﷺ deux rak'a avant le Dhouhr et deux après, deux après la prière du vendredi, deux après le Maghrib et deux après le 'Icha.",
+  "riyad:436": "Aïcha (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ priait chez moi quatre rak'a avant le Dhouhr, puis sortait diriger la prière des gens, puis rentrait et priait deux rak'a. Il dirigeait les gens au Maghrib, puis entrait chez moi et priait deux rak'a ; il dirigeait les gens au 'Icha, puis entrait chez moi et priait deux rak'a.",
+  "riyad:426": "Hafsa (qu'Allah l'agrée) a rapporté que, lorsque le muezzin appelait à la prière de l'aube et que l'aube apparaissait, le Messager d'Allah ﷺ priait deux rak'a légères. Dans une version de Muslim : Lorsque l'aube se levait, il ne priait que deux rak'a légères.",
+  "riyad:422": "Aïcha (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ ne veillait sur aucune des prières surérogatoires avec plus d'assiduité que sur les deux rak'a de l'aube.",
+  "riyad:429": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a récité dans les deux rak'a de l'aube « Qul ya ayyuha l-kafirun » et « Qul huwa Llahu ahad ».",
+  "riyad:443": "Abdallah ibn Mughaffal (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Priez avant le Maghrib. » À la troisième fois, il dit : « pour qui le veut. »",
+  "riyad:446": "Anas (qu'Allah l'agrée) a rapporté : À Médine, quand le muezzin appelait à la prière du Maghrib, ils se précipitaient vers les piliers et priaient deux rak'a, à tel point qu'un étranger entrant dans la mosquée croyait que la prière avait déjà été accomplie, tant ils étaient nombreux à les prier.",
+  "riyad:461": "Abou Dharr (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Chaque matin, une aumône est due pour chacune des articulations de chacun de vous : chaque tasbiha est une aumône, chaque tahlila est une aumône, chaque takbira est une aumône, ordonner le bien est une aumône, empêcher le mal est une aumône ; et deux rak'a que l'on prie au moment du Duha suffisent pour cela. »",
+  "riyad:462": "Aïcha (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ priait le Duha quatre rak'a, et ajoutait ce qu'Allah voulait.",
+  "riyad:463": "Umm Hani (qu'Allah l'agrée) a rapporté : Je suis allée voir le Messager d'Allah ﷺ l'année de la conquête et l'ai trouvé en train de se laver. Quand il eut fini son ghusl, il pria huit rak'a, et c'était au moment du Duha.",
+  "riyad:489": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La prière de nuit se fait deux par deux ; si tu crains l'aube, prie une seule rak'a en witr. »",
+  "riyad:427": "Ibn Omar (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ priait la nuit deux par deux, concluait par une rak'a à la fin de la nuit, et priait les deux rak'a avant la prière de l'aube, comme si l'appel était à ses oreilles.",
+  "riyad:455": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Faites de votre dernière prière de la nuit un witr. »",
+  "riyad:456": "Abou Sa'id al-Khoudri (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Priez le witr avant d'entrer dans le matin. »",
+  "riyad:459": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui craint de ne pas se lever à la fin de la nuit, qu'il prie le witr au début de la nuit ; et celui qui espère se lever à la fin, qu'il prie le witr à la fin de la nuit, car la prière de la fin de la nuit est mashhuda, et cela est meilleur. »",
+  "riyad:500": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Quand l'un de vous se lève la nuit, qu'il commence sa prière par deux rak'a légères. »",
+  "riyad:501": "Aïcha (qu'Allah l'agrée) a rapporté : Quand le Messager d'Allah ﷺ se levait la nuit, il commençait sa prière par deux rak'a légères.",
+  "riyad:431": "Aïcha (qu'Allah l'agrée) a rapporté : Quand le Prophète ﷺ avait prié les deux rak'a de l'aube, il s'allongeait sur son côté droit.",
+  "riyad:432": "Aïcha (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ priait, entre la fin de la prière du 'Icha et l'aube, onze rak'a, saluant toutes les deux rak'a, et concluait par une seule. Quand le muezzin se taisait après l'appel de l'aube, que l'aube lui était apparue et que le muezzin était venu, il se levait et priait deux rak'a légères, puis s'allongeait ainsi sur son côté droit jusqu'à ce que le muezzin vienne pour l'iqama.",
+  "riyad:740": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui glorifie Allah après chaque prière trente-trois fois, Le loue trente-trois fois et proclame Sa grandeur trente-trois fois, puis dit pour compléter la centaine : « La ilaha illa Llahu wahdahu la sharika lah, lahu l-mulku wa lahu l-hamd, wa huwa 'ala kulli shay'in qadir » (Il n'y a de divinité qu'Allah, Seul, sans associé ; à Lui la royauté, à Lui la louange, et Il est capable de toute chose), ses fautes lui seront pardonnées, fussent-elles comme l'écume de la mer. »",
+  "riyad:741": "Ka'b ibn Ujra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Il est des mu'aqqibat dont celui qui les dit — ou les accomplit — ne sera pas déçu, après chaque prière prescrite : trente-trois tasbiha, trente-trois tahmida et trente-quatre takbira. »",
+  "riyad:739": "Abou Hourayra (qu'Allah l'agrée) a rapporté que des pauvres parmi les Mouhajirines vinrent auprès du Messager d'Allah ﷺ et dirent : « Les gens aisés ont obtenu les degrés élevés et la félicité durable : ils prient comme nous prions, jeûnent comme nous jeûnons, et ils ont un surplus de biens : ils font le pèlerinage, la 'umra, combattent et font l'aumône. » Il dit : « Ne vous enseignerai-je pas quelque chose par quoi vous rattraperez ceux qui vous ont devancés et devancerez ceux qui viendront après vous, et nul ne sera meilleur que vous, sauf celui qui fera comme vous avez fait ? » Ils dirent : « Si, ô Messager d'Allah. » Il dit : « Vous glorifiez, louez et proclamez la grandeur d'Allah après chaque prière, trente-trois fois. » Abou Salih, qui transmet d'Abou Hourayra, interrogé sur la façon de les dire, répondit : « On dit : Soubhana Llah, wal-hamdu li-Llah, wa Llahu akbar, jusqu'à ce que chacune soit dite trente-trois fois. » Muslim ajoute : Les pauvres Mouhajirines revinrent auprès du Messager d'Allah ﷺ et dirent : « Nos frères aisés ont entendu ce que nous avons fait et ont fait de même. » Le Messager d'Allah ﷺ dit : « C'est la faveur d'Allah, Il la donne à qui Il veut. »",
+  "riyad:736": "Thawban (qu'Allah l'agrée) a rapporté : Lorsqu'il terminait sa prière, le Messager d'Allah ﷺ demandait pardon trois fois, puis disait : « Allahumma anta s-salam wa minka s-salam, tabarakta ya dha l-jalali wa l-ikram » (Ô Allah, Tu es la Paix et de Toi vient la paix ; béni sois-Tu, ô Détenteur de la majesté et de la générosité). On demanda à al-Awza'i, l'un des narrateurs : « Comment se fait l'istighfar ? » Il répondit : « On dit : Astaghfiru Llah, astaghfiru Llah. »",
+  "riyad:737": "Al-Mughira ibn Shu'ba (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ, lorsqu'il avait terminé la prière et salué, disait : « La ilaha illa Llahu wahdahu la sharika lah, lahu l-mulku wa lahu l-hamd, wa huwa 'ala kulli shay'in qadir. Allahumma la mani'a lima a'tayta, wa la mu'tiya lima mana'ta, wa la yanfa'u dha l-jaddi minka l-jadd » (Il n'y a de divinité qu'Allah, Seul, sans associé ; à Lui la royauté, à Lui la louange, et Il est capable de toute chose. Ô Allah, nul ne peut empêcher ce que Tu donnes, nul ne peut donner ce que Tu empêches, et le jadd de celui qui en dispose ne lui est d'aucune utilité auprès de Toi).",
+  "riyad:749": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le serviteur est au plus près de son Seigneur lorsqu'il est prosterné ; multipliez donc les invocations. »",
+  "riyad:748": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit (extrait) : « Quant à l'inclinaison, glorifiez-y le Seigneur ; quant à la prosternation, efforcez-vous d'y invoquer : il y a tout lieu que vous soyez exaucés. »",
+  "riyad:750": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ disait dans sa prosternation : « Allahumma ighfir li dhanbi kullahu, diqqahu wa jillahu, wa awwalahu wa akhirahu, wa 'alaniyatahu wa sirrahu » (Ô Allah, pardonne-moi tout mon péché, le petit comme le grand, le premier comme le dernier, l'apparent comme le caché).",
+  "riyad:1324": "Thawban (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Multiplie les prosternations, car tu ne te prosternes pas une fois pour Allah sans qu'Allah t'élève d'un degré et t'efface une faute. »",
+  "riyad:1323": "Rabi'a ibn Ka'b al-Aslami (qu'Allah l'agrée), serviteur du Messager d'Allah ﷺ, a rapporté : Je passais la nuit auprès du Messager d'Allah ﷺ et lui apportais l'eau de son ablution et ce dont il avait besoin. Il me dit : « Demande-moi. » Je dis : « Je te demande ta compagnie au Paradis. » Il dit : « Autre chose ? » Je dis : « C'est cela. » Il dit : « Aide-moi alors contre toi-même par de nombreuses prosternations. »",
+  "riyad:746": "Aïcha (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ disait souvent dans son inclinaison et sa prosternation : « Soubhanaka Llahumma rabbana wa bihamdika, Allahumma ighfir li » (Gloire à Toi, ô Allah, notre Seigneur, et louange à Toi ; ô Allah, pardonne-moi).",
+  "riyad:747": "Aïcha (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ disait dans son inclinaison et sa prosternation : « Subbouh, Qouddous, Rabbou l-mala'ikati wa r-rouh » (Très-Glorieux, Très-Saint, Seigneur des anges et de l'Esprit).",
+  "riyad:496": "Hudhayfa (qu'Allah l'agrée) a rapporté : J'ai prié avec le Prophète ﷺ une nuit. Il commença la sourate Al-Baqara. Je me dis : « Il va s'incliner à la centième verset. » Mais il poursuivit. Je me dis : « Il va la prier en une rak'a. » Mais il poursuivit. Je me dis : « Il va s'incliner avec elle. » Puis il commença An-Nisa' et la récita, puis commença Al 'Imran et la récita, en récitant posément. Quand il passait par un verset comportant une glorification, il glorifiait ; par une demande, il demandait ; par une demande de protection, il cherchait protection. Puis il s'inclina et se mit à dire : « Soubhana rabbiya l-'azim » (Gloire à mon Seigneur, le Très-Grand), et son inclinaison fut presque aussi longue que sa station debout. Puis il dit : « Sami'a Llahu liman hamidah, rabbana laka l-hamd » (Allah entend celui qui Le loue ; notre Seigneur, à Toi la louange), puis resta longuement debout, presque autant que dans l'inclinaison. Puis il se prosterna et dit : « Soubhana rabbiya l-a'la » (Gloire à mon Seigneur, le Très-Haut), et sa prosternation fut presque aussi longue que sa station debout.",
+  "riyad:745": "Ali (qu'Allah l'agrée) a rapporté : Quand le Messager d'Allah ﷺ se levait pour la prière, parmi ses dernières paroles entre le tashahhud et le taslim, il disait : « Allahumma ighfir li ma qaddamtu wa ma akhkhartu, wa ma asrartu wa ma a'lantu, wa ma asraftu, wa ma anta a'lamu bihi minni. Anta l-Muqaddimu wa anta l-Mu'akhkhir, la ilaha illa anta » (Ô Allah, pardonne-moi ce que j'ai avancé et ce que j'ai retardé, ce que j'ai caché et ce que j'ai montré, mes excès, et ce que Tu connais mieux que moi. Tu es Celui qui avance et Celui qui retarde, il n'y a de divinité que Toi).",
+  "riyad:472": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand l'un de vous vient à la prière du vendredi, qu'il se lave. »",
+  "riyad:475": "Salman (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Un homme qui se lave le vendredi, se purifie autant qu'il peut, s'enduit de son huile ou met du parfum de sa maison, puis sort sans séparer deux personnes, puis prie ce qui lui a été destiné, puis garde le silence quand l'imam parle, se verra pardonner ce qu'il y a entre ce vendredi et l'autre vendredi. »",
+  "riyad:476": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui se lave le vendredi comme pour la janaba, puis part à la première heure, c'est comme s'il avait offert un chameau en sacrifice ; à la deuxième heure, une vache ; à la troisième heure, un bélier cornu ; à la quatrième heure, une poule ; à la cinquième heure, un œuf. Quand l'imam sort, les anges se présentent pour écouter le rappel. »",
+  "riyad:469": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui fait l'ablution en la faisant bien, puis vient au vendredi, écoute et garde le silence, lui est pardonné ce qu'il y a entre ce vendredi et le vendredi suivant, plus trois jours. Et celui qui touche les petits cailloux a fait une chose vaine. »",
+  "riyad:479": "Aws ibn Aws (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Parmi vos meilleurs jours est le vendredi : multipliez sur moi la prière en ce jour, car votre prière m'est présentée. »",
+  "riyad:477": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ parla du vendredi et dit : « Il s'y trouve une heure qu'aucun serviteur musulman ne rencontre alors qu'il est debout en prière, demandant quelque chose à Allah, sans qu'Allah le lui accorde. » Et il fit un geste de la main pour montrer qu'elle est brève.",
+  "riyad:478": "Abou Bourda ibn Abi Moussa al-Ach'ari (qu'Allah l'agrée) a rapporté : Abdallah ibn Omar me dit : « As-tu entendu ton père parler de l'heure du vendredi ? » Je dis : « Oui, je l'ai entendu dire : J'ai entendu le Messager d'Allah ﷺ dire : « Elle est entre le moment où l'imam s'assoit et la fin de la prière. » »",
+  "riyad:447": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand l'un de vous prie le vendredi, qu'il prie après cela quatre rak'a. »",
+  "riyad:448": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Prophète ﷺ ne priait pas après la prière du vendredi jusqu'à ce qu'il s'en aille, puis il priait deux rak'a chez lui.",
+  "riyad:39": "Jabir (qu'Allah l'agrée) a rapporté : Quand c'était le jour de la fête, le Prophète ﷺ changeait de chemin."
+ }
+}

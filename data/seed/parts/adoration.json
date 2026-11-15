@@ -1,0 +1,750 @@
+{
+ "categories": [
+  {
+   "slug": "aumone",
+   "label_fr": "Aumône et générosité"
+  },
+  {
+   "slug": "invocations",
+   "label_fr": "Invocations et dhikr"
+  },
+  {
+   "slug": "coran-science",
+   "label_fr": "Coran et science"
+  }
+ ],
+ "practices": [
+  {
+   "slug": "jeune-lundi-jeudi",
+   "category": "jeune",
+   "title_fr": "Jeûner le lundi et le jeudi",
+   "summary_fr": "Le Prophète ﷺ a dit : « Les œuvres sont présentées le lundi et le jeudi ; j'aime que mon œuvre soit présentée alors que je jeûne. » Aïcha a rapporté qu'il s'attachait à jeûner le lundi et le jeudi. Interrogé sur le jeûne du lundi, il a répondu : « C'est un jour où je suis né et un jour où j'ai été envoyé. »",
+   "refs": [
+    [
+     "riyad",
+     577
+    ],
+    [
+     "riyad",
+     578
+    ],
+    [
+     "riyad",
+     576
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-six-chawwal",
+   "category": "jeune",
+   "title_fr": "Faire suivre Ramadan de six jours de Chawwal",
+   "summary_fr": "Abou Ayyoub a rapporté que le Prophète ﷺ a dit : « Celui qui jeûne Ramadan, puis le fait suivre de six jours de Chawwal, c'est comme le jeûne de toute la vie (ad-dahr). »",
+   "refs": [
+    [
+     "riyad",
+     575
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-achoura",
+   "category": "jeune",
+   "title_fr": "Jeûner le jour d'Achoura",
+   "summary_fr": "Ibn Abbas a rapporté que le Prophète ﷺ a jeûné le jour d'Achoura et a ordonné de le jeûner. Interrogé sur ce jeûne, il a dit : « Il expie l'année écoulée. » Il a aussi dit : « Si je suis encore là l'an prochain, je jeûnerai assurément le neuvième. »",
+   "refs": [
+    [
+     "riyad",
+     572
+    ],
+    [
+     "riyad",
+     573
+    ],
+    [
+     "riyad",
+     574
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-arafat",
+   "category": "jeune",
+   "title_fr": "Jeûner le jour d'Arafat",
+   "summary_fr": "Abou Qatada a rapporté que le Messager d'Allah ﷺ, interrogé sur le jeûne du jour d'Arafat, a répondu : « Il expie l'année écoulée et l'année à venir. »",
+   "refs": [
+    [
+     "riyad",
+     571
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-trois-jours-mois",
+   "category": "jeune",
+   "title_fr": "Jeûner trois jours de chaque mois",
+   "summary_fr": "Le Prophète ﷺ a dit : « Jeûner trois jours de chaque mois équivaut au jeûne de toute la vie (ad-dahr). » Abou Hourayra a dit que son ami intime ﷺ lui avait donné cette consigne. Aïcha a confirmé qu'il jeûnait trois jours par mois, sans se soucier de quels jours du mois il s'agissait.",
+   "refs": [
+    [
+     "riyad",
+     581
+    ],
+    [
+     "riyad",
+     579
+    ],
+    [
+     "riyad",
+     582
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-chaabane",
+   "category": "jeune",
+   "title_fr": "Jeûner en Chaʿbane",
+   "summary_fr": "Aïcha a rapporté que le Prophète ﷺ ne jeûnait pas plus d'un mois que de Chaʿbane : il jeûnait Chaʿbane en entier. Dans une autre version : il jeûnait Chaʿbane, à peu de jours près.",
+   "refs": [
+    [
+     "riyad",
+     568
+    ]
+   ]
+  },
+  {
+   "slug": "nourrir-jeuneur",
+   "category": "jeune",
+   "title_fr": "Donner à rompre le jeûne à un jeûneur",
+   "summary_fr": "Zayd ibn Khalid al-Juhani a rapporté que le Prophète ﷺ a dit : « Celui qui donne à rompre le jeûne à un jeûneur aura une récompense égale à la sienne, sans que rien ne soit retranché de la récompense du jeûneur. »",
+   "refs": [
+    [
+     "riyad",
+     586
+    ]
+   ]
+  },
+  {
+   "slug": "veiller-ramadan",
+   "category": "jeune",
+   "title_fr": "Veiller en prière les nuits de Ramadan",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui veille en prière la nuit de Ramadan par foi et en espérant la récompense d'Allah, ses péchés passés lui seront pardonnés. » Il encourageait à cette veillée sans donner d'ordre ferme.",
+   "refs": [
+    [
+     "riyad",
+     508
+    ],
+    [
+     "riyad",
+     509
+    ]
+   ]
+  },
+  {
+   "slug": "nuit-du-destin",
+   "category": "jeune",
+   "title_fr": "Chercher la nuit du Destin dans les dix dernières nuits",
+   "summary_fr": "Aïcha a rapporté que le Prophète ﷺ demeurait en retraite les dix derniers jours de Ramadan et disait : « Cherchez la nuit du Destin dans les dix dernières nuits de Ramadan », ainsi que : « dans les nuits impaires ». Il a dit : « Celui qui veille la nuit du Destin par foi et en espérant la récompense d'Allah, ses péchés passés lui seront pardonnés. »",
+   "refs": [
+    [
+     "riyad",
+     512
+    ],
+    [
+     "riyad",
+     513
+    ],
+    [
+     "riyad",
+     510
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-mauvaises-paroles",
+   "category": "jeune",
+   "title_fr": "Jeûner sans paroles obscènes ni cris",
+   "summary_fr": "Le Prophète ﷺ a dit : le jour où l'un de vous jeûne, « qu'il ne tienne pas de propos obscènes et ne crie pas ; si quelqu'un l'insulte ou le combat, qu'il dise : Je jeûne. » Il a dit aussi : « Celui qui ne délaisse pas la parole mensongère et d'agir en conséquence, Allah n'a nul besoin qu'il délaisse sa nourriture et sa boisson. »",
+   "refs": [
+    [
+     "riyad",
+     536
+    ],
+    [
+     "riyad",
+     562
+    ]
+   ]
+  },
+  {
+   "slug": "jeune-manger-oubli",
+   "category": "jeune",
+   "title_fr": "Manger ou boire par oubli en jeûnant",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Si l'un de vous oublie et mange ou boit, qu'il achève son jeûne, car c'est Allah qui l'a nourri et abreuvé. »",
+   "refs": [
+    [
+     "riyad",
+     563
+    ]
+   ]
+  },
+  {
+   "slug": "itikaf-dix-derniers",
+   "category": "jeune",
+   "title_fr": "Se retirer en retraite durant les dix derniers jours de Ramadan",
+   "summary_fr": "Ibn Omar et Aïcha ont rapporté que le Prophète ﷺ faisait une retraite (i'tikaf) durant les dix derniers jours de Ramadan. Aïcha a ajouté qu'il l'a fait jusqu'à ce qu'Allah le rappelle à Lui, et que ses épouses l'ont faite après lui.",
+   "refs": [
+    [
+     "riyad",
+     589
+    ],
+    [
+     "riyad",
+     590
+    ]
+   ]
+  },
+  {
+   "slug": "aumone-cachette",
+   "category": "aumone",
+   "title_fr": "Faire l'aumône en cachette",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a cité parmi les sept personnes qu'Allah abritera sous Son ombre le jour où il n'y aura d'autre ombre que la Sienne : « un homme qui a fait l'aumône et l'a cachée au point que sa main gauche ignore ce que dépense sa droite ».",
+   "refs": [
+    [
+     "riyad",
+     1593
+    ]
+   ]
+  },
+  {
+   "slug": "aumone-demi-datte",
+   "category": "aumone",
+   "title_fr": "Donner, ne serait-ce qu'une demi-datte",
+   "summary_fr": "Adi ibn Hatim a rapporté que le Prophète ﷺ a dit : « Préservez-vous du Feu, ne serait-ce qu'avec une demi-datte ; et celui qui n'en trouve pas, avec une bonne parole. »",
+   "refs": [
+    [
+     "riyad",
+     13
+    ]
+   ]
+  },
+  {
+   "slug": "aumone-bonne-parole",
+   "category": "aumone",
+   "title_fr": "Dire une bonne parole",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « La bonne parole est une aumône. » Adi ibn Hatim a rapporté qu'il a dit : « Préservez-vous du Feu, ne serait-ce qu'avec une demi-datte ; et celui qui n'en trouve pas, avec une bonne parole. »",
+   "refs": [
+    [
+     "riyad",
+     14
+    ],
+    [
+     "riyad",
+     13
+    ]
+   ]
+  },
+  {
+   "slug": "aumone-datte-gain-pur",
+   "category": "aumone",
+   "title_fr": "Donner l'équivalent d'une datte d'un gain pur",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui fait l'aumône de l'équivalent d'une datte, issue d'un gain pur — et Allah n'accepte que ce qui est pur —, Allah l'accepte de Sa droite, puis la fait croître pour son auteur comme l'un de vous élève son poulain, jusqu'à ce qu'elle devienne comme la montagne. »",
+   "refs": [
+    [
+     "riyad",
+     1777
+    ]
+   ]
+  },
+  {
+   "slug": "main-qui-donne",
+   "category": "aumone",
+   "title_fr": "Donner : la main supérieure",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « La main supérieure vaut mieux que la main inférieure. Commence par ceux dont tu as la charge. La meilleure aumône est celle qui provient d'une aisance. Celui qui cherche à se préserver, Allah le préservera ; celui qui se passe de tout, Allah l'enrichira. »",
+   "refs": [
+    [
+     "riyad",
+     1513
+    ]
+   ]
+  },
+  {
+   "slug": "aumone-ne-diminue-pas",
+   "category": "aumone",
+   "title_fr": "Donner sans craindre que le bien diminue",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « L'aumône n'a jamais diminué un bien ; Allah n'accroît le serviteur que de gloire par le pardon qu'il accorde ; et nul ne s'humilie devant Allah sans qu'Allah l'élève. »",
+   "refs": [
+    [
+     "riyad",
+     1772
+    ]
+   ]
+  },
+  {
+   "slug": "depenser-deux-anges",
+   "category": "aumone",
+   "title_fr": "Dépenser dans la voie d'Allah chaque matin",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Il n'est pas de jour où les serviteurs se lèvent sans que deux anges descendent : l'un dit : Ô Allah, accorde un remplacement à celui qui dépense ; l'autre dit : Ô Allah, accorde la perte à celui qui retient. »",
+   "refs": [
+    [
+     "riyad",
+     1512
+    ]
+   ]
+  },
+  {
+   "slug": "aumone-continue",
+   "category": "aumone",
+   "title_fr": "Faire une aumône continue",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Quand le fils d'Adam meurt, ses œuvres s'interrompent, sauf trois : une aumône continue, une science dont on tire profit, ou un enfant vertueux qui invoque pour lui. »",
+   "refs": [
+    [
+     "riyad",
+     704
+    ]
+   ]
+  },
+  {
+   "slug": "nourrir-affame",
+   "category": "aumone",
+   "title_fr": "Nourrir celui qui a faim",
+   "summary_fr": "Abou Moussa a rapporté que le Prophète ﷺ a dit : « Rendez visite au malade, nourrissez celui qui a faim et libérez le captif. » Abdallah ibn Salam l'a entendu dire : « Ô gens, propagez le salut, nourrissez les autres, maintenez les liens de parenté et priez la nuit pendant que les gens dorment : vous entrerez au Paradis en paix. »",
+   "refs": [
+    [
+     "riyad",
+     218
+    ],
+    [
+     "riyad",
+     169
+    ]
+   ]
+  },
+  {
+   "slug": "sayyid-istighfar",
+   "category": "invocations",
+   "title_fr": "Dire le « Sayyid al-istighfar » (maître des demandes de pardon)",
+   "summary_fr": "Chaddad ibn Aws a rapporté que le Prophète ﷺ a dit : « Le maître des demandes de pardon est que le serviteur dise : Allahumma anta rabbi… » (l'invocation complète figure dans le hadith). Il a ajouté : celui qui la dit le jour avec certitude puis meurt avant le soir est parmi les gens du Paradis, et de même pour celui qui la dit la nuit.",
+   "refs": [
+    [
+     "riyad",
+     1196
+    ]
+   ]
+  },
+  {
+   "slug": "istighfar-cent-fois",
+   "category": "invocations",
+   "title_fr": "Demander pardon à Allah cent fois",
+   "summary_fr": "Al-Aghar al-Muzani a rapporté que le Prophète ﷺ a dit : « Un ghayn survient sur mon cœur, et je demande pardon à Allah cent fois par jour. » Ibn Omar a dit : « Nous comptions pour le Messager d'Allah ﷺ, en une seule réunion, cent fois : Rabbi ghfir li wa toub 'alayya innaka anta t-tawwabou r-rahim. »",
+   "refs": [
+    [
+     "riyad",
+     1190
+    ],
+    [
+     "riyad",
+     1193
+    ]
+   ]
+  },
+  {
+   "slug": "pardon-fin-priere",
+   "category": "invocations",
+   "title_fr": "Demander pardon trois fois en terminant la prière",
+   "summary_fr": "Thawban a rapporté qu'en terminant sa prière, le Messager d'Allah ﷺ demandait pardon trois fois, puis disait : « Allahumma anta s-salam wa minka s-salam, tabarakta ya dha l-jalali wa l-ikram. »",
+   "refs": [
+    [
+     "riyad",
+     736
+    ]
+   ]
+  },
+  {
+   "slug": "salat-sur-prophete",
+   "category": "invocations",
+   "title_fr": "Prier sur le Prophète ﷺ",
+   "summary_fr": "Les Compagnons ont demandé au Prophète ﷺ comment prier sur lui ; il leur a répondu : « Dites : Allahumma salli 'ala Mouhammad… » (formule complète dans le hadith). Ibn Mas'oud a rapporté qu'il a dit : « Les plus proches de moi le jour de la Résurrection seront ceux qui prient le plus sur moi. »",
+   "refs": [
+    [
+     "riyad",
+     728
+    ],
+    [
+     "riyad",
+     727
+    ],
+    [
+     "riyad",
+     719
+    ]
+   ]
+  },
+  {
+   "slug": "tahlil-cent-fois",
+   "category": "invocations",
+   "title_fr": "Dire cent fois « La ilaha illa Llah wahdahou… » dans la journée",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui dit cent fois en un jour : La ilaha illa Llahou wahdahou la sharika lah, lahou l-moulk wa lahou l-hamd wa houwa 'ala koulli chay'in qadir, aura l'équivalent de l'affranchissement de dix esclaves, cent bonnes actions seront inscrites pour lui, cent mauvaises seront effacées, et ce sera pour lui une protection contre le diable jusqu'au soir. »",
+   "refs": [
+    [
+     "riyad",
+     731
+    ]
+   ]
+  },
+  {
+   "slug": "hawqala",
+   "category": "invocations",
+   "title_fr": "Dire « La hawla wa la quwwata illa billah »",
+   "summary_fr": "Abou Moussa a rapporté que le Prophète ﷺ lui a dit : « Ne t'indiquerai-je pas un trésor parmi les trésors du Paradis ? » Il répondit : Si, ô Messager d'Allah. Il dit : « La hawla wa la quwwata illa billah. » Il l'a aussi mentionnée dans les paroles qu'il a enseignées à un bédouin.",
+   "refs": [
+    [
+     "riyad",
+     764
+    ],
+    [
+     "riyad",
+     735
+    ]
+   ]
+  },
+  {
+   "slug": "dhikr-matin-soir",
+   "category": "invocations",
+   "title_fr": "Invocations du matin et du soir",
+   "summary_fr": "Ibn Mas'oud a rapporté que le soir, le Prophète ﷺ disait : « Amsayna wa amsa l-moulkou lillah… » (formule complète dans le hadith), et que le matin il disait la même chose en commençant par « Asbahna ». Abou Hourayra a rapporté ses paroles : « Celui qui dit, le matin et le soir, Soubhan Allah wa bihamdih cent fois… »",
+   "refs": [
+    [
+     "riyad",
+     776
+    ],
+    [
+     "riyad",
+     772
+    ]
+   ]
+  },
+  {
+   "slug": "invocation-detresse",
+   "category": "invocations",
+   "title_fr": "Invoquer Allah dans la détresse",
+   "summary_fr": "Ibn Abbas a rapporté que, dans la détresse, le Prophète ﷺ disait : « La ilaha illa Llahou l-'Azimou l-Halim, la ilaha illa Llahou rabbou l-'arshi l-'azim, la ilaha illa Llahou rabbou s-samawati wa rabbou l-ardi wa rabbou l-'arshi l-karim. »",
+   "refs": [
+    [
+     "riyad",
+     823
+    ]
+   ]
+  },
+  {
+   "slug": "hasbouna-llah",
+   "category": "invocations",
+   "title_fr": "Dire « Hasbouna Llahou wa ni'ma l-wakil »",
+   "summary_fr": "Ibn Abbas a dit : « Hasbouna Llahou wa ni'ma l-wakil » (Allah nous suffit, et quel excellent garant), Ibrahim l'a dite quand il fut jeté dans le feu, et Mouhammad ﷺ l'a dite quand on leur a dit : « Les gens se sont rassemblés contre vous, craignez-les » ; cela accrut leur foi.",
+   "refs": [
+    [
+     "riyad",
+     1293
+    ]
+   ]
+  },
+  {
+   "slug": "inna-lillahi",
+   "category": "invocations",
+   "title_fr": "Dire « Inna lillahi wa inna ilayhi raji'oun » dans l'épreuve",
+   "summary_fr": "Oumm Salama a rapporté ces paroles du Prophète ﷺ : « Il n'est pas de serviteur frappé par une épreuve qui dise : Inna lillahi wa inna ilayhi raji'oun, Allahumma ajirni fi mousibati wa akhlif li khayran minha, sans qu'Allah le récompense dans son épreuve et lui accorde mieux en échange. »",
+   "refs": [
+    [
+     "riyad",
+     242
+    ]
+   ]
+  },
+  {
+   "slug": "dua-frere-absent",
+   "category": "invocations",
+   "title_fr": "Invoquer pour son frère en son absence",
+   "summary_fr": "Abou ad-Darda' a rapporté que le Prophète ﷺ a dit : « Il n'est pas de serviteur musulman qui invoque pour son frère en son absence sans que l'ange dise : Et pour toi la pareille. » Dans une autre version : « Son invocation est exaucée ; près de sa tête se tient un ange chargé de cela. »",
+   "refs": [
+    [
+     "riyad",
+     815
+    ],
+    [
+     "riyad",
+     816
+    ]
+   ]
+  },
+  {
+   "slug": "dua-prosternation",
+   "category": "invocations",
+   "title_fr": "Multiplier les invocations en prosternation",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Le serviteur est au plus près de son Seigneur lorsqu'il est prosterné ; multipliez donc les invocations. » Ibn Abbas a rapporté : « Quant à la prosternation, efforcez-vous d'y invoquer : il est bien à même de vous être exaucé. »",
+   "refs": [
+    [
+     "riyad",
+     749
+    ],
+    [
+     "riyad",
+     748
+    ]
+   ]
+  },
+  {
+   "slug": "dua-sans-se-presser",
+   "category": "invocations",
+   "title_fr": "Invoquer sans se presser",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « On répond à l'invocation de l'un de vous tant qu'il ne se presse pas, en disant : J'ai invoqué mon Seigneur et Il ne m'a pas répondu. » Oubada ibn as-Samit a rapporté qu'à un homme qui disait : « Nous multiplierons donc nos invocations », il a répondu : « Allah est plus abondant. »",
+   "refs": [
+    [
+     "riyad",
+     820
+    ],
+    [
+     "riyad",
+     822
+    ]
+   ]
+  },
+  {
+   "slug": "dua-nuit-destin",
+   "category": "invocations",
+   "title_fr": "Dire « Allahumma innaka 'afouwwoun… » la nuit du Destin",
+   "summary_fr": "Aïcha a demandé au Prophète ﷺ : « Si je savais quelle nuit est la nuit du Destin, que dirais-je ? » Il a répondu : « Dis : Allahumma innaka 'afouwwoun touhibbou l-'afwa fa'fou 'anni. »",
+   "refs": [
+    [
+     "riyad",
+     516
+    ]
+   ]
+  },
+  {
+   "slug": "dua-demander-quatre",
+   "category": "invocations",
+   "title_fr": "Dire « Allahumma ghfir li, warhamni, wahdini… »",
+   "summary_fr": "Tariq ibn Achyam a rapporté que le Prophète ﷺ enseignait à celui qui embrassait l'islam la prière, puis lui ordonnait d'invoquer par ces mots : « Allahumma ghfir li, warhamni, wahdini, wa 'afini, warzouqni. » Dans une version, il dit : « car ces paroles réunissent pour toi ta vie d'ici-bas et ta vie dernière ».",
+   "refs": [
+    [
+     "riyad",
+     790
+    ]
+   ]
+  },
+  {
+   "slug": "dua-hasana-dounya",
+   "category": "invocations",
+   "title_fr": "Dire « Rabbana atina fi d-dounya hasana… »",
+   "summary_fr": "Anas a rapporté que l'invocation que le Prophète ﷺ faisait le plus souvent était : « Allahumma atina fi d-dounya hasana wa fi l-akhirati hasana wa qina 'adhaba n-nar. »",
+   "refs": [
+    [
+     "riyad",
+     788
+    ]
+   ]
+  },
+  {
+   "slug": "dua-entre-adhan-iqama",
+   "category": "invocations",
+   "title_fr": "Invoquer entre l'appel à la prière et l'iqama",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ a dit : « L'invocation faite entre l'adhan et l'iqama n'est pas rejetée. »",
+   "refs": [
+    [
+     "riyad",
+     362
+    ]
+   ]
+  },
+  {
+   "slug": "apprendre-enseigner-coran",
+   "category": "coran-science",
+   "title_fr": "Apprendre le Coran et l'enseigner",
+   "summary_fr": "Othman ibn Affan a rapporté que le Prophète ﷺ a dit : « Le meilleur d'entre vous est celui qui apprend le Coran et l'enseigne. »",
+   "refs": [
+    [
+     "riyad",
+     314
+    ]
+   ]
+  },
+  {
+   "slug": "reciter-coran-intercession",
+   "category": "coran-science",
+   "title_fr": "Réciter le Coran",
+   "summary_fr": "Abou Oumama a rapporté que le Prophète ﷺ a dit : « Récitez le Coran, car il viendra le jour de la Résurrection en intercesseur pour ses compagnons. » Aïcha a rapporté qu'il a dit : « Celui qui récite le Coran en butant dessus avec peine aura deux récompenses. »",
+   "refs": [
+    [
+     "riyad",
+     312
+    ],
+    [
+     "riyad",
+     315
+    ],
+    [
+     "riyad",
+     313
+    ]
+   ]
+  },
+  {
+   "slug": "sourate-ikhlas",
+   "category": "coran-science",
+   "title_fr": "Réciter la sourate « Qoul houwa Llahou ahad »",
+   "summary_fr": "Le Prophète ﷺ a dit de la sourate « Qoul houwa Llahou ahad » : « Elle équivaut au tiers du Coran. » Anas a rapporté qu'un homme lui a dit aimer cette sourate, et qu'il a répondu : « Ton amour pour elle te fera entrer au Paradis. »",
+   "refs": [
+    [
+     "riyad",
+     333
+    ],
+    [
+     "riyad",
+     332
+    ],
+    [
+     "riyad",
+     334
+    ]
+   ]
+  },
+  {
+   "slug": "fatiha-fin-baqara",
+   "category": "coran-science",
+   "title_fr": "Réciter la Fatiha et la fin de la sourate al-Baqara",
+   "summary_fr": "Ibn Abbas a rapporté que, d'après un ange venu auprès du Prophète ﷺ, deux lumières lui ont été données qui n'ont été données à aucun prophète avant lui : la Fatiha et les derniers versets de la sourate al-Baqara. Abou Mas'oud a rapporté qu'il a dit : « Celui qui récite les deux derniers versets d'al-Baqara en une nuit, ils lui suffiront. »",
+   "refs": [
+    [
+     "riyad",
+     343
+    ],
+    [
+     "riyad",
+     338
+    ]
+   ]
+  },
+  {
+   "slug": "baqara-maison",
+   "category": "coran-science",
+   "title_fr": "Réciter la sourate al-Baqara dans la maison",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Ne faites pas de vos maisons des tombes ; le diable fuit la maison où l'on récite la sourate al-Baqara. »",
+   "refs": [
+    [
+     "riyad",
+     339
+    ]
+   ]
+  },
+  {
+   "slug": "chercher-science",
+   "category": "coran-science",
+   "title_fr": "Se mettre en route pour chercher la science",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui emprunte un chemin à la recherche d'une science, Allah lui facilite grâce à cela un chemin vers le Paradis. » Anas a rapporté : « Celui qui sort à la recherche de la science est dans la voie d'Allah jusqu'à son retour. »",
+   "refs": [
+    [
+     "riyad",
+     702
+    ],
+    [
+     "riyad",
+     706
+    ]
+   ]
+  },
+  {
+   "slug": "appeler-au-bien",
+   "category": "coran-science",
+   "title_fr": "Appeler à une guidance",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui appelle à une guidance aura une récompense égale à celle de ceux qui l'auront suivie, sans que cela ne diminue en rien leur récompense. »",
+   "refs": [
+    [
+     "riyad",
+     703
+    ]
+   ]
+  },
+  {
+   "slug": "science-utile",
+   "category": "coran-science",
+   "title_fr": "Laisser une science dont on tire profit",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Quand le fils d'Adam meurt, ses œuvres s'interrompent, sauf trois : une aumône continue, une science dont on tire profit, ou un enfant vertueux qui invoque pour lui. »",
+   "refs": [
+    [
+     "riyad",
+     704
+    ]
+   ]
+  }
+ ],
+ "translations": {
+  "riyad:577": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Les œuvres sont présentées le lundi et le jeudi ; j'aime que mon œuvre soit présentée alors que je jeûne. »",
+  "riyad:578": "Aïcha (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ s'attachait à jeûner le lundi et le jeudi.",
+  "riyad:576": "Abou Qatada (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ fut interrogé sur le jeûne du lundi ; il répondit : « C'est un jour où je suis né, et un jour où j'ai été envoyé — ou : où la révélation m'a été descendue. »",
+  "riyad:575": "Abou Ayyoub (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui jeûne Ramadan, puis le fait suivre de six jours de Chawwal, c'est comme le jeûne de toute la vie (ad-dahr). »",
+  "riyad:572": "Ibn Abbas (qu'Allah les agrée, lui et son père) a rapporté que le Messager d'Allah ﷺ a jeûné le jour d'Achoura et a ordonné de le jeûner.",
+  "riyad:573": "Abou Qatada (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ fut interrogé sur le jeûne du jour d'Achoura ; il répondit : « Il expie l'année écoulée. »",
+  "riyad:574": "Ibn Abbas (qu'Allah les agrée, lui et son père) a dit : Le Messager d'Allah ﷺ a dit : « Si je suis encore là l'an prochain, je jeûnerai assurément le neuvième. »",
+  "riyad:571": "Abou Qatada (qu'Allah l'agrée) a dit : On interrogea le Messager d'Allah ﷺ sur le jeûne du jour d'Arafat. Il répondit : « Il expie l'année écoulée et l'année à venir. »",
+  "riyad:582": "Mou'adha al-'Adawiyya a demandé à Aïcha (qu'Allah l'agrée) : « Le Messager d'Allah ﷺ jeûnait-il trois jours de chaque mois ? » Elle répondit : « Oui. » Je demandai : « De quelle partie du mois jeûnait-il ? » Elle répondit : « Il ne se souciait pas de quel jour du mois il jeûnait. »",
+  "riyad:581": "Abdallah ibn Amr ibn al-As (qu'Allah les agrée, lui et son père) a dit : Le Messager d'Allah ﷺ a dit : « Jeûner trois jours de chaque mois équivaut au jeûne de toute la vie (ad-dahr). »",
+  "riyad:579": "Abou Hourayra (qu'Allah l'agrée) a dit : Mon ami intime ﷺ m'a donné trois consignes : jeûner trois jours de chaque mois, deux rak'as de duha, et prier le witr avant de dormir.",
+  "riyad:568": "Aïcha (qu'Allah l'agrée) a dit : Le Prophète ﷺ ne jeûnait pas plus d'un mois que de Chaʿbane : il jeûnait Chaʿbane en entier. Dans une autre version : il jeûnait Chaʿbane, à peu de jours près.",
+  "riyad:586": "Zayd ibn Khalid al-Juhani (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui donne à rompre le jeûne à un jeûneur aura une récompense égale à la sienne, sans que rien ne soit retranché de la récompense du jeûneur. »",
+  "riyad:508": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui veille en prière la nuit de Ramadan par foi et en espérant la récompense d'Allah, ses péchés passés lui seront pardonnés. »",
+  "riyad:509": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ encourageait à la veillée de Ramadan sans donner d'ordre ferme à ce sujet, et disait : « Celui qui veille en prière la nuit de Ramadan par foi et en espérant la récompense d'Allah, ses péchés passés lui seront pardonnés. »",
+  "riyad:510": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui veille la nuit du Destin par foi et en espérant la récompense d'Allah, ses péchés passés lui seront pardonnés. »",
+  "riyad:512": "Aïcha (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ demeurait en retraite durant les dix derniers jours de Ramadan et disait : « Cherchez la nuit du Destin dans les dix dernières nuits de Ramadan. »",
+  "riyad:513": "Aïcha (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Cherchez la nuit du Destin dans les nuits impaires des dix dernières de Ramadan. »",
+  "riyad:536": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Allah, Puissant et Majestueux, a dit : Toute œuvre du fils d'Adam est pour lui, sauf le jeûne : il est pour Moi et c'est Moi qui en donne la récompense. Le jeûne est un bouclier (jounna). Le jour où l'un de vous jeûne, qu'il ne tienne pas de propos obscènes et ne crie pas ; si quelqu'un l'insulte ou le combat, qu'il dise : Je jeûne. Par Celui qui tient l'âme de Mouhammad dans Sa main, l'odeur de la bouche du jeûneur est meilleure auprès d'Allah que le parfum du musc. Le jeûneur a deux joies : quand il rompt, il se réjouit de sa rupture, et quand il rencontre son Seigneur, il se réjouit de son jeûne. »",
+  "riyad:562": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Prophète ﷺ a dit : « Celui qui ne délaisse pas la parole mensongère et d'agir en conséquence, Allah n'a nul besoin qu'il délaisse sa nourriture et sa boisson. »",
+  "riyad:563": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Si l'un de vous oublie et mange ou boit, qu'il achève son jeûne, car c'est Allah qui l'a nourri et abreuvé. »",
+  "riyad:589": "Ibn Omar (qu'Allah les agrée, lui et son père) a dit : Le Messager d'Allah ﷺ faisait une retraite (i'tikaf) durant les dix derniers jours de Ramadan.",
+  "riyad:590": "Aïcha (qu'Allah l'agrée) a rapporté que le Prophète ﷺ faisait une retraite (i'tikaf) durant les dix derniers jours de Ramadan, jusqu'à ce qu'Allah le rappelle à Lui ; puis ses épouses firent la retraite après lui.",
+  "riyad:1593": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Sept personnes seront abritées par Allah sous Son ombre le jour où il n'y aura d'autre ombre que la Sienne : un chef juste ; un jeune qui a grandi dans l'adoration d'Allah, Puissant et Majestueux ; un homme dont le cœur est attaché aux mosquées ; deux hommes qui s'aiment pour Allah, se réunissent pour cela et se séparent pour cela ; un homme qu'une femme de rang et de beauté a appelé et qui a dit : Je crains Allah ; un homme qui a fait l'aumône et l'a cachée au point que sa main gauche ignore ce que dépense sa droite ; et un homme qui a mentionné Allah dans la solitude et dont les yeux ont débordé de larmes. »",
+  "riyad:13": "Adi ibn Hatim (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Préservez-vous du Feu, ne serait-ce qu'avec une demi-datte ; et celui qui n'en trouve pas, avec une bonne parole. »",
+  "riyad:14": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La bonne parole est une aumône. » (Ceci est un extrait d'un hadith plus long.)",
+  "riyad:1777": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Celui qui fait l'aumône de l'équivalent d'une datte, issue d'un gain pur — et Allah n'accepte que ce qui est pur —, Allah l'accepte de Sa droite, puis la fait croître pour son auteur comme l'un de vous élève son poulain, jusqu'à ce qu'elle devienne comme la montagne. »",
+  "riyad:1513": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La main supérieure vaut mieux que la main inférieure. Commence par ceux dont tu as la charge. La meilleure aumône est celle qui provient d'une aisance. Celui qui cherche à se préserver (yastaʿfif), Allah le préservera ; celui qui se passe de tout (yastaghni), Allah l'enrichira. »",
+  "riyad:1772": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « L'aumône n'a jamais diminué un bien ; Allah n'accroît le serviteur que de gloire par le pardon qu'il accorde ; et nul ne s'humilie devant Allah sans qu'Allah l'élève. »",
+  "riyad:1512": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Il n'est pas de jour où les serviteurs se lèvent sans que deux anges descendent : l'un dit : Ô Allah, accorde un remplacement à celui qui dépense ; l'autre dit : Ô Allah, accorde la perte à celui qui retient. »",
+  "riyad:704": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Quand le fils d'Adam meurt, ses œuvres s'interrompent, sauf trois : une aumône continue (sadaqa jariya), une science dont on tire profit, ou un enfant vertueux qui invoque pour lui. »",
+  "riyad:218": "Abou Moussa al-Ach'ari (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Rendez visite au malade, nourrissez celui qui a faim et libérez le captif. »",
+  "riyad:1196": "Chaddad ibn Aws (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Le maître des demandes de pardon (sayyid al-istighfar) est que le serviteur dise : « Allahumma anta rabbi, la ilaha illa anta, khalaqtani wa ana 'abdouka, wa ana 'ala 'ahdika wa wa'dika mastata'tou, a'oudhou bika min sharri ma sana'tou, abou'ou laka bi-ni'matika 'alayya, wa abou'ou bi-dhanbi, faghfir li fa-innahou la yaghfirou dh-dhounouba illa anta » (Ô Allah, Tu es mon Seigneur, il n'y a de divinité que Toi, Tu m'as créé et je suis Ton serviteur, et je suis fidèle à Ton engagement et à Ta promesse autant que je le peux ; je cherche refuge auprès de Toi contre le mal que j'ai commis ; je reconnais Ton bienfait envers moi et je reconnais mon péché ; pardonne-moi, car nul ne pardonne les péchés en dehors de Toi). Celui qui la dit le jour avec certitude, puis meurt le jour même avant le soir, est parmi les gens du Paradis ; et celui qui la dit la nuit avec certitude, puis meurt avant le matin, est parmi les gens du Paradis. »",
+  "riyad:1190": "Al-Aghar al-Muzani (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Un ghayn survient sur mon cœur, et je demande pardon à Allah cent fois par jour. »",
+  "riyad:1193": "Ibn Omar (qu'Allah les agrée, lui et son père) a dit : Nous comptions pour le Messager d'Allah ﷺ, en une seule réunion, cent fois : « Rabbi ghfir li wa toub 'alayya innaka anta t-tawwabou r-rahim » (Seigneur, pardonne-moi et accepte mon repentir, Tu es certes Celui qui accepte le repentir, le Miséricordieux).",
+  "riyad:736": "Thawban (qu'Allah l'agrée) a dit : Lorsqu'il terminait sa prière, le Messager d'Allah ﷺ demandait pardon trois fois, puis disait : « Allahumma anta s-salam wa minka s-salam, tabarakta ya dha l-jalali wa l-ikram » (Ô Allah, Tu es la Paix et de Toi vient la paix, béni sois-Tu, ô Détenteur de la majesté et de la générosité). On demanda à al-Awza'i, l'un des rapporteurs : « Comment est la demande de pardon ? » Il dit : « On dit : Astaghfirou Llah, astaghfirou Llah. »",
+  "riyad:728": "Abou Houmayd as-Sa'idi (qu'Allah l'agrée) a dit : Ils dirent : « Ô Messager d'Allah, comment prierons-nous sur toi ? » Il répondit : « Dites : Allahumma salli 'ala Mouhammad wa 'ala azwajihi wa dhourriyyatihi kama sallayta 'ala ali Ibrahim, wa barik 'ala Mouhammad wa 'ala azwajihi wa dhourriyyatihi kama barakta 'ala Ibrahim, innaka Hamidoun Majid » (Ô Allah, prie sur Mouhammad, sur ses épouses et sur sa descendance, comme Tu as prié sur la famille d'Ibrahim, et bénis Mouhammad, ses épouses et sa descendance, comme Tu as béni Ibrahim ; Tu es Digne de louange et de gloire). »",
+  "riyad:727": "Abou Mas'oud al-Badri (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ vint à nous alors que nous étions dans l'assemblée de Sa'd ibn Oubada. Bachir ibn Sa'd lui dit : « Allah nous a ordonné de prier sur toi, ô Messager d'Allah ; comment prierons-nous sur toi ? » Le Messager d'Allah ﷺ garda le silence, au point que nous aurions souhaité qu'il ne l'eût pas interrogé. Puis il dit : « Dites : Allahumma salli 'ala Mouhammad wa 'ala ali Mouhammad kama sallayta 'ala ali Ibrahim, wa barik 'ala Mouhammad wa 'ala ali Mouhammad kama barakta 'ala ali Ibrahim, innaka Hamidoun Majid » (Ô Allah, prie sur Mouhammad et sur la famille de Mouhammad comme Tu as prié sur la famille d'Ibrahim, et bénis Mouhammad et la famille de Mouhammad comme Tu as béni la famille d'Ibrahim ; Tu es Digne de louange et de gloire). Et le salut (as-salam), comme vous l'avez déjà appris. »",
+  "riyad:719": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Les plus proches de moi le jour de la Résurrection seront ceux qui prient le plus sur moi. »",
+  "riyad:731": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui dit, cent fois en un jour : La ilaha illa Llahou wahdahou la sharika lah, lahou l-moulk wa lahou l-hamd wa houwa 'ala koulli chay'in qadir (Il n'y a de divinité qu'Allah, Seul, sans associé ; à Lui la royauté et la louange, et Il est capable de toute chose), aura l'équivalent de l'affranchissement de dix esclaves, cent bonnes actions seront inscrites pour lui, cent mauvaises actions seront effacées, et ce sera pour lui une protection contre le diable ce jour-là jusqu'au soir ; nul n'apportera mieux que ce qu'il aura apporté, sauf un homme qui aura fait davantage. » Et il a dit : « Celui qui dit : Soubhan Allah wa bihamdih (Gloire et louange à Allah), cent fois en un jour, ses fautes lui seront enlevées, fussent-elles comme l'écume de la mer. »",
+  "riyad:764": "Abou Moussa (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ m'a dit : « Ne t'indiquerai-je pas un trésor parmi les trésors du Paradis ? » Je dis : « Si, ô Messager d'Allah. » Il dit : « La hawla wa la quwwata illa billah » (Il n'y a de force ni de puissance qu'en Allah).",
+  "riyad:735": "Sa'd ibn Abi Waqqas (qu'Allah l'agrée) a dit : Un bédouin vint auprès du Messager d'Allah ﷺ et dit : « Enseigne-moi des paroles que je dirai. » Il répondit : « Dis : La ilaha illa Llahou wahdahou la sharika lah, Allahou akbar kabira, wa l-hamdou lillahi kathira, wa soubhana Llahi rabbi l-'alamin, wa la hawla wa la quwwata illa billahi l-'Azizi l-Hakim » (Il n'y a de divinité qu'Allah, Seul, sans associé ; Allah est très grand, louange abondante à Allah, gloire à Allah Seigneur des mondes ; il n'y a de force ni de puissance qu'en Allah, le Puissant, le Sage). L'homme dit : « Cela est pour mon Seigneur ; et pour moi ? » Il dit : « Dis : Allahumma ghfir li, warhamni, wahdini, warzouqni » (Ô Allah, pardonne-moi, fais-moi miséricorde, guide-moi et pourvois à ma subsistance). »",
+  "riyad:776": "Ibn Mas'oud (qu'Allah l'agrée) a dit : Le soir, le Prophète d'Allah ﷺ disait : « Amsayna wa amsa l-moulkou lillah, wa l-hamdou lillah, la ilaha illa Llahou wahdahou la sharika lah » (Nous voici au soir, et le royaume est au soir pour Allah ; louange à Allah ; il n'y a de divinité qu'Allah, Seul, sans associé). Le rapporteur dit : je crois qu'il a dit aussi : « Lahou l-moulk wa lahou l-hamd wa houwa 'ala koulli chay'in qadir. Rabbi as'alouka khayra ma fi hadhihi l-layla wa khayra ma ba'daha, wa a'oudhou bika min sharri ma fi hadhihi l-layla wa sharri ma ba'daha. Rabbi a'oudhou bika mina l-kasal wa soui l-kibar. Rabbi a'oudhou bika min 'adhabin fi n-nar wa 'adhabin fi l-qabr » (À Lui la royauté et la louange, et Il est capable de toute chose. Seigneur, je Te demande le bien de cette nuit et le bien de ce qui la suit, et je cherche refuge auprès de Toi contre le mal de cette nuit et le mal de ce qui la suit. Seigneur, je cherche refuge auprès de Toi contre la paresse et le mal de la vieillesse. Seigneur, je cherche refuge auprès de Toi contre un châtiment dans le Feu et un châtiment dans la tombe). Et le matin il disait cela aussi : « Asbahna wa asbaha l-moulkou lillah… »",
+  "riyad:772": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Celui qui dit, le matin et le soir : Soubhan Allah wa bihamdih (Gloire et louange à Allah), cent fois, nul n'apportera au jour de la Résurrection mieux que ce qu'il aura apporté, sauf quelqu'un qui aura dit la même chose ou davantage. »",
+  "riyad:823": "Ibn Abbas (qu'Allah les agrée, lui et son père) a rapporté que le Messager d'Allah ﷺ disait dans la détresse : « La ilaha illa Llahou l-'Azimou l-Halim, la ilaha illa Llahou rabbou l-'arshi l-'azim, la ilaha illa Llahou rabbou s-samawati wa rabbou l-ardi wa rabbou l-'arshi l-karim » (Il n'y a de divinité qu'Allah, le Très Grand, le Très Clément ; il n'y a de divinité qu'Allah, Seigneur du Trône immense ; il n'y a de divinité qu'Allah, Seigneur des cieux, Seigneur de la terre et Seigneur du Trône noble).",
+  "riyad:1293": "Ibn Abbas (qu'Allah les agrée, lui et son père) a dit : « Hasbouna Llahou wa ni'ma l-wakil » (Allah nous suffit, et quel excellent garant) : Ibrahim l'a dite quand il fut jeté dans le feu, et Mouhammad ﷺ l'a dite quand on leur a dit : « Les gens se sont rassemblés contre vous, craignez-les » ; cela accrut leur foi, et ils dirent : « Hasbouna Llahou wa ni'ma l-wakil. »",
+  "riyad:242": "Oumm Salama (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « Il n'est pas de serviteur frappé par une épreuve qui dise : Inna lillahi wa inna ilayhi raji'oun, Allahumma ajirni fi mousibati wa akhlif li khayran minha (Certes nous appartenons à Allah et vers Lui nous retournons ; ô Allah, récompense-moi dans mon épreuve et accorde-moi en échange mieux qu'elle), sans qu'Allah le récompense dans son épreuve et lui accorde mieux en échange. » Elle dit : Quand Abou Salama est mort, j'ai dit ce que le Messager d'Allah ﷺ m'avait ordonné de dire, et Allah m'a accordé en échange mieux que lui : le Messager d'Allah ﷺ.",
+  "riyad:815": "Abou ad-Darda' (qu'Allah l'agrée) a entendu le Messager d'Allah ﷺ dire : « Il n'est pas de serviteur musulman qui invoque pour son frère en son absence sans que l'ange dise : Et pour toi la pareille. »",
+  "riyad:816": "Abou ad-Darda' (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ disait : « L'invocation du musulman pour son frère en son absence est exaucée. Près de sa tête se tient un ange chargé de cela ; chaque fois qu'il invoque un bien pour son frère, l'ange chargé de lui dit : Amine, et pour toi la pareille. »",
+  "riyad:749": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le serviteur est au plus près de son Seigneur lorsqu'il est prosterné ; multipliez donc les invocations. »",
+  "riyad:748": "Ibn Abbas (qu'Allah les agrée, lui et son père) a rapporté que le Messager d'Allah ﷺ a dit : « Quant à l'inclinaison, glorifiez-y le Seigneur ; quant à la prosternation, efforcez-vous d'y invoquer : il est bien à même de vous être exaucé. »",
+  "riyad:820": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « On répond à l'invocation de l'un de vous tant qu'il ne se presse pas, en disant : J'ai invoqué mon Seigneur et Il ne m'a pas répondu. » Dans une version de Mouslim : « On continue de répondre au serviteur tant qu'il n'invoque pas pour un péché ou la rupture des liens de parenté, et tant qu'il ne se presse pas. » On demanda : « Ô Messager d'Allah, qu'est-ce que se presser ? » Il répondit : « Il dit : J'ai invoqué, j'ai invoqué, et je n'ai pas vu qu'on me réponde ; alors il se lasse et abandonne l'invocation. »",
+  "riyad:822": "Oubada ibn as-Samit (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Il n'est pas de musulman sur terre qui invoque Allah par une demande sans qu'Allah la lui accorde, ou écarte de lui un mal équivalent, tant qu'il n'invoque pas pour un péché ou la rupture des liens de parenté. » Un homme parmi l'assistance dit : « Nous multiplierons donc nos invocations. » Il dit : « Allah est plus abondant. »",
+  "riyad:516": "Aïcha (qu'Allah l'agrée) a dit : J'ai dit : « Ô Messager d'Allah, si je savais quelle nuit est la nuit du Destin, que dirais-je ? » Il répondit : « Dis : Allahumma innaka 'afouwwoun touhibbou l-'afwa fa'fou 'anni » (Ô Allah, Tu es Celui qui pardonne, Tu aimes le pardon, alors pardonne-moi). »",
+  "riyad:790": "Tariq ibn Achyam (qu'Allah l'agrée) a dit : Lorsqu'un homme embrassait l'islam, le Prophète ﷺ lui enseignait la prière, puis lui ordonnait d'invoquer par ces paroles : « Allahumma ghfir li, warhamni, wahdini, wa 'afini, warzouqni » (Ô Allah, pardonne-moi, fais-moi miséricorde, guide-moi, accorde-moi la santé et pourvois à ma subsistance). Dans une autre version, Tariq a entendu le Prophète ﷺ à qui un homme était venu dire : « Ô Messager d'Allah, comment dois-je parler quand je demande à mon Seigneur ? » Il répondit : « Dis : Allahumma ghfir li, warhamni, wa 'afini, warzouqni, car ces paroles réunissent pour toi ta vie d'ici-bas et ta vie dernière. »",
+  "riyad:788": "Anas (qu'Allah l'agrée) a dit : L'invocation que le Prophète ﷺ faisait le plus souvent était : « Allahumma atina fi d-dounya hasana wa fi l-akhirati hasana wa qina 'adhaba n-nar » (Ô Allah, donne-nous ici-bas un bien et dans l'au-delà un bien, et préserve-nous du châtiment du Feu).",
+  "riyad:362": "Anas (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « L'invocation faite entre l'adhan et l'iqama n'est pas rejetée. »",
+  "riyad:314": "Othman ibn Affan (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Le meilleur d'entre vous est celui qui apprend le Coran et l'enseigne. »",
+  "riyad:312": "Abou Oumama (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « Récitez le Coran, car il viendra le jour de la Résurrection en intercesseur pour ses compagnons. »",
+  "riyad:313": "An-Nawwas ibn Sam'an (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « Le Coran sera amené le jour de la Résurrection, avec ceux qui agissaient selon lui ici-bas, précédé par la sourate al-Baqara et la sourate Al Imran, qui plaideront pour leur compagnon. »",
+  "riyad:315": "Aïcha (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Celui qui récite le Coran et le maîtrise est avec les nobles et pieux safara ; et celui qui récite le Coran en butant dessus avec peine aura deux récompenses. »",
+  "riyad:333": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit à propos de « Qoul houwa Llahou ahad » : « Elle équivaut au tiers du Coran. »",
+  "riyad:332": "Abou Sa'id al-Khoudri (qu'Allah l'agrée) a rapporté qu'un homme entendit un autre homme réciter « Qoul houwa Llahou ahad » en la répétant. Le lendemain matin, il vint auprès du Messager d'Allah ﷺ et lui en parla, comme s'il la jugeait peu de chose. Le Messager d'Allah ﷺ dit : « Par Celui qui tient mon âme dans Sa main, elle équivaut au tiers du Coran. »",
+  "riyad:334": "Anas (qu'Allah l'agrée) a rapporté qu'un homme dit : « Ô Messager d'Allah, j'aime cette sourate, « Qoul houwa Llahou ahad ». » Il dit : « Ton amour pour elle t'a fait entrer au Paradis. »",
+  "riyad:343": "Ibn Abbas (qu'Allah les agrée, lui et son père) a dit : Alors que Gabriel (paix sur lui) était assis auprès du Prophète ﷺ, il entendit un bruit au-dessus de lui. Il leva la tête et dit : « Voici une porte du ciel qui s'est ouverte aujourd'hui et ne s'était jamais ouverte auparavant. » Un ange en descendit, et il dit : « Voici un ange descendu sur terre, qui n'était jamais descendu auparavant. » Il salua et dit : « Réjouis-toi de deux lumières qui t'ont été données et n'ont été données à aucun prophète avant toi : la Fatiha du Livre et les derniers versets de la sourate al-Baqara. Tu n'en liras pas une lettre sans que cela ne te soit accordé. »",
+  "riyad:338": "Abou Mas'oud al-Badri (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui récite les deux versets de la fin de la sourate al-Baqara en une nuit, ils lui suffiront. »",
+  "riyad:339": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Ne faites pas de vos maisons des tombes ; le diable fuit la maison où l'on récite la sourate al-Baqara. »",
+  "riyad:702": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui emprunte un chemin à la recherche d'une science, Allah lui facilite grâce à cela un chemin vers le Paradis. » (Extrait d'un hadith plus long.)",
+  "riyad:706": "Anas (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a dit : « Celui qui sort à la recherche de la science est dans la voie d'Allah jusqu'à son retour. »",
+  "riyad:703": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui appelle à une guidance aura une récompense égale à celle de ceux qui l'auront suivie, sans que cela ne diminue en rien leur récompense. »"
+ }
+}

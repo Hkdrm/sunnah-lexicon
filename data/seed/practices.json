@@ -7,7 +7,7 @@
   },
   {
    "slug": "priere-hygiene",
-   "label_fr": "Prière et hygiène"
+   "label_fr": "Hygiène"
   },
   {
    "slug": "sommeil",
@@ -18,16 +18,12 @@
    "label_fr": "Relations et salutations"
   },
   {
-   "slug": "maison-voyage",
-   "label_fr": "Maison, voyage et quotidien"
-  },
-  {
    "slug": "jeune",
    "label_fr": "Jeûne"
   },
   {
    "slug": "caractere",
-   "label_fr": "Caractère et dhikr"
+   "label_fr": "Caractère et comportement"
   }
  ],
  "practices": [
@@ -281,7 +277,7 @@
   },
   {
    "slug": "entrer-maison",
-   "category": "maison-voyage",
+   "category": "maison",
    "title_fr": "Mentionner Allah en entrant chez soi",
    "summary_fr": "Jabir a rapporté que le Prophète ﷺ a dit : lorsque l'homme entre chez lui en mentionnant Allah à l'entrée et au repas, le diable dit aux siens : « Pas de gîte ni de dîner pour vous ici. »",
    "refs": [
@@ -297,7 +293,7 @@
   },
   {
    "slug": "dua-voyage",
-   "category": "maison-voyage",
+   "category": "voyage",
    "title_fr": "L'invocation du voyage",
    "summary_fr": "Ibn Omar a rapporté qu'en montant sur sa monture pour partir en voyage, le Prophète ﷺ disait trois fois « Allahou akbar » puis : « Soubhana lladhi sakhkhara lana hadha wa ma kunna lahu muqrinin… ».",
    "refs": [
