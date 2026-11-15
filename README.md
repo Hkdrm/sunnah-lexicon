@@ -22,6 +22,9 @@ node scripts/check_stem.js        # vérifie JS == Python pour le radical arabe
 cd web && python3 -m http.server  # puis ouvrir http://localhost:8000
 ```
 
+## Relecture
+Tableurs à faire valider dans `review/` ; mode d'emploi dans [REVIEW.md](REVIEW.md) (`python3 scripts/export_review.py` pour les régénérer).
+
 ## Structure
 - `db/schema.sql` : schéma (hadith, collection, thème, terme, situation, liens).
 - `data/seed/index_nawawi40.json` : index (thèmes, termes, situations) par hadith.
