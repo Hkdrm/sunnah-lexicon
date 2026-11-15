@@ -1,0 +1,105 @@
+{
+  "_note": "BROUILLON — correspondance des 20 livres de Riyad as-Salihin vers thèmes/situations (libellés français rédigés à partir des titres arabes). À valider.",
+  "books": {
+    "0": {
+      "kind": "theme",
+      "slug": "riyad-fondements",
+      "label_fr": "Fondements : sincérité, repentir, patience, véracité…"
+    },
+    "1": {
+      "kind": "situation",
+      "slug": "riyad-bonnes-manieres",
+      "label_fr": "Bonnes manières"
+    },
+    "2": {
+      "kind": "situation",
+      "slug": "riyad-repas",
+      "label_fr": "Repas"
+    },
+    "3": {
+      "kind": "situation",
+      "slug": "riyad-habillement",
+      "label_fr": "Habillement"
+    },
+    "4": {
+      "kind": "situation",
+      "slug": "riyad-sommeil-assise",
+      "label_fr": "Sommeil et assise"
+    },
+    "5": {
+      "kind": "situation",
+      "slug": "riyad-salutations",
+      "label_fr": "Salutations"
+    },
+    "6": {
+      "kind": "situation",
+      "slug": "riyad-malade-deuil",
+      "label_fr": "Visite du malade et deuil"
+    },
+    "7": {
+      "kind": "situation",
+      "slug": "riyad-voyage",
+      "label_fr": "Voyage"
+    },
+    "8": {
+      "kind": "theme",
+      "slug": "riyad-merites",
+      "label_fr": "Mérites et vertus"
+    },
+    "9": {
+      "kind": "theme",
+      "slug": "riyad-itikaf",
+      "label_fr": "I'tikaf (retraite spirituelle)"
+    },
+    "10": {
+      "kind": "theme",
+      "slug": "riyad-hajj",
+      "label_fr": "Le Hajj"
+    },
+    "11": {
+      "kind": "theme",
+      "slug": "riyad-jihad",
+      "label_fr": "Le jihad"
+    },
+    "12": {
+      "kind": "theme",
+      "slug": "riyad-science",
+      "label_fr": "La science"
+    },
+    "13": {
+      "kind": "theme",
+      "slug": "riyad-louange",
+      "label_fr": "Louange et gratitude envers Allah"
+    },
+    "14": {
+      "kind": "theme",
+      "slug": "riyad-salat-prophete",
+      "label_fr": "Prière sur le Prophète ﷺ"
+    },
+    "15": {
+      "kind": "theme",
+      "slug": "riyad-adhkar",
+      "label_fr": "Invocations de rappel (adhkar)"
+    },
+    "16": {
+      "kind": "theme",
+      "slug": "riyad-duaa",
+      "label_fr": "Invocations (du'a)"
+    },
+    "17": {
+      "kind": "theme",
+      "slug": "riyad-interdits",
+      "label_fr": "Les choses interdites"
+    },
+    "18": {
+      "kind": "theme",
+      "slug": "riyad-varies",
+      "label_fr": "Hadiths variés"
+    },
+    "19": {
+      "kind": "theme",
+      "slug": "riyad-istighfar",
+      "label_fr": "Le pardon et l'istighfar"
+    }
+  }
+}

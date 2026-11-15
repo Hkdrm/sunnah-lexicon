@@ -18,8 +18,9 @@ CREATE TABLE hadith (
     arabic          TEXT NOT NULL,
     french          TEXT,                  -- NULL si la licence ne permet pas la copie
     verify_url      TEXT,                  -- lien direct pour vérifier le hadith
-    grade           TEXT NOT NULL DEFAULT 'non renseigné',  -- sahih / hasan / da'if / non renseigné
-    grade_by        TEXT,                  -- savant ayant établi le degré
+    grade           TEXT NOT NULL DEFAULT 'non renseigné',  -- résumé du degré (détail dans hadith_grade)
+    grade_by        TEXT,                  -- base du résumé
+    takhrij         TEXT,                  -- recueils cités dans la mention finale du texte
     source_arabic   TEXT,                  -- provenance du texte arabe
     source_french   TEXT,                  -- provenance de la traduction
     license_note    TEXT,
@@ -27,10 +28,18 @@ CREATE TABLE hadith (
     UNIQUE (collection, number)
 );
 
+-- Un hadith peut avoir plusieurs degrés (un par savant ou par mention).
+CREATE TABLE hadith_grade (
+    hadith_id   INTEGER NOT NULL REFERENCES hadith(id),
+    grade       TEXT NOT NULL,
+    basis       TEXT NOT NULL              -- qui / quelle mention établit ce degré
+);
+
 CREATE TABLE theme (
     id          INTEGER PRIMARY KEY,
     slug        TEXT NOT NULL UNIQUE,
     label_fr    TEXT NOT NULL,
+    label_ar    TEXT,
     parent_id   INTEGER REFERENCES theme(id)
 );
 
@@ -52,6 +61,7 @@ CREATE TABLE term (
 CREATE TABLE hadith_term (
     hadith_id   INTEGER NOT NULL REFERENCES hadith(id),
     term_id     INTEGER NOT NULL REFERENCES term(id),
+    link_source TEXT NOT NULL DEFAULT 'manual',   -- 'manual' ou 'auto' (détection par radical, à vérifier)
     PRIMARY KEY (hadith_id, term_id)
 );
 
@@ -59,7 +69,8 @@ CREATE TABLE hadith_term (
 CREATE TABLE situation (
     id          INTEGER PRIMARY KEY,
     slug        TEXT NOT NULL UNIQUE,
-    label_fr    TEXT NOT NULL
+    label_fr    TEXT NOT NULL,
+    label_ar    TEXT
 );
 
 CREATE TABLE hadith_situation (

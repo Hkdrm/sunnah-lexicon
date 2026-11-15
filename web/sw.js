@@ -1,5 +1,5 @@
 // Cache hors ligne : l'application fonctionne sans réseau après la première visite.
-const CACHE = "sunnah-v1";
+const CACHE = "sunnah-v2";
 const FILES = ["./", "index.html", "data.json", "manifest.json"];
 self.addEventListener("install", e => e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))));
 self.addEventListener("activate", e => e.waitUntil(

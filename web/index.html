@@ -32,8 +32,9 @@ a{color:var(--accent)}
 <body>
 <header>
   <h1>Lexique de la Sunnah</h1>
-  <p class="sub">Les 40 hadiths d'An-Nawawi — index par thèmes, situations et termes</p>
-  <input id="q" type="search" placeholder="Rechercher (français ou arabe) : intention, colère، النية…" autocomplete="off">
+  <p class="sub">Les 40 hadiths d'An-Nawawi et Riyad as-Salihin — index par thèmes, situations et termes</p>
+  <input id="q" type="search" placeholder="Rechercher (français ou arabe) : intention, colère, النية…" autocomplete="off">
+  <div class="label">Recueils</div><div class="chips" id="collections"></div>
   <div class="label">Thèmes</div><div class="chips" id="themes"></div>
   <div class="label">Situations</div><div class="chips" id="situations"></div>
   <div class="label">Termes du lexique</div><div class="chips" id="terms"></div>
@@ -42,53 +43,94 @@ a{color:var(--accent)}
   <div id="termbox"></div>
   <div id="count" class="sub"></div>
   <div id="list"></div>
+  <button id="more" class="chip" hidden style="width:100%;padding:10px">Afficher plus</button>
   <p class="disc">Cette application présente des textes et renvoie à leurs sources ; elle ne rend pas de fatwa.
   Pour une question de jurisprudence, consultez un savant qualifié. Contenu d'indexation (thèmes, termes) en cours de relecture.
-  Texte arabe : domaine public. Traduction française : provenance et licence à confirmer.
-  Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a> · vérification : <a href="https://sunnah.com/nawawi40">sunnah.com</a>.</p>
+  Texte arabe : domaine public. Traduction française (Nawawi) : provenance et licence à confirmer ; pas de traduction pour Riyad as-Salihin.
+  Degrés : lus dans la mention finale du texte (An-Nawawi) ou déduits de la présence dans Boukhari/Mouslim ; jamais inventés. La recherche arabe utilise un radical approximatif.
+  Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a>, <a href="https://github.com/AhmedBaset/hadith-json">hadith-json</a> · vérification : <a href="https://sunnah.com/nawawi40">sunnah.com</a>.</p>
 </main>
 <script>
 const $ = s => document.querySelector(s);
-const norm = s => (s||"").normalize("NFD").replace(/[ً-ٰٟـ]/g,"").replace(/[̀-ͯ]/g,"").replace(/[أإآ]/g,"ا").replace(/ى/g,"ي").toLowerCase();
-const esc = s => s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let D, state = {q:"", theme:null, situation:null, term:null};
+const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+/* --- Arabe : normalisation + radical léger (doit rester identique à scripts/arabic.py) --- */
+const arNorm = s => (s||"").replace(/[ً-ٰٟـۖ-ۭ]/g,"").replace(/[أإآٱ]/g,"ا").replace(/ى/g,"ي");
+const arTokens = s => arNorm(s).match(/[ء-ي]+/g) || [];
+const PREFIXES = ["وبال","وال","فال","بال","كال","لل","ال"];
+function stem(w){
+  for (const p of PREFIXES) if (w.startsWith(p) && w.length - p.length >= 3) { w = w.slice(p.length); break; }
+  if (w.endsWith("ات") && w.length >= 4) w = w.slice(0,-2) + "ة";
+  else for (const suf of ["ون","ين","ان","ها","هم","هن","كم","نا"])
+    if (w.endsWith(suf) && w.length - suf.length >= 3) { w = w.slice(0,-suf.length); break; }
+  return w;
+}
+const frNorm = s => (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const isAr = s => /[؀-ۿ]/.test(s);
 
-function chips(id, items, key, label){
-  $(id).innerHTML = items.map(i=>`<button class="chip" data-k="${key}" data-v="${i.slug}" aria-pressed="${state[key]===i.slug}">${esc(label(i))}</button>`).join("");
+let D, state = {q:"", collection:null, theme:null, situation:null, term:null}, limit = 40;
+const label = (list, slug) => (list.find(x=>x.slug===slug)||{}).label_fr || slug;
+
+function chips(id, items, key, lab){
+  $(id).innerHTML = items.map(i=>`<button class="chip" data-k="${key}" data-v="${i.slug}" aria-pressed="${state[key]===i.slug}">${esc(lab(i))}</button>`).join("");
+}
+function matches(h, tokens){
+  return tokens.every(t => {
+    if (isAr(t)) {
+      const nt = arNorm(t);
+      return h._ar.includes(nt) || arTokens(t).every(x => h._stems.has(stem(x)));
+    }
+    return h._fr.includes(frNorm(t)) || String(h.number) === t;
+  });
 }
 function render(){
+  chips("#collections", D.collections, "collection", c=>c.name_fr);
   chips("#themes", D.themes, "theme", t=>t.label_fr);
   chips("#situations", D.situations, "situation", t=>t.label_fr);
   chips("#terms", D.terms, "term", t=>`${t.translit} ${t.arabic}`);
-  const q = norm(state.q);
+  const tokens = state.q.trim().split(/\s+/).filter(Boolean);
   const res = D.hadiths.filter(h =>
+    (!state.collection || h.collection===state.collection) &&
     (!state.theme || h.themes.includes(state.theme)) &&
     (!state.situation || h.situations.includes(state.situation)) &&
     (!state.term || h.terms.includes(state.term)) &&
-    (!q || norm(h.arabic).includes(q) || norm(h.french).includes(q) || String(h.number)===q));
+    (!tokens.length || matches(h, tokens)));
   const t = D.terms.find(x=>x.slug===state.term);
-  $("#termbox").innerHTML = t ? `<div class="card term"><b>${esc(t.translit)}</b> — <span class="ar" style="font-size:1.1rem">${t.arabic}</span><br>${esc(t.definition_fr)}<div class="meta warn">Définition en cours de relecture</div></div>` : "";
+  $("#termbox").innerHTML = t ? `<div class="card term"><b>${esc(t.translit)}</b> — <span class="ar" style="font-size:1.1rem">${t.arabic}</span><br>${esc(t.definition_fr)}<div class="meta warn">Définition en cours de relecture. Liens avec les hadiths : détection automatique par radical, à vérifier.</div></div>` : "";
   $("#count").textContent = `${res.length} hadith(s)`;
-  $("#list").innerHTML = res.map(h=>`
+  const colName = slug => (D.collections.find(c=>c.slug===slug)||{}).name_fr;
+  $("#list").innerHTML = res.slice(0, limit).map(h=>`
     <article class="card">
       <div class="ar">${esc(h.arabic)}</div>
-      <p>${esc(h.french||"")}</p>
+      ${h.french ? `<p>${esc(h.french)}</p>` : `<p class="sub">Traduction française non disponible pour ce recueil.</p>`}
       <div class="meta">
-        <span>Nawawi n° ${h.number}</span>
-        <span class="${h.grade==='non renseigné'?'warn':''}">Degré : ${esc(h.grade)}${h.grade_by?" ("+esc(h.grade_by)+")":""}</span>
-        <a href="${h.verify_url}" target="_blank" rel="noopener">Vérifier sur sunnah.com</a>
-        ${h.themes.map(s=>`<span class="tag" data-k="theme" data-v="${s}">${esc(D.themes.find(t=>t.slug===s).label_fr)}</span>`).join("")}
+        <span>${esc(colName(h.collection))} · n° ${h.number}</span>
+        ${h.takhrij ? `<span>Rapporté par : ${esc(h.takhrij)}</span>` : ""}
+        ${h.verify_url ? `<a href="${h.verify_url}" target="_blank" rel="noopener">Vérifier sur sunnah.com</a>` : `<a href="${D.collections.find(c=>c.slug===h.collection).site_url}" target="_blank" rel="noopener">Recueil sur sunnah.com</a>`}
+      </div>
+      <div class="meta ${h.grades.length?'':'warn'}">${h.grades.length
+        ? h.grades.map(g=>`<span>Degré : <b>${esc(g.grade)}</b> — ${esc(g.basis)}</span>`).join("")
+        : "Degré : non renseigné"}</div>
+      <div class="meta">
+        ${h.themes.map(s=>`<span class="tag" data-k="theme" data-v="${s}">${esc(label(D.themes,s))}</span>`).join("")}
+        ${h.situations.map(s=>`<span class="tag" data-k="situation" data-v="${s}">${esc(label(D.situations,s))}</span>`).join("")}
         ${h.terms.map(s=>`<span class="tag" data-k="term" data-v="${s}">${esc(D.terms.find(t=>t.slug===s).translit)}</span>`).join("")}
       </div>
     </article>`).join("") || '<p class="sub">Aucun résultat.</p>';
+  $("#more").hidden = res.length <= limit;
+  $("#more").textContent = `Afficher plus (${res.length - limit} restants)`;
 }
 document.addEventListener("click", e=>{
   const el = e.target.closest("[data-k]"); if(!el) return;
-  const {k,v} = el.dataset; state[k] = state[k]===v ? null : v; render(); scrollTo({top:0});
+  const {k,v} = el.dataset; state[k] = state[k]===v ? null : v; limit = 40; render(); scrollTo({top:0});
 });
-$("#q").addEventListener("input", e=>{state.q=e.target.value; render();});
-fetch("data.json").then(r=>r.json()).then(d=>{D=d; render();});
+$("#q").addEventListener("input", e=>{state.q=e.target.value; limit=40; render();});
+$("#more").addEventListener("click", ()=>{limit += 40; render();});
+fetch("data.json").then(r=>r.json()).then(d=>{
+  d.hadiths.forEach(h=>{ h._ar = arNorm(h.arabic); h._fr = frNorm(h.french); h._stems = new Set(arTokens(h.arabic).map(stem)); });
+  D = d; render();
+});
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+window.__stem = stem; window.__arTokens = arTokens;
 </script>
 </body>
 </html>
