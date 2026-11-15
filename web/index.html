@@ -65,6 +65,13 @@ h1.detail{font-size:28px;line-height:1.15;font-weight:700;margin:4px 0 12px}
 .tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;border:0;background:none;padding:7px 0 6px;color:var(--muted);font:inherit;font-size:10.5px;cursor:pointer}
 .tab[aria-current=page]{color:var(--accent)}
 .tab svg{width:26px;height:26px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:8px}
+.tile{display:flex;flex-direction:column;justify-content:space-between;gap:14px;min-height:124px;padding:14px;border:0;border-radius:18px;background:var(--card);color:var(--fg);font:inherit;text-align:left;cursor:pointer;transition:transform .12s}
+.tile:active{transform:scale(.97)}
+.tile .ic{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;color:#fff}
+.tile .ic svg{width:23px;height:23px}
+.tile b{display:block;font-size:17px;line-height:1.2;font-weight:600}
+.tile span{display:block;font-size:13px;color:var(--muted);margin-top:2px}
 a{color:var(--accent)}
 </style>
 </head>
@@ -96,6 +103,16 @@ const ICON_SEARCH = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 const CHEV = '<svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>';
 const BACK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>';
 
+const CAT = {
+ "repas":{c:"#ff9500",i:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/>'},
+ "priere-hygiene":{c:"#0a84ff",i:'<path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/>'},
+ "sommeil":{c:"#5e5ce6",i:'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>'},
+ "relations":{c:"#ff375f",i:'<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>'},
+ "maison-voyage":{c:"#30b0c7",i:'<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/>'},
+ "jeune":{c:"#af52de",i:'<path d="M3 18h18M6 18a6 6 0 0 1 12 0M12 5v3M5 9l2 2M19 9l-2 2"/>'},
+ "caractere":{c:"#34c759",i:'<path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6L12 16.8 6.7 19.6l1.1-6L3.4 9.4l6-.8z"/>'}
+};
+const catIcon = slug => { const k = CAT[slug] || {c:"#8e8e93",i:'<circle cx="12" cy="12" r="8"/>'}; return `<span class="ic" style="background:${k.c}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${k.i}</svg></span>`; };
 let D, byKey, state = {q:"", hq:"", col:"", theme:"", sit:"", term:"", limit:30};
 const scrolls = {};
 
@@ -133,7 +150,7 @@ function hadithCard(h, opts={}){
 /* --- Écran : Pratiques (accueil) --- */
 function screenHome(el){
   el.innerHTML = `<h1 class="large">Pratiques</h1>
-    <p class="lead">Les gestes de la Sunnah, avec les hadiths qui les rapportent.</p>
+    <p class="lead">Choisissez un thème pour découvrir les gestes de la Sunnah et les hadiths qui les rapportent.</p>
     <label class="search">${ICON_SEARCH}<input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Rechercher un geste" autocomplete="off" aria-label="Rechercher un geste"></label>
     <div id="out"></div>`;
   const q = $("#q", el); q.value = state.q;
@@ -149,16 +166,33 @@ function screenHome(el){
       html += `<div class="section">${esc(cat.label_fr)}</div><div class="group">` +
         items.map(p => `<button class="row" data-go="#/p/${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("") + `</div>`;
     }
+    if (!tokens.length) {
+      $("#out", el).innerHTML = `<div class="grid">` + D.practice_categories.map(c => {
+        const k = D.practices.filter(p => p.category === c.slug).length;
+        return `<button class="tile" data-go="#/c/${c.slug}">${catIcon(c.slug)}<div><b>${esc(c.label_fr)}</b><span>${k} geste${k>1?"s":""}</span></div></button>`;
+      }).join("") + `</div>`;
+      return;
+    }
     $("#out", el).innerHTML = n ? html : `<div class="empty">Aucun geste trouvé.<br>Essayez l'onglet Hadiths pour chercher dans les textes.</div>`;
   };
   q.addEventListener("input", draw); draw();
+}
+
+/* --- Écran : une catégorie --- */
+function screenCategory(el, slug){
+  const cat = D.practice_categories.find(c=>c.slug===slug);
+  if (!cat) { location.hash = "#/"; return; }
+  const items = D.practices.filter(p => p.category === slug);
+  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} Pratiques</button></div>
+    <h1 class="detail" style="display:flex;align-items:center;gap:12px">${catIcon(slug)}<span>${esc(cat.label_fr)}</span></h1>
+    <div class="group">${items.map(p => `<button class="row" data-go="#/p/${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("")}</div>`;
 }
 
 /* --- Écran : détail d'une pratique --- */
 function screenPractice(el, slug){
   const p = D.practices.find(x=>x.slug===slug);
   if (!p) { location.hash = "#/"; return; }
-  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} Pratiques</button></div>
+  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} ${esc((D.practice_categories.find(c=>c.slug===p.category)||{}).label_fr || "Pratiques")}</button></div>
     <h1 class="detail">${esc(p.title_fr)}</h1>
     <div class="card"><p class="fr">${esc(p.summary_fr)}</p><p class="note warn">Résumé en cours de relecture. Cette application ne rend pas d'avis juridique.</p></div>
     <div class="section">Sources (${p.refs.length})</div>
@@ -235,10 +269,11 @@ function route(){
   const el = $("#screen");
   scrolls[el.dataset.route] = scrollY;
   el.dataset.route = h;
-  const m = h.match(/^#\/p\/([\w-]+)$/);
+  const m = h.match(/^#\/p\/([\w-]+)$/), mc = h.match(/^#\/c\/([\w-]+)$/);
   el.className = "enter";
   $("#t-home").removeAttribute("aria-current"); $("#t-h").removeAttribute("aria-current"); $("#t-i").removeAttribute("aria-current");
   if (m) { screenPractice(el, m[1]); $("#t-home").setAttribute("aria-current","page"); }
+  else if (mc) { screenCategory(el, mc[1]); $("#t-home").setAttribute("aria-current","page"); }
   else if (h === "#/h") { screenHadiths(el); $("#t-h").setAttribute("aria-current","page"); }
   else if (h === "#/i") { screenInfo(el); $("#t-i").setAttribute("aria-current","page"); }
   else { screenHome(el); $("#t-home").setAttribute("aria-current","page"); }
