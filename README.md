@@ -47,3 +47,7 @@ Tableurs à faire valider dans `review/` ; mode d'emploi dans [REVIEW.md](REVIEW
 3. Traductions françaises sous licence claire ; degrés de savants nommés (Albani, Arnaout…).
 4. Bukhari/Muslim ; degrés de l'Adab al-Mufrad par un savant nommé.
 5. Recherche sémantique qui retrouve et cite, sans jamais paraphraser ni produire d'avis.
+
+## Mise en ligne (GitHub Pages)
+Le workflow `.github/workflows/pages.yml` publie le dossier `web/` à chaque push sur `main`.
+Réglages à faire une fois : **Settings → Pages → Source : GitHub Actions**. Sur iPhone : Safari → Partager → « Sur l'écran d'accueil » (fonctionne ensuite hors ligne).
