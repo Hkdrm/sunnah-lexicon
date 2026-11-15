@@ -11,14 +11,13 @@ PRIV = ROOT / "data" / "private"
 D = json.loads((ROOT / "web/data.json").read_text(encoding="utf-8"))
 H = {f"{h['collection']}:{h['number']}": h for h in D["hadiths"]}
 
-TITLES_FR = """Les actes valent par les intentions|L'islam, la foi et l'excellence (ihsan)|Les piliers de l'islam|Le décret divin|L'innovation en religion|Le licite est clair, l'illicite est clair|La religion est le conseil sincère|Le combat dans la voie d'Allah|Selon ses capacités|Se limiter à ce qui est licite et bon|S'écarter du douteux|Laisser ce qui ne nous concerne pas|La perfection de la foi|Le caractère sacré du sang du musulman|Les bonnes manières en islam|Ne te mets pas en colère|Le bon geste lors de l'abattage|Le bon caractère|Garde Allah, Il te gardera|La pudeur fait partie de la foi|Dis « Je crois en Allah », puis sois droit|Se limiter aux obligations|Se hâter vers le bien|L'interdiction de l'injustice|Les différentes bonnes actions|La réconciliation entre les gens|La piété, c'est le bon caractère|S'attacher à la Sunnah|Ce qui fait entrer au Paradis|Les droits d'Allah|Le vrai sens du renoncement (zuhd)|Ne pas nuire à soi-même ni aux autres|La preuve incombe au demandeur|Ordonner le bien et interdire le blâmable|La fraternité en islam|Se réunir pour évoquer Allah|La générosité d'Allah|Ce qui rapproche d'Allah|Passer sur les erreurs|Cultiver l'au-delà|Contrarier ses passions|Le repentir|Éviter de trop manger|Les traits de l'hypocrite|S'en remettre à Allah|Le mérite du dhikr|Chercher la science|La médisance|Propager le salut|S'aimer pour Allah""".split("|")
+META = json.loads((PRIV / "ahadith_fr_meta.json").read_text(encoding="utf-8"))  # titres FR et traduction du n°43 (privés)
+TITLES_FR = META["titles_fr"]
 assert len(TITLES_FR) == 50
 CORPUS = {n: f"nawawi40:{n}" for n in range(1, 43)}
 CORPUS.update({44: "riyad:10", 45: "riyad:1296", 46: "riyad:759", 47: "riyad:702", 48: "riyad:844", 49: "riyad:168", 50: "riyad:1594"})
 # 43 : pas d'arabe dans le corpus -> traduction du texte du livret
-FR_43 = ("Al-Miqdam ibn Ma'dikarib (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le fils d'Adam ne remplit "
-         "pas de récipient pire que son ventre. Il suffit au fils d'Adam de quelques bouchées pour tenir son dos droit. "
-         "S'il ne peut faire autrement, qu'il réserve un tiers à sa nourriture, un tiers à sa boisson et un tiers à son souffle. »")
+FR_43 = META["fr_43"]
 
 import re
 def clean(lines):
