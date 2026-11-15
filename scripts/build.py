@@ -40,6 +40,30 @@ def fetch(name: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_seed():
+    """Fusionne data/seed/{practices,translations_fr}.json et data/seed/parts/*.json.
+    Une part peut contenir 'categories', 'practices' et 'translations'. Première définition gagnante."""
+    seed = ROOT / "data/seed"
+    tr = json.loads((seed / "translations_fr.json").read_text(encoding="utf-8"))
+    prac = json.loads((seed / "practices.json").read_text(encoding="utf-8"))
+    cats = {c["slug"] for c in prac["categories"]}
+    slugs = {p["slug"] for p in prac["practices"]}
+    for f in sorted((seed / "parts").glob("*.json")):
+        part = json.loads(f.read_text(encoding="utf-8"))
+        for c in part.get("categories", []):
+            if c["slug"] not in cats:
+                prac["categories"].append(c); cats.add(c["slug"])
+        for p in part.get("practices", []):
+            if p["slug"] in slugs:
+                raise SystemExit(f"Slug de pratique en double : {p['slug']} ({f.name})")
+            if p["category"] not in cats:
+                raise SystemExit(f"Catégorie inconnue : {p['category']} ({f.name})")
+            prac["practices"].append(p); slugs.add(p["slug"])
+        for k, v in part.get("translations", {}).items():
+            tr["translations"].setdefault(k, v)
+    return tr, prac
+
+
 def main() -> None:
     nawawi_idx = json.loads((ROOT / "data/seed/index_nawawi40.json").read_text(encoding="utf-8"))
     riyad_idx = json.loads((ROOT / "data/seed/index_riyad.json").read_text(encoding="utf-8"))
@@ -141,7 +165,7 @@ def main() -> None:
             if wanted & {stem(x) for x in tokens(arabic)}:
                 con.execute("INSERT OR IGNORE INTO hadith_term VALUES (?,?,'auto')", (hid, tid))
     # --- Traductions françaises rédigées par nous (uniquement là où il n'y en a pas) -------------
-    tr = json.loads((ROOT / "data/seed/translations_fr.json").read_text(encoding="utf-8"))
+    tr, prac = load_seed()
     for key, text in tr["translations"].items():
         coll, num = key.split(":")
         cur = con.execute("UPDATE hadith SET french=?, french_origin=? WHERE collection=? AND number=? AND french IS NULL",
@@ -151,7 +175,6 @@ def main() -> None:
     con.execute("UPDATE hadith SET french_origin='jeu de données' WHERE french_origin IS NULL AND french IS NOT NULL")
 
     # --- Pratiques (fiches) : chaque référence doit exister dans le corpus -----------------------
-    prac = json.loads((ROOT / "data/seed/practices.json").read_text(encoding="utf-8"))
     for pos, c in enumerate(prac["categories"]):
         con.execute("INSERT INTO practice_category VALUES (?,?,?)", (c["slug"], c["label_fr"], pos))
     for p in prac["practices"]:
