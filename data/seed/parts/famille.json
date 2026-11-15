@@ -1,0 +1,429 @@
+{
+ "categories": [
+  {
+   "slug": "famille",
+   "label_fr": "Famille et parents"
+  },
+  {
+   "slug": "parole",
+   "label_fr": "La parole et la conversation"
+  }
+ ],
+ "practices": [
+  {
+   "slug": "mere-puis-pere",
+   "category": "famille",
+   "title_fr": "Bien accompagner d'abord sa mère, puis son père",
+   "summary_fr": "Un homme demanda au Prophète ﷺ qui avait le plus de droit à sa bonne compagnie. Il répondit : « Ta mère. » — « Puis qui ? » — « Ta mère. » — « Puis qui ? » — « Ta mère. » — « Puis qui ? » — « Ton père. » Dans une version : « Ta mère, puis ta mère, puis ta mère, puis ton père, puis le plus proche de toi, puis le plus proche. »",
+   "refs": [
+    [
+     "riyad",
+     1533
+    ]
+   ]
+  },
+  {
+   "slug": "rester-aupres-parents",
+   "category": "famille",
+   "title_fr": "Rester auprès de ses parents pour bien les accompagner",
+   "summary_fr": "Un homme vint prêter allégeance au Prophète ﷺ pour l'émigration et le combat. Le Prophète ﷺ lui demanda : « Un de tes parents est-il encore en vie ? » Il répondit : « Oui, les deux. » Il dit : « Tu cherches la récompense d'Allah ? » — « Oui. » — « Retourne alors auprès de tes parents et accompagne-les bien. » Dans une autre version, à un homme qui demandait la permission de combattre : « Tes parents sont-ils vivants ? [...] Alors c'est pour eux que tu t'efforceras. »",
+   "refs": [
+    [
+     "riyad",
+     1538
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-insulter-parents-autrui",
+   "category": "famille",
+   "title_fr": "Ne pas insulter les parents d'autrui",
+   "summary_fr": "Le Prophète ﷺ a dit : « Parmi les grands péchés, il y a le fait pour un homme d'insulter ses père et mère. » On lui dit : « Messager d'Allah, un homme insulte-t-il donc ses parents ? » Il répondit : « Oui : il insulte le père d'un autre, qui insulte alors son père ; il insulte la mère d'un autre, qui insulte alors sa mère. »",
+   "refs": [
+    [
+     "riyad",
+     1555
+    ]
+   ]
+  },
+  {
+   "slug": "liens-de-parente",
+   "category": "famille",
+   "title_fr": "Entretenir les liens de parenté",
+   "summary_fr": "Le Prophète ﷺ a dit : « Que celui qui aime voir ses biens étendus et sa vie prolongée entretienne ses liens de parenté. » Il a aussi dit : « Le lien de parenté est suspendu au Trône et dit : Celui qui me maintient, Allah le maintient ; celui qui me coupe, Allah le coupe. » Et : « N'entrera pas au Paradis celui qui coupe [les liens de parenté]. »",
+   "refs": [
+    [
+     "riyad",
+     1536
+    ],
+    [
+     "riyad",
+     1540
+    ],
+    [
+     "riyad",
+     1556
+    ]
+   ]
+  },
+  {
+   "slug": "bonte-epouse",
+   "category": "famille",
+   "title_fr": "Bien traiter son épouse",
+   "summary_fr": "Le Prophète ﷺ a dit : « Traitez les femmes avec bonté, car la femme a été créée d'une côte. » Il a dit aussi : « Qu'un croyant ne déteste pas une croyante : s'il n'aime pas un trait de son caractère, il en sera satisfait par un autre. »",
+   "refs": [
+    [
+     "riyad",
+     1490
+    ],
+    [
+     "riyad",
+     1492
+    ]
+   ]
+  },
+  {
+   "slug": "service-famille",
+   "category": "famille",
+   "title_fr": "Aider aux tâches de sa famille à la maison",
+   "summary_fr": "On demanda à Aïcha (qu'Allah l'agrée) ce que faisait le Prophète ﷺ chez lui. Elle répondit : « Il était occupé au service de sa famille, et quand l'heure de la prière arrivait, il sortait pour la prière. »",
+   "refs": [
+    [
+     "riyad",
+     1822
+    ]
+   ]
+  },
+  {
+   "slug": "embrasser-enfants",
+   "category": "famille",
+   "title_fr": "Embrasser ses enfants",
+   "summary_fr": "Le Prophète ﷺ embrassa al-Hassan ibn Ali en présence d'al-Aqra' ibn Habis, qui dit : « J'ai dix enfants et je n'en ai jamais embrassé aucun. » Le Messager d'Allah ﷺ le regarda et dit : « Celui qui ne fait pas miséricorde ne recevra pas miséricorde. »",
+   "refs": [
+    [
+     "riyad",
+     214
+    ],
+    [
+     "riyad",
+     1442
+    ]
+   ]
+  },
+  {
+   "slug": "equite-enfants",
+   "category": "famille",
+   "title_fr": "Traiter ses enfants avec équité dans les dons",
+   "summary_fr": "Le père d'an-Nou'man ibn Bashir lui avait donné un ghoulam qu'il possédait. Le Prophète ﷺ lui demanda : « As-tu donné à chacun de tes enfants la même chose ? » — « Non. » — « Reprends-le alors. » Dans une version : « Craignez Allah et soyez équitables envers vos enfants. »",
+   "refs": [
+    [
+     "riyad",
+     1094
+    ]
+   ]
+  },
+  {
+   "slug": "bien-traiter-filles",
+   "category": "famille",
+   "title_fr": "Bien traiter ses filles",
+   "summary_fr": "Aïcha (qu'Allah l'agrée) a raconté qu'une femme avec ses deux filles vint demander et qu'elle ne trouva chez elle qu'une datte, qu'elle lui donna ; la femme la partagea entre ses filles sans en manger. Le Prophète ﷺ dit : « Celui qui est éprouvé par ces filles et leur fait du bien, elles seront pour lui un voile contre le Feu. » Il a dit aussi : « Celui qui prend en charge deux filles jusqu'à ce qu'elles atteignent l'âge adulte, il viendra au Jour de la Résurrection, lui et moi, comme ces deux-ci » — et il joignit ses doigts.",
+   "refs": [
+    [
+     "riyad",
+     1485
+    ],
+    [
+     "riyad",
+     1484
+    ]
+   ]
+  },
+  {
+   "slug": "prendre-en-charge-orphelin",
+   "category": "famille",
+   "title_fr": "Prendre en charge un orphelin",
+   "summary_fr": "Le Prophète ﷺ a dit : « Moi et celui qui prend en charge un orphelin, nous serons au Paradis comme cela » — et il montra l'index et le majeur en les écartant un peu. Dans la version de Mouslim : « Celui qui prend en charge un orphelin, qu'il soit le sien ou celui d'un autre. »",
+   "refs": [
+    [
+     "riyad",
+     1479
+    ],
+    [
+     "riyad",
+     1480
+    ]
+   ]
+  },
+  {
+   "slug": "honorer-invite",
+   "category": "famille",
+   "title_fr": "Honorer son invité",
+   "summary_fr": "Le Prophète ﷺ a dit : « Que celui qui croit en Allah et au Jour dernier honore son invité en lui accordant sa djaïza. » On demanda : « Quelle est sa djaïza, Messager d'Allah ? » Il répondit : « Un jour et une nuit. L'hospitalité dure trois jours ; ce qui dépasse cela est une aumône pour lui. »",
+   "refs": [
+    [
+     "riyad",
+     27
+    ],
+    [
+     "riyad",
+     1525
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-bouder-frere",
+   "category": "relations",
+   "title_fr": "Ne pas bouder son frère au-delà de trois nuits",
+   "summary_fr": "Le Prophète ﷺ a dit : « Il n'est pas licite à un musulman de délaisser son frère plus de trois nuits : ils se rencontrent, l'un se détourne, l'autre se détourne, et le meilleur des deux est celui qui commence par le salut. »",
+   "refs": [
+    [
+     "riyad",
+     913
+    ],
+    [
+     "riyad",
+     888
+    ]
+   ]
+  },
+  {
+   "slug": "aimer-pour-frere",
+   "category": "relations",
+   "title_fr": "Aimer pour son frère ce qu'on aime pour soi-même",
+   "summary_fr": "Anas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Aucun de vous ne croit vraiment tant qu'il n'aime pas pour son frère ce qu'il aime pour lui-même. »",
+   "refs": [
+    [
+     "nawawi40",
+     13
+    ],
+    [
+     "riyad",
+     1453
+    ]
+   ]
+  },
+  {
+   "slug": "visiter-frere-pour-allah",
+   "category": "relations",
+   "title_fr": "Rendre visite à son frère pour l'amour d'Allah",
+   "summary_fr": "Le Prophète ﷺ a rapporté qu'un homme alla voir un frère à lui dans un autre village. Allah posta un ange sur son chemin, qui lui demanda : « Où vas-tu ? » — « Chez un frère à moi dans ce village. » — « As-tu envers lui un bienfait dont tu veillerais à l'accroissement ? » — « Non, sinon que je l'aime pour Allah. » L'ange dit : « Je suis l'envoyé d'Allah auprès de toi : Allah t'aime comme tu l'as aimé pour Lui. »",
+   "refs": [
+    [
+     "riyad",
+     1578
+    ]
+   ]
+  },
+  {
+   "slug": "sourire-visage-avenant",
+   "category": "relations",
+   "title_fr": "Accueillir son frère avec un visage avenant",
+   "summary_fr": "Abou Dharr (qu'Allah l'agrée) a rapporté que le Prophète ﷺ lui a dit : « Ne méprise aucun bienfait, ne serait-ce que de rencontrer ton frère avec un visage avenant. » Aïcha a dit que le Prophète ﷺ ne riait jamais à gorge déployée au point qu'on voie sa luette : il se contentait de sourire.",
+   "refs": [
+    [
+     "riyad",
+     15
+    ],
+    [
+     "riyad",
+     23
+    ]
+   ]
+  },
+  {
+   "slug": "reconcilier-les-gens",
+   "category": "relations",
+   "title_fr": "Réconcilier les gens par de bonnes paroles",
+   "summary_fr": "Oumm Koulthoum (qu'Allah l'agrée) a dit avoir entendu le Messager d'Allah ﷺ dire : « N'est pas menteur celui qui réconcilie les gens en rapportant du bien ou en disant du bien. » Dans la version de Mouslim, elle ajoute ne l'avoir jamais entendu tolérer ce que les gens disent, sauf dans trois cas, dont la réconciliation entre les gens.",
+   "refs": [
+    [
+     "riyad",
+     1466
+    ]
+   ]
+  },
+  {
+   "slug": "dire-bien-ou-se-taire",
+   "category": "parole",
+   "title_fr": "Dire du bien ou se taire",
+   "summary_fr": "Le Prophète ﷺ a dit : « Que celui qui croit en Allah et au Jour dernier dise du bien ou se taise. » La même parole est rapportée avec : « Que celui qui croit en Allah et au Jour dernier n'importune pas son voisin. »",
+   "refs": [
+    [
+     "nawawi40",
+     15
+    ],
+    [
+     "riyad",
+     1525
+    ]
+   ]
+  },
+  {
+   "slug": "dire-vrai",
+   "category": "parole",
+   "title_fr": "Dire la vérité et éviter le mensonge",
+   "summary_fr": "Le Prophète ﷺ a dit : « La véracité mène à la piété, et la piété mène au Paradis ; l'homme dit la vérité jusqu'à être inscrit auprès d'Allah comme véridique. Le mensonge mène à la perversité, et la perversité mène au Feu ; l'homme ment jusqu'à être inscrit auprès d'Allah comme menteur. »",
+   "refs": [
+    [
+     "riyad",
+     863
+    ]
+   ]
+  },
+  {
+   "slug": "eviter-mediance",
+   "category": "parole",
+   "title_fr": "Ne pas médire de son frère",
+   "summary_fr": "Le Prophète ﷺ demanda : « Savez-vous ce qu'est la médisance (ghiba) ? » Ils répondirent : « Allah et Son Messager savent mieux. » Il dit : « C'est que tu mentionnes de ton frère ce qu'il n'aime pas. » On demanda : « Et si ce que je dis est bien en mon frère ? » Il répondit : « S'il a ce que tu dis, tu l'as médit ; s'il ne l'a pas, tu l'as calomnié. »",
+   "refs": [
+    [
+     "riyad",
+     844
+    ]
+   ]
+  },
+  {
+   "slug": "eviter-calomnie-namima",
+   "category": "parole",
+   "title_fr": "Ne pas colporter les paroles entre les gens",
+   "summary_fr": "Le Prophète ﷺ dit : « Voulez-vous que je vous apprenne ce qu'est al-'adh (la calomnie) ? C'est la namima : le colportage de paroles entre les gens. » Passant près de deux tombes, il dit aussi : « Ils sont châtiés [...] L'un allait de-ci de-là en colportant la namima. »",
+   "refs": [
+    [
+     "riyad",
+     859
+    ],
+    [
+     "riyad",
+     858
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-insulter-musulman",
+   "category": "parole",
+   "title_fr": "Ne pas insulter un musulman",
+   "summary_fr": "Le Prophète ﷺ a dit : « Insulter un musulman est une perversité (fusouq), et le combattre est de la mécréance. » Il a dit aussi : « N'insultez pas les morts, car ils sont parvenus à ce qu'ils ont présenté d'avance. »",
+   "refs": [
+    [
+     "riyad",
+     880
+    ],
+    [
+     "riyad",
+     885
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-maudire",
+   "category": "parole",
+   "title_fr": "Ne pas maudire",
+   "summary_fr": "Le Prophète ﷺ a dit : « Il ne convient pas à un véridique (siddiq) d'être quelqu'un qui maudit beaucoup. » Il a dit aussi : « Ceux qui maudissent beaucoup ne seront ni intercesseurs ni témoins au Jour de la Résurrection. »",
+   "refs": [
+    [
+     "riyad",
+     873
+    ],
+    [
+     "riyad",
+     874
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-chuchoter-a-deux",
+   "category": "parole",
+   "title_fr": "Ne pas chuchoter à deux en laissant un troisième à l'écart",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand vous êtes trois, que deux ne s'entretiennent pas à voix basse en laissant le troisième, jusqu'à ce que vous vous mêliez aux gens, car cela l'attristerait. »",
+   "refs": [
+    [
+     "riyad",
+     920
+    ]
+   ]
+  },
+  {
+   "slug": "garder-un-secret",
+   "category": "parole",
+   "title_fr": "Garder le secret qui a été confié",
+   "summary_fr": "Anas (qu'Allah l'agrée) a raconté que le Prophète ﷺ l'envoya en commission alors qu'il jouait avec des garçons ; à sa mère qui lui demandait ce dont il s'agissait, il répondit que c'était un secret. Elle dit : « Ne révèle à personne le secret du Messager d'Allah ﷺ. » Abou Sa'id al-Khoudri a rapporté cette parole du Prophète ﷺ : « Parmi les pires des gens auprès d'Allah au Jour de la Résurrection, il y a l'homme qui s'unit à sa femme et dont elle s'unit à lui, puis qui divulgue son secret. »",
+   "refs": [
+    [
+     "riyad",
+     8
+    ],
+    [
+     "riyad",
+     5
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-tout-rapporter",
+   "category": "parole",
+   "title_fr": "Ne pas rapporter tout ce qu'on entend",
+   "summary_fr": "Le Prophète ﷺ a dit : « Il suffit à un homme, comme mensonge, de rapporter tout ce qu'il entend. »",
+   "refs": [
+    [
+     "riyad",
+     868
+    ]
+   ]
+  },
+  {
+   "slug": "garantir-sa-langue",
+   "category": "parole",
+   "title_fr": "Se porter garant de ce qu'il y a entre ses mâchoires",
+   "summary_fr": "Sahl ibn Sa'd (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui me garantit ce qu'il y a entre ses deux mâchoires et ce qu'il y a entre ses deux jambes, je lui garantis le Paradis. » Il a dit aussi : « Le musulman est celui dont les musulmans sont à l'abri de la langue et de la main. »",
+   "refs": [
+    [
+     "riyad",
+     834
+    ],
+    [
+     "riyad",
+     886
+    ]
+   ]
+  }
+ ],
+ "translations": {
+  "riyad:1533": "Abou Hourayra (qu'Allah l'agrée) a rapporté : Un homme vint trouver le Messager d'Allah ﷺ et dit : « Ô Messager d'Allah, qui a le plus de droit à ma bonne compagnie ? » Il répondit : « Ta mère. » — « Puis qui ? » — « Ta mère. » — « Puis qui ? » — « Ta mère. » — « Puis qui ? » — « Ton père. » Dans une version : « Ta mère, puis ta mère, puis ta mère, puis ton père, puis le plus proche de toi, puis le plus proche. »",
+  "riyad:1538": "Abdallah ibn Amr ibn al-As (qu'Allah l'agrée) a rapporté : Un homme vint trouver le Prophète d'Allah ﷺ et dit : « Je te prête allégeance pour l'émigration et le combat, en recherchant la récompense d'Allah. » Il dit : « Un de tes parents est-il encore en vie ? » — « Oui, les deux. » Il dit : « Et tu recherches la récompense d'Allah ? » — « Oui. » Il dit : « Retourne alors auprès de tes parents et accompagne-les bien. » Dans une autre version, un homme demanda la permission de combattre ; il dit : « Tes parents sont-ils vivants ? » — « Oui. » Il dit : « Alors c'est pour eux que tu t'efforceras. »",
+  "riyad:1555": "Abdallah ibn Amr (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Parmi les grands péchés, il y a le fait pour un homme d'insulter ses père et mère. » On dit : « Ô Messager d'Allah, un homme insulte-t-il donc ses père et mère ? » Il répondit : « Oui : il insulte le père d'un homme, qui insulte alors son père ; et il insulte sa mère, qui insulte alors sa mère. » Dans une version : « Parmi les plus grands péchés, il y a le fait pour un homme de maudire ses père et mère. » On dit : « Comment un homme maudit-il ses père et mère ? » Il répondit : « Il insulte le père d'un homme, qui insulte alors son père ; et il insulte sa mère, qui insulte alors sa mère. »",
+  "riyad:1536": "Anas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui aime que ses biens soient étendus et que sa vie soit prolongée, qu'il entretienne ses liens de parenté. »",
+  "riyad:1540": "Aïcha (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le lien de parenté est suspendu au Trône et dit : Celui qui me maintient, Allah le maintient ; celui qui me coupe, Allah le coupe. »",
+  "riyad:1556": "Joubayr ibn Mout'im (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « N'entrera pas au Paradis celui qui coupe. » Soufyan a précisé dans sa version : c'est-à-dire celui qui coupe les liens de parenté.",
+  "riyad:1490": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Traitez les femmes avec bonté, car la femme a été créée d'une côte, et la partie la plus courbée de la côte est son haut. Si tu veux la redresser, tu la brises ; si tu la laisses, elle reste courbée. Traitez donc les femmes avec bonté. » Dans une version des deux Sahih : « La femme est comme la côte : si tu veux la redresser, tu la brises ; si tu en jouis, tu en jouis avec sa courbure. »",
+  "riyad:1492": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Qu'un croyant ne déteste pas une croyante : s'il n'aime pas en elle un trait de caractère, il sera satisfait d'un autre. » (ou une formulation équivalente, avec « un différent »)",
+  "riyad:1822": "Al-Aswad ibn Yazid a rapporté : On demanda à Aïcha (qu'Allah l'agrée) : « Que faisait le Prophète ﷺ chez lui ? » Elle répondit : « Il était occupé au service de sa famille, et quand l'heure de la prière arrivait, il sortait pour la prière. »",
+  "riyad:1442": "Abou Hourayra (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ embrassa al-Hassan ibn Ali (qu'Allah les agrée) en présence d'al-Aqra' ibn Habis, qui dit : « J'ai dix enfants et je n'en ai embrassé aucun. » Le Messager d'Allah ﷺ le regarda et dit : « Celui qui ne fait pas miséricorde ne recevra pas miséricorde. »",
+  "riyad:1094": "An-Nou'man ibn Bashir (qu'Allah l'agrée) a rapporté que son père l'amena auprès du Messager d'Allah ﷺ et dit : « J'ai donné à mon fils que voici un ghoulam qui m'appartenait. » Le Messager d'Allah ﷺ dit : « As-tu donné à chacun de tes enfants la même chose ? » — « Non. » Le Messager d'Allah ﷺ dit : « Reprends-le alors. » Dans une version : « As-tu fait cela pour tous tes enfants ? » — « Non. » Il dit : « Craignez Allah et soyez équitables envers vos enfants. » Mon père revint donc et reprit cette aumône. Dans une autre version : « Ne me prends pas à témoin, car je ne témoigne pas d'une injustice. » Dans une autre : « Cherche un autre que moi comme témoin. » Puis il dit : « Cela te plairait-il qu'ils soient tous égaux envers toi dans la bonté ? » — « Oui. » — « Alors non. »",
+  "riyad:1485": "Aïcha (qu'Allah l'agrée) a rapporté : Une femme vint chez moi avec ses deux filles pour demander l'aumône. Elle ne trouva chez moi qu'une seule datte, que je lui donnai ; elle la partagea entre ses deux filles sans en manger, puis se leva et sortit. Le Prophète ﷺ entra alors chez nous et je le lui racontai. Il dit : « Celui qui est éprouvé par quelque chose au sujet de ces filles et leur fait du bien, elles seront pour lui un voile contre le Feu. »",
+  "riyad:1484": "Anas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui prend en charge deux filles jusqu'à ce qu'elles atteignent l'âge adulte, il viendra au Jour de la Résurrection, lui et moi, comme ces deux-ci » — et il joignit ses doigts.",
+  "riyad:1479": "Sahl ibn Sa'd (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Moi et celui qui prend en charge un orphelin, nous serons au Paradis comme cela » — et il montra l'index et le majeur en les écartant.",
+  "riyad:1480": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui prend en charge un orphelin, qu'il soit le sien ou celui d'un autre, moi et lui serons comme ces deux-ci au Paradis. » Le narrateur, Malik ibn Anas, montra l'index et le majeur.",
+  "riyad:27": "Abou Chouray Khouwaylid ibn Amr al-Khouza'i (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Que celui qui croit en Allah et au Jour dernier honore son invité en lui accordant sa djaïza. » On dit : « Qu'est-ce que sa djaïza, ô Messager d'Allah ? » Il répondit : « Son jour et sa nuit. L'hospitalité dure trois jours ; ce qui vient au-delà est une aumône pour lui. » Dans une version de Mouslim : « Il n'est pas licite à un musulman de demeurer chez son frère au point de le faire tomber dans le péché. » On dit : « Ô Messager d'Allah, comment le fait-il tomber dans le péché ? » Il répondit : « Il demeure chez lui sans que celui-ci ait de quoi le recevoir. »",
+  "riyad:1525": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Que celui qui croit en Allah et au Jour dernier ne fasse pas de tort à son voisin ; que celui qui croit en Allah et au Jour dernier honore son invité ; que celui qui croit en Allah et au Jour dernier dise du bien ou se taise. »",
+  "riyad:913": "Abou Ayyoub (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Il n'est pas licite à un musulman de délaisser son frère plus de trois nuits : ils se rencontrent, l'un se détourne et l'autre se détourne, et le meilleur des deux est celui qui commence par le salut. »",
+  "riyad:1453": "Anas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Aucun de vous ne croit vraiment tant qu'il n'aime pas pour son frère ce qu'il aime pour lui-même. »",
+  "riyad:1578": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : Un homme alla rendre visite à un frère à lui dans un autre village. Allah posta un ange sur son chemin. Quand il arriva à sa hauteur, l'ange dit : « Où vas-tu ? » Il répondit : « Je vais voir un frère à moi dans ce village. » Il dit : « As-tu envers lui un bienfait dont tu veillerais à l'accroissement ? » — « Non, sinon que je l'aime pour Allah, le Très-Haut. » Il dit : « Je suis l'envoyé d'Allah auprès de toi : Allah t'aime comme tu l'as aimé pour Lui. »",
+  "riyad:15": "Abou Dharr (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ m'a dit : « Ne méprise aucun bienfait, ne serait-ce que de rencontrer ton frère avec un visage avenant. »",
+  "riyad:23": "Aïcha (qu'Allah l'agrée) a rapporté : Je n'ai jamais vu le Messager d'Allah ﷺ rire à gorge déployée au point qu'on voie sa luette ; il ne faisait que sourire.",
+  "riyad:1466": "Oumm Koulthoum, fille d'Ouqba ibn Abi Mou'ayt (qu'Allah l'agrée), a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « N'est pas menteur celui qui réconcilie les gens, en rapportant du bien ou en disant du bien. » Dans la version de Mouslim, elle ajoute : Je ne l'ai pas entendu autoriser quoi que ce soit de ce que disent les gens, sauf dans trois cas : la guerre, la réconciliation entre les gens, et la parole de l'homme à sa femme et de la femme à son mari.",
+  "riyad:863": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « La véracité mène à la piété, et la piété mène au Paradis ; l'homme dit la vérité jusqu'à être inscrit auprès d'Allah comme véridique (siddiq). Le mensonge mène à la perversité, et la perversité mène au Feu ; l'homme ment jusqu'à être inscrit auprès d'Allah comme menteur. »",
+  "riyad:844": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Savez-vous ce qu'est la médisance (ghiba) ? » Ils répondirent : « Allah et Son Messager savent mieux. » Il dit : « C'est que tu mentionnes de ton frère ce qu'il n'aime pas. » On dit : « Et si ce que je dis est bien en mon frère ? » Il répondit : « S'il a ce que tu dis, tu l'as médit (ightabtahu) ; et s'il ne l'a pas, tu l'as calomnié (bahattahu). »",
+  "riyad:859": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Voulez-vous que je vous apprenne ce qu'est al-'adh ? C'est la namima, le colportage de paroles entre les gens. »",
+  "riyad:858": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ passa près de deux tombes et dit : « Ils sont châtiés, et ils ne le sont pas pour une chose grave. Si, en vérité, elle est grave : l'un allait de-ci de-là en colportant la namima, et l'autre ne se protégeait pas de son urine. »",
+  "riyad:880": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Insulter un musulman est une perversité (fusouq), et le combattre est de la mécréance (koufr). »",
+  "riyad:885": "Aïcha (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « N'insultez pas les morts, car ils sont parvenus à ce qu'ils ont présenté d'avance. »",
+  "riyad:873": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Il ne convient pas à un véridique (siddiq) d'être quelqu'un qui maudit beaucoup. »",
+  "riyad:874": "Abou ad-Darda (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ a dit : « Ceux qui maudissent beaucoup ne seront ni intercesseurs ni témoins au Jour de la Résurrection. »",
+  "riyad:920": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand vous êtes trois, que deux ne s'entretiennent pas à voix basse en laissant le troisième, jusqu'à ce que vous vous mêliez aux gens, car cela l'attristerait. »",
+  "riyad:8": "Anas (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ passa près de moi alors que je jouais avec des garçons. Il nous salua, puis m'envoya faire une course, et je tardai à rentrer chez ma mère. Quand je vins, elle dit : « Qu'est-ce qui t'a retenu ? » Je répondis : « Le Messager d'Allah ﷺ m'a envoyé pour une affaire. » Elle dit : « Quelle affaire ? » Je dis : « C'est un secret. » Elle dit : « Ne révèle à personne le secret du Messager d'Allah ﷺ. » Anas dit : Par Allah, si j'en avais parlé à quelqu'un, je t'en aurais parlé, ô Thabit.",
+  "riyad:5": "Abou Sa'id al-Khoudri (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Parmi les pires des gens auprès d'Allah, quant au rang, au Jour de la Résurrection, il y a l'homme qui s'unit à sa femme et dont elle s'unit à lui, puis qui divulgue son secret. »",
+  "riyad:868": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Il suffit à un homme, comme mensonge, de rapporter tout ce qu'il entend. »",
+  "riyad:834": "Sahl ibn Sa'd (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui me garantit ce qu'il y a entre ses deux mâchoires et ce qu'il y a entre ses deux jambes, je lui garantis le Paradis. »",
+  "riyad:886": "Abdallah ibn Amr ibn al-As (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le musulman est celui dont les musulmans sont à l'abri de sa langue et de sa main ; et l'émigrant est celui qui délaisse ce qu'Allah a interdit. »"
+ }
+}

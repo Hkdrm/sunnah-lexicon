@@ -1,0 +1,619 @@
+{
+ "categories": [
+  {
+   "slug": "voyage",
+   "label_fr": "Voyage et déplacements"
+  },
+  {
+   "slug": "maladie-deuil",
+   "label_fr": "Maladie et deuil"
+  },
+  {
+   "slug": "affaires",
+   "label_fr": "Commerce et travail"
+  }
+ ],
+ "practices": [
+  {
+   "slug": "refuge-etape-voyage",
+   "category": "voyage",
+   "title_fr": "Chercher refuge dans les paroles parfaites d'Allah en faisant halte",
+   "summary_fr": "Khawla bint Hakim a entendu le Messager d'Allah ﷺ dire : « Celui qui fait halte en un lieu puis dit : « A'oudhou bi kalimatillahi t-tammati min charri ma khalaq » (Je cherche refuge dans les paroles parfaites d'Allah contre le mal de ce qu'Il a créé), rien ne lui nuira jusqu'à ce qu'il quitte ce lieu. »",
+   "refs": [
+    [
+     "riyad",
+     303
+    ]
+   ]
+  },
+  {
+   "slug": "rentrer-vite-voyage",
+   "category": "voyage",
+   "title_fr": "Rentrer chez les siens sans tarder une fois son affaire accomplie en voyage",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Le voyage est un morceau de châtiment : il prive l'un de vous de sa nourriture, de sa boisson et de son sommeil. Quand l'un de vous a accompli son affaire en voyage, qu'il se hâte de retourner auprès de sa famille. »",
+   "refs": [
+    [
+     "riyad",
+     305
+    ]
+   ]
+  },
+  {
+   "slug": "pas-de-retour-nocturne",
+   "category": "voyage",
+   "title_fr": "Ne pas arriver chez soi de nuit au retour d'un voyage",
+   "summary_fr": "Anas a rapporté que le Messager d'Allah ﷺ ne se présentait pas chez les siens la nuit : il venait chez eux le matin ou en fin de journée.",
+   "refs": [
+    [
+     "riyad",
+     307
+    ]
+   ]
+  },
+  {
+   "slug": "conseil-depart-voyage",
+   "category": "voyage",
+   "title_fr": "Dire Allahou akbar sur chaque hauteur et invoquer pour le voyageur",
+   "summary_fr": "Un homme qui voulait voyager demanda un conseil au Prophète ﷺ, qui lui dit : « Aie la crainte d'Allah et dis « Allahou akbar » sur chaque hauteur. » Quand l'homme s'en alla, il dit : « Ô Allah, raccourcis-lui la distance et facilite-lui le voyage. »",
+   "refs": [
+    [
+     "riyad",
+     299
+    ]
+   ]
+  },
+  {
+   "slug": "visiter-malade",
+   "category": "maladie-deuil",
+   "title_fr": "Visiter le malade",
+   "summary_fr": "Al-Bara ibn Azib a rapporté que le Messager d'Allah ﷺ leur avait ordonné sept choses, dont visiter le malade et suivre les funérailles. Abou Hourayra rapporte aussi cette parole du Prophète ﷺ : Allah dira au Jour de la Résurrection : « Fils d'Adam, j'étais malade et tu ne m'as pas visité… Si tu l'avais visité, tu M'aurais trouvé auprès de lui. »",
+   "refs": [
+    [
+     "riyad",
+     217
+    ],
+    [
+     "riyad",
+     167
+    ]
+   ]
+  },
+  {
+   "slug": "ba-s-tahour-malade",
+   "category": "maladie-deuil",
+   "title_fr": "Dire « Pas de mal, purification si Allah le veut » à un malade",
+   "summary_fr": "Ibn Abbas a rapporté que lorsque le Prophète ﷺ entrait chez un malade pour le visiter, il disait : « La ba's, tahourun in cha Allah » (Pas de mal, [cela sera] une purification, si Allah le veut).",
+   "refs": [
+    [
+     "riyad",
+     228
+    ]
+   ]
+  },
+  {
+   "slug": "invoquer-malade-main-droite",
+   "category": "maladie-deuil",
+   "title_fr": "Passer la main droite sur le malade en invoquant pour sa guérison",
+   "summary_fr": "Aïcha a rapporté que le Prophète ﷺ passait sa main droite sur le malade en disant : « Allahoumma rabba n-nas, adhhib il-ba's, wachfi anta ch-Chafi, la chifa'a illa chifa'ouk » (Ô Allah, Seigneur des gens, ôte le mal et guéris, Tu es Celui qui guérit, il n'y a de guérison que la Tienne…). Ibn Abbas : « Celui qui visite un malade dont le terme n'est pas arrivé et dit sept fois auprès de lui : « As'alou Llaha l-'Adhim, Rabba l-'Archi l-'Adhim, an yachfiyak » (Je demande à Allah le Très Grand, Seigneur du Trône immense, de te guérir), Allah le guérit de cette maladie. »",
+   "refs": [
+    [
+     "riyad",
+     223
+    ],
+    [
+     "riyad",
+     227
+    ]
+   ]
+  },
+  {
+   "slug": "main-sur-la-douleur",
+   "category": "maladie-deuil",
+   "title_fr": "Poser la main sur l'endroit douloureux et invoquer",
+   "summary_fr": "Outhman ibn Abi al-As se plaignit au Messager d'Allah ﷺ d'une douleur dans son corps. Il lui dit : « Pose ta main sur l'endroit qui te fait mal et dis : « Bismillah » trois fois, puis dis sept fois : « A'oudhou bi 'izzatillahi wa qudratihi min charri ma ajidou wa uhadhir » (Je cherche refuge dans la puissance d'Allah et Son pouvoir contre le mal que je ressens et que je redoute). »",
+   "refs": [
+    [
+     "riyad",
+     226
+    ]
+   ]
+  },
+  {
+   "slug": "plaie-bismillah-salive",
+   "category": "maladie-deuil",
+   "title_fr": "Dire « Bismillah » en touchant la terre pour une plaie ou un mal",
+   "summary_fr": "Aïcha a rapporté que lorsqu'une personne se plaignait de quelque chose, ou avait une plaie ou une blessure, le Prophète ﷺ disait, en posant son doigt sur la terre puis en le relevant : « Bismillah, tourbatou ardina, biriqati ba'dina, yachfi saqimouna, bi idhni Rabbina » (Au nom d'Allah, la terre de notre sol, avec la salive de certains d'entre nous, que guérisse notre malade, avec la permission de notre Seigneur).",
+   "refs": [
+    [
+     "riyad",
+     222
+    ]
+   ]
+  },
+  {
+   "slug": "croyant-patient-reconnaissant",
+   "category": "maladie-deuil",
+   "title_fr": "Remercier dans l'aisance et patienter dans l'épreuve",
+   "summary_fr": "Souhayb a rapporté que le Prophète ﷺ a dit : « Étonnante est la situation du croyant : tout ce qui le concerne est un bien pour lui, et cela n'est le cas que pour le croyant. S'il lui arrive un bonheur, il remercie, et c'est un bien pour lui ; s'il lui arrive un malheur, il patiente, et c'est un bien pour lui. »",
+   "refs": [
+    [
+     "riyad",
+     1244
+    ]
+   ]
+  },
+  {
+   "slug": "patience-premier-choc",
+   "category": "maladie-deuil",
+   "title_fr": "Patienter dès le premier choc du malheur",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ passa près d'une femme qui pleurait auprès d'une tombe et lui dit : « Crains Allah et sois patiente. » Elle répondit : « Éloigne-toi de moi, tu n'as pas été touché par mon malheur », sans le reconnaître. Quand on lui dit que c'était le Prophète ﷺ, elle vint à sa porte s'excuser. Il dit : « La patience, c'est au premier choc. »",
+   "refs": [
+    [
+     "riyad",
+     1248
+    ]
+   ]
+  },
+  {
+   "slug": "inna-lillahi-malheur",
+   "category": "maladie-deuil",
+   "title_fr": "Dire « Inna lillahi wa inna ilayhi raji'oun » devant le malheur",
+   "summary_fr": "Oumm Salama a entendu le Messager d'Allah ﷺ dire : « Il n'est aucun serviteur touché par un malheur qui dise : « Inna lillahi wa inna ilayhi raji'oun. Allahoumma ajirni fi mousibati, wa akhlif li khayran minha » (Nous appartenons à Allah et c'est vers Lui que nous retournons. Ô Allah, récompense-moi dans mon malheur et remplace-le-moi par mieux), sans qu'Allah ne le récompense dans son malheur et ne lui donne en échange mieux que cela. »",
+   "refs": [
+    [
+     "riyad",
+     242
+    ]
+   ]
+  },
+  {
+   "slug": "epreuves-effacent-fautes",
+   "category": "maladie-deuil",
+   "title_fr": "Endurer fatigue, maladie, souci ou piqûre d'épine",
+   "summary_fr": "Abou Said et Abou Hourayra ont rapporté que le Prophète ﷺ a dit : « Aucune fatigue, aucune maladie, aucun souci, aucune tristesse, aucun mal ni aucune peine n'atteint le musulman, même une épine qui le pique, sans qu'Allah n'efface par cela une partie de ses fautes. »",
+   "refs": [
+    [
+     "riyad",
+     1254
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-souhaiter-mort",
+   "category": "maladie-deuil",
+   "title_fr": "Ne pas souhaiter la mort à cause d'un mal, et invoquer ainsi",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ a dit : « Que nul d'entre vous ne souhaite la mort à cause d'un mal qui l'a atteint. S'il ne peut faire autrement, qu'il dise : « Allahoumma ahyini ma kanat il-hayatou khayran li, wa tawaffani idha kanat il-wafatou khayran li » (Ô Allah, fais-moi vivre tant que la vie est un bien pour moi et rappelle-moi à Toi quand la mort est un bien pour moi). »",
+   "refs": [
+    [
+     "riyad",
+     1257
+    ]
+   ]
+  },
+  {
+   "slug": "bonne-opinion-allah",
+   "category": "maladie-deuil",
+   "title_fr": "Avoir une bonne opinion d'Allah",
+   "summary_fr": "Jabir a entendu le Prophète ﷺ dire, trois jours avant sa mort : « Que nul d'entre vous ne meure sans avoir une bonne opinion d'Allah, Puissant et Majestueux. »",
+   "refs": [
+    [
+     "riyad",
+     1658
+    ]
+   ]
+  },
+  {
+   "slug": "dire-du-bien-pres-defunt",
+   "category": "maladie-deuil",
+   "title_fr": "Dire du bien auprès du malade ou du défunt",
+   "summary_fr": "Oumm Salama a rapporté que le Prophète ﷺ a dit : « Quand vous êtes auprès d'un malade ou d'un mort, dites du bien, car les anges disent « Amine » à ce que vous dites. » À la mort d'Abou Salama, il lui dit de dire : « Allahoumma ighfir li wa lahou, wa a'qibni minhou 'uqba hasana » (Ô Allah, pardonne-moi ainsi que lui, et accorde-moi après lui une belle compensation).",
+   "refs": [
+    [
+     "riyad",
+     241
+    ]
+   ]
+  },
+  {
+   "slug": "pleurer-compassion-malade",
+   "category": "maladie-deuil",
+   "title_fr": "Pleurer de compassion auprès d'un malade",
+   "summary_fr": "Ibn Omar a rapporté que le Prophète ﷺ rendit visite à Sa'd ibn Oubada et pleura. Voyant cela, les gens pleurèrent aussi. Il dit : « N'entendez-vous pas ? Allah ne châtie pas pour les larmes de l'œil ni pour la tristesse du cœur, mais Il châtie — ou fait miséricorde — à cause de ceci », et il montra sa langue.",
+   "refs": [
+    [
+     "riyad",
+     246
+    ]
+   ]
+  },
+  {
+   "slug": "suivre-funerailles",
+   "category": "maladie-deuil",
+   "title_fr": "Suivre le cortège funèbre jusqu'à l'inhumation",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui assiste au cortège funèbre jusqu'à ce que la prière soit faite aura un qirat, et celui qui y assiste jusqu'à l'inhumation aura deux qirats. » On demanda : « Que sont les deux qirats ? » Il dit : « Comme deux grandes montagnes. »",
+   "refs": [
+    [
+     "riyad",
+     250
+    ],
+    [
+     "riyad",
+     215
+    ]
+   ]
+  },
+  {
+   "slug": "hater-cortege-funebre",
+   "category": "maladie-deuil",
+   "title_fr": "Se hâter avec le cortège funèbre",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Hâtez-vous avec le cortège funèbre : si le défunt est vertueux, c'est un bien vers lequel vous le faites avancer ; sinon, c'est un mal que vous déposez de vos épaules. »",
+   "refs": [
+    [
+     "riyad",
+     262
+    ]
+   ]
+  },
+  {
+   "slug": "invocation-priere-funeraire",
+   "category": "maladie-deuil",
+   "title_fr": "Invoquer pour le défunt pendant la prière funéraire",
+   "summary_fr": "Awf ibn Malik a rapporté que le Messager d'Allah ﷺ pria sur un défunt et qu'il retint son invocation : « Ô Allah, pardonne-lui, fais-lui miséricorde, accorde-lui le salut, efface ses fautes, honore sa demeure, élargis son entrée, lave-le avec l'eau, la neige et la grêle, purifie-le des péchés comme on purifie le vêtement blanc de la saleté… » Abou Hourayra rapporte aussi : « Quand vous priez sur le mort, invoquez pour lui avec sincérité. »",
+   "refs": [
+    [
+     "riyad",
+     256
+    ],
+    [
+     "riyad",
+     258
+    ]
+   ]
+  },
+  {
+   "slug": "demander-fermete-defunt",
+   "category": "maladie-deuil",
+   "title_fr": "S'arrêter près de la tombe pour demander pardon et fermeté pour le défunt",
+   "summary_fr": "Outhman ibn Affan a rapporté que lorsque le Prophète ﷺ avait fini d'enterrer un mort, il se tenait près de la tombe et disait : « Demandez le pardon pour votre frère et demandez pour lui la fermeté, car il est interrogé maintenant. »",
+   "refs": [
+    [
+     "riyad",
+     267
+    ]
+   ]
+  },
+  {
+   "slug": "verite-vente",
+   "category": "affaires",
+   "title_fr": "Dire la vérité et clarifier dans la vente et l'achat",
+   "summary_fr": "Hakim ibn Hizam a rapporté que le Prophète ﷺ a dit : « Le vendeur et l'acheteur ont le choix tant qu'ils ne se sont pas séparés. S'ils sont sincères et clairs, leur vente sera bénie ; s'ils cachent et mentent, la bénédiction de leur vente sera effacée. »",
+   "refs": [
+    [
+     "riyad",
+     1276
+    ]
+   ]
+  },
+  {
+   "slug": "indulgence-vente-achat",
+   "category": "affaires",
+   "title_fr": "Se montrer indulgent en vendant, en achetant et en réclamant son dû",
+   "summary_fr": "Jabir a rapporté que le Prophète ﷺ a dit : « Qu'Allah fasse miséricorde à l'homme indulgent quand il vend, quand il achète et quand il réclame son dû. »",
+   "refs": [
+    [
+     "riyad",
+     689
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-jurer-vente",
+   "category": "affaires",
+   "title_fr": "Ne pas multiplier les serments pour écouler sa marchandise",
+   "summary_fr": "Abou Hourayra a entendu le Messager d'Allah ﷺ dire : « Le serment fait écouler la marchandise mais efface le gain. »",
+   "refs": [
+    [
+     "riyad",
+     1041
+    ]
+   ]
+  },
+  {
+   "slug": "vivre-de-son-travail",
+   "category": "affaires",
+   "title_fr": "Manger du fruit du travail de ses mains",
+   "summary_fr": "Al-Miqdam ibn Ma'dikarib a rapporté que le Prophète ﷺ a dit : « Personne n'a jamais mangé de nourriture meilleure que celle qu'il mange du travail de sa main. Le prophète d'Allah Daoud ﷺ mangeait du travail de sa main. »",
+   "refs": [
+    [
+     "riyad",
+     1759
+    ]
+   ]
+  },
+  {
+   "slug": "accorder-delai-debiteur",
+   "category": "affaires",
+   "title_fr": "Passer sur la dette de celui qui est en difficulté",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Il y avait un homme qui prêtait aux gens et disait à son serviteur : « Quand tu viens chez un débiteur en difficulté, passe sur sa dette, peut-être qu'Allah passera sur nos fautes. » Il rencontra Allah, et Allah passa sur ses fautes. » Abou Masoud rapporte un récit semblable où Allah dit : « Nous y avons plus de droit que lui. Passez sur ses fautes. »",
+   "refs": [
+    [
+     "riyad",
+     691
+    ],
+    [
+     "riyad",
+     692
+    ]
+   ]
+  },
+  {
+   "slug": "retard-dette",
+   "category": "affaires",
+   "title_fr": "Ne pas retarder le paiement de sa dette",
+   "summary_fr": "Abou Hourayra a rapporté que le Messager d'Allah ﷺ a dit : « Le retard de celui qui est aisé à payer est une injustice. Et quand l'un de vous est renvoyé sur un homme solvable, qu'il le suive. »",
+   "refs": [
+    [
+     "riyad",
+     932
+    ]
+   ]
+  },
+  {
+   "slug": "bien-rendre-dette",
+   "category": "affaires",
+   "title_fr": "Rendre ce que l'on doit en donnant mieux",
+   "summary_fr": "Abou Hourayra a rapporté qu'un homme vint réclamer son dû au Prophète ﷺ en se montrant dur envers lui. Les compagnons voulurent le reprendre, mais le Prophète ﷺ dit : « Laissez-le, celui qui a un droit peut parler. » Puis il dit de lui donner un animal de même âge ; on n'en trouva qu'un meilleur. Il dit : « Donnez-le-lui, car les meilleurs d'entre vous sont ceux qui s'acquittent le mieux. »",
+   "refs": [
+    [
+     "riyad",
+     688
+    ]
+   ]
+  },
+  {
+   "slug": "humilite",
+   "category": "caractere",
+   "title_fr": "Être humble",
+   "summary_fr": "Iyad ibn Himar a rapporté que le Prophète ﷺ a dit : « Allah m'a révélé : « Soyez humbles, afin que nul ne se montre injuste envers autrui ni ne se vante devant autrui. » » Abou Hourayra rapporte aussi : « Nul ne s'humilie pour Allah sans qu'Allah l'élève. »",
+   "refs": [
+    [
+     "riyad",
+     910
+    ],
+    [
+     "riyad",
+     1772
+    ]
+   ]
+  },
+  {
+   "slug": "pardonner",
+   "category": "caractere",
+   "title_fr": "Pardonner",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Une aumône ne diminue pas un bien, Allah n'accroît le serviteur par le pardon qu'en honneur, et nul ne s'humilie pour Allah sans qu'Allah, Puissant et Majestueux, l'élève. »",
+   "refs": [
+    [
+     "riyad",
+     1772
+    ]
+   ]
+  },
+  {
+   "slug": "douceur-en-tout",
+   "category": "caractere",
+   "title_fr": "Faire preuve de douceur",
+   "summary_fr": "Aïcha a rapporté que le Prophète ﷺ a dit : « Allah est Doux et aime la douceur en toute chose. » Il a dit aussi : « La douceur n'est dans une chose sans l'embellir, et elle n'est retirée d'une chose sans l'enlaidir. » Et Jarir : « Celui qui est privé de douceur est privé de tout bien. »",
+   "refs": [
+    [
+     "riyad",
+     1849
+    ],
+    [
+     "riyad",
+     1851
+    ],
+    [
+     "riyad",
+     1854
+    ]
+   ]
+  },
+  {
+   "slug": "misericorde-etres-vivants",
+   "category": "caractere",
+   "title_fr": "Faire miséricorde aux enfants et aux animaux",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ embrassa al-Hasan ibn Ali ; al-Aqra' ibn Habis dit avoir dix enfants dont il n'a embrassé aucun. Le Prophète ﷺ dit : « Celui qui ne fait pas miséricorde ne recevra pas miséricorde ! » Il a aussi raconté qu'un homme donna à boire à un chien assoiffé, et dit : « Il y a une récompense pour toute créature au foie humide. »",
+   "refs": [
+    [
+     "riyad",
+     214
+    ],
+    [
+     "riyad",
+     1343
+    ]
+   ]
+  },
+  {
+   "slug": "remercier-les-gens",
+   "category": "caractere",
+   "title_fr": "Remercier celui qui nous a fait du bien",
+   "summary_fr": "Oussama ibn Zayd a rapporté que le Prophète ﷺ a dit : « Celui à qui l'on a fait un bien et qui dit à son auteur : « Jazaka Llahou khayran » (Qu'Allah te récompense par le bien), a atteint le sommet de la louange. » Ibn Omar rapporte aussi : « Celui qui vous fait du bien, rendez-lui la pareille. Si vous n'avez pas de quoi la lui rendre, invoquez pour lui jusqu'à penser que vous la lui avez rendue. »",
+   "refs": [
+    [
+     "riyad",
+     817
+    ],
+    [
+     "riyad",
+     1044
+    ]
+   ]
+  },
+  {
+   "slug": "promesse-depot",
+   "category": "caractere",
+   "title_fr": "Tenir sa parole, sa promesse et restituer ce qu'on nous a confié",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Le signe de l'hypocrite est triple : quand il parle, il ment ; quand il promet, il manque à sa promesse ; quand on lui confie un dépôt, il trahit. »",
+   "refs": [
+    [
+     "riyad",
+     9
+    ],
+    [
+     "riyad",
+     10
+    ]
+   ]
+  },
+  {
+   "slug": "bonne-compagnie",
+   "category": "caractere",
+   "title_fr": "Fréquenter les gens de bien",
+   "summary_fr": "Abou Moussa al-Ach'ari a rapporté que le Prophète ﷺ a dit : « Le bon compagnon et le mauvais compagnon sont comme le porteur de musc et le souffleur de forge. Le porteur de musc, soit il t'en offre, soit tu lui en achètes, soit tu sens de lui une bonne odeur ; le souffleur de forge, soit il brûle tes vêtements, soit tu sens de lui une mauvaise odeur. »",
+   "refs": [
+    [
+     "riyad",
+     1580
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-jalouser",
+   "category": "caractere",
+   "title_fr": "Ne pas se jalouser ni se détester",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ a dit : « Ne vous détestez pas, ne vous jalousez pas, ne vous tournez pas le dos, ne rompez pas les liens, et soyez, ô serviteurs d'Allah, des frères. »",
+   "refs": [
+    [
+     "riyad",
+     888
+    ]
+   ]
+  },
+  {
+   "slug": "regarder-en-dessous",
+   "category": "caractere",
+   "title_fr": "Regarder celui qui a moins que soi plutôt que celui qui a plus",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Regardez celui qui est au-dessous de vous et ne regardez pas celui qui est au-dessus de vous : c'est le plus propre à ce que vous ne méprisiez pas les bienfaits d'Allah envers vous. »",
+   "refs": [
+    [
+     "riyad",
+     1683
+    ]
+   ]
+  },
+  {
+   "slug": "pas-orgueil",
+   "category": "caractere",
+   "title_fr": "Ne pas avoir d'orgueil dans le cœur",
+   "summary_fr": "Ibn Mas'oud a rapporté que le Prophète ﷺ a dit : « N'entrera pas au Paradis celui qui a dans le cœur le poids d'un atome d'orgueil. » Un homme dit qu'il aime avoir un beau vêtement et de belles sandales. Il répondit : « Allah est beau et aime la beauté. L'orgueil, c'est rejeter la vérité et mépriser les gens. »",
+   "refs": [
+    [
+     "riyad",
+     896
+    ]
+   ]
+  },
+  {
+   "slug": "se-mefier-supposition",
+   "category": "caractere",
+   "title_fr": "Se garder des mauvaises suppositions",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Gardez-vous de la supposition, car la supposition est la plus mensongère des paroles ; ne cherchez pas à épier, ne vous espionnez pas, ne rivalisez pas par envie, ne vous jalousez pas, ne vous détestez pas, ne vous tournez pas le dos, et soyez, ô serviteurs d'Allah, des frères. »",
+   "refs": [
+    [
+     "riyad",
+     891
+    ]
+   ]
+  },
+  {
+   "slug": "parole-bonne-sadaqa",
+   "category": "caractere",
+   "title_fr": "Dire une bonne parole",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « La bonne parole est une aumône. »",
+   "refs": [
+    [
+     "riyad",
+     14
+    ]
+   ]
+  },
+  {
+   "slug": "bon-caractere",
+   "category": "caractere",
+   "title_fr": "Avoir un bon caractère",
+   "summary_fr": "An-Nawwas ibn Sam'an a rapporté que le Prophète ﷺ a dit : « La piété, c'est le bon caractère ; et le péché, c'est ce qui te trouble le cœur et que tu détestes voir connu des gens. »",
+   "refs": [
+    [
+     "riyad",
+     1806
+    ]
+   ]
+  },
+  {
+   "slug": "patience-retenue",
+   "category": "caractere",
+   "title_fr": "Chercher la patience et la retenue",
+   "summary_fr": "Abou Said al-Khoudri a rapporté que des Ansars demandèrent au Prophète ﷺ, qui leur donna, jusqu'à épuiser ce qu'il avait. Il dit alors : « Ce que j'ai comme bien, je ne vous le garderai pas. Celui qui se retient, Allah le préservera ; celui qui se contente, Allah l'enrichira ; celui qui s'efforce à la patience, Allah le rendra patient. Nul n'a reçu un don meilleur ni plus vaste que la patience. »",
+   "refs": [
+    [
+     "riyad",
+     1243
+    ]
+   ]
+  }
+ ],
+ "translations": {
+  "riyad:303": "Khawla bint Hakim (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Celui qui fait halte en un lieu puis dit : « A'oudhou bi kalimatillahi t-tammati min charri ma khalaq » (Je cherche refuge dans les paroles parfaites d'Allah contre le mal de ce qu'Il a créé), rien ne lui nuira jusqu'à ce qu'il quitte ce lieu. »",
+  "riyad:305": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le voyage est un morceau de châtiment : il prive l'un de vous de sa nourriture, de sa boisson et de son sommeil. Quand l'un de vous a accompli ce qu'il voulait de son voyage, qu'il se hâte de retourner auprès de sa famille. »",
+  "riyad:307": "Anas (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ ne se présentait pas chez les siens la nuit ; il venait chez eux le matin ou en fin de journée.",
+  "riyad:299": "Abou Hourayra (qu'Allah l'agrée) a rapporté qu'un homme dit : Ô Messager d'Allah, je veux voyager, donne-moi un conseil. Il dit : « Aie la crainte d'Allah et dis « Allahou akbar » sur chaque hauteur. » Lorsque l'homme s'en alla, le Prophète ﷺ dit : « Ô Allah, raccourcis-lui la distance et facilite-lui le voyage. »",
+  "riyad:217": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Allah, Puissant et Majestueux, dira au Jour de la Résurrection : « Fils d'Adam, j'étais malade et tu ne m'as pas visité ! » Il dira : « Seigneur, comment te visiterais-je alors que Tu es le Seigneur des mondes ? » Il dira : « Ne savais-tu pas que Mon serviteur un tel était malade et que tu ne l'as pas visité ? Ne savais-tu pas que, si tu l'avais visité, tu M'aurais trouvé auprès de lui ? Fils d'Adam, je t'ai demandé à manger et tu ne M'as pas nourri ! » Il dira : « Seigneur, comment te nourrirais-je alors que Tu es le Seigneur des mondes ? » Il dira : « Ne savais-tu pas que Mon serviteur un tel t'a demandé à manger et que tu ne l'as pas nourri ? Ne savais-tu pas que, si tu l'avais nourri, tu l'aurais trouvé auprès de Moi ? Fils d'Adam, je t'ai demandé à boire et tu ne M'as pas donné à boire ! » Il dira : « Seigneur, comment te donnerais-je à boire alors que Tu es le Seigneur des mondes ? » Il dira : « Mon serviteur un tel t'a demandé à boire et tu ne lui as pas donné à boire ! Ne savais-tu pas que, si tu lui avais donné à boire, tu l'aurais trouvé auprès de Moi ? » »",
+  "riyad:167": "Al-Bara ibn Azib (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ nous a ordonné sept choses : visiter le malade, suivre les funérailles, dire « Yarhamuk Allah » à celui qui éternue, soutenir le faible, aider l'opprimé, répandre le salut et aider celui qui a prêté serment à tenir son serment.",
+  "riyad:228": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ entra chez un bédouin pour le visiter. Chaque fois qu'il entrait chez un malade pour le visiter, il disait : « La ba's, tahourun in cha Allah » (Pas de mal, [cela sera] une purification, si Allah le veut).",
+  "riyad:223": "Aïcha (qu'Allah l'agrée) a rapporté que le Prophète ﷺ visitait certains membres de sa famille en passant sur le malade sa main droite et en disant : « Allahoumma rabba n-nas, adhhib il-ba's, wachfi anta ch-Chafi, la chifa'a illa chifa'ouk, chifa'an la yughadiru saqama » (Ô Allah, Seigneur des gens, ôte le mal et guéris, Tu es Celui qui guérit, il n'y a de guérison que Ta guérison, une guérison qui ne laisse aucune maladie).",
+  "riyad:227": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui visite un malade dont le terme n'est pas arrivé et dit sept fois auprès de lui : « As'alou Llaha l-'Adhim, Rabba l-'Archi l-'Adhim, an yachfiyak » (Je demande à Allah le Très Grand, Seigneur du Trône immense, de te guérir), Allah le guérit de cette maladie. »",
+  "riyad:226": "Outhman ibn Abi al-As (qu'Allah l'agrée) a rapporté qu'il se plaignit au Messager d'Allah ﷺ d'une douleur qu'il ressentait dans son corps. Le Messager d'Allah ﷺ lui dit : « Pose ta main sur l'endroit de ton corps qui te fait mal et dis : « Bismillah » trois fois, puis dis sept fois : « A'oudhou bi 'izzatillahi wa qudratihi min charri ma ajidou wa uhadhir » (Je cherche refuge dans la puissance d'Allah et dans Son pouvoir contre le mal que je ressens et que je redoute). »",
+  "riyad:222": "Aïcha (qu'Allah l'agrée) a rapporté que lorsque quelqu'un se plaignait de quelque chose, ou avait une plaie ou une blessure, le Prophète ﷺ faisait ainsi avec son doigt — Soufyan ibn Ouyayna, le narrateur, posa son index sur la terre puis le leva — et disait : « Bismillah, tourbatou ardina, biriqati ba'dina, yachfi saqimouna, bi idhni Rabbina » (Au nom d'Allah, la terre de notre sol, avec la salive de certains d'entre nous, que guérisse notre malade, avec la permission de notre Seigneur).",
+  "riyad:1244": "Abou Yahya Souhayb ibn Sinan (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Étonnante est la situation du croyant : tout ce qui le concerne est un bien pour lui, et cela n'est le cas que pour le croyant. S'il lui arrive un bonheur, il remercie, et c'est un bien pour lui ; s'il lui arrive un malheur, il patiente, et c'est un bien pour lui. »",
+  "riyad:1248": "Anas (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ passa près d'une femme qui pleurait auprès d'une tombe et lui dit : « Crains Allah et sois patiente. » Elle répondit : « Éloigne-toi de moi, car tu n'as pas été touché par mon malheur » — elle ne l'avait pas reconnu. On lui dit : « C'était le Prophète ﷺ. » Elle vint alors à la porte du Prophète ﷺ et n'y trouva aucun gardien. Elle dit : « Je ne t'avais pas reconnu. » Il dit : « La patience, c'est au premier choc. »",
+  "riyad:242": "Oumm Salama (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Il n'est aucun serviteur touché par un malheur qui dise : « Inna lillahi wa inna ilayhi raji'oun. Allahoumma ajirni fi mousibati, wakhlif li khayran minha » (Nous appartenons à Allah et c'est vers Lui que nous retournons. Ô Allah, récompense-moi dans mon malheur et remplace-le-moi par mieux), sans qu'Allah, le Très Haut, ne le récompense dans son malheur et ne lui donne en échange mieux que cela. » Elle dit : Quand Abou Salama est mort, j'ai dit ce que le Messager d'Allah ﷺ m'avait ordonné, et Allah m'a donné en échange mieux que lui : le Messager d'Allah ﷺ.",
+  "riyad:1254": "Abou Said et Abou Hourayra (qu'Allah les agrée) ont rapporté que le Prophète ﷺ a dit : « Aucune fatigue, aucune maladie, aucun souci, aucune tristesse, aucun mal ni aucune peine n'atteint le musulman, même une épine qui le pique, sans qu'Allah n'efface par cela une partie de ses fautes. »",
+  "riyad:1257": "Anas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Que nul d'entre vous ne souhaite la mort à cause d'un mal qui l'a atteint. S'il ne peut faire autrement, qu'il dise : « Allahoumma ahyini ma kanat il-hayatou khayran li, wa tawaffani idha kanat il-wafatou khayran li » (Ô Allah, fais-moi vivre tant que la vie est un bien pour moi et rappelle-moi à Toi quand la mort est un bien pour moi). »",
+  "riyad:1658": "Jabir ibn Abdallah (qu'Allah l'agrée) a rapporté qu'il a entendu le Prophète ﷺ dire, trois jours avant sa mort : « Que nul d'entre vous ne meure sans avoir une bonne opinion d'Allah, Puissant et Majestueux. »",
+  "riyad:241": "Oumm Salama (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand vous êtes auprès d'un malade ou d'un mort, dites du bien, car les anges disent « Amine » à ce que vous dites. » Elle dit : Quand Abou Salama est mort, je suis allée voir le Prophète ﷺ et j'ai dit : Ô Messager d'Allah, Abou Salama est mort. Il dit : « Dis : « Allahoumma ighfir li wa lahou, wa a'qibni minhou 'uqba hasana » (Ô Allah, pardonne-moi ainsi que lui, et accorde-moi après lui une belle compensation). » J'ai dit cela, et Allah m'a donné en échange mieux que lui : Mouhammad ﷺ.",
+  "riyad:246": "Ibn Omar (qu'Allah les agrée) a rapporté que le Messager d'Allah ﷺ rendit visite à Sa'd ibn Oubada, accompagné d'Abderrahmane ibn Awf, de Sa'd ibn Abi Waqqas et d'Abdallah ibn Mas'oud. Le Messager d'Allah ﷺ pleura, et quand les gens virent ses pleurs, ils pleurèrent. Il dit : « N'entendez-vous pas ? Allah ne châtie pas pour les larmes de l'œil ni pour la tristesse du cœur, mais Il châtie — ou fait miséricorde — à cause de ceci », et il montra sa langue.",
+  "riyad:250": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui assiste au cortège funèbre jusqu'à ce que la prière soit faite sur le défunt aura un qirat, et celui qui y assiste jusqu'à l'inhumation aura deux qirats. » On demanda : « Que sont les deux qirats ? » Il dit : « Comme deux grandes montagnes. »",
+  "riyad:262": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Hâtez-vous avec le cortège funèbre : si le défunt est vertueux, c'est un bien vers lequel vous le faites avancer ; sinon, c'est un mal que vous déposez de vos épaules. »",
+  "riyad:256": "Awf ibn Malik (qu'Allah l'agrée) a rapporté : Le Messager d'Allah ﷺ pria sur un défunt et je retins de son invocation ces paroles : « Allahoumma ighfir lahou, warhamhou, wa 'afihi, wa'fou 'anhou, wa akrim nouzulahou, wa wassi' moudkhalahou, waghsilhou bil-ma'i wa th-thalji wal-barad, wa naqqihi mina l-khataya kama naqqayta th-thawba l-abyada mina d-danas, wa abdilhou daran khayran min darihi, wa ahlan khayran min ahlihi, wa zawjan khayran min zawjihi, wa adkhilhou l-janna, wa a'idhhou min 'adhabi l-qabri wa min 'adhabi n-nar » (Ô Allah, pardonne-lui, fais-lui miséricorde, accorde-lui le salut, passe sur ses fautes, honore sa demeure, élargis son entrée, lave-le avec l'eau, la neige et la grêle, purifie-le des fautes comme on purifie le vêtement blanc de la saleté, donne-lui en échange une demeure meilleure que sa demeure, une famille meilleure que sa famille et une épouse meilleure que son épouse, fais-le entrer au Paradis et protège-le du châtiment de la tombe et du châtiment du Feu). Il dit : J'ai souhaité alors être ce défunt.",
+  "riyad:258": "Abou Hourayra (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Quand vous priez sur le mort, invoquez pour lui avec sincérité. »",
+  "riyad:267": "Outhman ibn Affan (qu'Allah l'agrée) a rapporté : Lorsque le Prophète ﷺ avait fini d'enterrer le mort, il s'arrêtait près de la tombe et disait : « Demandez le pardon pour votre frère et demandez pour lui la fermeté, car il est interrogé maintenant. »",
+  "riyad:1276": "Hakim ibn Hizam (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le vendeur et l'acheteur ont le choix tant qu'ils ne se sont pas séparés. S'ils sont sincères et clairs, leur vente sera bénie ; s'ils cachent et mentent, la bénédiction de leur vente sera effacée. »",
+  "riyad:689": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Qu'Allah fasse miséricorde à l'homme indulgent quand il vend, quand il achète et quand il réclame son dû. »",
+  "riyad:1041": "Abou Hourayra (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Le serment fait écouler la marchandise mais efface le gain. »",
+  "riyad:1759": "Al-Miqdam ibn Ma'dikarib (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Personne n'a jamais mangé de nourriture meilleure que celle qu'il mange du travail de sa main. Le prophète d'Allah Daoud (que la paix soit sur lui) mangeait du travail de sa main. »",
+  "riyad:691": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Il y avait un homme qui prêtait aux gens et disait à son serviteur : « Quand tu viens chez un débiteur en difficulté, passe sur sa dette, peut-être qu'Allah passera sur nos fautes. » Il rencontra Allah, et Allah passa sur ses fautes. »",
+  "riyad:692": "Abou Masoud al-Badri (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Un homme d'avant vous fut jugé et on ne trouva en lui aucun bien, sinon qu'il fréquentait les gens ; il était aisé et ordonnait à ses serviteurs de passer sur la dette du débiteur en difficulté. Allah, Puissant et Majestueux, dit : « Nous y avons plus de droit que lui. Passez sur ses fautes. » »",
+  "riyad:932": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le retard de celui qui est aisé à payer est une injustice. Et quand l'un de vous est renvoyé sur un homme solvable, qu'il le suive. »",
+  "riyad:688": "Abou Hourayra (qu'Allah l'agrée) a rapporté : Un homme vint réclamer son dû au Prophète ﷺ et se montra dur envers lui. Ses compagnons voulurent s'en prendre à lui, mais le Messager d'Allah ﷺ dit : « Laissez-le, car celui qui a un droit peut parler. » Puis il dit : « Donnez-lui une bête du même âge que la sienne. » Ils dirent : « Ô Messager d'Allah, nous n'en trouvons qu'une meilleure que la sienne. » Il dit : « Donnez-la-lui, car les meilleurs d'entre vous sont ceux qui s'acquittent le mieux de leurs dettes. »",
+  "riyad:910": "Iyad ibn Himar (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Allah, le Très Haut, m'a révélé : « Soyez humbles, afin que nul ne se montre injuste envers autrui ni ne se vante devant autrui. » »",
+  "riyad:1772": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Une aumône ne diminue pas un bien, Allah n'accroît le serviteur par le pardon qu'en honneur, et nul ne s'humilie pour Allah sans qu'Allah, Puissant et Majestueux, l'élève. »",
+  "riyad:1849": "Aïcha (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Allah est Doux et aime la douceur en toute chose. »",
+  "riyad:1851": "Aïcha (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La douceur n'est dans une chose sans l'embellir, et elle n'est retirée d'une chose sans l'enlaidir. »",
+  "riyad:1854": "Jarir ibn Abdallah (qu'Allah l'agrée) a rapporté : J'ai entendu le Messager d'Allah ﷺ dire : « Celui qui est privé de douceur est privé de tout bien. »",
+  "riyad:214": "Abou Hourayra (qu'Allah l'agrée) a rapporté : Le Prophète ﷺ embrassa al-Hasan ibn Ali (qu'Allah les agrée). Al-Aqra' ibn Habis dit : « J'ai dix enfants et je n'en ai embrassé aucun. » Le Messager d'Allah ﷺ dit : « Celui qui ne fait pas miséricorde ne recevra pas miséricorde ! »",
+  "riyad:1343": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Un homme marchait sur un chemin, saisi par une forte soif. Il trouva un puits, y descendit et but, puis il remonta. Voilà qu'un chien haletait et mangeait la terre humide tant il avait soif. L'homme dit : « Ce chien a atteint la même soif que celle qui m'avait atteint. » Il descendit dans le puits, remplit son khuff d'eau, le tint avec sa bouche, remonta et donna à boire au chien. Allah l'en remercia et lui pardonna. » Ils dirent : « Ô Messager d'Allah, y a-t-il pour nous une récompense avec les animaux ? » Il dit : « Il y a une récompense pour toute créature au foie humide. »",
+  "riyad:817": "Oussama ibn Zayd (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui à qui l'on a fait un bien et qui dit à son auteur : « Jazaka Llahou khayran » (Qu'Allah te récompense par le bien), a atteint le sommet de la louange. »",
+  "riyad:1044": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui cherche refuge auprès d'Allah, accordez-lui refuge ; celui qui demande au nom d'Allah, donnez-lui ; celui qui vous invite, répondez-lui ; celui qui vous fait du bien, rendez-lui la pareille. Si vous n'avez pas de quoi lui rendre la pareille, invoquez pour lui jusqu'à penser que vous lui avez rendu la pareille. »",
+  "riyad:9": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le signe de l'hypocrite (mounafiq) est triple : quand il parle, il ment ; quand il promet, il manque à sa promesse ; quand on lui confie un dépôt, il trahit. » Dans une version de Mouslim, il ajoute : « Même s'il jeûne, prie et prétend être musulman. »",
+  "riyad:10": "Abdallah ibn Amr ibn al-As (qu'Allah les agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quatre choses, celui en qui elles se trouvent est un hypocrite (mounafiq) pur ; et celui en qui l'une d'elles se trouve a une part d'hypocrisie jusqu'à ce qu'il l'abandonne : quand on lui confie un dépôt, il trahit ; quand il parle, il ment ; quand il conclut un pacte, il trahit ; quand il dispute, il se conduit en dévoyé. »",
+  "riyad:1580": "Abou Moussa al-Ach'ari (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Le bon compagnon et le mauvais compagnon sont comme le porteur de musc et le souffleur de forge. Le porteur de musc, soit il t'en offre, soit tu lui en achètes, soit tu sens de lui une bonne odeur ; le souffleur de forge, soit il brûle tes vêtements, soit tu sens de lui une mauvaise odeur. »",
+  "riyad:888": "Anas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Ne vous détestez pas, ne vous jalousez pas, ne vous tournez pas le dos, ne rompez pas les liens, et soyez, ô serviteurs d'Allah, des frères. Il n'est pas permis à un musulman de délaisser son frère plus de trois jours. »",
+  "riyad:1683": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Regardez celui qui est au-dessous de vous et ne regardez pas celui qui est au-dessus de vous : c'est le plus propre à ce que vous ne méprisiez pas les bienfaits d'Allah envers vous. »",
+  "riyad:896": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « N'entrera pas au Paradis celui qui a dans le cœur le poids d'un atome d'orgueil. » Un homme dit : « Un homme aime avoir un beau vêtement et de belles sandales. » Il dit : « Allah est beau et aime la beauté. L'orgueil, c'est rejeter la vérité et mépriser les gens. »",
+  "riyad:891": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Gardez-vous de la supposition, car la supposition est la plus mensongère des paroles ; ne cherchez pas à épier, ne vous espionnez pas, ne rivalisez pas par envie, ne vous jalousez pas, ne vous détestez pas, ne vous tournez pas le dos, et soyez, ô serviteurs d'Allah, des frères comme Il vous l'a ordonné. Le musulman est le frère du musulman : il ne lui fait pas d'injustice, ne l'abandonne pas et ne le méprise pas. La piété est ici » — et il montrait sa poitrine — « Il suffit à un homme comme mal de mépriser son frère musulman. Tout musulman est sacré pour le musulman : son sang, son honneur et son bien. Allah ne regarde pas vos corps ni vos apparences, mais Il regarde vos cœurs et vos actes. »",
+  "riyad:14": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La bonne parole est une aumône. »",
+  "riyad:1806": "An-Nawwas ibn Sam'an (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La piété, c'est le bon caractère ; et le péché, c'est ce qui te trouble le cœur et que tu détestes voir connu des gens. »",
+  "riyad:1243": "Abou Said Sa'd ibn Malik ibn Sinan al-Khoudri (qu'Allah l'agrée) a rapporté que des gens parmi les Ansars demandèrent au Messager d'Allah ﷺ et qu'il leur donna ; ils demandèrent encore et il leur donna, jusqu'à ce que ce qu'il avait fût épuisé. Quand il eut tout dépensé de sa main, il leur dit : « Ce que j'ai comme bien, je ne vous le garderai pas. Celui qui s'abstient de demander, Allah le préservera ; celui qui se passe des autres, Allah l'enrichira ; celui qui s'efforce à la patience, Allah le rendra patient. Nul n'a reçu un don meilleur ni plus vaste que la patience. »"
+ }
+}
