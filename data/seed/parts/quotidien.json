@@ -1,0 +1,616 @@
+{
+ "categories": [
+  {
+   "slug": "habillement",
+   "label_fr": "Habillement et apparence"
+  },
+  {
+   "slug": "maison",
+   "label_fr": "Maison et sorties"
+  }
+ ],
+ "practices": [
+  {
+   "slug": "dua-vetement-neuf",
+   "category": "habillement",
+   "title_fr": "Dire une invocation en mettant un vêtement neuf",
+   "summary_fr": "Abou Saïd al-Khoudri a rapporté que lorsque le Prophète ﷺ mettait un vêtement neuf, il le nommait (turban, chemise ou manteau), puis disait : « Allahoumma laka l-hamd, anta kasawtanihi… » (Ô Allah, à Toi la louange, c'est Toi qui m'en as revêtu ; je Te demande son bien et le bien de ce pour quoi il a été fait, et je cherche refuge auprès de Toi contre son mal et le mal de ce pour quoi il a été fait).",
+   "refs": [
+    [
+     "riyad",
+     133
+    ]
+   ]
+  },
+  {
+   "slug": "vetement-orgueil",
+   "category": "habillement",
+   "title_fr": "Ne pas traîner son vêtement par orgueil",
+   "summary_fr": "Ibn Omar a rapporté que le Prophète ﷺ a dit : « Celui qui traîne son vêtement par orgueil, Allah ne le regardera pas au Jour de la Résurrection. » Abou Bakr ayant dit que son izar se relâchait s'il n'y prenait garde, le Prophète ﷺ lui répondit : « Tu n'es pas de ceux qui le font par orgueil. » Ibn Omar a aussi rapporté que le Prophète ﷺ lui dit de relever son izar, puis d'aller plus haut, jusqu'à mi-jambes.",
+   "refs": [
+    [
+     "riyad",
+     111
+    ],
+    [
+     "riyad",
+     112
+    ],
+    [
+     "riyad",
+     120
+    ]
+   ]
+  },
+  {
+   "slug": "beaux-vetements",
+   "category": "habillement",
+   "title_fr": "Aimer avoir de beaux vêtements : « Allah est beau et aime la beauté »",
+   "summary_fr": "Ibn Mas'oud a rapporté que le Prophète ﷺ dit que n'entrera pas au Paradis celui qui a dans son cœur le poids d'un atome d'orgueil. Un homme demanda : « L'homme aime avoir un beau vêtement et de belles sandales ? » Il répondit : « Allah est beau et aime la beauté. L'orgueil, c'est rejeter la vérité et mépriser les gens. »",
+   "refs": [
+    [
+     "riyad",
+     896
+    ]
+   ]
+  },
+  {
+   "slug": "chaussures-droite",
+   "category": "habillement",
+   "title_fr": "Commencer par la droite pour se chausser, par la gauche pour se déchausser",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Quand l'un de vous se chausse, qu'il commence par la droite ; et quand il se déchausse, qu'il commence par la gauche. Que la droite soit la première des deux à être chaussée et la dernière à être déchaussée. » Il a aussi dit : « Quand vous vous habillez et quand vous faites vos ablutions, commencez par votre droite. »",
+   "refs": [
+    [
+     "riyad",
+     44
+    ],
+    [
+     "riyad",
+     46
+    ]
+   ]
+  },
+  {
+   "slug": "une-seule-sandale",
+   "category": "habillement",
+   "title_fr": "Ne pas marcher avec une seule sandale",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Que nul d'entre vous ne marche avec une seule sandale : qu'il les chausse toutes les deux ou qu'il les ôte toutes les deux. » Il a aussi dit : « Si la lanière de la sandale de l'un de vous se rompt, qu'il ne marche pas avec l'autre avant de l'avoir réparée. »",
+   "refs": [
+    [
+     "riyad",
+     970
+    ],
+    [
+     "riyad",
+     971
+    ]
+   ]
+  },
+  {
+   "slug": "parfum-offert",
+   "category": "habillement",
+   "title_fr": "Ne pas refuser le parfum qu'on nous offre",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ ne refusait pas le parfum. Abou Hourayra a rapporté qu'il a dit : « Celui à qui l'on présente du rayhan, qu'il ne le refuse pas, car il est léger à porter et d'agréable odeur. »",
+   "refs": [
+    [
+     "riyad",
+     1108
+    ],
+    [
+     "riyad",
+     1107
+    ]
+   ]
+  },
+  {
+   "slug": "cheveux-entiers",
+   "category": "habillement",
+   "title_fr": "Raser les cheveux entièrement ou les laisser entièrement",
+   "summary_fr": "Ibn Omar a rapporté que le Messager d'Allah ﷺ vit un garçon dont on avait rasé une partie des cheveux en laissant le reste ; il le leur interdit et dit : « Rasez-le entièrement ou laissez-le entièrement. » Ibn Omar a aussi rapporté que le Messager d'Allah ﷺ a interdit le qaza'.",
+   "refs": [
+    [
+     "riyad",
+     960
+    ],
+    [
+     "riyad",
+     959
+    ]
+   ]
+  },
+  {
+   "slug": "teindre-cheveux-blancs",
+   "category": "habillement",
+   "title_fr": "Teindre ses cheveux blancs",
+   "summary_fr": "Abou Hourayra a rapporté que le Messager d'Allah ﷺ a dit : « Les juifs et les chrétiens ne teignent pas ; faites donc le contraire d'eux. » L'auteur du recueil (An-Nawawi) précise en note qu'il s'agit de teindre en jaune ou en rouge les cheveux et la barbe devenus blancs, et que, pour le noir, il renvoie à un chapitre suivant où il indique une interdiction.",
+   "refs": [
+    [
+     "riyad",
+     957
+    ]
+   ]
+  },
+  {
+   "slug": "vetements-blancs",
+   "category": "habillement",
+   "title_fr": "Porter des vêtements blancs",
+   "summary_fr": "Ibn Abbas a rapporté que le Prophète ﷺ a dit : « Portez parmi vos vêtements les blancs, car ils sont parmi les meilleurs de vos vêtements, et ensevelissez-y vos morts. » Samura a rapporté ces paroles : « Portez le blanc, car il est plus pur et plus agréable. »",
+   "refs": [
+    [
+     "riyad",
+     99
+    ],
+    [
+     "riyad",
+     100
+    ]
+   ]
+  },
+  {
+   "slug": "dua-sortie-maison",
+   "category": "maison",
+   "title_fr": "Dire une invocation en sortant de chez soi",
+   "summary_fr": "Oumm Salama a rapporté que lorsque le Prophète ﷺ sortait de chez lui, il disait : « Bismillah, tawakkaltou 'ala Allah… » (Au nom d'Allah, je m'en remets à Allah). Anas a rapporté ces paroles du Prophète ﷺ : celui qui dit en sortant « Bismillah, tawakkaltou 'ala Allah, wa la hawla wa la quwwata illa billah » s'entend dire : « Tu es guidé, tu es suffisamment pourvu et tu es protégé », et le diable s'écarte de lui.",
+   "refs": [
+    [
+     "riyad",
+     1299
+    ],
+    [
+     "riyad",
+     1300
+    ]
+   ]
+  },
+  {
+   "slug": "saluer-en-rentrant",
+   "category": "maison",
+   "title_fr": "Saluer les siens en rentrant chez soi",
+   "summary_fr": "Anas a rapporté que le Messager d'Allah ﷺ lui a dit : « Ô mon petit, quand tu entres chez les tiens, salue : ce sera une bénédiction pour toi et pour les gens de ta maison. »",
+   "refs": [
+    [
+     "riyad",
+     182
+    ]
+   ]
+  },
+  {
+   "slug": "demander-permission",
+   "category": "maison",
+   "title_fr": "Demander la permission d'entrer, jusqu'à trois fois",
+   "summary_fr": "Abou Moussa al-Ash'ari a rapporté que le Prophète ﷺ a dit : « La demande de permission se fait trois fois ; si l'on te permet d'entrer, (entre), sinon retourne-toi. » Sahl ibn Sa'd a rapporté ces paroles : « La demande de permission n'a été instituée qu'à cause du regard. » Un homme des Banou Amir ayant demandé « Puis-je pénétrer ? », le Prophète ﷺ dit à son serviteur de lui enseigner à dire : « Assalamou 'alaykoum, puis-je entrer ? »",
+   "refs": [
+    [
+     "riyad",
+     191
+    ],
+    [
+     "riyad",
+     192
+    ],
+    [
+     "riyad",
+     193
+    ]
+   ]
+  },
+  {
+   "slug": "assemblee-place",
+   "category": "maison",
+   "title_fr": "Ne pas faire lever quelqu'un de sa place dans une assemblée",
+   "summary_fr": "Ibn Omar a rapporté que le Prophète ﷺ a dit : « Que nul d'entre vous ne fasse lever quelqu'un de sa place pour s'y asseoir ; mais faites de la place et élargissez-vous. » Ibn Omar, lorsqu'un homme se levait pour lui de sa place, ne s'y asseyait pas. Abou Hourayra a rapporté : « Si l'un de vous se lève d'une assemblée puis y revient, il y a plus de droit. »",
+   "refs": [
+    [
+     "riyad",
+     145
+    ],
+    [
+     "riyad",
+     146
+    ]
+   ]
+  },
+  {
+   "slug": "dua-fin-assemblee",
+   "category": "maison",
+   "title_fr": "Invocation à la fin d'une assemblée",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Celui qui s'assied dans une assemblée où il y a eu beaucoup de brouhaha et qui dit avant de se lever : « Soubhanaka Allahoumma wa bihamdika, ashhadou an la ilaha illa Anta, astaghfirouka wa atoubou ilayk », Allah lui pardonne ce qui s'est passé dans cette assemblée. »",
+   "refs": [
+    [
+     "riyad",
+     152
+    ]
+   ]
+  },
+  {
+   "slug": "mentionner-allah-assemblee",
+   "category": "maison",
+   "title_fr": "Mentionner Allah dans les assemblées",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Il n'est pas de gens qui se lèvent d'une assemblée sans y avoir mentionné Allah, qu'ils ne se lèvent comme d'une charogne d'âne, et ce sera pour eux un regret. »",
+   "refs": [
+    [
+     "riyad",
+     155
+    ]
+   ]
+  },
+  {
+   "slug": "droit-du-chemin",
+   "category": "maison",
+   "title_fr": "Donner son droit au chemin quand on s'assied sur la route",
+   "summary_fr": "Abou Saïd al-Khoudri a rapporté que le Prophète ﷺ a dit : « Évitez de vous asseoir sur les routes. » Les compagnons répondirent qu'ils ne pouvaient se passer de ces assemblées, où ils s'entretenaient. Il dit : « Si vous n'y renoncez pas, donnez à la route son droit : baisser le regard, ne pas nuire, rendre le salut, ordonner le convenable et interdire le blâmable. »",
+   "refs": [
+    [
+     "riyad",
+     944
+    ],
+    [
+     "riyad",
+     945
+    ]
+   ]
+  },
+  {
+   "slug": "couvrir-fermer-lampe",
+   "category": "maison",
+   "title_fr": "Couvrir les récipients, fermer les portes et éteindre la lampe",
+   "summary_fr": "Jabir a rapporté que le Prophète ﷺ a dit : « Couvrez le récipient, attachez l'outre, fermez les portes et éteignez la lampe : le diable ne délie pas une outre, n'ouvre pas une porte et ne découvre pas un récipient. Si l'un de vous ne trouve rien d'autre que de poser un bâton en travers de son récipient en mentionnant le nom d'Allah, qu'il le fasse, car la souris met le feu à la maison de ses habitants. »",
+   "refs": [
+    [
+     "riyad",
+     975
+    ]
+   ]
+  },
+  {
+   "slug": "lecher-doigts",
+   "category": "repas",
+   "title_fr": "Lécher ses doigts et nettoyer le plat",
+   "summary_fr": "Ibn Abbas a rapporté que le Prophète ﷺ a dit : « Quand l'un de vous a mangé, qu'il n'essuie pas ses doigts avant de les avoir léchés ou fait lécher. » Jabir a rapporté que le Prophète ﷺ a ordonné de lécher les doigts et le plat, en disant : « Vous ne savez pas dans quelle partie de votre nourriture se trouve la baraka. »",
+   "refs": [
+    [
+     "riyad",
+     68
+    ],
+    [
+     "riyad",
+     70
+    ],
+    [
+     "riyad",
+     72
+    ]
+   ]
+  },
+  {
+   "slug": "trois-doigts",
+   "category": "repas",
+   "title_fr": "Manger avec trois doigts",
+   "summary_fr": "Ka'b ibn Malik a rapporté qu'il a vu le Messager d'Allah ﷺ manger avec trois doigts, et qu'une fois qu'il avait fini, il les léchait. Anas a rapporté qu'après avoir mangé, le Prophète ﷺ léchait ses trois doigts.",
+   "refs": [
+    [
+     "riyad",
+     69
+    ],
+    [
+     "riyad",
+     73
+    ]
+   ]
+  },
+  {
+   "slug": "morceau-tombe",
+   "category": "repas",
+   "title_fr": "Ramasser le morceau tombé, l'essuyer et le manger",
+   "summary_fr": "Jabir a rapporté que le Prophète ﷺ a dit : « Si un morceau tombe à l'un de vous, qu'il le ramasse, ôte ce qui s'y trouve de nuisible et le mange ; qu'il ne le laisse pas au diable. » Il a ajouté que le diable est présent auprès de chacun en toute chose, jusqu'à son repas.",
+   "refs": [
+    [
+     "riyad",
+     71
+    ],
+    [
+     "riyad",
+     72
+    ]
+   ]
+  },
+  {
+   "slug": "manger-ensemble",
+   "category": "repas",
+   "title_fr": "Se rassembler autour du repas et mentionner Allah",
+   "summary_fr": "Wahshi ibn Harb a rapporté que des compagnons dirent au Prophète ﷺ : « Nous mangeons sans être rassasiés. » Il répondit : « Peut-être mangez-vous séparément ? » Ils dirent que oui. Il dit : « Rassemblez-vous autour de votre repas et mentionnez le nom d'Allah, il sera béni pour vous. »",
+   "refs": [
+    [
+     "riyad",
+     63
+    ]
+   ]
+  },
+  {
+   "slug": "bord-du-plat",
+   "category": "repas",
+   "title_fr": "Manger par les bords du plat",
+   "summary_fr": "Ibn Abbas a rapporté que le Prophète ﷺ a dit : « La baraka descend au milieu de la nourriture ; mangez donc par ses bords et ne mangez pas par son milieu. »",
+   "refs": [
+    [
+     "riyad",
+     64
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-manger-accoude",
+   "category": "repas",
+   "title_fr": "Ne pas manger accoudé",
+   "summary_fr": "Abou Jouhayfa a rapporté que le Prophète ﷺ a dit : « Je ne mange pas accoudé. »",
+   "refs": [
+    [
+     "riyad",
+     66
+    ]
+   ]
+  },
+  {
+   "slug": "nourriture-partagee",
+   "category": "repas",
+   "title_fr": "Partager sa nourriture : celle d'un seul suffit à deux",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « La nourriture de deux suffit à trois, et la nourriture de trois suffit à quatre. » Jabir a rapporté : « La nourriture d'un seul suffit à deux, celle de deux suffit à quatre, celle de quatre suffit à huit. »",
+   "refs": [
+    [
+     "riyad",
+     75
+    ],
+    [
+     "riyad",
+     76
+    ]
+   ]
+  },
+  {
+   "slug": "tiers-estomac",
+   "category": "repas",
+   "title_fr": "Ne pas trop remplir son ventre : un tiers, un tiers, un tiers",
+   "summary_fr": "Al-Miqdam ibn Ma'dikarib a entendu le Prophète ﷺ dire : « Le fils d'Adam n'a rempli aucun récipient pire que son ventre. Il suffit au fils d'Adam de quelques bouchées qui lui soutiennent le dos. S'il faut absolument faire autrement, alors un tiers pour sa nourriture, un tiers pour sa boisson et un tiers pour lui-même. »",
+   "refs": [
+    [
+     "riyad",
+     1732
+    ]
+   ]
+  },
+  {
+   "slug": "louer-allah-repas",
+   "category": "repas",
+   "title_fr": "Louer Allah en levant le repas et après chaque bouchée ou gorgée",
+   "summary_fr": "Abou Oumama a rapporté que lorsque le Prophète ﷺ faisait enlever sa table, il disait : « Al-hamdou lillahi hamdan kathiran tayyiban moubarakan fih… ». Anas a rapporté ces paroles du Prophète ﷺ : « Allah est satisfait du serviteur qui mange un repas et Le loue pour cela, qui boit une boisson et Le loue pour cela. »",
+   "refs": [
+    [
+     "riyad",
+     54
+    ],
+    [
+     "riyad",
+     717
+    ]
+   ]
+  },
+  {
+   "slug": "dua-hote",
+   "category": "repas",
+   "title_fr": "Invoquer pour ses hôtes après avoir mangé chez eux",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ vint chez Sa'd ibn Oubada, qui apporta du pain et de l'huile ; il mangea puis dit : « Les jeûneurs ont rompu chez vous, les gens de bien ont mangé votre nourriture et les anges ont prié pour vous. »",
+   "refs": [
+    [
+     "riyad",
+     588
+    ]
+   ]
+  },
+  {
+   "slug": "boire-en-trois-fois",
+   "category": "repas",
+   "title_fr": "Boire en deux ou trois fois, en disant « Bismillah »",
+   "summary_fr": "Ibn Abbas a rapporté que le Prophète ﷺ a dit : « Ne buvez pas d'une seule traite comme boit le chameau, mais buvez en deux ou trois fois ; dites « Bismillah » quand vous buvez et louez Allah quand vous avez fini. »",
+   "refs": [
+    [
+     "riyad",
+     78
+    ]
+   ]
+  },
+  {
+   "slug": "boisson-droite-d-abord",
+   "category": "repas",
+   "title_fr": "Passer la boisson d'abord à celui qui est à droite",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ but un lait coupé d'eau, avec un bédouin à sa droite et Abou Bakr à sa gauche, puis le donna au bédouin en disant : « À droite, puis à droite. » Sahl ibn Sa'd a rapporté que, voulant donner à des anciens assis à sa gauche, il en demanda la permission au garçon assis à sa droite.",
+   "refs": [
+    [
+     "riyad",
+     80
+    ],
+    [
+     "riyad",
+     81
+    ]
+   ]
+  },
+  {
+   "slug": "outre-bouche",
+   "category": "repas",
+   "title_fr": "Ne pas boire à même l'ouverture de l'outre",
+   "summary_fr": "Abou Hourayra a rapporté que le Messager d'Allah ﷺ a interdit de boire à même l'ouverture de l'outre ou de la gourde. Abou Saïd al-Khoudri a rapporté qu'il a interdit l'ikhtinath des outres, c'est-à-dire que l'on rabatte leur ouverture et que l'on boive à partir d'elles.",
+   "refs": [
+    [
+     "riyad",
+     83
+    ],
+    [
+     "riyad",
+     82
+    ]
+   ]
+  },
+  {
+   "slug": "boire-debout",
+   "category": "repas",
+   "title_fr": "Boire debout : ce que rapportent les hadiths",
+   "summary_fr": "Anas a rapporté que le Prophète ﷺ a interdit à l'homme de boire debout. Abou Hourayra a rapporté ces paroles : « Que nul d'entre vous ne boive debout ; et celui qui oublie, qu'il vomisse. » Ibn Abbas a rapporté qu'il a fait boire le Prophète ﷺ de l'eau de Zamzam et que celui-ci a bu debout.",
+   "refs": [
+    [
+     "riyad",
+     91
+    ],
+    [
+     "riyad",
+     92
+    ],
+    [
+     "riyad",
+     87
+    ]
+   ]
+  },
+  {
+   "slug": "ayat-kursi-coucher",
+   "category": "sommeil",
+   "title_fr": "Réciter Ayat al-Kursi en se mettant au lit",
+   "summary_fr": "Abou Hourayra a rapporté que, chargé par le Prophète ﷺ de garder la zakat de Ramadan, il saisit un voleur qui lui dit : « Quand tu te retires dans ton lit, récite Ayat al-Kursi : un gardien d'Allah restera auprès de toi et aucun diable ne s'approchera de toi jusqu'au matin. » Le Prophète ﷺ dit : « Il t'a dit vrai alors qu'il est menteur. »",
+   "refs": [
+    [
+     "riyad",
+     341
+    ]
+   ]
+  },
+  {
+   "slug": "mouawidhat-coucher",
+   "category": "sommeil",
+   "title_fr": "Réciter les trois dernières sourates et se passer les mains sur le corps",
+   "summary_fr": "Aïcha a rapporté que chaque nuit, en se retirant dans son lit, le Prophète ﷺ joignait ses paumes, soufflait légèrement dedans et y récitait « Qoul Houwa Allahou Ahad », « Qoul a'oudhou bi Rabbi l-falaq » et « Qoul a'oudhou bi Rabbi n-nas ». Puis il se passait les mains sur ce qu'il pouvait de son corps, en commençant par la tête et le visage, et cela trois fois.",
+   "refs": [
+    [
+     "riyad",
+     782
+    ]
+   ]
+  },
+  {
+   "slug": "secouer-le-lit",
+   "category": "sommeil",
+   "title_fr": "Secouer son lit avant de se coucher",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Quand l'un de vous se retire dans son lit, qu'il secoue son lit avec l'intérieur de son izar, car il ne sait pas ce qui est venu après lui sur son lit. » Puis il dit : « Bismika Rabbi wada'tou janbi wa bika arfa'ouhou… » (En Ton nom, mon Seigneur, j'ai posé mon flanc et par Toi je le relève).",
+   "refs": [
+    [
+     "riyad",
+     781
+    ]
+   ]
+  },
+  {
+   "slug": "tasbih-coucher",
+   "category": "sommeil",
+   "title_fr": "Glorifier Allah avant de dormir : 33, 33 et 33 fois",
+   "summary_fr": "Ali a rapporté que le Prophète ﷺ dit à lui et à Fatima : « Quand vous vous retirez dans votre lit — ou quand vous prenez place pour dormir —, dites « Allahou akbar » trente-trois fois, « Soubhan Allah » trente-trois fois et « Al-hamdou lillah » trente-trois fois. » Une version dit trente-quatre fois pour « Soubhan Allah », une autre pour « Allahou akbar ».",
+   "refs": [
+    [
+     "riyad",
+     780
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-dormir-ventre",
+   "category": "sommeil",
+   "title_fr": "Ne pas se coucher sur le ventre",
+   "summary_fr": "Ya'ish ibn Tikhfa al-Ghifari a rapporté ces paroles de son père : il était couché sur le ventre dans la mosquée quand un homme le remua du pied et dit : « Cette façon de se coucher, Allah la déteste. » C'était le Messager d'Allah ﷺ.",
+   "refs": [
+    [
+     "riyad",
+     138
+    ]
+   ]
+  },
+  {
+   "slug": "reves",
+   "category": "sommeil",
+   "title_fr": "Après un rêve : le bon rêve et le rêve qu'on déteste",
+   "summary_fr": "Abou Hourayra a rapporté que le Prophète ﷺ a dit : « Il ne reste de la prophétie que les annonces de bonne nouvelle », c'est-à-dire le bon rêve. Abou Qatada a rapporté : « Le bon rêve vient d'Allah et le mauvais rêve du diable. Que celui qui voit ce qu'il déteste souffle légèrement sur sa gauche trois fois et cherche refuge auprès d'Allah contre le diable : cela ne lui nuira pas. » Jabir ajoute qu'il se tourne aussi de côté.",
+   "refs": [
+    [
+     "riyad",
+     162
+    ],
+    [
+     "riyad",
+     163
+    ],
+    [
+     "riyad",
+     158
+    ]
+   ]
+  }
+ ],
+ "translations": {
+  "riyad:133": "Abou Saïd al-Khoudri (qu'Allah l'agrée) a rapporté : Lorsque le Prophète ﷺ mettait un vêtement neuf, il le nommait par son nom — turban, chemise ou manteau (rida') — puis disait : « Allahoumma laka l-hamd, anta kasawtanihi, as'alouka khayrahou wa khayra ma sou'a lahou, wa a'oudhou bika min sharrihi wa sharri ma sou'a lahou » (Ô Allah, à Toi la louange, c'est Toi qui m'en as revêtu. Je Te demande son bien et le bien de ce pour quoi il a été fait, et je cherche refuge auprès de Toi contre son mal et le mal de ce pour quoi il a été fait).",
+  "riyad:111": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Celui qui traîne son vêtement par orgueil, Allah ne le regardera pas au Jour de la Résurrection. » Abou Bakr dit : Ô Messager d'Allah, mon izar se relâche, à moins que j'y prenne garde. Le Messager d'Allah ﷺ lui dit : « Tu n'es pas de ceux qui le font par orgueil. »",
+  "riyad:112": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Allah ne regardera pas, au Jour de la Résurrection, celui qui traîne son izar par arrogance. »",
+  "riyad:120": "Ibn Omar (qu'Allah l'agrée) a dit : Je passai devant le Messager d'Allah ﷺ alors que mon izar était relâché. Il dit : « Ô Abdallah, relève ton izar. » Je le relevai. Puis il dit : « Plus haut. » Je le relevai encore. Depuis, je m'y applique. Quelques personnes demandèrent : Jusqu'où ? Il répondit : Jusqu'à mi-jambes.",
+  "riyad:896": "Ibn Mas'oud (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « N'entrera pas au Paradis celui qui a dans son cœur le poids d'un atome d'orgueil. » Un homme dit : L'homme aime avoir un beau vêtement et de belles sandales. Il dit : « Allah est beau et aime la beauté. L'orgueil, c'est rejeter la vérité (batar al-haqq) et mépriser les gens (ghamt an-nas). » Le texte précise que « batar al-haqq » signifie le repousser, et « ghamt » signifie les mépriser.",
+  "riyad:44": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand l'un de vous se chausse, qu'il commence par la droite, et quand il se déchausse, qu'il commence par la gauche. Que la droite soit la première des deux à être chaussée et la dernière à être déchaussée. »",
+  "riyad:46": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand vous vous habillez et quand vous faites vos ablutions, commencez par votre droite. »",
+  "riyad:970": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Que nul d'entre vous ne marche avec une seule sandale : qu'il les chausse toutes les deux ou qu'il les ôte toutes les deux. » Dans une version : « … ou qu'il aille pieds nus des deux pieds. »",
+  "riyad:971": "Abou Hourayra (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « Si la lanière de la sandale de l'un de vous se rompt, qu'il ne marche pas avec l'autre avant de l'avoir réparée. »",
+  "riyad:1108": "Anas ibn Malik (qu'Allah l'agrée) a rapporté que le Prophète ﷺ ne refusait pas le parfum.",
+  "riyad:1107": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui à qui l'on présente du rayhan (plante odorante), qu'il ne le refuse pas, car il est léger à porter et d'agréable odeur. »",
+  "riyad:960": "Ibn Omar (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ vit un garçon dont on avait rasé une partie des cheveux et laissé une partie. Il le leur interdit et dit : « Rasez-le entièrement ou laissez-le entièrement. »",
+  "riyad:959": "Ibn Omar (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a interdit le qaza'.",
+  "riyad:957": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Les juifs et les chrétiens ne teignent pas ; faites donc le contraire d'eux. » Note de l'auteur (An-Nawawi) : il s'agit de teindre en jaune ou en rouge les cheveux et la barbe devenus blancs ; quant au noir, il indique qu'il est interdit et qu'il en parlera dans le chapitre suivant.",
+  "riyad:99": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Portez parmi vos vêtements les blancs, car ils sont parmi les meilleurs de vos vêtements, et ensevelissez-y vos morts. »",
+  "riyad:100": "Samura (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Portez le blanc, car il est plus pur et plus agréable, et ensevelissez-y vos morts. »",
+  "riyad:1299": "Oumm Salama, mère des croyants (qu'Allah l'agrée), a rapporté que lorsque le Prophète ﷺ sortait de chez lui, il disait : « Bismillah, tawakkaltou 'ala Allah. Allahoumma inni a'oudhou bika an adilla aw oudalla, aw azilla aw ouzalla, aw azlima aw ouzlama, aw ajhala aw youjhala 'alayya » (Au nom d'Allah, je m'en remets à Allah. Ô Allah, je cherche refuge auprès de Toi contre le fait de m'égarer ou d'être égaré, de faillir ou d'être entraîné à faillir, de commettre une injustice ou d'en subir une, d'agir en ignorant ou qu'on se comporte en ignorant envers moi).",
+  "riyad:1300": "Anas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui dit — c'est-à-dire en sortant de chez lui — : « Bismillah, tawakkaltou 'ala Allah, wa la hawla wa la quwwata illa billah » (Au nom d'Allah, je m'en remets à Allah ; il n'y a de force ni de puissance qu'en Allah), on lui dit : « Tu es guidé, tu es suffisamment pourvu et tu es protégé », et le diable s'écarte de lui. » Abou Dawoud ajoute que le diable dit à un autre diable : « Que peux-tu contre un homme guidé, pourvu et protégé ? »",
+  "riyad:182": "Anas (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ m'a dit : « Ô mon petit, quand tu entres chez les tiens, salue : ce sera une bénédiction (baraka) pour toi et pour les gens de ta maison. »",
+  "riyad:191": "Abou Moussa al-Ash'ari (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « La demande de permission se fait trois fois : si l'on te permet d'entrer, (entre) ; sinon, retourne-toi. »",
+  "riyad:192": "Sahl ibn Sa'd (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « La demande de permission n'a été instituée qu'à cause du regard. »",
+  "riyad:193": "Rib'i ibn Hirash a rapporté : Un homme des Banou Amir nous a raconté qu'il avait demandé la permission d'entrer auprès du Prophète ﷺ alors que celui-ci était dans une maison, en disant : « Puis-je pénétrer (a-alij) ? » Le Messager d'Allah ﷺ dit à son serviteur : « Va vers celui-là et enseigne-lui la demande de permission. Dis-lui de dire : « Assalamou 'alaykoum, puis-je entrer ? » » L'homme l'entendit et dit : « Assalamou 'alaykoum, puis-je entrer ? » Le Prophète ﷺ lui permit alors d'entrer, et il entra.",
+  "riyad:145": "Ibn Omar (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Que nul d'entre vous ne fasse lever quelqu'un de sa place pour s'y asseoir ; mais faites de la place et élargissez-vous. » Et lorsqu'un homme se levait pour lui de sa place, Ibn Omar ne s'y asseyait pas.",
+  "riyad:146": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Si l'un de vous se lève d'une assemblée puis y revient, il y a plus de droit. »",
+  "riyad:152": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Celui qui s'assied dans une assemblée où il y a eu beaucoup de brouhaha et qui dit, avant de se lever de cette assemblée : « Soubhanaka Allahoumma wa bihamdika, ashhadou an la ilaha illa Anta, astaghfirouka wa atoubou ilayk » (Gloire et louange à Toi, ô Allah. J'atteste qu'il n'y a de divinité que Toi ; je Te demande pardon et je me repens à Toi), Allah lui pardonne ce qui s'est passé dans cette assemblée. »",
+  "riyad:155": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Il n'est pas de gens qui se lèvent d'une assemblée sans y avoir mentionné Allah, qu'ils ne se lèvent comme d'une charogne d'âne, et ce sera pour eux un regret. »",
+  "riyad:944": "Abou Saïd al-Khoudri (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Évitez de vous asseoir sur les routes. » Ils dirent : Ô Messager d'Allah, nous ne pouvons nous passer de nos assemblées, nous y parlons. Le Messager d'Allah ﷺ dit : « Si vous n'y renoncez pas, donnez à la route son droit. » Ils dirent : Quel est le droit de la route, ô Messager d'Allah ? Il dit : « Baisser le regard, s'abstenir de nuire, rendre le salut, ordonner le convenable et interdire le blâmable. »",
+  "riyad:945": "Abou Talha Zayd ibn Sahl (qu'Allah l'agrée) a dit : Nous étions assis dans les cours à parler quand le Messager d'Allah ﷺ vint et s'arrêta devant nous. Il dit : « Qu'avez-vous à faire des assemblées sur les routes (sou'oudat) ? » Nous dîmes : Nous sommes assis sans mauvaise intention, nous nous entretenons et discutons. Il dit : « Si vous ne voulez pas y renoncer, donnez-leur leur droit : baisser le regard, rendre le salut et bien parler. »",
+  "riyad:975": "Jabir (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Couvrez le récipient, attachez l'outre, fermez les portes et éteignez la lampe : le diable ne délie pas une outre, n'ouvre pas une porte et ne découvre pas un récipient. Si l'un de vous ne trouve rien d'autre que de poser un bâton en travers de son récipient en mentionnant le nom d'Allah, qu'il le fasse, car la petite vicieuse (al-fouwaysiqa, la souris) met le feu à la maison de ses habitants. »",
+  "riyad:68": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand l'un de vous a mangé, qu'il n'essuie pas ses doigts avant de les avoir léchés ou de les avoir fait lécher. »",
+  "riyad:70": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a ordonné de lécher les doigts et le plat, et a dit : « Vous ne savez pas dans quelle partie de votre nourriture se trouve la baraka (bénédiction). »",
+  "riyad:72": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Le diable est présent auprès de chacun de vous en toute chose, jusqu'à son repas. Si un morceau tombe à l'un de vous, qu'il le ramasse, ôte ce qui s'y est collé, puis le mange et ne le laisse pas au diable. Et quand il a fini, qu'il lèche ses doigts, car il ne sait pas dans quelle partie de sa nourriture se trouve la baraka. »",
+  "riyad:69": "Ka'b ibn Malik (qu'Allah l'agrée) a dit : J'ai vu le Messager d'Allah ﷺ manger avec trois doigts, et lorsqu'il avait fini, il les léchait.",
+  "riyad:73": "Anas (qu'Allah l'agrée) a dit : Lorsque le Messager d'Allah ﷺ avait mangé, il léchait ses trois doigts. Il a dit : « Si un morceau tombe à l'un de vous, qu'il le ramasse, ôte ce qui s'y est collé, puis le mange et ne le laisse pas au diable. » Et il nous a ordonné de racler le plat, en disant : « Vous ne savez pas dans quelle partie de votre nourriture se trouve la baraka. »",
+  "riyad:71": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Si un morceau tombe à l'un de vous, qu'il le ramasse, ôte ce qui s'y trouve de nuisible et le mange, et qu'il ne le laisse pas au diable. Et qu'il n'essuie pas sa main avec le mouchoir avant d'avoir léché ses doigts, car il ne sait pas dans quelle partie de sa nourriture se trouve la baraka. »",
+  "riyad:63": "Wahshi ibn Harb (qu'Allah l'agrée) a rapporté que les compagnons du Messager d'Allah ﷺ dirent : Ô Messager d'Allah, nous mangeons et nous ne sommes pas rassasiés. Il dit : « Peut-être mangez-vous séparément ? » Ils dirent : Oui. Il dit : « Rassemblez-vous autour de votre repas et mentionnez le nom d'Allah, il sera béni pour vous. »",
+  "riyad:64": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « La baraka descend au milieu de la nourriture ; mangez donc par ses bords et ne mangez pas par son milieu. »",
+  "riyad:66": "Abou Jouhayfa Wahb ibn Abdallah (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Je ne mange pas accoudé. »",
+  "riyad:75": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « La nourriture de deux suffit à trois, et la nourriture de trois suffit à quatre. »",
+  "riyad:76": "Jabir (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « La nourriture d'un seul suffit à deux, la nourriture de deux suffit à quatre, et la nourriture de quatre suffit à huit. »",
+  "riyad:1732": "Al-Miqdam ibn Ma'dikarib (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « Le fils d'Adam n'a rempli aucun récipient pire que son ventre. Il suffit au fils d'Adam de quelques bouchées qui lui soutiennent le dos. S'il faut absolument faire autrement, alors un tiers pour sa nourriture, un tiers pour sa boisson et un tiers pour lui-même. » (Le texte précise que « akalat » signifie des bouchées.)",
+  "riyad:54": "Abou Oumama (qu'Allah l'agrée) a rapporté que lorsque le Prophète ﷺ faisait enlever sa table, il disait : « Al-hamdou lillahi hamdan kathiran tayyiban moubarakan fihi, ghayra makfiyyin wa la moudda'in wa la moustaghnan 'anhou Rabbana » (Louange à Allah, une louange abondante, bonne et bénie, sans qu'elle soit jamais suffisante ni délaissée, et sans qu'on puisse s'en passer, ô notre Seigneur).",
+  "riyad:717": "Anas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Allah est satisfait du serviteur qui mange un repas (akla) et Le loue pour cela, et qui boit une boisson (shariba) et Le loue pour cela. »",
+  "riyad:588": "Anas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ vint chez Sa'd ibn Oubada (qu'Allah l'agrée), qui apporta du pain et de l'huile. Il mangea, puis le Prophète ﷺ dit : « Les jeûneurs ont rompu chez vous, les gens de bien ont mangé votre nourriture et les anges ont prié pour vous. »",
+  "riyad:78": "Ibn Abbas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Ne buvez pas d'une seule traite comme boit le chameau, mais buvez en deux ou trois fois ; mentionnez le nom d'Allah quand vous buvez et louez Allah quand vous levez (le récipient). »",
+  "riyad:80": "Anas (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ reçut du lait coupé d'eau, avec un bédouin à sa droite et Abou Bakr à sa gauche. Il en but, puis le donna au bédouin et dit : « À droite, puis à droite. »",
+  "riyad:81": "Sahl ibn Sa'd (qu'Allah l'agrée) a rapporté qu'on apporta une boisson au Messager d'Allah ﷺ ; il en but, ayant à sa droite un garçon et à sa gauche des anciens. Il dit au garçon : « Me permets-tu de la donner à ceux-ci ? » Le garçon répondit : Non, par Allah, je ne céderai à personne ma part de toi. Alors le Messager d'Allah ﷺ la lui mit dans la main.",
+  "riyad:83": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a interdit de boire à même l'ouverture de l'outre ou de la gourde (qirba).",
+  "riyad:82": "Abou Saïd al-Khoudri (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ a interdit l'ikhtinath des outres, c'est-à-dire que l'on rabatte leur ouverture et que l'on boive à partir d'elles.",
+  "riyad:91": "Anas (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a interdit à l'homme de boire debout. Qatada dit : Nous avons demandé à Anas : Et manger ? Il répondit : C'est pire — ou plus vil. Dans une autre version, le Prophète ﷺ a réprimandé le fait de boire debout.",
+  "riyad:92": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Que nul d'entre vous ne boive debout ; et celui qui oublie, qu'il vomisse. »",
+  "riyad:87": "Ibn Abbas (qu'Allah l'agrée) a dit : J'ai fait boire le Prophète ﷺ de l'eau de Zamzam, et il a bu debout.",
+  "riyad:341": "Abou Hourayra (qu'Allah l'agrée) a dit : Le Messager d'Allah ﷺ m'a chargé de garder la zakat de Ramadan. Quelqu'un vint et se mit à prendre des poignées de nourriture. Je le saisis et dis : Je te conduirai auprès du Messager d'Allah ﷺ. Il dit : Je suis dans le besoin, j'ai une famille à charge et un grand besoin. Je le laissai partir. Au matin, le Messager d'Allah ﷺ me dit : « Ô Abou Hourayra, qu'a fait ton prisonnier hier soir ? » Je dis : Il s'est plaint d'un besoin et de sa famille, j'ai eu pitié de lui et je l'ai laissé partir. Il dit : « Il t'a menti et il reviendra. » Je compris qu'il reviendrait, d'après la parole du Messager d'Allah ﷺ, et je le guettai. Il revint prendre de la nourriture ; je le saisis encore et il me dit la même chose, et je le laissai partir. Le Messager d'Allah ﷺ me répéta la même question et la même réponse. La troisième fois, je le guettai de nouveau et dis : Je te conduirai auprès du Messager d'Allah ﷺ ; c'est la troisième fois que tu prétends ne pas revenir, puis tu reviens. Il dit : Laisse-moi, je vais t'apprendre des paroles dont Allah te fera profiter. Je dis : Lesquelles ? Il dit : « Quand tu te retires dans ton lit, récite Ayat al-Kursi — « Allah ! Il n'y a de divinité que Lui, le Vivant, Celui qui subsiste par Lui-même » — jusqu'à la fin du verset : un gardien d'Allah restera auprès de toi et aucun diable ne s'approchera de toi jusqu'au matin. » Je le laissai partir. Au matin, le Prophète ﷺ me dit : « Qu'a fait ton prisonnier hier soir ? » Je dis : Ô Messager d'Allah, il a prétendu m'apprendre des paroles dont Allah me ferait profiter, et je l'ai laissé partir. Il dit : « Lesquelles ? » Je les lui rapportai. Le Prophète ﷺ dit : « Il t'a dit vrai alors qu'il est menteur. Sais-tu à qui tu parles depuis trois nuits, Abou Hourayra ? » Non, dis-je. Il dit : « C'est un diable. »",
+  "riyad:782": "Aïcha (qu'Allah l'agrée) a rapporté que lorsque le Prophète ﷺ prenait place pour dormir, il soufflait dans ses mains, récitait les mou'awwidhat (les sourates de refuge) et s'en passait les mains sur le corps. Dans une version des deux Sahih : Chaque nuit, lorsqu'il se retirait dans son lit, le Prophète ﷺ joignait ses paumes, soufflait dedans et y récitait « Qoul Houwa Allahou Ahad », « Qoul a'oudhou bi Rabbi l-falaq » et « Qoul a'oudhou bi Rabbi n-nas », puis s'en passait les mains sur ce qu'il pouvait de son corps, en commençant par sa tête, son visage et le devant de son corps. Il faisait cela trois fois. (Le texte précise : le « nafth » est un souffle léger sans salive.)",
+  "riyad:781": "Abou Hourayra (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Quand l'un de vous se retire dans son lit, qu'il secoue son lit avec l'intérieur de son izar, car il ne sait pas ce qui est venu après lui sur son lit. Puis qu'il dise : « Bismika Rabbi wada'tou janbi wa bika arfa'ouhou ; in amsakta nafsi fa-rhamha, wa in arsaltaha fa-hfazha bima tahfazou bihi 'ibadaka s-salihin » (En Ton nom, mon Seigneur, j'ai posé mon flanc et par Toi je le relève ; si Tu retiens mon âme, fais-lui miséricorde, et si Tu la renvoies, protège-la comme Tu protèges Tes serviteurs vertueux). »",
+  "riyad:780": "Ali (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ lui dit, ainsi qu'à Fatima (qu'Allah les agrée) : « Quand vous vous retirez dans votre lit — ou : quand vous prenez place pour dormir —, dites « Allahou akbar » trente-trois fois, « Soubhan Allah » trente-trois fois et « Al-hamdou lillah » trente-trois fois. » Dans une version : trente-quatre fois pour le tasbih (« Soubhan Allah »). Dans une autre : trente-quatre fois pour le takbir (« Allahou akbar »).",
+  "riyad:138": "Ya'ish ibn Tikhfa al-Ghifari a rapporté : Mon père a dit : J'étais couché sur le ventre dans la mosquée lorsqu'un homme me remua du pied et dit : « Cette façon de se coucher, Allah la déteste. » Je regardai : c'était le Messager d'Allah ﷺ.",
+  "riyad:162": "Abou Qatada (qu'Allah l'agrée) a rapporté que le Prophète ﷺ a dit : « Le bon rêve — dans une version : le beau rêve — vient d'Allah, et le mauvais rêve (hulm) vient du diable. Que celui qui voit en rêve ce qu'il déteste souffle légèrement sur sa gauche trois fois et cherche refuge auprès d'Allah contre le diable : cela ne lui nuira pas. » (Le texte précise : le « nafth » est un souffle léger sans salive.)",
+  "riyad:163": "Jabir (qu'Allah l'agrée) a rapporté que le Messager d'Allah ﷺ a dit : « Si l'un de vous fait un rêve qu'il déteste, qu'il crache sur sa gauche trois fois, qu'il cherche refuge auprès d'Allah contre le diable trois fois et qu'il se tourne de l'autre côté que celui sur lequel il était couché. »",
+  "riyad:158": "Abou Hourayra (qu'Allah l'agrée) a dit : J'ai entendu le Messager d'Allah ﷺ dire : « Il ne reste de la prophétie que les moubachchirat (annonces de bonne nouvelle). » Ils dirent : Que sont les moubachchirat ? Il dit : « Le bon rêve. »"
+ }
+}
