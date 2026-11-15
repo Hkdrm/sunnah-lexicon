@@ -90,6 +90,8 @@ a{color:var(--accent)}
  <button class="tab" data-go="#i" id="t-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>Infos</button>
 </div></nav>
 <script>
+(() => {
+"use strict";
 
 const $ = (s, r=document) => r.querySelector(s);
 const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -356,6 +358,7 @@ fetch("data.json").then(r=>r.json()).then(d=>{
   });
 });
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+})();
 </script>
 </body>
 </html>
