@@ -72,15 +72,22 @@ h1.detail{font-size:28px;line-height:1.15;font-weight:700;margin:4px 0 12px}
 .tile .ic svg{width:23px;height:23px}
 .tile b{display:block;font-size:17px;line-height:1.2;font-weight:600}
 .tile span{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.card p+p{margin-top:10px}
+.num{flex:none;min-width:26px;color:var(--muted);font-variant-numeric:tabular-nums;font-size:15px}
+.nav2{display:flex;gap:10px;margin:14px 0}
+.nav2 button{flex:1;border:0;background:var(--card);color:var(--accent);font:inherit;padding:12px;border-radius:12px;cursor:pointer}
+.nav2 button[disabled]{opacity:.35}
+details.en{margin-top:12px}details.en summary{color:var(--accent);cursor:pointer;font-size:15px}details.en p{color:var(--muted);font-size:15px;margin-top:8px}
 a{color:var(--accent)}
 </style>
 </head>
 <body>
 <main id="screen"></main>
 <nav id="tabbar" aria-label="Navigation"><div class="in">
- <button class="tab" data-go="#/" id="t-home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>Pratiques</button>
- <button class="tab" data-go="#/h" id="t-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C6.5 4 9.5 4 12 5.5c2.5-1.5 5.5-1.5 8 0V19c-2.5-1.5-5.5-1.5-8 0-2.5-1.5-5.5-1.5-8 0z"/><path d="M12 5.5V19"/></svg>Hadiths</button>
- <button class="tab" data-go="#/i" id="t-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>Infos</button>
+ <button class="tab" data-go="#" id="t-home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>Pratiques</button>
+ <button class="tab" data-go="#h" id="t-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C6.5 4 9.5 4 12 5.5c2.5-1.5 5.5-1.5 8 0V19c-2.5-1.5-5.5-1.5-8 0-2.5-1.5-5.5-1.5-8 0z"/><path d="M12 5.5V19"/></svg>Hadiths</button>
+ <button class="tab" data-go="#l" id="t-l" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="13" height="18" rx="2"/><path d="M8 7h5M8 11h5M17 7h3v13a1 1 0 0 1-1 1h-2"/></svg>Livres</button>
+ <button class="tab" data-go="#i" id="t-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>Infos</button>
 </div></nav>
 <script>
 
@@ -176,12 +183,12 @@ function screenHome(el){
                 : (frNorm(p.title_fr)+" "+frNorm(p.summary_fr)+" "+frNorm(cat.label_fr)).includes(frNorm(t)))));
       if (!items.length) continue; n += items.length;
       html += `<div class="section">${esc(cat.label_fr)}</div><div class="group">` +
-        items.map(p => `<button class="row" data-go="#/p/${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("") + `</div>`;
+        items.map(p => `<button class="row" data-go="#p-${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("") + `</div>`;
     }
     if (!tokens.length) {
       $("#out", el).innerHTML = `<div class="grid">` + D.practice_categories.map(c => {
         const k = D.practices.filter(p => p.category === c.slug).length;
-        return `<button class="tile" data-go="#/c/${c.slug}">${catIcon(c.slug)}<div><b>${esc(c.label_fr)}</b><span>${k} geste${k>1?"s":""}</span></div></button>`;
+        return `<button class="tile" data-go="#c-${c.slug}">${catIcon(c.slug)}<div><b>${esc(c.label_fr)}</b><span>${k} geste${k>1?"s":""}</span></div></button>`;
       }).join("") + `</div>`;
       return;
     }
@@ -193,17 +200,17 @@ function screenHome(el){
 /* --- Écran : une catégorie --- */
 function screenCategory(el, slug){
   const cat = D.practice_categories.find(c=>c.slug===slug);
-  if (!cat) { location.hash = "#/"; return; }
+  if (!cat) { location.hash = "#"; return; }
   const items = D.practices.filter(p => p.category === slug);
   el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} Pratiques</button></div>
     <h1 class="detail" style="display:flex;align-items:center;gap:12px">${catIcon(slug)}<span>${esc(cat.label_fr)}</span></h1>
-    <div class="group">${items.map(p => `<button class="row" data-go="#/p/${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("")}</div>`;
+    <div class="group">${items.map(p => `<button class="row" data-go="#p-${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("")}</div>`;
 }
 
 /* --- Écran : détail d'une pratique --- */
 function screenPractice(el, slug){
   const p = D.practices.find(x=>x.slug===slug);
-  if (!p) { location.hash = "#/"; return; }
+  if (!p) { location.hash = "#"; return; }
   el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} ${esc((D.practice_categories.find(c=>c.slug===p.category)||{}).label_fr || "Pratiques")}</button></div>
     <h1 class="detail">${esc(p.title_fr)}</h1>
     <div class="card"><p class="fr">${esc(p.summary_fr)}</p><p class="note warn">Résumé en cours de relecture. Cette application ne rend pas d'avis juridique.</p></div>
@@ -275,31 +282,78 @@ function screenInfo(el){
   <p>Après une première visite, l'application fonctionne sans connexion. Sur iPhone : Safari, Partager, « Sur l'écran d'accueil ».</p></div>`;
 }
 
+
+/* --- Livres personnels (perso.json, privé) --- */
+let PERSO = null;
+const paras = (t, cls="fr") => (t||"").split(/\n+/).filter(Boolean).map(x=>`<p class="${cls}">${esc(x)}</p>`).join("");
+function screenBooks(el){
+  el.innerHTML = `<h1 class="large">Livres</h1><p class="lead">Contenu personnel, tiré de livrets achetés. Usage privé.</p>
+   <div class="group">
+    <button class="row" data-go="#l-h"><span class="t">Les 50 hadiths essentiels<span class="sub">Arabe, français, source et degré</span></span>${CHEV}</button>
+    <button class="row" data-go="#l-q"><span class="t">Les leçons du Coran<span class="sub">52 leçons, traduites en français</span></span>${CHEV}</button>
+   </div><p class="note" style="margin:14px 16px">${esc(PERSO.credit)}</p>`;
+}
+function screenList(el, kind){
+  const isH = kind === "h", items = isH ? PERSO.ahadith : PERSO.lessons;
+  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} Livres</button></div>
+   <h1 class="large">${isH ? "50 hadiths" : "Leçons du Coran"}</h1>
+   <div class="group">${items.map(x=>`<button class="row" data-go="#l-${kind}-${x.n}"><span class="num">${x.n}</span><span class="t">${esc(x.title_fr || x.title_en)}</span>${CHEV}</button>`).join("")}</div>`;
+}
+function screenItem(el, kind, n){
+  const isH = kind === "h", items = isH ? PERSO.ahadith : PERSO.lessons, i = items.findIndex(x=>x.n===n);
+  if (i < 0) { location.hash = "#l"; return; }
+  const x = items[i];
+  let body = "";
+  if (isH) {
+    const srcs = x.sources.map(s=>`<span class="pill ${/muttafaq|sahih/i.test(s.grade)?'':'warn'}">${esc(s.grade || "degré non précisé")}</span> <span class="note" style="margin:0">${esc(s.ref)}</span>`).join("<br>");
+    body = `<article class="card">${x.french ? paras(x.french) : ""}${x.arabic ? `<div class="ar" lang="ar">${esc(x.arabic)}</div>` : `<p class="note">Texte arabe non disponible dans le corpus de l'application.</p>`}
+      ${srcs ? `<div class="pills">${srcs}</div>` : ""}
+      <p class="note">${x.corpus ? "Arabe et français : corpus de l'application (" + esc(x.corpus) + "). " : "Français : traduction du texte du livret. "}Source et degré : indiqués par le livret.</p>
+      <details class="en"><summary>Texte du livret (anglais)</summary>${paras(x.body_en,"")}</details></article>`;
+  } else {
+    body = `<article class="card">${x.text_fr ? paras(x.text_fr) : "<p class='note'>Traduction indisponible.</p>"}
+      <p class="note warn">Traduction automatique du livret anglais ; les versets sont rendus tels que cités dans le livret, ce n'est pas une traduction officielle du Coran.</p>
+      <details class="en"><summary>Texte du livret (anglais)</summary>${paras(x.text_en,"")}</details></article>`;
+  }
+  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} ${isH ? "50 hadiths" : "Leçons"}</button></div>
+   <h1 class="detail">${x.n}. ${esc(x.title_fr || x.title_en)}</h1>${body}
+   <div class="nav2"><button ${i===0?"disabled":""} data-go="#l-${kind}-${i?items[i-1].n:n}">‹ Précédent</button><button ${i===items.length-1?"disabled":""} data-go="#l-${kind}-${i<items.length-1?items[i+1].n:n}">Suivant ›</button></div>`;
+}
+
 /* --- Navigation par hash --- */
 function route(){
-  const h = location.hash || "#/";
+  const h = location.hash || "#";
   const el = $("#screen");
   scrolls[el.dataset.route] = scrollY;
   el.dataset.route = h;
-  const m = h.match(/^#\/p\/([\w-]+)$/), mc = h.match(/^#\/c\/([\w-]+)$/);
+  const m = h.match(/^#p-([\w-]+)$/), mc = h.match(/^#c-([\w-]+)$/);
   el.className = "enter";
-  $("#t-home").removeAttribute("aria-current"); $("#t-h").removeAttribute("aria-current"); $("#t-i").removeAttribute("aria-current");
-  if (m) { screenPractice(el, m[1]); $("#t-home").setAttribute("aria-current","page"); }
+  for (const id of ["#t-home","#t-h","#t-i","#t-l"]) $(id).removeAttribute("aria-current");
+  const ml = PERSO && h.match(/^#l(?:-([hq])(?:-(\d+))?)?$/);
+  if (ml) {
+    $("#t-l").setAttribute("aria-current","page");
+    if (!ml[1]) screenBooks(el); else if (!ml[2]) screenList(el, ml[1]); else screenItem(el, ml[1], +ml[2]);
+  }
+  else if (m) { screenPractice(el, m[1]); $("#t-home").setAttribute("aria-current","page"); }
   else if (mc) { screenCategory(el, mc[1]); $("#t-home").setAttribute("aria-current","page"); }
-  else if (h === "#/h") { screenHadiths(el); $("#t-h").setAttribute("aria-current","page"); }
-  else if (h === "#/i") { screenInfo(el); $("#t-i").setAttribute("aria-current","page"); }
+  else if (h === "#h") { screenHadiths(el); $("#t-h").setAttribute("aria-current","page"); }
+  else if (h === "#i") { screenInfo(el); $("#t-i").setAttribute("aria-current","page"); }
   else { screenHome(el); $("#t-home").setAttribute("aria-current","page"); }
   scrollTo(0, scrolls[h] || 0);
 }
 document.addEventListener("click", e => {
   const g = e.target.closest("[data-go]"); if (g) { location.hash = g.dataset.go; return; }
-  if (e.target.closest("[data-back]")) { history.length > 1 ? history.back() : (location.hash = "#/"); }
+  if (e.target.closest("[data-back]")) { history.length > 1 ? history.back() : (location.hash = "#"); }
 });
 window.addEventListener("hashchange", route);
 fetch("data.json").then(r=>r.json()).then(d=>{
   d.hadiths.forEach(h=>{ h._ar = arNorm(h.arabic); h._fr = frNorm(h.french); h._stems = new Set(arTokens(h.arabic).map(stem)); });
   D = d; byKey = new Map(d.hadiths.map(h=>[h.collection+":"+h.number, h]));
-  route();
+  // contenu personnel facultatif : l'onglet n'apparaît que si perso.json existe
+  return fetch("perso.json").then(r => r.ok ? r.json() : null).catch(() => null).then(p => {
+    PERSO = p; if (p) $("#t-l").hidden = false;
+    route();
+  });
 });
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>

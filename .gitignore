@@ -1,3 +1,7 @@
 data/raw/
 db/sunnah.db
 __pycache__/
+
+# Contenu personnel sous droits (ne JAMAIS publier)
+data/private/
+web/perso.json
