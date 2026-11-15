@@ -140,6 +140,16 @@ def main() -> None:
         for hid, arabic in con.execute("SELECT id, arabic FROM hadith").fetchall():
             if wanted & {stem(x) for x in tokens(arabic)}:
                 con.execute("INSERT OR IGNORE INTO hadith_term VALUES (?,?,'auto')", (hid, tid))
+    # --- Traductions françaises rédigées par nous (uniquement là où il n'y en a pas) -------------
+    tr = json.loads((ROOT / "data/seed/translations_fr.json").read_text(encoding="utf-8"))
+    for key, text in tr["translations"].items():
+        coll, num = key.split(":")
+        cur = con.execute("UPDATE hadith SET french=?, french_origin=? WHERE collection=? AND number=? AND french IS NULL",
+                          (text, tr["origin"], coll, int(num)))
+        if cur.rowcount != 1:
+            raise SystemExit(f"Traduction sans hadiths cible (ou déjà traduit) : {key}")
+    con.execute("UPDATE hadith SET french_origin='jeu de données' WHERE french_origin IS NULL AND french IS NOT NULL")
+
     # --- Pratiques (fiches) : chaque référence doit exister dans le corpus -----------------------
     prac = json.loads((ROOT / "data/seed/practices.json").read_text(encoding="utf-8"))
     for pos, c in enumerate(prac["categories"]):
@@ -157,7 +167,7 @@ def main() -> None:
     # --- Export JSON ------------------------------------------------------------------------
     con.row_factory = sqlite3.Row
     q = lambda sql, *a: [dict(r) for r in con.execute(sql, a)]
-    hadiths = q("SELECT id, collection, number, arabic, french, verify_url, grade, grade_by, takhrij, review_status "
+    hadiths = q("SELECT id, collection, number, arabic, french, french_origin, verify_url, grade, grade_by, takhrij, review_status "
                 "FROM hadith ORDER BY CASE collection WHEN 'nawawi40' THEN 0 WHEN 'riyad' THEN 1 WHEN 'shamail' THEN 2 ELSE 3 END, number")
     link = lambda table, link_tbl, col, hid: [r["slug"] for r in q(
         f"SELECT t.slug FROM {table} t JOIN {link_tbl} x ON x.{col}=t.id WHERE x.hadith_id=?", hid)]

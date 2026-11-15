@@ -52,5 +52,11 @@ Tableurs à faire valider dans `review/` ; mode d'emploi dans [REVIEW.md](REVIEW
 Le workflow `.github/workflows/pages.yml` publie le dossier `web/` à chaque push sur `main`.
 Réglages à faire une fois : **Settings → Pages → Source : GitHub Actions**. Sur iPhone : Safari → Partager → « Sur l'écran d'accueil » (fonctionne ensuite hors ligne).
 
+## Traductions
+`data/seed/translations_fr.json` : traductions françaises rédigées par IA pour les hadiths cités dans les fiches (là où la source n'en fournit pas). Marquées « traduction automatique » dans l'app, à relire (`review/7_traductions.csv`). Elles n'ont pas de problème de licence puisqu'elles sont de notre fait.
+
+## Interface
+Pensée pour iPhone : titres larges, listes groupées, barre d'onglets (Pratiques · Hadiths · Infos), écran de détail par pratique, mode sombre.
+
 ## Pratiques
 `data/seed/practices.json` : fiches concrètes (manger de la main droite, siwak avant la prière, sommeil, salutations…). Chaque fiche cite des hadiths du corpus ; `build.py` échoue si une référence n'existe pas. Les résumés sont rédigés par nous (brouillon) et ne donnent aucune qualification juridique.

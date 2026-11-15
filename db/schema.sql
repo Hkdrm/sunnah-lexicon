@@ -18,6 +18,7 @@ CREATE TABLE hadith (
     number          INTEGER NOT NULL,
     arabic          TEXT NOT NULL,
     french          TEXT,                  -- NULL si la licence ne permet pas la copie
+    french_origin   TEXT,                  -- 'jeu de données' ou 'traduction automatique (Claude)'
     verify_url      TEXT,                  -- lien direct pour vérifier le hadith
     grade           TEXT NOT NULL DEFAULT 'non renseigné',  -- résumé du degré (détail dans hadith_grade)
     grade_by        TEXT,                  -- base du résumé

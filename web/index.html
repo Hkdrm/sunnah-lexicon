@@ -2,74 +2,82 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Lexique de la Sunnah</title>
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1f5f4a">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Sunnah">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <style>
-:root{--bg:#faf8f3;--fg:#1d2321;--muted:#5f6b66;--card:#fff;--line:#e3ded2;--accent:#1f5f4a;--warn:#8a5a00}
-@media (prefers-color-scheme:dark){:root{--bg:#141a18;--fg:#e8ece9;--muted:#9aa8a1;--card:#1c2421;--line:#2d3833;--accent:#5bbf9b;--warn:#e0b050}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,sans-serif}
-header,main{max-width:820px;margin:0 auto;padding:16px}
-h1{font-size:1.4rem;margin:0 0 4px}
-.sub{color:var(--muted);font-size:.9rem;margin:0 0 12px}
-input[type=search]{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);font-size:1rem}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
-.chip{border:1px solid var(--line);background:var(--card);color:var(--fg);padding:5px 11px;border-radius:99px;font-size:.85rem;cursor:pointer}
-.chip[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
-details{margin-top:6px}summary.label{cursor:pointer}.label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-top:10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
-.ar{font-size:1.3rem;line-height:2;direction:rtl;text-align:right;font-family:"Amiri","Scheherazade New",serif}
-.meta{font-size:.82rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:8px}
-.tag{color:var(--accent);cursor:pointer;text-decoration:underline}
-.warn{color:var(--warn)}
-.term b{color:var(--accent)}
-.disc{font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);margin-top:24px;padding-top:12px}
+:root{--bg:#f2f2f7;--card:#fff;--fg:#000;--muted:#6c6c70;--line:rgba(60,60,67,.16);--fill:rgba(118,118,128,.12);--accent:#1d7a56;--accent-soft:rgba(29,122,86,.12);--warn:#b25e00;--warn-soft:rgba(178,94,0,.12);--bar:rgba(249,249,249,.86);color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#1c1c1e;--fg:#fff;--muted:#98989f;--line:rgba(84,84,88,.55);--fill:rgba(118,118,128,.24);--accent:#34c48b;--accent-soft:rgba(52,196,139,.16);--warn:#ff9f0a;--warn-soft:rgba(255,159,10,.16);--bar:rgba(29,29,31,.86);color-scheme:dark}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:17px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+#screen{max-width:640px;margin:0 auto;padding:calc(12px + env(safe-area-inset-top)) 16px 24px}
+.enter{animation:enter .22s ease-out}
+@keyframes enter{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.enter{animation:none}}
+h1.large{font-size:34px;line-height:1.1;font-weight:700;letter-spacing:.2px;margin:10px 0 12px}
+.lead{color:var(--muted);font-size:15px;margin:-4px 0 14px}
+.search{display:flex;align-items:center;gap:8px;background:var(--fill);border-radius:10px;padding:0 10px;height:38px;margin:0 0 6px}
+.search svg{flex:none;color:var(--muted)}
+.search input{flex:1;min-width:0;border:0;background:none;color:var(--fg);font:inherit;font-size:17px;outline:none;height:100%}
+.search input::placeholder{color:var(--muted)}
+.section{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin:24px 16px 6px}
+.group{background:var(--card);border-radius:12px;overflow:hidden}
+.row{display:flex;align-items:center;gap:10px;min-height:48px;padding:10px 16px;border:0;border-top:.5px solid var(--line);background:none;width:100%;text-align:left;color:var(--fg);font:inherit;cursor:pointer}
+.row:first-child{border-top:0}
+.row:active{background:var(--fill)}
+.row .t{flex:1;min-width:0}
+.row .chev{flex:none;color:var(--muted);opacity:.6}
+.row .sub{display:block;font-size:14px;color:var(--muted)}
+.row select{border:0;background:none;color:var(--accent);font:inherit;font-size:16px;max-width:60%;text-align:right;text-align-last:right;outline:none}
+.seg{display:flex;gap:6px;overflow-x:auto;margin:6px -16px 0;padding:2px 16px 4px;scrollbar-width:none}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:none;border:0;background:var(--fill);color:var(--fg);padding:7px 14px;border-radius:99px;font:inherit;font-size:15px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:#fff}
+.nav{display:flex;align-items:center;margin:2px -6px 4px}
+.back{display:flex;align-items:center;gap:2px;border:0;background:none;color:var(--accent);font:inherit;padding:8px 6px;cursor:pointer}
+h1.detail{font-size:28px;line-height:1.15;font-weight:700;margin:4px 0 12px}
+.card{background:var(--card);border-radius:14px;padding:16px;margin:0 0 12px}
+.card p{margin:0}
+.fr{font-size:17px;line-height:1.45}
+.ar{font-size:22px;line-height:2;direction:rtl;text-align:right;font-family:"SF Arabic","Geeza Pro","Noto Naskh Arabic","Amiri",serif;margin:12px 0 0;padding:10px 12px;background:var(--fill);border-radius:10px}
+.fr+.ar{margin-top:12px}
+.ref{font-size:13px;color:var(--muted);margin:0 0 8px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;align-items:center}
+.pill{display:inline-block;font-size:13px;padding:3px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.note{font-size:13px;color:var(--muted);margin:10px 0 0}
+.note.warn{color:var(--warn)}
+.link{font-size:14px;color:var(--accent);text-decoration:none}
+.empty{text-align:center;color:var(--muted);padding:40px 16px}
+.more{display:block;width:100%;border:0;background:var(--card);color:var(--accent);font:inherit;padding:14px;border-radius:12px;margin:8px 0;cursor:pointer}
+.info h2{font-size:20px;margin:22px 0 6px}
+.info p,.info li{color:var(--fg);font-size:16px}
+.info ul{padding-left:20px;margin:6px 0}
+#tabbar{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-top:.5px solid var(--line);padding-bottom:env(safe-area-inset-bottom);z-index:10}
+#tabbar .in{display:flex;width:100%;max-width:640px}
+.tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;border:0;background:none;padding:7px 0 6px;color:var(--muted);font:inherit;font-size:10.5px;cursor:pointer}
+.tab[aria-current=page]{color:var(--accent)}
+.tab svg{width:26px;height:26px}
 a{color:var(--accent)}
-.tabs{display:flex;gap:6px;margin:0 0 10px}
-.tab{flex:1;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:9px;border-radius:10px;font-size:.95rem;cursor:pointer}
-.tab[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
-.cat{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin:22px 0 4px}
-.prac h3{margin:0 0 6px;font-size:1.05rem}
-.prac p{margin:0 0 8px}
-.prac summary{cursor:pointer;color:var(--accent);font-size:.9rem}
-.src{border-top:1px solid var(--line);margin-top:10px;padding-top:6px}
-.src .ar{font-size:1.15rem;line-height:1.9}
 </style>
 </head>
 <body>
-<header>
-  <h1>Lexique de la Sunnah</h1>
-  <p class="sub">Les gestes de la Sunnah et leurs sources : Nawawi 40, Riyad as-Salihin, Ash-Shama'il, Al-Adab al-Mufrad</p>
-  <div class="tabs" role="tablist"><button class="tab" id="tab-pratiques" data-view="pratiques" aria-pressed="true">Pratiques</button><button class="tab" id="tab-hadiths" data-view="hadiths" aria-pressed="false">Hadiths</button></div>
-  <input id="q" type="search" placeholder="Rechercher : main droite, siwak, sommeil, النية…" autocomplete="off">
-  <div id="filters" hidden>
-  <div class="label">Recueils</div><div class="chips" id="collections"></div>
-  <details><summary class="label">Thèmes <span id="n-themes"></span></summary><div class="chips" id="themes"></div></details>
-  <details><summary class="label">Situations <span id="n-situations"></span></summary><div class="chips" id="situations"></div></details>
-  <details><summary class="label">Termes du lexique <span id="n-terms"></span></summary><div class="chips" id="terms"></div></details>
-  </div>
-</header>
-<main>
-  <div id="pview"></div>
-  <div id="hview" hidden>
-  <div id="termbox"></div>
-  <div id="count" class="sub"></div>
-  <div id="list"></div>
-  <button id="more" class="chip" hidden style="width:100%;padding:10px">Afficher plus</button>
-  </div>
-  <p class="disc">Cette application présente des textes et renvoie à leurs sources ; elle ne rend pas de fatwa.
-  Pour une question de jurisprudence, consultez un savant qualifié. Contenu d'indexation et résumés des pratiques en cours de relecture.
-  Texte arabe : domaine public. Traduction française (Nawawi) : provenance et licence à confirmer ; pas de traduction pour les autres recueils.
-  Degrés : lus dans la mention finale du texte (An-Nawawi) ou déduits de la présence dans Boukhari/Mouslim ; jamais inventés. La recherche arabe utilise un radical approximatif.
-  Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a>, <a href="https://github.com/AhmedBaset/hadith-json">hadith-json</a> · vérification : <a href="https://sunnah.com/nawawi40">sunnah.com</a>.</p>
-</main>
+<main id="screen"></main>
+<nav id="tabbar" aria-label="Navigation"><div class="in">
+ <button class="tab" data-go="#/" id="t-home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>Pratiques</button>
+ <button class="tab" data-go="#/h" id="t-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C6.5 4 9.5 4 12 5.5c2.5-1.5 5.5-1.5 8 0V19c-2.5-1.5-5.5-1.5-8 0-2.5-1.5-5.5-1.5-8 0z"/><path d="M12 5.5V19"/></svg>Hadiths</button>
+ <button class="tab" data-go="#/i" id="t-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>Infos</button>
+</div></nav>
 <script>
-const $ = s => document.querySelector(s);
+
+const $ = (s, r=document) => r.querySelector(s);
 const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 /* --- Arabe : normalisation + radical léger (doit rester identique à scripts/arabic.py) --- */
 const arNorm = s => (s||"").replace(/[ً-ٰٟـۖ-ۭ]/g,"").replace(/[أإآٱ]/g,"ا").replace(/ى/g,"ي");
@@ -84,114 +92,169 @@ function stem(w){
 }
 const frNorm = s => (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
 const isAr = s => /[؀-ۿ]/.test(s);
+const ICON_SEARCH = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
+const CHEV = '<svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>';
+const BACK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>';
 
-const USED = {theme:{}, situation:{}};
-let D, state = {view:"pratiques", q:"", collection:null, theme:null, situation:null, term:null}, limit = 40;
-const label = (list, slug) => (list.find(x=>x.slug===slug)||{}).label_fr || slug;
+let D, byKey, state = {q:"", hq:"", col:"", theme:"", sit:"", term:"", limit:30};
+const scrolls = {};
 
-function chips(id, items, key, lab){
-  if (key !== "collection" && key !== "term") items = items.filter(i => !state.collection || (USED[key][i.slug]||new Set()).has(state.collection));
-  const n = document.getElementById("n-" + id.slice(1)); if (n) n.textContent = `(${items.length})`;
-  $(id).innerHTML = items.map(i=>`<button class="chip" data-k="${key}" data-v="${i.slug}" aria-pressed="${state[key]===i.slug}">${esc(lab(i))}</button>`).join("");
-}
+/* --- Matching --- */
 function matches(h, tokens){
   return tokens.every(t => {
-    if (isAr(t)) {
-      const nt = arNorm(t);
-      return h._ar.includes(nt) || arTokens(t).every(x => h._stems.has(stem(x)));
-    }
+    if (isAr(t)) return h._ar.includes(arNorm(t)) || arTokens(t).every(x => h._stems.has(stem(x)));
     return h._fr.includes(frNorm(t)) || String(h.number) === t;
   });
 }
 
-const colOf = slug => D.collections.find(c=>c.slug===slug);
-function hadithBody(h, tags){
-  const col = colOf(h.collection);
-  return `
-      <div class="ar">${esc(h.arabic)}</div>
-      ${h.french ? `<p>${esc(h.french)}</p>` : (tags ? `<p class="sub">Traduction française non disponible pour ce recueil.</p>` : "")}
-      <div class="meta">
-        <span>${esc(col.name_fr)} · n° ${h.number}</span>
-        ${h.takhrij ? `<span>Rapporté par : ${esc(h.takhrij)}</span>` : ""}
-        ${h.verify_url ? `<a href="${h.verify_url}" target="_blank" rel="noopener">Vérifier sur sunnah.com</a>` : `<a href="${col.site_url}" target="_blank" rel="noopener">Recueil sur sunnah.com</a>`}
-      </div>
-      ${col.note ? `<div class="meta warn">⚠ ${esc(col.note)}</div>` : ""}
-      <div class="meta ${h.grades.length?'':'warn'}">${h.grades.length
-        ? h.grades.map(g=>`<span>Degré : <b>${esc(g.grade)}</b> — ${esc(g.basis)}</span>`).join("")
-        : "Degré : non renseigné"}</div>
-      ${tags ? `<div class="meta">
-        ${h.themes.map(s=>`<span class="tag" data-k="theme" data-v="${s}">${esc(label(D.themes,s))}</span>`).join("")}
-        ${h.situations.map(s=>`<span class="tag" data-k="situation" data-v="${s}">${esc(label(D.situations,s))}</span>`).join("")}
-        ${h.terms.map(s=>`<span class="tag" data-k="term" data-v="${s}">${esc(D.terms.find(t=>t.slug===s).translit)}</span>`).join("")}
-      </div>` : ""}`;
+/* --- Carte hadith --- */
+function hadithCard(h, opts={}){
+  const col = D.collections.find(c=>c.slug===h.collection);
+  const good = h.grades.length && /sahih|hasan/i.test(h.grades[0].grade);
+  const gradeHtml = h.grades.length
+    ? `<span class="pill ${good?'':'warn'}">${esc(h.grades[0].grade)}</span>`
+    : `<span class="pill warn">Degré non renseigné</span>`;
+  const basis = h.grades.length ? `<p class="note">${esc(h.grades.map(g=>g.basis).join(" · "))}</p>` : "";
+  const frNote = h.french
+    ? (h.french_origin === "jeu de données" ? "" : `<p class="note warn">${esc(h.french_origin)}</p>`)
+    : `<p class="note">Traduction française non disponible pour ce hadith.</p>`;
+  return `<article class="card">
+    <p class="ref">${esc(col.name_fr)} · n° ${h.number}</p>
+    ${h.french ? `<p class="fr">${esc(h.french)}</p>` : ""}
+    <div class="ar" lang="ar">${esc(h.arabic)}</div>
+    ${frNote}
+    <div class="pills">${gradeHtml}${h.takhrij ? `<span class="note" style="margin:0">Rapporté par : ${esc(h.takhrij)}</span>` : ""}</div>
+    ${basis}
+    ${col.note ? `<p class="note warn">⚠ ${esc(col.note)}</p>` : ""}
+    <p class="note"><a class="link" href="${h.verify_url || col.site_url}" target="_blank" rel="noopener">${h.verify_url ? "Vérifier" : "Voir le recueil"} sur sunnah.com</a></p>
+  </article>`;
 }
-function renderPractices(){
-  const tokens = state.q.trim().split(/\s+/).filter(Boolean);
-  const byKey = new Map(D.hadiths.map(h=>[h.collection+":"+h.number, h]));
-  let html = "", n = 0;
-  for (const cat of D.practice_categories) {
-    const items = D.practices.filter(p => p.category === cat.slug && (!tokens.length || tokens.every(t =>
-      isAr(t) ? p.refs.some(r => { const h = byKey.get(r[0]+":"+r[1]); return h && matches(h, [t]); })
-              : (frNorm(p.title_fr) + " " + frNorm(p.summary_fr) + " " + frNorm(cat.label_fr)).includes(frNorm(t)))));
-    if (!items.length) continue;
-    n += items.length;
-    html += `<div class="cat">${esc(cat.label_fr)}</div>` + items.map(p => `
-      <article class="card prac">
-        <h3>${esc(p.title_fr)}</h3>
-        <p>${esc(p.summary_fr)}</p>
-        <details><summary>Sources (${p.refs.length} hadith${p.refs.length>1?"s":""})</summary>
-          ${p.refs.map(r=>byKey.get(r[0]+":"+r[1])).filter(Boolean).map(h=>`<div class="src">${hadithBody(h,false)}</div>`).join("")}
-        </details>
-        <div class="meta warn">Résumé en cours de relecture</div>
-      </article>`).join("");
-  }
-  $("#pview").innerHTML = (n ? `<div class="sub">${n} pratique(s)</div>` : '<p class="sub">Aucune pratique trouvée. Essayez l\'onglet Hadiths pour une recherche dans les textes.</p>') + html;
+
+/* --- Écran : Pratiques (accueil) --- */
+function screenHome(el){
+  el.innerHTML = `<h1 class="large">Pratiques</h1>
+    <p class="lead">Les gestes de la Sunnah, avec les hadiths qui les rapportent.</p>
+    <label class="search">${ICON_SEARCH}<input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Rechercher un geste" autocomplete="off" aria-label="Rechercher un geste"></label>
+    <div id="out"></div>`;
+  const q = $("#q", el); q.value = state.q;
+  const draw = () => {
+    state.q = q.value;
+    const tokens = state.q.trim().split(/\s+/).filter(Boolean);
+    let html = "", n = 0;
+    for (const cat of D.practice_categories) {
+      const items = D.practices.filter(p => p.category === cat.slug && (!tokens.length || tokens.every(t =>
+        isAr(t) ? p.refs.some(r => { const h = byKey.get(r[0]+":"+r[1]); return h && matches(h, [t]); })
+                : (frNorm(p.title_fr)+" "+frNorm(p.summary_fr)+" "+frNorm(cat.label_fr)).includes(frNorm(t)))));
+      if (!items.length) continue; n += items.length;
+      html += `<div class="section">${esc(cat.label_fr)}</div><div class="group">` +
+        items.map(p => `<button class="row" data-go="#/p/${p.slug}"><span class="t">${esc(p.title_fr)}</span>${CHEV}</button>`).join("") + `</div>`;
+    }
+    $("#out", el).innerHTML = n ? html : `<div class="empty">Aucun geste trouvé.<br>Essayez l'onglet Hadiths pour chercher dans les textes.</div>`;
+  };
+  q.addEventListener("input", draw); draw();
 }
-function setView(v){
-  state.view = v;
-  for (const t of document.querySelectorAll(".tab")) t.setAttribute("aria-pressed", t.dataset.view===v);
-  $("#pview").hidden = v!=="pratiques"; $("#hview").hidden = v!=="hadiths"; $("#filters").hidden = v!=="hadiths";
-  try { history.replaceState(null, "", "#" + v); } catch(e){}
-  v==="pratiques" ? renderPractices() : render();
-  scrollTo({top:0});
+
+/* --- Écran : détail d'une pratique --- */
+function screenPractice(el, slug){
+  const p = D.practices.find(x=>x.slug===slug);
+  if (!p) { location.hash = "#/"; return; }
+  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} Pratiques</button></div>
+    <h1 class="detail">${esc(p.title_fr)}</h1>
+    <div class="card"><p class="fr">${esc(p.summary_fr)}</p><p class="note warn">Résumé en cours de relecture. Cette application ne rend pas d'avis juridique.</p></div>
+    <div class="section">Sources (${p.refs.length})</div>
+    ${p.refs.map(r=>byKey.get(r[0]+":"+r[1])).filter(Boolean).map(h=>hadithCard(h)).join("")}`;
 }
-function render(){
-  chips("#collections", D.collections, "collection", c=>c.name_fr);
-  chips("#themes", D.themes, "theme", t=>t.label_fr);
-  chips("#situations", D.situations, "situation", t=>t.label_fr);
-  chips("#terms", D.terms, "term", t=>`${t.translit} ${t.arabic}`);
-  const tokens = state.q.trim().split(/\s+/).filter(Boolean);
-  const res = D.hadiths.filter(h =>
-    (!state.collection || h.collection===state.collection) &&
-    (!state.theme || h.themes.includes(state.theme)) &&
-    (!state.situation || h.situations.includes(state.situation)) &&
-    (!state.term || h.terms.includes(state.term)) &&
-    (!tokens.length || matches(h, tokens)));
-  const t = D.terms.find(x=>x.slug===state.term);
-  $("#termbox").innerHTML = t ? `<div class="card term"><b>${esc(t.translit)}</b> — <span class="ar" style="font-size:1.1rem">${t.arabic}</span><br>${esc(t.definition_fr)}<div class="meta warn">Définition en cours de relecture. Liens avec les hadiths : détection automatique par radical, à vérifier.</div></div>` : "";
-  $("#count").textContent = `${res.length} hadith(s)`;
-  const colName = slug => (D.collections.find(c=>c.slug===slug)||{}).name_fr;
-  $("#list").innerHTML = res.slice(0, limit).map(h=>`<article class="card">${hadithBody(h, true)}</article>`).join("") || '<p class="sub">Aucun résultat.</p>';
-  $("#more").hidden = res.length <= limit;
-  $("#more").textContent = `Afficher plus (${res.length - limit} restants)`;
+
+/* --- Écran : Hadiths --- */
+function screenHadiths(el){
+  const opt = (list, cur, all, lab) => `<option value="">${all}</option>` + list.map(x=>`<option value="${x.slug}" ${x.slug===cur?"selected":""}>${esc(lab(x))}</option>`).join("");
+  el.innerHTML = `<h1 class="large">Hadiths</h1>
+    <label class="search">${ICON_SEARCH}<input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Français ou arabe : colère, النية" autocomplete="off" aria-label="Rechercher dans les hadiths"></label>
+    <div class="seg" id="seg"></div>
+    <div class="section">Filtres</div>
+    <div class="group">
+      <label class="row"><span class="t">Thème</span><select id="f-theme"></select></label>
+      <label class="row"><span class="t">Situation</span><select id="f-sit"></select></label>
+      <label class="row"><span class="t">Terme</span><select id="f-term"></select></label>
+    </div>
+    <div id="termbox"></div><div id="count" class="section"></div><div id="list"></div>`;
+  const q = $("#q", el); q.value = state.hq;
+  const used = k => new Set(D.hadiths.filter(h=>!state.col||h.collection===state.col).flatMap(h=>h[k]));
+  const drawSeg = () => {
+    $("#seg", el).innerHTML = [{slug:"",name:"Tous"}].concat(D.collections.map(c=>({slug:c.slug,name:c.name_fr.replace(/ \(.*/,"").replace("Les 40 hadiths d'An-Nawawi","Nawawi 40").replace("Ash-Shama'il al-Muhammadiyya","Shama'il").replace("Al-Adab al-Mufrad","Adab al-Mufrad").replace("Riyad as-Salihin","Riyad as-Salihin")})))
+      .map(c=>`<button data-col="${c.slug}" aria-pressed="${state.col===c.slug}">${esc(c.name)}</button>`).join("");
+    const ut = used("themes"), us = used("situations");
+    if (state.theme && !ut.has(state.theme)) state.theme = "";
+    if (state.sit && !us.has(state.sit)) state.sit = "";
+    $("#f-theme", el).innerHTML = opt(D.themes.filter(t=>ut.has(t.slug)), state.theme, "Tous", t=>t.label_fr);
+    $("#f-sit", el).innerHTML = opt(D.situations.filter(t=>us.has(t.slug)), state.sit, "Toutes", t=>t.label_fr);
+    $("#f-term", el).innerHTML = opt(D.terms, state.term, "Tous", t=>`${t.translit} · ${t.arabic}`);
+  };
+  const draw = () => {
+    state.hq = q.value;
+    const tokens = state.hq.trim().split(/\s+/).filter(Boolean);
+    const res = D.hadiths.filter(h => (!state.col||h.collection===state.col) && (!state.theme||h.themes.includes(state.theme)) &&
+      (!state.sit||h.situations.includes(state.sit)) && (!state.term||h.terms.includes(state.term)) && (!tokens.length||matches(h,tokens)));
+    const t = D.terms.find(x=>x.slug===state.term);
+    $("#termbox", el).innerHTML = t ? `<div class="section">Lexique</div><div class="card"><p class="fr"><b>${esc(t.translit)}</b> · <span lang="ar">${t.arabic}</span></p><p>${esc(t.definition_fr)}</p><p class="note warn">Définition en cours de relecture. Liens avec les hadiths : détection automatique, à vérifier.</p></div>` : "";
+    $("#count", el).textContent = `${res.length} hadith${res.length>1?"s":""}`;
+    $("#list", el).innerHTML = (res.length ? res.slice(0,state.limit).map(h=>hadithCard(h)).join("") : `<div class="empty">Aucun résultat.</div>`) +
+      (res.length > state.limit ? `<button class="more" data-more>Afficher plus (${res.length-state.limit})</button>` : "");
+  };
+  drawSeg(); draw();
+  q.addEventListener("input", ()=>{state.limit=30; draw();});
+  el.addEventListener("click", e => {
+    const b = e.target.closest("[data-col]"); if (b){ state.col=b.dataset.col; state.limit=30; drawSeg(); draw(); }
+    if (e.target.closest("[data-more]")) { state.limit += 30; draw(); }
+  });
+  $("#f-theme", el).onchange = e => { state.theme=e.target.value; state.limit=30; draw(); };
+  $("#f-sit", el).onchange = e => { state.sit=e.target.value; state.limit=30; draw(); };
+  $("#f-term", el).onchange = e => { state.term=e.target.value; state.limit=30; draw(); };
 }
-document.addEventListener("click", e=>{
-  const tab = e.target.closest("[data-view]"); if(tab){ setView(tab.dataset.view); return; }
-  const el = e.target.closest("[data-k]"); if(!el) return;
-  const {k,v} = el.dataset; state[k] = state[k]===v ? null : v; limit = 40;
-  if (k === "collection") for (const f of ["theme","situation"])  // un filtre d'un autre recueil n'a plus de bouton : on le retire
-    if (state[f] && state.collection && !(USED[f][state[f]]||new Set()).has(state.collection)) state[f] = null;
-  render(); scrollTo({top:0});
+
+/* --- Écran : Infos --- */
+function screenInfo(el){
+  el.innerHTML = `<h1 class="large">Infos</h1><div class="info">
+  <h2>Ce que fait l'application</h2>
+  <p>Elle présente des gestes de la Sunnah et renvoie aux hadiths qui les rapportent. Elle <b>ne rend pas de fatwa</b> : pour une question de jurisprudence, consultez un savant qualifié.</p>
+  <h2>Contenu</h2>
+  <ul><li>Les 40 hadiths d'An-Nawawi (arabe et français)</li><li>Riyad as-Salihin, Ash-Shama'il, Al-Adab al-Mufrad (arabe ; français seulement pour les hadiths cités dans les fiches)</li></ul>
+  <h2>Ce qui est en cours de relecture</h2>
+  <ul><li>Les résumés des fiches, les thèmes, les définitions du lexique.</li><li>Les traductions marquées « traduction automatique » : rédigées par une IA, à relire par une personne qualifiée.</li></ul>
+  <h2>Degrés d'authenticité</h2>
+  <p>Ils ne sont jamais inventés. Ils sont lus dans la mention finale du texte (par exemple « rapporté par Boukhari et Mouslim » ou l'avis d'An-Nawawi) ; sinon : « non renseigné ». Ce n'est pas un classement indépendant par un savant nommé.</p>
+  <h2>Sources et licences</h2>
+  <p>Textes arabes classiques. Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a> et <a href="https://github.com/AhmedBaset/hadith-json">hadith-json</a>. La licence de la traduction française d'An-Nawawi et celle du jeu de données des autres recueils restent à confirmer. Vérification : <a href="https://sunnah.com">sunnah.com</a>.</p>
+  <h2>Hors ligne</h2>
+  <p>Après une première visite, l'application fonctionne sans connexion. Sur iPhone : Safari, Partager, « Sur l'écran d'accueil ».</p></div>`;
+}
+
+/* --- Navigation par hash --- */
+function route(){
+  const h = location.hash || "#/";
+  const el = $("#screen");
+  scrolls[el.dataset.route] = scrollY;
+  el.dataset.route = h;
+  const m = h.match(/^#\/p\/([\w-]+)$/);
+  el.className = "enter";
+  $("#t-home").removeAttribute("aria-current"); $("#t-h").removeAttribute("aria-current"); $("#t-i").removeAttribute("aria-current");
+  if (m) { screenPractice(el, m[1]); $("#t-home").setAttribute("aria-current","page"); }
+  else if (h === "#/h") { screenHadiths(el); $("#t-h").setAttribute("aria-current","page"); }
+  else if (h === "#/i") { screenInfo(el); $("#t-i").setAttribute("aria-current","page"); }
+  else { screenHome(el); $("#t-home").setAttribute("aria-current","page"); }
+  scrollTo(0, scrolls[h] || 0);
+}
+document.addEventListener("click", e => {
+  const g = e.target.closest("[data-go]"); if (g) { location.hash = g.dataset.go; return; }
+  if (e.target.closest("[data-back]")) { history.length > 1 ? history.back() : (location.hash = "#/"); }
 });
-$("#q").addEventListener("input", e=>{state.q=e.target.value; limit=40; state.view==="pratiques" ? renderPractices() : render();});
-$("#more").addEventListener("click", ()=>{limit += 40; render();});
+window.addEventListener("hashchange", route);
 fetch("data.json").then(r=>r.json()).then(d=>{
   d.hadiths.forEach(h=>{ h._ar = arNorm(h.arabic); h._fr = frNorm(h.french); h._stems = new Set(arTokens(h.arabic).map(stem)); });
-  d.hadiths.forEach(h=>{ for (const k of ["theme","situation"]) for (const sl of h[k==="theme"?"themes":"situations"]) (USED[k][sl] ||= new Set()).add(h.collection); });
-  D = d; setView(location.hash === "#hadiths" ? "hadiths" : "pratiques");
+  D = d; byKey = new Map(d.hadiths.map(h=>[h.collection+":"+h.number, h]));
+  route();
 });
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
-window.__stem = stem; window.__arTokens = arTokens;
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
 </body>
 </html>
