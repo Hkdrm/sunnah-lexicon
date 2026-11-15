@@ -3,7 +3,7 @@
 
 Collections :
   - nawawi40 : 42 hadiths, arabe + français      (fawazahmed0/hadith-api, Unlicense pour le code)
-  - riyad    : 1896 hadiths, arabe seulement     (AhmedBaset/hadith-json v1.2.0)
+  - riyad, shamail, adab : arabe seulement          (AhmedBaset/hadith-json v1.2.0)
 
 Choix de licence : pour Riyad as-Salihin, la traduction anglaise du jeu de données n'est PAS copiée
 (provenance/licence non établies). Seuls le texte arabe (classique) et la structure en livres sont repris.
@@ -24,7 +24,11 @@ SRC = {
     "ara-nawawi": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-nawawi.min.json",
     "fra-nawawi": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/fra-nawawi.min.json",
     "riyad": "https://raw.githubusercontent.com/AhmedBaset/hadith-json/v1.2.0/db/by_book/other_books/riyad_assalihin.json",
+    "shamail": "https://raw.githubusercontent.com/AhmedBaset/hadith-json/v1.2.0/db/by_book/other_books/shamail_muhammadiyah.json",
+    "adab": "https://raw.githubusercontent.com/AhmedBaset/hadith-json/v1.2.0/db/by_book/other_books/aladab_almufrad.json",
 }
+HJ = "AhmedBaset/hadith-json v1.2.0 (issu de sunnah.com) — licence du jeu de données à confirmer"
+NUM_NOTE = "Numéro = ordre du jeu de données ; correspondance avec sunnah.com non vérifiée, donc pas de lien direct."
 
 
 def fetch(name: str) -> dict:
@@ -45,12 +49,20 @@ def main() -> None:
     con = sqlite3.connect(db_path)
     con.executescript((ROOT / "db" / "schema.sql").read_text(encoding="utf-8"))
 
-    con.execute("INSERT INTO collection VALUES (?,?,?,?,?)", (
-        "nawawi40", "Les 40 hadiths d'An-Nawawi", "الأربعون النووية", "Imam An-Nawawi",
-        "https://sunnah.com/nawawi40"))
-    con.execute("INSERT INTO collection VALUES (?,?,?,?,?)", (
-        "riyad", "Riyad as-Salihin (Les Jardins des vertueux)", "رياض الصالحين", "Imam An-Nawawi",
-        "https://sunnah.com/riyadussalihin"))
+    COLL = [
+        ("nawawi40", "Les 40 hadiths d'An-Nawawi", "الأربعون النووية", "Imam An-Nawawi",
+         "https://sunnah.com/nawawi40", None),
+        ("riyad", "Riyad as-Salihin (Les Jardins des vertueux)", "رياض الصالحين", "Imam An-Nawawi",
+         "https://sunnah.com/riyadussalihin", None),
+        ("shamail", "Ash-Shama'il al-Muhammadiyya (At-Tirmidhi)", "الشمائل المحمدية", "Imam At-Tirmidhi",
+         "https://sunnah.com/shamail",
+         "Décrit l'apparence, les habitudes et le comportement du Prophète ﷺ. Degrés non fournis par la source : vérifier chaque hadith."),
+        ("adab", "Al-Adab al-Mufrad (Al-Boukhari)", "الأدب المفرد", "Imam Al-Boukhari",
+         "https://sunnah.com/adab",
+         "Recueil dont les hadiths sont de fiabilité variable (il n'est pas dans le Sahih). Degrés non fournis par la source : vérifier chaque hadith avant de s'y référer."),
+    ]
+    for c in COLL:
+        con.execute("INSERT INTO collection (slug,name_fr,name_ar,author,site_url,note) VALUES (?,?,?,?,?,?)", c)
 
     # --- thèmes, situations, termes -------------------------------------------------------
     for kind, table in (("themes", "theme"), ("situations", "situation")):
@@ -59,12 +71,19 @@ def main() -> None:
     for t in nawawi_idx["terms"]:
         con.execute("INSERT INTO term (slug,arabic,translit,definition_fr) VALUES (?,?,?,?)",
                     (t["slug"], t["arabic"], t["translit"], t["definition_fr"]))
-    riyad = fetch("riyad")
-    book_ar = {c["id"]: c["arabic"].replace("ـ", "").strip() for c in riyad["chapters"]}
-    for bid, b in riyad_idx["books"].items():
-        table = "theme" if b["kind"] == "theme" else "situation"
-        con.execute(f"INSERT INTO {table} (slug,label_fr,label_ar) VALUES (?,?,?)",
-                    (b["slug"], b["label_fr"], book_ar.get(int(bid))))
+    BOOKS = {}  # collection -> (raw, idx, slug_fn)
+    for coll, key, seed, slug_fn in (
+            ("riyad", "riyad", "index_riyad.json", lambda i, b: b["slug"]),
+            ("shamail", "shamail", "index_shamail.json", lambda i, b: f"shamail-{i}"),
+            ("adab", "adab", "index_adab.json", lambda i, b: f"adab-{i}")):
+        raw = fetch(key)
+        idx = json.loads((ROOT / "data/seed" / seed).read_text(encoding="utf-8"))
+        book_ar = {c["id"]: c["arabic"].replace("ـ", "").strip() for c in raw["chapters"]}
+        for bid, b in idx["books"].items():
+            table = "theme" if b["kind"] == "theme" else "situation"
+            con.execute(f"INSERT INTO {table} (slug,label_fr,label_ar) VALUES (?,?,?)",
+                        (slug_fn(bid, b), b["label_fr"], book_ar.get(int(bid) if int(bid) != 99 else None)))
+        BOOKS[coll] = (raw, idx, slug_fn)
 
     def ident(table, slug):
         return con.execute(f"SELECT id FROM {table} WHERE slug=?", (slug,)).fetchone()[0]
@@ -102,19 +121,17 @@ def main() -> None:
         for s in meta.get("terms", []):
             con.execute("INSERT INTO hadith_term VALUES (?,?,'manual')", (hid, ident("term", s)))
 
-    # --- Riyad as-Salihin (arabe seulement) -------------------------------------------------
-    for h in riyad["hadiths"]:
-        hid = add_hadith(
-            "riyad", h["idInBook"], h["arabic"].strip(), None,
-            None,  # la numérotation du jeu de données diffère de celle de sunnah.com : pas de lien direct
-            "AhmedBaset/hadith-json v1.2.0 (issu de sunnah.com) — licence du jeu de données à confirmer",
-            None,
-            "Numéro = ordre du jeu de données (livre 'Fondements' en dernier), pas la numérotation sunnah.com.")
-        b = riyad_idx["books"][str(h["chapterId"])]
-        if b["kind"] == "theme":
-            con.execute("INSERT INTO hadith_theme VALUES (?,?)", (hid, ident("theme", b["slug"])))
-        else:
-            con.execute("INSERT INTO hadith_situation VALUES (?,?)", (hid, ident("situation", b["slug"])))
+    # --- Riyad, Shama'il, Adab al-Mufrad (arabe seulement) ------------------------------------
+    for coll, (raw, idx, slug_fn) in BOOKS.items():
+        for h in raw["hadiths"]:
+            cid = h["chapterId"] if h["chapterId"] is not None else 99  # chapitre sans id (Shama'il)
+            hid = add_hadith(coll, h["idInBook"], h["arabic"].strip(), None, None, HJ, None,
+                             "Texte arabe uniquement. " + NUM_NOTE)
+            b = idx["books"][str(cid)]
+            if b["kind"] == "theme":
+                con.execute("INSERT INTO hadith_theme VALUES (?,?)", (hid, ident("theme", slug_fn(str(cid), b))))
+            else:
+                con.execute("INSERT INTO hadith_situation VALUES (?,?)", (hid, ident("situation", slug_fn(str(cid), b))))
 
     # --- Liens termes <-> hadiths par radical (automatiques, à vérifier) ----------------------
     for t in nawawi_idx["terms"]:
@@ -129,7 +146,7 @@ def main() -> None:
     con.row_factory = sqlite3.Row
     q = lambda sql, *a: [dict(r) for r in con.execute(sql, a)]
     hadiths = q("SELECT id, collection, number, arabic, french, verify_url, grade, grade_by, takhrij, review_status "
-                "FROM hadith ORDER BY collection DESC, number")
+                "FROM hadith ORDER BY CASE collection WHEN 'nawawi40' THEN 0 WHEN 'riyad' THEN 1 WHEN 'shamail' THEN 2 ELSE 3 END, number")
     link = lambda table, link_tbl, col, hid: [r["slug"] for r in q(
         f"SELECT t.slug FROM {table} t JOIN {link_tbl} x ON x.{col}=t.id WHERE x.hadith_id=?", hid)]
     for h in hadiths:
@@ -139,7 +156,7 @@ def main() -> None:
         h["grades"] = q("SELECT grade, basis FROM hadith_grade WHERE hadith_id=?", h["id"])
         del h["id"]
     data = {
-        "collections": q("SELECT slug, name_fr, name_ar, author, site_url FROM collection"),
+        "collections": q("SELECT slug, name_fr, name_ar, author, site_url, note FROM collection"),
         "themes": q("SELECT slug, label_fr, label_ar FROM theme"),
         "situations": q("SELECT slug, label_fr, label_ar FROM situation"),
         "terms": q("SELECT slug, arabic, translit, definition_fr, review_status FROM term"),

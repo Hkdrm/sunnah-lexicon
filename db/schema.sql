@@ -8,7 +8,8 @@ CREATE TABLE collection (
     name_fr     TEXT NOT NULL,
     name_ar     TEXT,
     author      TEXT,
-    site_url    TEXT                       -- URL de vérification (sunnah.com)
+    site_url    TEXT,                      -- URL de vérification (sunnah.com)
+    note        TEXT                       -- avertissement affiché sur chaque hadith du recueil
 );
 
 CREATE TABLE hadith (

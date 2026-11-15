@@ -1,0 +1,233 @@
+{
+ "_note": "BROUILLON — libellés français rédigés à partir des titres des chapitres (arabe/anglais). À valider.",
+ "books": {
+  "1": {
+   "kind": "theme",
+   "label_fr": "Les traits nobles du Prophète ﷺ"
+  },
+  "2": {
+   "kind": "theme",
+   "label_fr": "Le sceau de la prophétie"
+  },
+  "3": {
+   "kind": "theme",
+   "label_fr": "Les cheveux"
+  },
+  "4": {
+   "kind": "theme",
+   "label_fr": "Le peignage des cheveux"
+  },
+  "5": {
+   "kind": "theme",
+   "label_fr": "Les cheveux blancs"
+  },
+  "6": {
+   "kind": "theme",
+   "label_fr": "La teinture des cheveux"
+  },
+  "7": {
+   "kind": "theme",
+   "label_fr": "Le khôl"
+  },
+  "8": {
+   "kind": "situation",
+   "label_fr": "Les vêtements"
+  },
+  "99": {
+   "kind": "theme",
+   "label_fr": "Les conditions de vie"
+  },
+  "9": {
+   "kind": "theme",
+   "label_fr": "Les khouffs (chaussettes de cuir)"
+  },
+  "10": {
+   "kind": "theme",
+   "label_fr": "Les sandales"
+  },
+  "11": {
+   "kind": "theme",
+   "label_fr": "La bague"
+  },
+  "12": {
+   "kind": "theme",
+   "label_fr": "Le port de la bague à la main droite"
+  },
+  "13": {
+   "kind": "theme",
+   "label_fr": "L'épée"
+  },
+  "14": {
+   "kind": "theme",
+   "label_fr": "La cotte de mailles"
+  },
+  "15": {
+   "kind": "theme",
+   "label_fr": "Le casque"
+  },
+  "16": {
+   "kind": "theme",
+   "label_fr": "Le turban"
+  },
+  "17": {
+   "kind": "theme",
+   "label_fr": "L'izar (pagne)"
+  },
+  "18": {
+   "kind": "theme",
+   "label_fr": "La démarche"
+  },
+  "19": {
+   "kind": "theme",
+   "label_fr": "Le qina' (voile de tête)"
+  },
+  "20": {
+   "kind": "theme",
+   "label_fr": "La position assise"
+  },
+  "21": {
+   "kind": "theme",
+   "label_fr": "L'oreiller"
+  },
+  "22": {
+   "kind": "theme",
+   "label_fr": "S'appuyer sur autre chose qu'un oreiller"
+  },
+  "23": {
+   "kind": "situation",
+   "label_fr": "La manière de manger"
+  },
+  "24": {
+   "kind": "situation",
+   "label_fr": "Le pain"
+  },
+  "25": {
+   "kind": "situation",
+   "label_fr": "Les accompagnements du pain"
+  },
+  "26": {
+   "kind": "situation",
+   "label_fr": "L'ablution au moment du repas"
+  },
+  "27": {
+   "kind": "situation",
+   "label_fr": "Les paroles avant et après le repas"
+  },
+  "28": {
+   "kind": "situation",
+   "label_fr": "La coupe"
+  },
+  "29": {
+   "kind": "situation",
+   "label_fr": "Les fruits"
+  },
+  "30": {
+   "kind": "situation",
+   "label_fr": "Les boissons"
+  },
+  "31": {
+   "kind": "situation",
+   "label_fr": "La manière de boire"
+  },
+  "32": {
+   "kind": "theme",
+   "label_fr": "Le parfum ('itr)"
+  },
+  "33": {
+   "kind": "theme",
+   "label_fr": "La parole"
+  },
+  "34": {
+   "kind": "theme",
+   "label_fr": "Le rire"
+  },
+  "35": {
+   "kind": "theme",
+   "label_fr": "La plaisanterie"
+  },
+  "36": {
+   "kind": "theme",
+   "label_fr": "La poésie"
+  },
+  "37": {
+   "kind": "theme",
+   "label_fr": "Les récits du soir"
+  },
+  "38": {
+   "kind": "theme",
+   "label_fr": "Le hadith d'Umm Zar'"
+  },
+  "39": {
+   "kind": "situation",
+   "label_fr": "Le sommeil"
+  },
+  "40": {
+   "kind": "theme",
+   "label_fr": "L'adoration"
+  },
+  "41": {
+   "kind": "theme",
+   "label_fr": "La prière du Duha"
+  },
+  "42": {
+   "kind": "theme",
+   "label_fr": "Les prières surérogatoires à la maison"
+  },
+  "43": {
+   "kind": "theme",
+   "label_fr": "Le jeûne"
+  },
+  "44": {
+   "kind": "theme",
+   "label_fr": "La récitation du Coran"
+  },
+  "45": {
+   "kind": "theme",
+   "label_fr": "Les pleurs"
+  },
+  "46": {
+   "kind": "situation",
+   "label_fr": "La couche"
+  },
+  "47": {
+   "kind": "theme",
+   "label_fr": "L'humilité"
+  },
+  "48": {
+   "kind": "theme",
+   "label_fr": "Le noble caractère"
+  },
+  "49": {
+   "kind": "theme",
+   "label_fr": "La pudeur"
+  },
+  "50": {
+   "kind": "theme",
+   "label_fr": "La ventouse (hijama)"
+  },
+  "51": {
+   "kind": "theme",
+   "label_fr": "Les noms du Prophète ﷺ"
+  },
+  "52": {
+   "kind": "theme",
+   "label_fr": "Le mode de vie"
+  },
+  "53": {
+   "kind": "theme",
+   "label_fr": "L'âge"
+  },
+  "54": {
+   "kind": "theme",
+   "label_fr": "La mort"
+  },
+  "55": {
+   "kind": "theme",
+   "label_fr": "L'héritage"
+  },
+  "56": {
+   "kind": "theme",
+   "label_fr": "Voir le Prophète ﷺ en rêve"
+  }
+ }
+}

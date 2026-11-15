@@ -1,0 +1,233 @@
+{
+ "_note": "BROUILLON — libellés français rédigés à partir des titres des livres (arabe/anglais). À valider.",
+ "books": {
+  "1": {
+   "kind": "theme",
+   "label_fr": "Les parents"
+  },
+  "2": {
+   "kind": "theme",
+   "label_fr": "Les liens de parenté"
+  },
+  "3": {
+   "kind": "theme",
+   "label_fr": "Les affranchis (mawlas)"
+  },
+  "4": {
+   "kind": "theme",
+   "label_fr": "Prendre soin des filles"
+  },
+  "5": {
+   "kind": "theme",
+   "label_fr": "Prendre soin des enfants"
+  },
+  "6": {
+   "kind": "situation",
+   "label_fr": "Les voisins"
+  },
+  "7": {
+   "kind": "theme",
+   "label_fr": "La générosité et les orphelins"
+  },
+  "8": {
+   "kind": "theme",
+   "label_fr": "La mort des enfants"
+  },
+  "9": {
+   "kind": "theme",
+   "label_fr": "Être maître de serviteurs"
+  },
+  "10": {
+   "kind": "theme",
+   "label_fr": "La responsabilité"
+  },
+  "11": {
+   "kind": "theme",
+   "label_fr": "La bonne conduite (ma'ruf)"
+  },
+  "12": {
+   "kind": "theme",
+   "label_fr": "L'amabilité envers les gens"
+  },
+  "13": {
+   "kind": "theme",
+   "label_fr": "La consultation"
+  },
+  "14": {
+   "kind": "theme",
+   "label_fr": "L'excellence du caractère"
+  },
+  "15": {
+   "kind": "theme",
+   "label_fr": "La malédiction"
+  },
+  "16": {
+   "kind": "theme",
+   "label_fr": "La louange"
+  },
+  "17": {
+   "kind": "theme",
+   "label_fr": "Les visites"
+  },
+  "18": {
+   "kind": "theme",
+   "label_fr": "Les personnes âgées"
+  },
+  "19": {
+   "kind": "theme",
+   "label_fr": "Les enfants"
+  },
+  "20": {
+   "kind": "theme",
+   "label_fr": "La miséricorde"
+  },
+  "21": {
+   "kind": "theme",
+   "label_fr": "Le comportement social"
+  },
+  "22": {
+   "kind": "theme",
+   "label_fr": "La rupture des liens"
+  },
+  "23": {
+   "kind": "theme",
+   "label_fr": "Le conseil"
+  },
+  "24": {
+   "kind": "theme",
+   "label_fr": "Le dénigrement"
+  },
+  "25": {
+   "kind": "theme",
+   "label_fr": "Les excès dans la construction"
+  },
+  "26": {
+   "kind": "theme",
+   "label_fr": "La compassion"
+  },
+  "27": {
+   "kind": "theme",
+   "label_fr": "S'occuper de ce bas monde"
+  },
+  "28": {
+   "kind": "theme",
+   "label_fr": "L'injustice"
+  },
+  "29": {
+   "kind": "situation",
+   "label_fr": "La visite des malades"
+  },
+  "30": {
+   "kind": "theme",
+   "label_fr": "Le comportement général"
+  },
+  "31": {
+   "kind": "theme",
+   "label_fr": "L'invocation (du'a)"
+  },
+  "32": {
+   "kind": "situation",
+   "label_fr": "Les invités et la dépense"
+  },
+  "33": {
+   "kind": "theme",
+   "label_fr": "Les paroles"
+  },
+  "34": {
+   "kind": "theme",
+   "label_fr": "Les noms"
+  },
+  "35": {
+   "kind": "theme",
+   "label_fr": "Les kounyas"
+  },
+  "36": {
+   "kind": "theme",
+   "label_fr": "La poésie"
+  },
+  "37": {
+   "kind": "theme",
+   "label_fr": "Les mots"
+  },
+  "38": {
+   "kind": "theme",
+   "label_fr": "Les conséquences"
+  },
+  "39": {
+   "kind": "theme",
+   "label_fr": "Les présages"
+  },
+  "40": {
+   "kind": "situation",
+   "label_fr": "L'éternuement et le bâillement"
+  },
+  "41": {
+   "kind": "theme",
+   "label_fr": "Les gestes"
+  },
+  "42": {
+   "kind": "situation",
+   "label_fr": "Les salutations"
+  },
+  "43": {
+   "kind": "situation",
+   "label_fr": "Demander la permission"
+  },
+  "44": {
+   "kind": "theme",
+   "label_fr": "Les gens du Livre"
+  },
+  "45": {
+   "kind": "theme",
+   "label_fr": "Les lettres"
+  },
+  "46": {
+   "kind": "theme",
+   "label_fr": "Les assemblées"
+  },
+  "47": {
+   "kind": "theme",
+   "label_fr": "Le comportement avec les gens"
+  },
+  "48": {
+   "kind": "situation",
+   "label_fr": "S'asseoir et s'allonger"
+  },
+  "49": {
+   "kind": "situation",
+   "label_fr": "Les matins et les soirs"
+  },
+  "50": {
+   "kind": "situation",
+   "label_fr": "Le sommeil et la nuit"
+  },
+  "51": {
+   "kind": "theme",
+   "label_fr": "Les animaux"
+  },
+  "52": {
+   "kind": "theme",
+   "label_fr": "La sieste"
+  },
+  "53": {
+   "kind": "theme",
+   "label_fr": "La circoncision"
+  },
+  "54": {
+   "kind": "theme",
+   "label_fr": "Les paris et les jeux"
+  },
+  "55": {
+   "kind": "theme",
+   "label_fr": "La reconnaissance"
+  },
+  "56": {
+   "kind": "theme",
+   "label_fr": "L'ingérence et la dureté"
+  },
+  "57": {
+   "kind": "situation",
+   "label_fr": "La colère"
+  }
+ }
+}

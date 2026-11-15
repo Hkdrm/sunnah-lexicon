@@ -6,7 +6,9 @@ Chaque hadith renvoie à sa source et à un lien de vérification sur sunnah.com
 **Cette application présente et référence des textes ; elle ne rend pas de fatwa.**
 
 ## État
-- Corpus : les 40 hadiths d'An-Nawawi (42 hadiths, arabe + français) et **Riyad as-Salihin** (1896 hadiths, arabe seulement).
+- Corpus (3666 hadiths) : les 40 hadiths d'An-Nawawi (42, arabe + français), **Riyad as-Salihin** (1896), **Ash-Shama'il** (402) et **Al-Adab al-Mufrad** (1326), ces trois derniers en arabe seulement.
+- Shama'il (57 chapitres) et Adab (57 livres) : un thème ou une situation par chapitre/livre, libellés français rédigés par nous (brouillon).
+- Al-Adab al-Mufrad contient des hadiths de fiabilité variable : un avertissement s'affiche sur chaque hadith ; degrés non fournis par la source.
 - Index : thèmes, situations de vie (repas, voyage, sommeil, salutations…) et 10 termes de lexique — **brouillon, à faire valider par un relecteur qualifié**.
 - **Degrés** : jamais inventés. Ils sont lus dans la mention finale du texte (« رواه البخاري », « حديث حسن »…) ou déduits de la présence dans Boukhari/Mouslim ; sinon « non renseigné ». Plusieurs degrés par hadith possibles (`hadith_grade`).
 - **Recherche arabe par radical léger** (النية trouve النيات). Approximation, pas une vraie racine trilitère ; identique en Python et JS (`node scripts/check_stem.js`).
@@ -28,8 +30,8 @@ cd web && python3 -m http.server  # puis ouvrir http://localhost:8000
 
 ## Sources et licences
 - Nawawi : [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) (code : Unlicense). Texte arabe : domaine public. **Traduction française : traducteur non indiqué ; licence à confirmer avant publication.**
-- Riyad as-Salihin : [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) v1.2.0, issu de sunnah.com ; **licence du jeu de données à confirmer**. La traduction anglaise n'est volontairement **pas** reprise.
-- **Numérotation Riyad** : le numéro affiché suit l'ordre du jeu de données (livre « Fondements » en dernier) et **ne correspond pas** à la numérotation de sunnah.com. Pas de lien direct par hadith tant que la correspondance n'est pas établie.
+- Riyad, Shama'il, Adab : [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) v1.2.0, issu de sunnah.com ; **licence du jeu de données à confirmer**. La traduction anglaise n'est volontairement **pas** reprise.
+- **Numérotation** : le numéro affiché suit l'ordre du jeu de données. Pour Riyad (livre « Fondements » en dernier) il **ne correspond pas** à sunnah.com ; pour Shama'il et Adab la correspondance n'est pas vérifiée (sunnah.com bloque l'accès automatisé). Pas de lien direct par hadith tant que ce n'est pas établi.
 - Vérification : https://sunnah.com
 
 ## Limites connues
@@ -38,7 +40,7 @@ cd web && python3 -m http.server  # puis ouvrir http://localhost:8000
 
 ## Feuille de route
 1. Relecture de l'index et des définitions par un savant.
-2. Correspondance de numérotation Riyad ↔ sunnah.com, puis liens de vérification par hadith.
+2. Correspondance de numérotation avec sunnah.com (à faire à la main ou avec accès autorisé), puis liens de vérification par hadith.
 3. Traductions françaises sous licence claire ; degrés de savants nommés (Albani, Arnaout…).
-4. Ash-Shama'il, Al-Adab al-Mufrad, Bukhari/Muslim.
+4. Bukhari/Muslim ; degrés de l'Adab al-Mufrad par un savant nommé.
 5. Recherche sémantique qui retrouve et cite, sans jamais paraphraser ni produire d'avis.
