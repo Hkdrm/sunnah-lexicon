@@ -1,0 +1,363 @@
+{
+ "_note": "BROUILLON — fiches pratiques. Les résumés sont des traductions/paraphrases prudentes des hadiths cités, rédigées par nous : à valider. Aucune qualification juridique (obligatoire, recommandé...) n'est donnée.",
+ "categories": [
+  {
+   "slug": "repas",
+   "label_fr": "Repas et boisson"
+  },
+  {
+   "slug": "priere-hygiene",
+   "label_fr": "Prière et hygiène"
+  },
+  {
+   "slug": "sommeil",
+   "label_fr": "Sommeil"
+  },
+  {
+   "slug": "relations",
+   "label_fr": "Relations et salutations"
+  },
+  {
+   "slug": "maison-voyage",
+   "label_fr": "Maison, voyage et quotidien"
+  },
+  {
+   "slug": "jeune",
+   "label_fr": "Jeûne"
+  },
+  {
+   "slug": "caractere",
+   "label_fr": "Caractère et dhikr"
+  }
+ ],
+ "practices": [
+  {
+   "slug": "bismillah",
+   "category": "repas",
+   "title_fr": "Dire « Bismillah » avant de manger",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand l'un de vous mange, qu'il mentionne le nom d'Allah ; s'il oublie de le faire au début, qu'il dise : Bismillahi awwalahu wa akhirahu. » Il a aussi rapporté que celui qui mentionne Allah en entrant chez lui et au moment du repas prive le diable de gîte et de dîner.",
+   "refs": [
+    [
+     "riyad",
+     49
+    ],
+    [
+     "riyad",
+     48
+    ],
+    [
+     "riyad",
+     50
+    ]
+   ]
+  },
+  {
+   "slug": "main-droite",
+   "category": "repas",
+   "title_fr": "Manger de la main droite et de ce qui est devant soi",
+   "summary_fr": "Le Prophète ﷺ a dit à un enfant qui se servait partout dans le plat : « Ô enfant, mentionne le nom d'Allah, mange de ta main droite et de ce qui est devant toi. » Il a aussi dit à un homme qui mangeait de la main gauche : « Mange de la main droite ».",
+   "refs": [
+    [
+     "riyad",
+     60
+    ],
+    [
+     "riyad",
+     48
+    ],
+    [
+     "riyad",
+     61
+    ]
+   ]
+  },
+  {
+   "slug": "ne-pas-critiquer",
+   "category": "repas",
+   "title_fr": "Ne pas critiquer la nourriture",
+   "summary_fr": "Abou Hourayra a dit : « Le Messager d'Allah ﷺ n'a jamais critiqué un aliment : s'il en avait envie, il le mangeait, sinon il le laissait. »",
+   "refs": [
+    [
+     "riyad",
+     56
+    ]
+   ]
+  },
+  {
+   "slug": "apres-repas",
+   "category": "repas",
+   "title_fr": "Remercier Allah après le repas",
+   "summary_fr": "Abou Sa'id al-Khoudri a rapporté qu'après avoir fini son repas, le Prophète ﷺ disait : « Al-hamdu lillahi lladhi at'amana wa saqana wa ja'alana muslimin » (Louange à Allah qui nous a nourris, abreuvés et fait de nous des musulmans).",
+   "refs": [
+    [
+     "shamail",
+     186
+    ],
+    [
+     "riyad",
+     784
+    ]
+   ]
+  },
+  {
+   "slug": "boire",
+   "category": "repas",
+   "title_fr": "Boire : ne pas respirer ni souffler dans le récipient",
+   "summary_fr": "Il est rapporté que le Prophète ﷺ a interdit de respirer dans le récipient ou d'y souffler, et que (selon Anas) il respirait à trois reprises en buvant.",
+   "refs": [
+    [
+     "riyad",
+     79
+    ],
+    [
+     "riyad",
+     86
+    ],
+    [
+     "riyad",
+     77
+    ]
+   ]
+  },
+  {
+   "slug": "siwak",
+   "category": "priere-hygiene",
+   "title_fr": "Le siwak, notamment avant chaque prière",
+   "summary_fr": "Le Prophète ﷺ a dit : « Si je ne craignais de rendre la chose pénible pour ma communauté, je leur aurais ordonné le siwak à chaque prière. » Houdhayfa a rapporté qu'en se levant du sommeil, il se frottait la bouche avec le siwak.",
+   "refs": [
+    [
+     "riyad",
+     517
+    ],
+    [
+     "riyad",
+     518
+    ],
+    [
+     "riyad",
+     520
+    ]
+   ]
+  },
+  {
+   "slug": "fitra",
+   "category": "priere-hygiene",
+   "title_fr": "Les pratiques de la fitra (hygiène naturelle)",
+   "summary_fr": "Le Prophète ﷺ a dit : « Cinq choses font partie de la fitra : la circoncision, le rasage du pubis, la coupe des ongles, l'épilation des aisselles et la taille de la moustache. » Une autre version en cite dix, dont le siwak et l'inspiration d'eau dans le nez.",
+   "refs": [
+    [
+     "riyad",
+     524
+    ],
+    [
+     "riyad",
+     525
+    ]
+   ]
+  },
+  {
+   "slug": "commencer-droite",
+   "category": "priere-hygiene",
+   "title_fr": "Commencer par la droite",
+   "summary_fr": "Aïcha a rapporté que le Prophète ﷺ aimait commencer par la droite dans tout ce qu'il faisait : sa purification, son peignage et son chaussage. Il a dit aussi : « Quand l'un de vous se chausse, qu'il commence par la droite ; quand il se déchausse, qu'il commence par la gauche. »",
+   "refs": [
+    [
+     "riyad",
+     41
+    ],
+    [
+     "shamail",
+     82
+    ]
+   ]
+  },
+  {
+   "slug": "toilettes",
+   "category": "priere-hygiene",
+   "title_fr": "Invocation en entrant aux toilettes",
+   "summary_fr": "Anas a rapporté qu'avant d'entrer aux toilettes, le Prophète ﷺ disait : « Allahumma inni a'udhu bika mina l-khubuthi wa l-khaba'ith » (Ô Allah, je cherche refuge auprès de Toi contre les démons mâles et femelles).",
+   "refs": [
+    [
+     "adab",
+     694
+    ]
+   ]
+  },
+  {
+   "slug": "dormir-droite",
+   "category": "sommeil",
+   "title_fr": "Dormir sur le côté droit, avec les invocations",
+   "summary_fr": "Al-Bara' a rapporté qu'en allant au lit, le Prophète ﷺ se couchait sur son côté droit puis récitait une invocation (« Allahumma aslamtu nafsi ilayk… »). Il lui a aussi conseillé de faire l'ablution comme pour la prière avant de se coucher sur le côté droit.",
+   "refs": [
+    [
+     "riyad",
+     134
+    ],
+    [
+     "riyad",
+     135
+    ]
+   ]
+  },
+  {
+   "slug": "dua-sommeil",
+   "category": "sommeil",
+   "title_fr": "Invocation au coucher et au réveil",
+   "summary_fr": "Houdhayfa et Abou Dharr ont rapporté qu'en allant au lit, le Prophète ﷺ disait : « Bismika Allahumma amutu wa ahya » (En Ton nom, ô Allah, je meurs et je vis), et au réveil : « Al-hamdu lillahi lladhi ahyana ba'da ma amatana wa ilayhi n-nushur ».",
+   "refs": [
+    [
+     "riyad",
+     767
+    ],
+    [
+     "riyad",
+     137
+    ]
+   ]
+  },
+  {
+   "slug": "salam",
+   "category": "relations",
+   "title_fr": "Propager le salut (as-salamu 'alaykum)",
+   "summary_fr": "Le Prophète ﷺ a dit : « Vous n'entrerez pas au Paradis tant que vous ne croirez pas, et vous ne croirez pas tant que vous ne vous aimerez pas. Voulez-vous que je vous indique ce qui vous fera vous aimer ? Propagez le salut entre vous. »",
+   "refs": [
+    [
+     "riyad",
+     168
+    ],
+    [
+     "riyad",
+     169
+    ]
+   ]
+  },
+  {
+   "slug": "droits-musulman",
+   "category": "relations",
+   "title_fr": "Les droits du musulman sur son frère",
+   "summary_fr": "Le Prophète ﷺ a dit : « Les droits du musulman sur le musulman sont cinq : rendre le salut, visiter le malade, accompagner le cortège funèbre, répondre à l'invitation et dire « Yarhamuk Allah » à celui qui éternue. »",
+   "refs": [
+    [
+     "riyad",
+     216
+    ],
+    [
+     "riyad",
+     215
+    ]
+   ]
+  },
+  {
+   "slug": "eternuement",
+   "category": "relations",
+   "title_fr": "L'éternuement : louer Allah et répondre",
+   "summary_fr": "Le Prophète ﷺ a dit : « Quand l'un de vous éternue, qu'il dise : Al-hamdu lillah ; que son frère ou son compagnon lui dise : Yarhamuk Allah ; et qu'il réponde : Yahdikumu Llah wa yuslihu balakum. »",
+   "refs": [
+    [
+     "riyad",
+     200
+    ],
+    [
+     "riyad",
+     199
+    ],
+    [
+     "riyad",
+     201
+    ]
+   ]
+  },
+  {
+   "slug": "voisin-invite",
+   "category": "relations",
+   "title_fr": "Honorer son voisin et son invité",
+   "summary_fr": "Le Prophète ﷺ a dit : « Que celui qui croit en Allah et au Jour dernier dise du bien ou se taise ; qu'il honore son voisin ; qu'il honore son invité. »",
+   "refs": [
+    [
+     "nawawi40",
+     15
+    ]
+   ]
+  },
+  {
+   "slug": "entrer-maison",
+   "category": "maison-voyage",
+   "title_fr": "Mentionner Allah en entrant chez soi",
+   "summary_fr": "Jabir a rapporté que le Prophète ﷺ a dit : lorsque l'homme entre chez lui en mentionnant Allah à l'entrée et au repas, le diable dit aux siens : « Pas de gîte ni de dîner pour vous ici. »",
+   "refs": [
+    [
+     "riyad",
+     50
+    ],
+    [
+     "adab",
+     1099
+    ]
+   ]
+  },
+  {
+   "slug": "dua-voyage",
+   "category": "maison-voyage",
+   "title_fr": "L'invocation du voyage",
+   "summary_fr": "Ibn Omar a rapporté qu'en montant sur sa monture pour partir en voyage, le Prophète ﷺ disait trois fois « Allahou akbar » puis : « Soubhana lladhi sakhkhara lana hadha wa ma kunna lahu muqrinin… ».",
+   "refs": [
+    [
+     "riyad",
+     293
+    ]
+   ]
+  },
+  {
+   "slug": "suhur",
+   "category": "jeune",
+   "title_fr": "Prendre le suhur",
+   "summary_fr": "Le Prophète ﷺ a dit : « Prenez le repas d'avant l'aube (suhur), car il y a une bénédiction dans le suhur. »",
+   "refs": [
+    [
+     "riyad",
+     550
+    ]
+   ]
+  },
+  {
+   "slug": "hater-rupture",
+   "category": "jeune",
+   "title_fr": "Hâter la rupture du jeûne",
+   "summary_fr": "Le Prophète ﷺ a dit : « Les gens resteront dans le bien tant qu'ils hâteront la rupture du jeûne. »",
+   "refs": [
+    [
+     "riyad",
+     554
+    ]
+   ]
+  },
+  {
+   "slug": "colere",
+   "category": "caractere",
+   "title_fr": "Ne pas se mettre en colère",
+   "summary_fr": "Un homme a demandé au Prophète ﷺ : « Donne-moi un conseil. » Il a répondu : « Ne te mets pas en colère », et il l'a répété plusieurs fois.",
+   "refs": [
+    [
+     "nawawi40",
+     16
+    ],
+    [
+     "riyad",
+     1855
+    ]
+   ]
+  },
+  {
+   "slug": "tasbih",
+   "category": "caractere",
+   "title_fr": "Dire « Soubhan Allah wa bihamdihi »",
+   "summary_fr": "Le Prophète ﷺ a dit : « Deux paroles légères pour la langue, lourdes dans la balance et aimées du Tout Miséricordieux : Soubhan Allah wa bihamdihi, Soubhan Allah al-'Azim. »",
+   "refs": [
+    [
+     "riyad",
+     729
+    ]
+   ]
+  }
+ ]
+}

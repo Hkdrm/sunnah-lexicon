@@ -8,6 +8,7 @@ Fichiers générés dans review/ :
   3_nawawi_index.csv     rattachement des 42 hadiths d'An-Nawawi aux thèmes/termes
   4_liens_auto.csv       liens terme<->hadith détectés automatiquement (à confirmer ou rejeter)
   5_degres.csv           degrés déduits du texte (à confirmer par un savant nommé)
+  6_pratiques.csv        fiches pratiques : résumé français à vérifier contre les hadiths cités
 
 Colonnes à remplir par le relecteur : « décision » (OK / à corriger / rejeter) et « correction ».
 """
@@ -59,6 +60,12 @@ def main():
           q("""SELECT t.translit, h.collection, h.number, SUBSTR(h.arabic,1,160)
                FROM hadith_term x JOIN term t ON t.id=x.term_id JOIN hadith h ON h.id=x.hadith_id
                WHERE x.link_source='auto' ORDER BY t.translit, h.collection, h.number"""))
+
+    write("6_pratiques.csv", ["catégorie", "pratique", "résumé (FR) — à vérifier contre les hadiths", "hadiths cités"],
+          q("""SELECT c.label_fr, p.title_fr, p.summary_fr,
+                      (SELECT GROUP_CONCAT(h.collection || ' ' || h.number, ' ; ') FROM practice_hadith x
+                         JOIN hadith h ON h.id=x.hadith_id WHERE x.practice_id=p.id)
+               FROM practice p JOIN practice_category c ON c.slug=p.category ORDER BY c.position, p.id"""))
 
     write("5_degres.csv", ["recueil", "n°", "degré", "base", "recueils cités", "texte arabe (début)"],
           q("""SELECT h.collection, h.number, g.grade, g.basis, COALESCE(h.takhrij,''), SUBSTR(h.arabic,1,120)

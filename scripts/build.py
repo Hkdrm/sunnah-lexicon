@@ -140,6 +140,18 @@ def main() -> None:
         for hid, arabic in con.execute("SELECT id, arabic FROM hadith").fetchall():
             if wanted & {stem(x) for x in tokens(arabic)}:
                 con.execute("INSERT OR IGNORE INTO hadith_term VALUES (?,?,'auto')", (hid, tid))
+    # --- Pratiques (fiches) : chaque référence doit exister dans le corpus -----------------------
+    prac = json.loads((ROOT / "data/seed/practices.json").read_text(encoding="utf-8"))
+    for pos, c in enumerate(prac["categories"]):
+        con.execute("INSERT INTO practice_category VALUES (?,?,?)", (c["slug"], c["label_fr"], pos))
+    for p in prac["practices"]:
+        cur = con.execute("INSERT INTO practice (slug,category,title_fr,summary_fr) VALUES (?,?,?,?)",
+                          (p["slug"], p["category"], p["title_fr"], p["summary_fr"]))
+        for pos, (coll, num) in enumerate(p["refs"]):
+            row = con.execute("SELECT id FROM hadith WHERE collection=? AND number=?", (coll, num)).fetchone()
+            if row is None:
+                raise SystemExit(f"Référence introuvable pour la pratique {p['slug']}: {coll} {num}")
+            con.execute("INSERT INTO practice_hadith VALUES (?,?,?)", (cur.lastrowid, row[0], pos))
     con.commit()
 
     # --- Export JSON ------------------------------------------------------------------------
@@ -161,7 +173,14 @@ def main() -> None:
         "situations": q("SELECT slug, label_fr, label_ar FROM situation"),
         "terms": q("SELECT slug, arabic, translit, definition_fr, review_status FROM term"),
         "hadiths": hadiths,
+        "practice_categories": q("SELECT slug, label_fr FROM practice_category ORDER BY position"),
+        "practices": [dict(p, refs=[[r["collection"], r["number"]] for r in q(
+            "SELECT h.collection, h.number FROM practice_hadith x JOIN hadith h ON h.id=x.hadith_id "
+            "WHERE x.practice_id=? ORDER BY x.position", p["id"])]) for p in q(
+            "SELECT id, slug, category, title_fr, summary_fr, review_status FROM practice ORDER BY id")],
     }
+    for p in data["practices"]:
+        del p["id"]
     (ROOT / "web" / "data.json").write_text(
         json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(hadiths)} hadiths ({len(data['themes'])} thèmes, {len(data['situations'])} situations, "

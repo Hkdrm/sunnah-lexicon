@@ -79,3 +79,26 @@ CREATE TABLE hadith_situation (
     situation_id INTEGER NOT NULL REFERENCES situation(id),
     PRIMARY KEY (hadith_id, situation_id)
 );
+
+-- Pratiques de la Sunnah (fiches concrètes) : chaque pratique renvoie à des hadiths du corpus.
+CREATE TABLE practice_category (
+    slug        TEXT PRIMARY KEY,
+    label_fr    TEXT NOT NULL,
+    position    INTEGER NOT NULL
+);
+
+CREATE TABLE practice (
+    id            INTEGER PRIMARY KEY,
+    slug          TEXT NOT NULL UNIQUE,
+    category      TEXT NOT NULL REFERENCES practice_category(slug),
+    title_fr      TEXT NOT NULL,
+    summary_fr    TEXT NOT NULL,
+    review_status TEXT NOT NULL DEFAULT 'à relire'
+);
+
+CREATE TABLE practice_hadith (
+    practice_id INTEGER NOT NULL REFERENCES practice(id),
+    hadith_id   INTEGER NOT NULL REFERENCES hadith(id),
+    position    INTEGER NOT NULL,
+    PRIMARY KEY (practice_id, hadith_id)
+);

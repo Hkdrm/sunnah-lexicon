@@ -51,3 +51,6 @@ Tableurs à faire valider dans `review/` ; mode d'emploi dans [REVIEW.md](REVIEW
 ## Mise en ligne (GitHub Pages)
 Le workflow `.github/workflows/pages.yml` publie le dossier `web/` à chaque push sur `main`.
 Réglages à faire une fois : **Settings → Pages → Source : GitHub Actions**. Sur iPhone : Safari → Partager → « Sur l'écran d'accueil » (fonctionne ensuite hors ligne).
+
+## Pratiques
+`data/seed/practices.json` : fiches concrètes (manger de la main droite, siwak avant la prière, sommeil, salutations…). Chaque fiche cite des hadiths du corpus ; `build.py` échoue si une référence n'existe pas. Les résumés sont rédigés par nous (brouillon) et ne donnent aucune qualification juridique.

@@ -30,25 +30,40 @@ details{margin-top:6px}summary.label{cursor:pointer}.label{font-size:.75rem;colo
 .term b{color:var(--accent)}
 .disc{font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);margin-top:24px;padding-top:12px}
 a{color:var(--accent)}
+.tabs{display:flex;gap:6px;margin:0 0 10px}
+.tab{flex:1;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:9px;border-radius:10px;font-size:.95rem;cursor:pointer}
+.tab[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.cat{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin:22px 0 4px}
+.prac h3{margin:0 0 6px;font-size:1.05rem}
+.prac p{margin:0 0 8px}
+.prac summary{cursor:pointer;color:var(--accent);font-size:.9rem}
+.src{border-top:1px solid var(--line);margin-top:10px;padding-top:6px}
+.src .ar{font-size:1.15rem;line-height:1.9}
 </style>
 </head>
 <body>
 <header>
   <h1>Lexique de la Sunnah</h1>
-  <p class="sub">Nawawi 40, Riyad as-Salihin, Ash-Shama'il, Al-Adab al-Mufrad — index par thèmes, situations et termes</p>
-  <input id="q" type="search" placeholder="Rechercher (français ou arabe) : intention, colère, النية…" autocomplete="off">
+  <p class="sub">Les gestes de la Sunnah et leurs sources : Nawawi 40, Riyad as-Salihin, Ash-Shama'il, Al-Adab al-Mufrad</p>
+  <div class="tabs" role="tablist"><button class="tab" id="tab-pratiques" data-view="pratiques" aria-pressed="true">Pratiques</button><button class="tab" id="tab-hadiths" data-view="hadiths" aria-pressed="false">Hadiths</button></div>
+  <input id="q" type="search" placeholder="Rechercher : main droite, siwak, sommeil, النية…" autocomplete="off">
+  <div id="filters" hidden>
   <div class="label">Recueils</div><div class="chips" id="collections"></div>
   <details><summary class="label">Thèmes <span id="n-themes"></span></summary><div class="chips" id="themes"></div></details>
   <details><summary class="label">Situations <span id="n-situations"></span></summary><div class="chips" id="situations"></div></details>
   <details><summary class="label">Termes du lexique <span id="n-terms"></span></summary><div class="chips" id="terms"></div></details>
+  </div>
 </header>
 <main>
+  <div id="pview"></div>
+  <div id="hview" hidden>
   <div id="termbox"></div>
   <div id="count" class="sub"></div>
   <div id="list"></div>
   <button id="more" class="chip" hidden style="width:100%;padding:10px">Afficher plus</button>
+  </div>
   <p class="disc">Cette application présente des textes et renvoie à leurs sources ; elle ne rend pas de fatwa.
-  Pour une question de jurisprudence, consultez un savant qualifié. Contenu d'indexation (thèmes, termes) en cours de relecture.
+  Pour une question de jurisprudence, consultez un savant qualifié. Contenu d'indexation et résumés des pratiques en cours de relecture.
   Texte arabe : domaine public. Traduction française (Nawawi) : provenance et licence à confirmer ; pas de traduction pour les autres recueils.
   Degrés : lus dans la mention finale du texte (An-Nawawi) ou déduits de la présence dans Boukhari/Mouslim ; jamais inventés. La recherche arabe utilise un radical approximatif.
   Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a>, <a href="https://github.com/AhmedBaset/hadith-json">hadith-json</a> · vérification : <a href="https://sunnah.com/nawawi40">sunnah.com</a>.</p>
@@ -71,7 +86,7 @@ const frNorm = s => (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(
 const isAr = s => /[؀-ۿ]/.test(s);
 
 const USED = {theme:{}, situation:{}};
-let D, state = {q:"", collection:null, theme:null, situation:null, term:null}, limit = 40;
+let D, state = {view:"pratiques", q:"", collection:null, theme:null, situation:null, term:null}, limit = 40;
 const label = (list, slug) => (list.find(x=>x.slug===slug)||{}).label_fr || slug;
 
 function chips(id, items, key, lab){
@@ -87,6 +102,58 @@ function matches(h, tokens){
     }
     return h._fr.includes(frNorm(t)) || String(h.number) === t;
   });
+}
+
+const colOf = slug => D.collections.find(c=>c.slug===slug);
+function hadithBody(h, tags){
+  const col = colOf(h.collection);
+  return `
+      <div class="ar">${esc(h.arabic)}</div>
+      ${h.french ? `<p>${esc(h.french)}</p>` : (tags ? `<p class="sub">Traduction française non disponible pour ce recueil.</p>` : "")}
+      <div class="meta">
+        <span>${esc(col.name_fr)} · n° ${h.number}</span>
+        ${h.takhrij ? `<span>Rapporté par : ${esc(h.takhrij)}</span>` : ""}
+        ${h.verify_url ? `<a href="${h.verify_url}" target="_blank" rel="noopener">Vérifier sur sunnah.com</a>` : `<a href="${col.site_url}" target="_blank" rel="noopener">Recueil sur sunnah.com</a>`}
+      </div>
+      ${col.note ? `<div class="meta warn">⚠ ${esc(col.note)}</div>` : ""}
+      <div class="meta ${h.grades.length?'':'warn'}">${h.grades.length
+        ? h.grades.map(g=>`<span>Degré : <b>${esc(g.grade)}</b> — ${esc(g.basis)}</span>`).join("")
+        : "Degré : non renseigné"}</div>
+      ${tags ? `<div class="meta">
+        ${h.themes.map(s=>`<span class="tag" data-k="theme" data-v="${s}">${esc(label(D.themes,s))}</span>`).join("")}
+        ${h.situations.map(s=>`<span class="tag" data-k="situation" data-v="${s}">${esc(label(D.situations,s))}</span>`).join("")}
+        ${h.terms.map(s=>`<span class="tag" data-k="term" data-v="${s}">${esc(D.terms.find(t=>t.slug===s).translit)}</span>`).join("")}
+      </div>` : ""}`;
+}
+function renderPractices(){
+  const tokens = state.q.trim().split(/\s+/).filter(Boolean);
+  const byKey = new Map(D.hadiths.map(h=>[h.collection+":"+h.number, h]));
+  let html = "", n = 0;
+  for (const cat of D.practice_categories) {
+    const items = D.practices.filter(p => p.category === cat.slug && (!tokens.length || tokens.every(t =>
+      isAr(t) ? p.refs.some(r => { const h = byKey.get(r[0]+":"+r[1]); return h && matches(h, [t]); })
+              : (frNorm(p.title_fr) + " " + frNorm(p.summary_fr) + " " + frNorm(cat.label_fr)).includes(frNorm(t)))));
+    if (!items.length) continue;
+    n += items.length;
+    html += `<div class="cat">${esc(cat.label_fr)}</div>` + items.map(p => `
+      <article class="card prac">
+        <h3>${esc(p.title_fr)}</h3>
+        <p>${esc(p.summary_fr)}</p>
+        <details><summary>Sources (${p.refs.length} hadith${p.refs.length>1?"s":""})</summary>
+          ${p.refs.map(r=>byKey.get(r[0]+":"+r[1])).filter(Boolean).map(h=>`<div class="src">${hadithBody(h,false)}</div>`).join("")}
+        </details>
+        <div class="meta warn">Résumé en cours de relecture</div>
+      </article>`).join("");
+  }
+  $("#pview").innerHTML = (n ? `<div class="sub">${n} pratique(s)</div>` : '<p class="sub">Aucune pratique trouvée. Essayez l\'onglet Hadiths pour une recherche dans les textes.</p>') + html;
+}
+function setView(v){
+  state.view = v;
+  for (const t of document.querySelectorAll(".tab")) t.setAttribute("aria-pressed", t.dataset.view===v);
+  $("#pview").hidden = v!=="pratiques"; $("#hview").hidden = v!=="hadiths"; $("#filters").hidden = v!=="hadiths";
+  try { history.replaceState(null, "", "#" + v); } catch(e){}
+  v==="pratiques" ? renderPractices() : render();
+  scrollTo({top:0});
 }
 function render(){
   chips("#collections", D.collections, "collection", c=>c.name_fr);
@@ -104,41 +171,24 @@ function render(){
   $("#termbox").innerHTML = t ? `<div class="card term"><b>${esc(t.translit)}</b> — <span class="ar" style="font-size:1.1rem">${t.arabic}</span><br>${esc(t.definition_fr)}<div class="meta warn">Définition en cours de relecture. Liens avec les hadiths : détection automatique par radical, à vérifier.</div></div>` : "";
   $("#count").textContent = `${res.length} hadith(s)`;
   const colName = slug => (D.collections.find(c=>c.slug===slug)||{}).name_fr;
-  $("#list").innerHTML = res.slice(0, limit).map(h=>`
-    <article class="card">
-      <div class="ar">${esc(h.arabic)}</div>
-      ${h.french ? `<p>${esc(h.french)}</p>` : `<p class="sub">Traduction française non disponible pour ce recueil.</p>`}
-      <div class="meta">
-        <span>${esc(colName(h.collection))} · n° ${h.number}</span>
-        ${h.takhrij ? `<span>Rapporté par : ${esc(h.takhrij)}</span>` : ""}
-        ${h.verify_url ? `<a href="${h.verify_url}" target="_blank" rel="noopener">Vérifier sur sunnah.com</a>` : `<a href="${D.collections.find(c=>c.slug===h.collection).site_url}" target="_blank" rel="noopener">Recueil sur sunnah.com</a>`}
-      </div>
-      ${(D.collections.find(c=>c.slug===h.collection).note) ? `<div class="meta warn">⚠ ${esc(D.collections.find(c=>c.slug===h.collection).note)}</div>` : ""}
-      <div class="meta ${h.grades.length?'':'warn'}">${h.grades.length
-        ? h.grades.map(g=>`<span>Degré : <b>${esc(g.grade)}</b> — ${esc(g.basis)}</span>`).join("")
-        : "Degré : non renseigné"}</div>
-      <div class="meta">
-        ${h.themes.map(s=>`<span class="tag" data-k="theme" data-v="${s}">${esc(label(D.themes,s))}</span>`).join("")}
-        ${h.situations.map(s=>`<span class="tag" data-k="situation" data-v="${s}">${esc(label(D.situations,s))}</span>`).join("")}
-        ${h.terms.map(s=>`<span class="tag" data-k="term" data-v="${s}">${esc(D.terms.find(t=>t.slug===s).translit)}</span>`).join("")}
-      </div>
-    </article>`).join("") || '<p class="sub">Aucun résultat.</p>';
+  $("#list").innerHTML = res.slice(0, limit).map(h=>`<article class="card">${hadithBody(h, true)}</article>`).join("") || '<p class="sub">Aucun résultat.</p>';
   $("#more").hidden = res.length <= limit;
   $("#more").textContent = `Afficher plus (${res.length - limit} restants)`;
 }
 document.addEventListener("click", e=>{
+  const tab = e.target.closest("[data-view]"); if(tab){ setView(tab.dataset.view); return; }
   const el = e.target.closest("[data-k]"); if(!el) return;
   const {k,v} = el.dataset; state[k] = state[k]===v ? null : v; limit = 40;
   if (k === "collection") for (const f of ["theme","situation"])  // un filtre d'un autre recueil n'a plus de bouton : on le retire
     if (state[f] && state.collection && !(USED[f][state[f]]||new Set()).has(state.collection)) state[f] = null;
   render(); scrollTo({top:0});
 });
-$("#q").addEventListener("input", e=>{state.q=e.target.value; limit=40; render();});
+$("#q").addEventListener("input", e=>{state.q=e.target.value; limit=40; state.view==="pratiques" ? renderPractices() : render();});
 $("#more").addEventListener("click", ()=>{limit += 40; render();});
 fetch("data.json").then(r=>r.json()).then(d=>{
   d.hadiths.forEach(h=>{ h._ar = arNorm(h.arabic); h._fr = frNorm(h.french); h._stems = new Set(arTokens(h.arabic).map(stem)); });
   d.hadiths.forEach(h=>{ for (const k of ["theme","situation"]) for (const sl of h[k==="theme"?"themes":"situations"]) (USED[k][sl] ||= new Set()).add(h.collection); });
-  D = d; render();
+  D = d; setView(location.hash === "#hadiths" ? "hadiths" : "pratiques");
 });
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
 window.__stem = stem; window.__arTokens = arTokens;
