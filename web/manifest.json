@@ -1,0 +1,9 @@
+{
+  "name": "Lexique de la Sunnah",
+  "short_name": "Sunnah",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf8f3",
+  "theme_color": "#1f5f4a",
+  "lang": "fr"
+}

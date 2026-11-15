@@ -1,0 +1,55 @@
+{
+  "_note": "BROUILLON d'indexation (thèmes, termes, situations) — à faire valider par un relecteur qualifié avant publication. Les définitions sont volontairement courtes et neutres.",
+  "themes": [
+    {"slug": "intention-sincerite", "label_fr": "Intention et sincérité"},
+    {"slug": "foi-pratiques", "label_fr": "Foi et piliers de l'islam"},
+    {"slug": "licite-illicite", "label_fr": "Licite, illicite et doute"},
+    {"slug": "comportement", "label_fr": "Comportement et caractère"},
+    {"slug": "relations", "label_fr": "Relations avec autrui"},
+    {"slug": "pratiques-cultes", "label_fr": "Pratiques et adoration"},
+    {"slug": "pardon-repentir", "label_fr": "Pardon et repentir"},
+    {"slug": "ordre-interdit", "label_fr": "Ordonner le bien, interdire le blâmable"}
+  ],
+  "situations": [
+    {"slug": "colere", "label_fr": "Colère"},
+    {"slug": "voisin-invite", "label_fr": "Voisin et invité"},
+    {"slug": "doute", "label_fr": "Dans le doute"},
+    {"slug": "entraide", "label_fr": "Entraide entre musulmans"}
+  ],
+  "terms": [
+    {"slug": "niyya", "arabic": "نية", "translit": "niyya", "definition_fr": "L'intention : la disposition du cœur qui précède un acte et en détermine la valeur."},
+    {"slug": "ihsan", "arabic": "إحسان", "translit": "ihsan", "definition_fr": "L'excellence dans l'adoration et dans l'action ; faire le bien avec perfection."},
+    {"slug": "taqwa", "arabic": "تقوى", "translit": "taqwa", "definition_fr": "La crainte révérencielle d'Allah ; se prémunir de ce qui Lui déplaît."},
+    {"slug": "haya", "arabic": "حياء", "translit": "haya'", "definition_fr": "La pudeur, la retenue qui détourne de ce qui est inconvenant."},
+    {"slug": "istiqama", "arabic": "استقامة", "translit": "istiqama", "definition_fr": "La droiture et la constance dans la voie."},
+    {"slug": "sadaqa", "arabic": "صدقة", "translit": "sadaqa", "definition_fr": "L'aumône ; par extension, tout bien fait pour l'agrément d'Allah."},
+    {"slug": "bida", "arabic": "بدعة", "translit": "bid'a", "definition_fr": "L'innovation en matière de religion."},
+    {"slug": "nasiha", "arabic": "نصيحة", "translit": "nasiha", "definition_fr": "Le conseil sincère, donné avec bienveillance."},
+    {"slug": "zuhd", "arabic": "زهد", "translit": "zuhd", "definition_fr": "Le détachement vis-à-vis des biens de ce monde."},
+    {"slug": "tawba", "arabic": "توبة", "translit": "tawba", "definition_fr": "Le repentir ; le retour sincère vers Allah."}
+  ],
+  "hadiths": {
+    "1":  {"themes": ["intention-sincerite"], "terms": ["niyya"]},
+    "2":  {"themes": ["foi-pratiques"], "terms": ["ihsan"]},
+    "3":  {"themes": ["foi-pratiques", "pratiques-cultes"], "terms": []},
+    "5":  {"themes": ["foi-pratiques"], "terms": ["bida"]},
+    "6":  {"themes": ["licite-illicite"], "situations": ["doute"], "terms": []},
+    "7":  {"themes": ["relations"], "terms": ["nasiha"]},
+    "11": {"themes": ["licite-illicite"], "situations": ["doute"], "terms": []},
+    "13": {"themes": ["relations"], "situations": ["entraide"], "terms": []},
+    "15": {"themes": ["comportement", "relations"], "situations": ["voisin-invite"], "terms": []},
+    "16": {"themes": ["comportement"], "situations": ["colere"], "terms": []},
+    "17": {"themes": ["comportement"], "terms": ["ihsan"]},
+    "18": {"themes": ["comportement", "pardon-repentir"], "terms": ["taqwa"]},
+    "20": {"themes": ["comportement"], "terms": ["haya"]},
+    "21": {"themes": ["foi-pratiques"], "terms": ["istiqama"]},
+    "25": {"themes": ["pratiques-cultes"], "terms": ["sadaqa"]},
+    "26": {"themes": ["pratiques-cultes", "relations"], "terms": ["sadaqa"]},
+    "31": {"themes": ["comportement"], "terms": ["zuhd"]},
+    "34": {"themes": ["ordre-interdit"], "terms": []},
+    "35": {"themes": ["relations"], "situations": ["entraide"], "terms": []},
+    "36": {"themes": ["relations"], "situations": ["entraide"], "terms": []},
+    "40": {"themes": ["comportement"], "terms": ["zuhd"]},
+    "42": {"themes": ["pardon-repentir"], "terms": ["tawba"]}
+  }
+}

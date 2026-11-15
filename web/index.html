@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lexique de la Sunnah</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1f5f4a">
+<style>
+:root{--bg:#faf8f3;--fg:#1d2321;--muted:#5f6b66;--card:#fff;--line:#e3ded2;--accent:#1f5f4a;--warn:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#141a18;--fg:#e8ece9;--muted:#9aa8a1;--card:#1c2421;--line:#2d3833;--accent:#5bbf9b;--warn:#e0b050}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,sans-serif}
+header,main{max-width:820px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:0 0 4px}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+input[type=search]{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);font-size:1rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--fg);padding:5px 11px;border-radius:99px;font-size:.85rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-top:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+.ar{font-size:1.3rem;line-height:2;direction:rtl;text-align:right;font-family:"Amiri","Scheherazade New",serif}
+.meta{font-size:.82rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:8px}
+.tag{color:var(--accent);cursor:pointer;text-decoration:underline}
+.warn{color:var(--warn)}
+.term b{color:var(--accent)}
+.disc{font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);margin-top:24px;padding-top:12px}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Lexique de la Sunnah</h1>
+  <p class="sub">Les 40 hadiths d'An-Nawawi — index par thèmes, situations et termes</p>
+  <input id="q" type="search" placeholder="Rechercher (français ou arabe) : intention, colère، النية…" autocomplete="off">
+  <div class="label">Thèmes</div><div class="chips" id="themes"></div>
+  <div class="label">Situations</div><div class="chips" id="situations"></div>
+  <div class="label">Termes du lexique</div><div class="chips" id="terms"></div>
+</header>
+<main>
+  <div id="termbox"></div>
+  <div id="count" class="sub"></div>
+  <div id="list"></div>
+  <p class="disc">Cette application présente des textes et renvoie à leurs sources ; elle ne rend pas de fatwa.
+  Pour une question de jurisprudence, consultez un savant qualifié. Contenu d'indexation (thèmes, termes) en cours de relecture.
+  Texte arabe : domaine public. Traduction française : provenance et licence à confirmer.
+  Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a> · vérification : <a href="https://sunnah.com/nawawi40">sunnah.com</a>.</p>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const norm = s => (s||"").normalize("NFD").replace(/[ً-ٰٟـ]/g,"").replace(/[̀-ͯ]/g,"").replace(/[أإآ]/g,"ا").replace(/ى/g,"ي").toLowerCase();
+const esc = s => s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let D, state = {q:"", theme:null, situation:null, term:null};
+
+function chips(id, items, key, label){
+  $(id).innerHTML = items.map(i=>`<button class="chip" data-k="${key}" data-v="${i.slug}" aria-pressed="${state[key]===i.slug}">${esc(label(i))}</button>`).join("");
+}
+function render(){
+  chips("#themes", D.themes, "theme", t=>t.label_fr);
+  chips("#situations", D.situations, "situation", t=>t.label_fr);
+  chips("#terms", D.terms, "term", t=>`${t.translit} ${t.arabic}`);
+  const q = norm(state.q);
+  const res = D.hadiths.filter(h =>
+    (!state.theme || h.themes.includes(state.theme)) &&
+    (!state.situation || h.situations.includes(state.situation)) &&
+    (!state.term || h.terms.includes(state.term)) &&
+    (!q || norm(h.arabic).includes(q) || norm(h.french).includes(q) || String(h.number)===q));
+  const t = D.terms.find(x=>x.slug===state.term);
+  $("#termbox").innerHTML = t ? `<div class="card term"><b>${esc(t.translit)}</b> — <span class="ar" style="font-size:1.1rem">${t.arabic}</span><br>${esc(t.definition_fr)}<div class="meta warn">Définition en cours de relecture</div></div>` : "";
+  $("#count").textContent = `${res.length} hadith(s)`;
+  $("#list").innerHTML = res.map(h=>`
+    <article class="card">
+      <div class="ar">${esc(h.arabic)}</div>
+      <p>${esc(h.french||"")}</p>
+      <div class="meta">
+        <span>Nawawi n° ${h.number}</span>
+        <span class="${h.grade==='non renseigné'?'warn':''}">Degré : ${esc(h.grade)}${h.grade_by?" ("+esc(h.grade_by)+")":""}</span>
+        <a href="${h.verify_url}" target="_blank" rel="noopener">Vérifier sur sunnah.com</a>
+        ${h.themes.map(s=>`<span class="tag" data-k="theme" data-v="${s}">${esc(D.themes.find(t=>t.slug===s).label_fr)}</span>`).join("")}
+        ${h.terms.map(s=>`<span class="tag" data-k="term" data-v="${s}">${esc(D.terms.find(t=>t.slug===s).translit)}</span>`).join("")}
+      </div>
+    </article>`).join("") || '<p class="sub">Aucun résultat.</p>';
+}
+document.addEventListener("click", e=>{
+  const el = e.target.closest("[data-k]"); if(!el) return;
+  const {k,v} = el.dataset; state[k] = state[k]===v ? null : v; render(); scrollTo({top:0});
+});
+$("#q").addEventListener("input", e=>{state.q=e.target.value; render();});
+fetch("data.json").then(r=>r.json()).then(d=>{D=d; render();});
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
