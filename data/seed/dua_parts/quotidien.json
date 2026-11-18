@@ -1,0 +1,363 @@
+{
+ "duas": [
+  {
+   "slug": "sommeil-bismika",
+   "category": "sommeil",
+   "title_fr": "En se couchant",
+   "when_fr": "Quand le Prophète ﷺ se couchait pour dormir.",
+   "arabic": "اللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
+   "translation_fr": "Ô Allah, en Ton nom je meurs et je vis.",
+   "refs": [
+    [
+     "riyad",
+     137
+    ],
+    [
+     "shamail",
+     247
+    ]
+   ]
+  },
+  {
+   "slug": "sommeil-reveil",
+   "category": "sommeil",
+   "title_fr": "Au réveil",
+   "when_fr": "Quand le Prophète ﷺ se réveillait.",
+   "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+   "translation_fr": "Louange à Allah qui nous a rendu la vie après nous avoir fait mourir, et c'est vers Lui que sera la résurrection.",
+   "refs": [
+    [
+     "riyad",
+     137
+    ],
+    [
+     "riyad",
+     767
+    ]
+   ]
+  },
+  {
+   "slug": "sommeil-aslamtu-nafsi",
+   "category": "sommeil",
+   "title_fr": "Se confier à Allah avant de dormir",
+   "when_fr": "Quand on gagne son lit, après avoir fait l'ablution et s'être couché sur le côté droit.",
+   "arabic": "اللَّهُمَّ أَسْلَمْتُ نَفْسِي إِلَيْكَ، وَوَجَّهْتُ وَجْهِي إِلَيْكَ، وَفَوَّضْتُ أَمْرِي إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لَا مَلْجَأَ وَلَا مَنْجَى مِنْكَ إِلَّا إِلَيْكَ، آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ، وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ",
+   "translation_fr": "Ô Allah, je Te soumets mon âme, je tourne mon visage vers Toi, je Te confie mon affaire et je m'appuie sur Toi, par désir et par crainte de Toi. Il n'est de refuge ni de salut contre Toi qu'auprès de Toi. J'ai cru en Ton Livre que Tu as révélé et en Ton Prophète que Tu as envoyé.",
+   "refs": [
+    [
+     "riyad",
+     783
+    ],
+    [
+     "riyad",
+     134
+    ]
+   ]
+  },
+  {
+   "slug": "sommeil-qini-adhabaka",
+   "category": "sommeil",
+   "title_fr": "Main sous la joue avant de dormir",
+   "when_fr": "Quand le Prophète ﷺ voulait dormir, il plaçait sa main droite sous sa joue puis disait cela.",
+   "arabic": "اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ",
+   "translation_fr": "Ô Allah, protège-moi de Ton châtiment le jour où Tu ressusciteras Tes serviteurs.",
+   "repeat_fr": "Trois fois (selon la version d'Abou Dawoud)",
+   "refs": [
+    [
+     "riyad",
+     785
+    ]
+   ]
+  },
+  {
+   "slug": "sommeil-alhamdu-at3amana",
+   "category": "sommeil",
+   "title_fr": "Louange en gagnant son lit",
+   "when_fr": "Quand le Prophète ﷺ gagnait son lit.",
+   "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا، وَكَفَانَا وَآوَانَا",
+   "translation_fr": "Louange à Allah qui nous a nourris, nous a donné à boire, nous a comblés et nous a abrités.",
+   "refs": [
+    [
+     "riyad",
+     784
+    ]
+   ]
+  },
+  {
+   "slug": "matin-soir-amsayna",
+   "category": "matin-soir",
+   "title_fr": "Invocation du soir",
+   "when_fr": "Le soir, quand le Prophète ﷺ arrivait au soir. Le matin, il disait la même chose en commençant par « Asbahna wa asbaha l-moulkou lillah » (Nous voici au matin, et le royaume est au matin pour Allah).",
+   "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابِ النَّارِ، وَعَذَابٍ فِي الْقَبْرِ",
+   "translation_fr": "Nous voici au soir, et le royaume est au soir pour Allah ; louange à Allah ; il n'y a de divinité qu'Allah, Seul, sans associé ; à Lui la royauté et la louange, et Il est capable de toute chose. Seigneur, je Te demande le bien de cette nuit et le bien de ce qui la suit, et je cherche refuge auprès de Toi contre le mal de cette nuit et le mal de ce qui la suit. Seigneur, je cherche refuge auprès de Toi contre la paresse et le mal de la vieillesse. Seigneur, je cherche refuge auprès de Toi contre le châtiment du Feu et un châtiment dans la tombe.",
+   "refs": [
+    [
+     "riyad",
+     776
+    ]
+   ]
+  },
+  {
+   "slug": "matin-soir-bika-asbahna",
+   "category": "matin-soir",
+   "title_fr": "Invocation du matin : « Allahumma bika asbahna »",
+   "when_fr": "Le matin, quand le Prophète ﷺ se levait au matin.",
+   "arabic": "اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ",
+   "translation_fr": "Ô Allah, c'est par Toi que nous atteignons le matin, par Toi que nous atteignons le soir, par Toi que nous vivons, par Toi que nous mourons, et c'est vers Toi que sera la résurrection.",
+   "refs": [
+    [
+     "riyad",
+     774
+    ]
+   ]
+  },
+  {
+   "slug": "matin-soir-bika-amsayna",
+   "category": "matin-soir",
+   "title_fr": "Invocation du soir : « Allahumma bika amsayna »",
+   "when_fr": "Le soir, quand le Prophète ﷺ arrivait au soir.",
+   "arabic": "اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيرُ",
+   "translation_fr": "Ô Allah, c'est par Toi que nous atteignons le soir, par Toi que nous vivons, par Toi que nous mourons, et c'est vers Toi que sera le retour.",
+   "refs": [
+    [
+     "riyad",
+     774
+    ]
+   ]
+  },
+  {
+   "slug": "matin-soir-bismillahi-ladhi",
+   "category": "matin-soir",
+   "title_fr": "Au nom d'Allah dont le nom préserve",
+   "when_fr": "Chaque matin et chaque soir.",
+   "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+   "translation_fr": "Au nom d'Allah, avec le nom de Qui rien ne nuit, ni sur terre ni dans le ciel, et Il est l'Audient, l'Omniscient.",
+   "repeat_fr": "Trois fois",
+   "refs": [
+    [
+     "riyad",
+     778
+    ]
+   ]
+  },
+  {
+   "slug": "matin-soir-kalimat-tammat",
+   "category": "matin-soir",
+   "title_fr": "Par les paroles parfaites d'Allah",
+   "when_fr": "Le soir (le Prophète ﷺ a dit à l'homme piqué par un scorpion : « Si tu avais dit, le soir… »).",
+   "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+   "translation_fr": "Je cherche refuge dans les paroles parfaites d'Allah contre le mal de ce qu'Il a créé.",
+   "refs": [
+    [
+     "riyad",
+     773
+    ]
+   ]
+  },
+  {
+   "slug": "priere-apres-adhan-wasila",
+   "category": "priere",
+   "title_fr": "Après l'appel à la prière",
+   "when_fr": "Quand on entend l'appel à la prière (après avoir répété ce que dit le muezzin et invoqué la prière sur le Prophète ﷺ).",
+   "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+   "translation_fr": "Ô Allah, Seigneur de cet appel parfait et de la prière qui s'établit, accorde à Muhammad la wasila et la fadila, et ressuscite-le à la station louée que Tu lui as promise.",
+   "refs": [
+    [
+     "riyad",
+     360
+    ]
+   ]
+  },
+  {
+   "slug": "priere-adhan-radhitu",
+   "category": "priere",
+   "title_fr": "Témoignage en entendant le muezzin",
+   "when_fr": "Quand on entend le muezzin.",
+   "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا",
+   "translation_fr": "J'atteste qu'il n'y a de divinité qu'Allah, Seul, sans associé, et que Muhammad est Son serviteur et Son messager. J'agrée Allah comme Seigneur et l'Islam comme religion.",
+   "refs": [
+    [
+     "riyad",
+     361
+    ]
+   ]
+  },
+  {
+   "slug": "priere-ouverture-malakut",
+   "category": "priere",
+   "title_fr": "À l'entrée dans la prière",
+   "when_fr": "Quand le Prophète ﷺ entrait dans la prière de nuit.",
+   "arabic": "اللَّهُ أَكْبَرُ ذُو الْمَلَكُوتِ وَالْجَبَرُوتِ، وَالْكِبْرِيَاءِ وَالْعَظَمَةِ",
+   "translation_fr": "Allah est le plus grand, Détenteur de la souveraineté, de la puissance, de la grandeur et de la majesté.",
+   "refs": [
+    [
+     "shamail",
+     265
+    ]
+   ]
+  },
+  {
+   "slug": "priere-ruku",
+   "category": "priere",
+   "title_fr": "Dans l'inclinaison (rukou')",
+   "when_fr": "Quand le Prophète ﷺ s'inclinait dans la prière.",
+   "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+   "translation_fr": "Gloire à mon Seigneur, le Très-Grand.",
+   "refs": [
+    [
+     "riyad",
+     496
+    ],
+    [
+     "shamail",
+     265
+    ]
+   ]
+  },
+  {
+   "slug": "priere-redressement",
+   "category": "priere",
+   "title_fr": "En se relevant de l'inclinaison",
+   "when_fr": "Quand le Prophète ﷺ se relevait de l'inclinaison.",
+   "arabic": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ، رَبَّنَا لَكَ الْحَمْدُ",
+   "translation_fr": "Allah entend celui qui Le loue ; notre Seigneur, à Toi la louange.",
+   "refs": [
+    [
+     "riyad",
+     496
+    ]
+   ]
+  },
+  {
+   "slug": "priere-sujud",
+   "category": "priere",
+   "title_fr": "Dans la prosternation (soujoud)",
+   "when_fr": "Quand le Prophète ﷺ se prosternait dans la prière.",
+   "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+   "translation_fr": "Gloire à mon Seigneur, le Très-Haut.",
+   "refs": [
+    [
+     "riyad",
+     496
+    ],
+    [
+     "shamail",
+     265
+    ]
+   ]
+  },
+  {
+   "slug": "priere-subbuh-quddus",
+   "category": "priere",
+   "title_fr": "Glorification dans l'inclinaison et la prosternation",
+   "when_fr": "Dans l'inclinaison et la prosternation.",
+   "arabic": "سُبُّوحٌ قُدُّوسٌ رَبُّ الْمَلَائِكَةِ وَالرُّوحِ",
+   "translation_fr": "Très-Glorieux, Très-Saint, Seigneur des anges et de l'Esprit.",
+   "refs": [
+    [
+     "riyad",
+     747
+    ]
+   ]
+  },
+  {
+   "slug": "priere-subhanaka-ighfir",
+   "category": "priere",
+   "title_fr": "Glorification et demande de pardon",
+   "when_fr": "Le Prophète ﷺ le disait souvent dans son inclinaison et sa prosternation.",
+   "arabic": "سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي",
+   "translation_fr": "Gloire à Toi, ô Allah, notre Seigneur, et louange à Toi ; ô Allah, pardonne-moi.",
+   "refs": [
+    [
+     "riyad",
+     746
+    ]
+   ]
+  },
+  {
+   "slug": "priere-entre-sajdatayn",
+   "category": "priere",
+   "title_fr": "Entre les deux prosternations",
+   "when_fr": "Quand le Prophète ﷺ était assis entre les deux prosternations.",
+   "arabic": "رَبِّ اغْفِرْ لِي",
+   "translation_fr": "Mon Seigneur, pardonne-moi.",
+   "refs": [
+    [
+     "shamail",
+     265
+    ]
+   ]
+  },
+  {
+   "slug": "priere-salawat-ibrahimiya",
+   "category": "priere",
+   "title_fr": "Invoquer la prière sur le Prophète ﷺ",
+   "when_fr": "Formule que le Prophète ﷺ a enseignée à ses compagnons lorsqu'ils lui demandèrent comment invoquer la prière sur lui.",
+   "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ. اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+   "translation_fr": "Ô Allah, prie sur Muhammad et sur la famille de Muhammad, comme Tu as prié sur la famille d'Ibrahim ; Tu es digne de louange et de gloire. Ô Allah, bénis Muhammad et la famille de Muhammad, comme Tu as béni la famille d'Ibrahim ; Tu es digne de louange et de gloire.",
+   "refs": [
+    [
+     "riyad",
+     726
+    ]
+   ]
+  },
+  {
+   "slug": "priere-avant-salam",
+   "category": "priere",
+   "title_fr": "Entre le tashahhud et le salam",
+   "when_fr": "Parmi les dernières paroles du Prophète ﷺ entre le tashahhud et le taslim.",
+   "arabic": "اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ، وَمَا أَسْرَفْتُ، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي، أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ، لَا إِلَهَ إِلَّا أَنْتَ",
+   "translation_fr": "Ô Allah, pardonne-moi ce que j'ai avancé et ce que j'ai retardé, ce que j'ai caché et ce que j'ai montré, mes excès, et ce que Tu connais mieux que moi. Tu es Celui qui avance et Celui qui retarde ; il n'y a de divinité que Toi.",
+   "refs": [
+    [
+     "riyad",
+     745
+    ]
+   ]
+  },
+  {
+   "slug": "priere-istighfar-apres-salam",
+   "category": "priere",
+   "title_fr": "Demande de pardon après la prière",
+   "when_fr": "Quand le Prophète ﷺ terminait sa prière.",
+   "arabic": "أَسْتَغْفِرُ اللَّهَ",
+   "translation_fr": "Je demande pardon à Allah.",
+   "repeat_fr": "Trois fois",
+   "refs": [
+    [
+     "riyad",
+     736
+    ]
+   ]
+  },
+  {
+   "slug": "priere-allahumma-antas-salam",
+   "category": "priere",
+   "title_fr": "« Allahumma anta s-salam »",
+   "when_fr": "Quand le Prophète ﷺ terminait sa prière, après avoir demandé pardon trois fois.",
+   "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+   "translation_fr": "Ô Allah, Tu es la Paix et de Toi vient la paix ; béni sois-Tu, ô Détenteur de la majesté et de la générosité.",
+   "refs": [
+    [
+     "riyad",
+     736
+    ]
+   ]
+  },
+  {
+   "slug": "priere-istikhara",
+   "category": "priere",
+   "title_fr": "Prière d'istikhara",
+   "when_fr": "Quand on envisage une affaire : après deux rak'a de prière, on dit cela en nommant son besoin.",
+   "arabic": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ. اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي، فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي، ثُمَّ بَارِكْ لِي فِيهِ، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي، فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي بِهِ",
+   "translation_fr": "Ô Allah, je Te demande de me guider par Ta science, je Te demande le pouvoir par Ta puissance, et je Te demande de Ta grâce immense ; car Tu es capable et je ne le suis pas, Tu sais et je ne sais pas, et Tu es le Grand Connaisseur de l'inconnaissable. Ô Allah, si Tu sais que cette affaire est un bien pour moi dans ma religion, ma vie et l'issue de mon affaire, alors décrète-la pour moi, facilite-la-moi, puis bénis-la pour moi. Et si Tu sais que cette affaire est un mal pour moi dans ma religion, ma vie et l'issue de mon affaire, alors détourne-la de moi et détourne-moi d'elle, décrète-moi le bien où qu'il soit, puis fais que j'en sois satisfait.",
+   "refs": [
+    [
+     "riyad",
+     38
+    ]
+   ]
+  }
+ ]
+}

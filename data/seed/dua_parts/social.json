@@ -1,0 +1,320 @@
+{
+ "duas": [
+  {
+   "slug": "nature-vent",
+   "category": "nature",
+   "title_fr": "Face au vent",
+   "when_fr": "Quand on voit dans le vent ce que l'on n'aime pas. Le Prophète ﷺ a dit : « Ne maudissez pas le vent. »",
+   "arabic": "اللَّهُمَّ إِنَّا نَسْأَلُكَ مِنْ خَيْرِ هَذِهِ الرِّيحِ، وَخَيْرِ مَا فِيهَا، وَخَيْرِ مَا أُمِرَتْ بِهِ، وَنَعُوذُ بِكَ مِنْ شَرِّ هَذِهِ الرِّيحِ، وَشَرِّ مَا فِيهَا، وَشَرِّ مَا أُمِرَتْ بِهِ",
+   "translation_fr": "Ô Allah, nous te demandons le bien de ce vent, le bien de ce qu'il contient et le bien de ce qu'il a reçu l'ordre d'apporter ; et nous cherchons refuge auprès de toi contre le mal de ce vent, le mal de ce qu'il contient et le mal de ce qu'il a reçu l'ordre d'apporter.",
+   "refs": [
+    [
+     "riyad",
+     1048
+    ]
+   ]
+  },
+  {
+   "slug": "nature-pluie",
+   "category": "nature",
+   "title_fr": "Quand il pleut",
+   "when_fr": "Quand la pluie tombe.",
+   "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+   "translation_fr": "Ô Allah, une pluie abondante et bénéfique.",
+   "refs": [
+    [
+     "adab",
+     688
+    ]
+   ]
+  },
+  {
+   "slug": "nature-tonnerre",
+   "category": "nature",
+   "title_fr": "En entendant le tonnerre",
+   "when_fr": "Quand on entend le tonnerre et la foudre.",
+   "arabic": "اللَّهُمَّ لَا تَقْتُلْنَا بِصَعْقِكَ، وَلَا تُهْلِكْنَا بِعَذَابِكَ، وَعَافِنَا قَبْلَ ذَلِكَ",
+   "translation_fr": "Ô Allah, ne nous tue pas par ta foudre, ne nous anéantis pas par ton châtiment, et accorde-nous le salut avant cela.",
+   "refs": [
+    [
+     "adab",
+     723
+    ]
+   ]
+  },
+  {
+   "slug": "nature-nouvelle-lune",
+   "category": "nature",
+   "title_fr": "En voyant le nouveau croissant",
+   "when_fr": "Quand le Prophète ﷺ voyait le nouveau croissant (hilal).",
+   "arabic": "اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ وَالسَّلَامَةِ وَالْإِسْلَامِ، رَبِّي وَرَبُّكَ اللَّهُ، هِلَالُ رُشْدٍ وَخَيْرٍ",
+   "translation_fr": "Ô Allah, fais-le apparaître sur nous avec la sécurité et la foi, la paix et l'islam. Mon Seigneur et ton Seigneur est Allah. Croissant de droiture et de bien.",
+   "refs": [
+    [
+     "riyad",
+     549
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-eternuement",
+   "category": "vie-sociale",
+   "title_fr": "Quand on éternue",
+   "when_fr": "Quand l'un de vous éternue.",
+   "arabic": "الْحَمْدُ لِلَّهِ",
+   "translation_fr": "Louange à Allah.",
+   "refs": [
+    [
+     "riyad",
+     200
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-eternuement-reponse",
+   "category": "vie-sociale",
+   "title_fr": "Répondre à celui qui éternue",
+   "when_fr": "Quand son frère éternue et dit « Al-hamdu lillah ».",
+   "arabic": "يَرْحَمُكَ اللَّهُ",
+   "translation_fr": "Qu'Allah te fasse miséricorde.",
+   "refs": [
+    [
+     "riyad",
+     200
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-eternuement-retour",
+   "category": "vie-sociale",
+   "title_fr": "Réponse de celui qui a éternué",
+   "when_fr": "Quand on lui a dit « Yarhamuk Allah ».",
+   "arabic": "يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ",
+   "translation_fr": "Qu'Allah vous guide et améliore votre état.",
+   "refs": [
+    [
+     "riyad",
+     200
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-remerciement",
+   "category": "vie-sociale",
+   "title_fr": "Remercier",
+   "when_fr": "À celui qui nous a fait un bien.",
+   "arabic": "جَزَاكَ اللَّهُ خَيْرًا",
+   "translation_fr": "Qu'Allah te récompense par le bien.",
+   "refs": [
+    [
+     "riyad",
+     817
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-colere",
+   "category": "vie-sociale",
+   "title_fr": "Quand la colère monte",
+   "when_fr": "Quand on est en colère.",
+   "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+   "translation_fr": "Je cherche refuge auprès d'Allah contre Satan le banni.",
+   "refs": [
+    [
+     "riyad",
+     1263
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-fin-assemblee",
+   "category": "vie-sociale",
+   "title_fr": "En quittant une assemblée",
+   "when_fr": "Quand on veut se lever d'une assemblée.",
+   "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+   "translation_fr": "Gloire à toi, Ô Allah, et par ta louange. J'atteste qu'il n'y a de divinité que toi. Je te demande pardon et je me repens à toi.",
+   "refs": [
+    [
+     "riyad",
+     152
+    ]
+   ]
+  },
+  {
+   "slug": "vie-sociale-fin-assemblee-khashya",
+   "category": "vie-sociale",
+   "title_fr": "Invocation en se levant d'une assemblée",
+   "when_fr": "Le Prophète ﷺ se levait rarement d'une assemblée sans avoir fait ces invocations.",
+   "arabic": "اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِكَ مَا تَحُولُ بِهِ بَيْنَنَا وَبَيْنَ مَعَاصِيكَ، وَمِنْ طَاعَتِكَ مَا تُبَلِّغُنَا بِهِ جَنَّتَكَ، وَمِنَ الْيَقِينِ مَا تُهَوِّنُ بِهِ عَلَيْنَا مَصَائِبَ الدُّنْيَا",
+   "translation_fr": "Ô Allah, répartis entre nous de ta crainte ce qui nous sépare de ta désobéissance, de ton obéissance ce qui nous mène à ton Paradis, et de la certitude ce qui allège pour nous les épreuves de ce monde.",
+   "refs": [
+    [
+     "riyad",
+     154
+    ]
+   ]
+  },
+  {
+   "slug": "generales-bien-ici-bas",
+   "category": "generales",
+   "title_fr": "Le bien ici-bas et dans l'au-delà",
+   "when_fr": "C'était l'invocation que le Prophète ﷺ faisait le plus souvent.",
+   "arabic": "اللَّهُمَّ آتِنَا فِي الدُّنْيَا حَسَنَةً، وَفِي الْآخِرَةِ حَسَنَةً، وَقِنَا عَذَابَ النَّارِ",
+   "translation_fr": "Ô Allah, donne-nous ici-bas un bien et dans l'au-delà un bien, et préserve-nous du châtiment du Feu.",
+   "refs": [
+    [
+     "riyad",
+     788
+    ],
+    [
+     "adab",
+     679
+    ]
+   ]
+  },
+  {
+   "slug": "generales-guidance-piete",
+   "category": "generales",
+   "title_fr": "Guidance, piété, chasteté et suffisance",
+   "when_fr": "Invocation que le Prophète ﷺ faisait.",
+   "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى، وَالتُّقَى، وَالْعَفَافَ، وَالْغِنَى",
+   "translation_fr": "Ô Allah, je te demande la bonne direction, la piété, la chasteté et la suffisance.",
+   "refs": [
+    [
+     "riyad",
+     789
+    ]
+   ]
+  },
+  {
+   "slug": "generales-ameliorer-religion",
+   "category": "generales",
+   "title_fr": "Améliorer sa religion et sa vie",
+   "when_fr": "Invocation que le Prophète ﷺ faisait.",
+   "arabic": "اللَّهُمَّ أَصْلِحْ لِي دِينِي الَّذِي هُوَ عِصْمَةُ أَمْرِي، وَأَصْلِحْ لِي دُنْيَايَ الَّتِي فِيهَا مَعَاشِي، وَأَصْلِحْ لِي آخِرَتِي الَّتِي فِيهَا مَعَادِي، وَاجْعَلِ الْحَيَاةَ زِيَادَةً لِي فِي كُلِّ خَيْرٍ، وَاجْعَلِ الْمَوْتَ رَاحَةً لِي مِنْ كُلِّ شَرٍّ",
+   "translation_fr": "Ô Allah, améliore pour moi ma religion, qui est la sauvegarde de mon affaire ; améliore pour moi ma vie ici-bas, dans laquelle est ma subsistance ; améliore pour moi mon au-delà, vers lequel je retournerai ; fais de la vie un surcroît pour moi en tout bien, et fais de la mort un repos pour moi loin de tout mal.",
+   "refs": [
+    [
+     "riyad",
+     793
+    ]
+   ]
+  },
+  {
+   "slug": "generales-refuge-faiblesse",
+   "category": "generales",
+   "title_fr": "Refuge contre la faiblesse, la paresse et l'avarice",
+   "when_fr": "Invocation que le Prophète ﷺ faisait.",
+   "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَالْجُبْنِ وَالْهَرَمِ، وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ",
+   "translation_fr": "Ô Allah, je cherche refuge auprès de toi contre l'incapacité, la paresse, la lâcheté, la vieillesse extrême et l'avarice ; je cherche refuge auprès de toi contre le châtiment de la tombe ; et je cherche refuge auprès de toi contre l'épreuve de la vie et de la mort.",
+   "refs": [
+    [
+     "riyad",
+     795
+    ]
+   ]
+  },
+  {
+   "slug": "generales-affermir-coeur",
+   "category": "generales",
+   "title_fr": "Affermir le cœur dans la religion",
+   "when_fr": "Invocation que le Prophète ﷺ faisait très souvent.",
+   "arabic": "يَا مُقَلِّبَ الْقُلُوبِ، ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+   "translation_fr": "Ô Celui qui retourne les cœurs, affermis mon cœur dans ta religion.",
+   "refs": [
+    [
+     "riyad",
+     810
+    ],
+    [
+     "adab",
+     685
+    ]
+   ]
+  },
+  {
+   "slug": "generales-orienter-coeurs",
+   "category": "generales",
+   "title_fr": "Orienter les cœurs vers l'obéissance",
+   "when_fr": "Invocation du Prophète ﷺ.",
+   "arabic": "اللَّهُمَّ مُصَرِّفَ الْقُلُوبِ، صَرِّفْ قُلُوبَنَا عَلَى طَاعَتِكَ",
+   "translation_fr": "Ô Allah, Toi qui diriges les cœurs, dirige nos cœurs vers ton obéissance.",
+   "refs": [
+    [
+     "riyad",
+     791
+    ]
+   ]
+  },
+  {
+   "slug": "generales-purifier-ame",
+   "category": "generales",
+   "title_fr": "Purifier son âme",
+   "when_fr": "Invocation que le Prophète ﷺ faisait.",
+   "arabic": "اللَّهُمَّ آتِ نَفْسِي تَقْوَاهَا، وَزَكِّهَا أَنْتَ خَيْرُ مَنْ زَكَّاهَا، أَنْتَ وَلِيُّهَا وَمَوْلَاهَا",
+   "translation_fr": "Ô Allah, donne à mon âme sa piété et purifie-la, tu es le meilleur à la purifier, tu es son protecteur et son maître.",
+   "refs": [
+    [
+     "riyad",
+     800
+    ]
+   ]
+  },
+  {
+   "slug": "generales-refuge-science-inutile",
+   "category": "generales",
+   "title_fr": "Refuge contre la science inutile",
+   "when_fr": "Invocation que le Prophète ﷺ faisait.",
+   "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عِلْمٍ لَا يَنْفَعُ، وَمِنْ قَلْبٍ لَا يَخْشَعُ، وَمِنْ نَفْسٍ لَا تَشْبَعُ، وَمِنْ دَعْوَةٍ لَا يُسْتَجَابُ لَهَا",
+   "translation_fr": "Ô Allah, je cherche refuge auprès de toi contre une science qui ne profite pas, un cœur qui ne s'humilie pas, une âme qui n'est jamais rassasiée et une invocation qui n'est pas exaucée.",
+   "refs": [
+    [
+     "riyad",
+     800
+    ]
+   ]
+  },
+  {
+   "slug": "generales-refuge-perte-bienfaits",
+   "category": "generales",
+   "title_fr": "Refuge contre la perte des bienfaits",
+   "when_fr": "Invocation que le Prophète ﷺ faisait.",
+   "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ، وَتَحَوُّلِ عَافِيَتِكَ، وَفُجَاءَةِ نِقْمَتِكَ، وَجَمِيعِ سَخَطِكَ",
+   "translation_fr": "Ô Allah, je cherche refuge auprès de toi contre la disparition de ton bienfait, le changement de ta protection, la soudaineté de ton châtiment et tout ce qui provoque ton courroux.",
+   "refs": [
+    [
+     "riyad",
+     799
+    ]
+   ]
+  },
+  {
+   "slug": "generales-pardon-bien-etre",
+   "category": "generales",
+   "title_fr": "Le pardon et la santé",
+   "when_fr": "Invocation du Prophète ﷺ.",
+   "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ",
+   "translation_fr": "Ô Allah, je te demande le pardon et la santé (al-'afiya) ici-bas et dans l'au-delà.",
+   "refs": [
+    [
+     "adab",
+     700
+    ]
+   ]
+  },
+  {
+   "slug": "generales-amour-allah",
+   "category": "generales",
+   "title_fr": "Demander l'amour d'Allah",
+   "when_fr": "Parmi les invocations de David, paix sur lui, rapportées par le Prophète ﷺ.",
+   "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ حُبَّكَ، وَحُبَّ مَنْ يُحِبُّكَ، وَالْعَمَلَ الَّذِي يُبَلِّغُنِي حُبَّكَ، اللَّهُمَّ اجْعَلْ حُبَّكَ أَحَبَّ إِلَيَّ مِنْ نَفْسِي، وَأَهْلِي، وَمِنَ الْمَاءِ الْبَارِدِ",
+   "translation_fr": "Ô Allah, je te demande ton amour, l'amour de ceux qui t'aiment et l'action qui me fera atteindre ton amour. Ô Allah, fais que ton amour me soit plus cher que moi-même, que ma famille et que l'eau fraîche.",
+   "refs": [
+    [
+     "riyad",
+     811
+    ]
+   ]
+  }
+ ]
+}
