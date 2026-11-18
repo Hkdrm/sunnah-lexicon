@@ -1,0 +1,65 @@
+{
+ "_note": "Catégories des duaa. Les invocations sont dans data/seed/dua_parts/*.json",
+ "categories": [
+  {
+   "slug": "voyage",
+   "label_fr": "Voyage"
+  },
+  {
+   "slug": "maison",
+   "label_fr": "Maison et sorties"
+  },
+  {
+   "slug": "repas",
+   "label_fr": "Repas et boisson"
+  },
+  {
+   "slug": "toilettes",
+   "label_fr": "Toilettes et ablution"
+  },
+  {
+   "slug": "habillement",
+   "label_fr": "Vêtements"
+  },
+  {
+   "slug": "sommeil",
+   "label_fr": "Sommeil et réveil"
+  },
+  {
+   "slug": "matin-soir",
+   "label_fr": "Matin et soir"
+  },
+  {
+   "slug": "priere",
+   "label_fr": "Prière"
+  },
+  {
+   "slug": "epreuves",
+   "label_fr": "Détresse et soucis"
+  },
+  {
+   "slug": "maladie-deuil",
+   "label_fr": "Maladie et deuil"
+  },
+  {
+   "slug": "pardon",
+   "label_fr": "Pardon et repentir"
+  },
+  {
+   "slug": "protection",
+   "label_fr": "Protection et refuge"
+  },
+  {
+   "slug": "nature",
+   "label_fr": "Vent, pluie et tonnerre"
+  },
+  {
+   "slug": "vie-sociale",
+   "label_fr": "Vie sociale"
+  },
+  {
+   "slug": "generales",
+   "label_fr": "Invocations complètes"
+  }
+ ]
+}

@@ -78,6 +78,12 @@ h1.detail{font-size:28px;line-height:1.15;font-weight:700;margin:4px 0 12px}
 .nav2 button{flex:1;border:0;background:var(--card);color:var(--accent);font:inherit;padding:12px;border-radius:12px;cursor:pointer}
 .nav2 button[disabled]{opacity:.35}
 details.en{margin-top:12px}details.en summary{color:var(--accent);cursor:pointer;font-size:15px}details.en p{color:var(--muted);font-size:15px;margin-top:8px}
+.dua .ttl{font-size:17px;font-weight:600;margin:0}
+.dua .when{font-size:14px;color:var(--muted);margin:2px 0 0}
+.dua .ar{font-size:26px;line-height:2.1;margin-top:12px}
+.dua .ph{font-style:italic;font-size:16px;line-height:1.5;margin:10px 0 0;color:var(--accent)}
+.dua .lbl{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin:12px 0 2px}
+.dua .tr{margin:0}
 a{color:var(--accent)}
 </style>
 </head>
@@ -85,6 +91,7 @@ a{color:var(--accent)}
 <main id="screen"></main>
 <nav id="tabbar" aria-label="Navigation"><div class="in">
  <button class="tab" data-go="#" id="t-home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>Pratiques</button>
+ <button class="tab" data-go="#d" id="t-d" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5 5.1.4-3.9 3.3 1.2 5-4.3-2.7-4.3 2.7 1.2-5L5 8.4 10.1 8z"/></svg>Duaa</button>
  <button class="tab" data-go="#h" id="t-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C6.5 4 9.5 4 12 5.5c2.5-1.5 5.5-1.5 8 0V19c-2.5-1.5-5.5-1.5-8 0-2.5-1.5-5.5-1.5-8 0z"/><path d="M12 5.5V19"/></svg>Hadiths</button>
  <button class="tab" data-go="#l" id="t-l" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="13" height="18" rx="2"/><path d="M8 7h5M8 11h5M17 7h3v13a1 1 0 0 1-1 1h-2"/></svg>Livres</button>
  <button class="tab" data-go="#i" id="t-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>Infos</button>
@@ -280,10 +287,74 @@ function screenInfo(el){
   <p>Ils ne sont jamais inventés. Ils sont lus dans la mention finale du texte (par exemple « rapporté par Boukhari et Mouslim » ou l'avis d'An-Nawawi) ; sinon : « non renseigné ». Ce n'est pas un classement indépendant par un savant nommé.</p>
   <h2>Sources et licences</h2>
   <p>Textes arabes classiques. Données : <a href="https://github.com/fawazahmed0/hadith-api">hadith-api</a> et <a href="https://github.com/AhmedBaset/hadith-json">hadith-json</a>. La licence de la traduction française d'An-Nawawi et celle du jeu de données des autres recueils restent à confirmer. Vérification : <a href="https://sunnah.com">sunnah.com</a>.</p>
+  <h2>Lire la phonétique des duaa</h2>
+  <ul><li><b>ou</b> = « ou » français ; <b>â î û</b> = voyelles longues, tenues plus longtemps</li><li><b>dj</b> = « dj » (جـ) ; <b>kh</b> = « j » espagnol (خ) ; <b>gh</b> = « r » grasseyé (غ) ; <b>ch</b> = « ch » français</li><li><b>th</b> et <b>dh</b> = les deux « th » anglais (think, this)</li><li><b>‘</b> = lettre ع (gorge serrée) ; <b>'</b> = coup de glotte</li><li>Les lettres emphatiques (ص ض ط ظ) sont écrites comme leurs voisines (s d t dh) : la phonétique est une approximation, <b>l'arabe fait foi</b>.</li></ul>
   <h2>Hors ligne</h2>
   <p>Après une première visite, l'application fonctionne sans connexion. Sur iPhone : Safari, Partager, « Sur l'écran d'accueil ».</p></div>`;
 }
 
+
+
+/* --- Duaa --- */
+const DCAT = {
+ "voyage":{c:"#a2845e",i:'<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>'},
+ "maison":{c:"#30b0c7",i:'<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/>'},
+ "repas":{c:"#ff9500",i:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/>'},
+ "toilettes":{c:"#0a84ff",i:'<path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/>'},
+ "habillement":{c:"#bf5af2",i:'<path d="M8 4l-5 3 2 4 2-1v10h10V10l2 1 2-4-5-3a4 4 0 0 1-8 0z"/>'},
+ "sommeil":{c:"#5e5ce6",i:'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>'},
+ "matin-soir":{c:"#ffa000",i:'<circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/>'},
+ "priere":{c:"#0f766e",i:'<path d="M4 20v-7a8 8 0 0 1 16 0v7"/><path d="M12 5V2"/><path d="M9 20v-5a3 3 0 0 1 6 0v5"/>'},
+ "epreuves":{c:"#636366",i:'<path d="M12 3v9l5 3"/><circle cx="12" cy="12" r="9"/>'},
+ "maladie-deuil":{c:"#ff453a",i:'<path d="M3 12h4l2-4 3 8 2-4h7"/>'},
+ "pardon":{c:"#34c759",i:'<path d="M5 12l5 5 9-10"/>'},
+ "protection":{c:"#1d7a56",i:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>'},
+ "nature":{c:"#32ade6",i:'<path d="M7 18a4 4 0 1 1 .8-7.9A5.5 5.5 0 0 1 18 11a3.5 3.5 0 0 1-.5 7z"/>'},
+ "vie-sociale":{c:"#ff375f",i:'<circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6M15 14.4c3 0 6 1.7 6 5.6"/>'},
+ "generales":{c:"#7d7aff",i:'<path d="M12 3l1.9 5 5.1.4-3.9 3.3 1.2 5-4.3-2.7-4.3 2.7 1.2-5L5 8.4 10.1 8z"/>'}
+};
+const dIcon = slug => { const k = DCAT[slug] || {c:"#8e8e93",i:'<circle cx="12" cy="12" r="8"/>'}; return `<span class="ic" style="background:${k.c}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${k.i}</svg></span>`; };
+function duaCard(d){
+  const src = d.refs.map(r => { const h = byKey.get(r[0]+":"+r[1]); if (!h) return ""; const col = D.collections.find(c=>c.slug===h.collection);
+    return `${esc(col.name_fr.replace(/ \(.*/,""))} n° ${h.number}${h.grades.length ? " · " + esc(h.grades[0].grade) : ""}`; }).filter(Boolean).join(" ; ");
+  return `<article class="card dua">
+    <p class="ttl">${esc(d.title_fr)}</p><p class="when">${esc(d.when_fr)}</p>
+    <div class="ar" lang="ar">${esc(d.arabic)}</div>
+    <div class="lbl">Phonétique</div><p class="ph">${esc(d.phonetic)}</p>
+    <div class="lbl">Traduction</div><p class="tr">${esc(d.translation_fr)}</p>
+    ${d.repeat_fr ? `<div class="pills"><span class="pill">${esc(d.repeat_fr)}</span></div>` : ""}
+    <p class="note">Source : ${src || "—"}</p>
+  </article>`;
+}
+function screenDuaHome(el){
+  el.innerHTML = `<h1 class="large">Duaa</h1>
+    <p class="lead">Les invocations du Prophète ﷺ : arabe, phonétique et traduction.</p>
+    <label class="search">${ICON_SEARCH}<input id="dq" type="search" inputmode="search" enterkeyhint="search" placeholder="Rechercher une invocation" autocomplete="off" aria-label="Rechercher une invocation"></label>
+    <div id="out"></div>
+    <p class="note" style="margin:16px 4px">Arabe vocalisé et phonétique en cours de relecture : la phonétique est approximative, l'arabe fait foi. Traductions automatiques à relire.</p>`;
+  const q = $("#dq", el); q.value = state.dq || "";
+  const draw = () => {
+    state.dq = q.value;
+    const tokens = state.dq.trim().split(/\s+/).filter(Boolean);
+    if (!tokens.length) {
+      $("#out", el).innerHTML = `<div class="grid">` + D.dua_categories.map(c => {
+        const k = D.duas.filter(x => x.category === c.slug).length; if (!k) return "";
+        return `<button class="tile" data-go="#dc-${c.slug}">${dIcon(c.slug)}<div><b>${esc(c.label_fr)}</b><span>${k} invocation${k>1?"s":""}</span></div></button>`;
+      }).join("") + `</div>`;
+      return;
+    }
+    const res = D.duas.filter(d => tokens.every(t => isAr(t) ? (d._ar.includes(arNorm(t)) || arTokens(t).every(x => d._stems.has(stem(x)))) : d._fr.includes(frNorm(t))));
+    $("#out", el).innerHTML = res.length ? `<div class="section">${res.length} invocation${res.length>1?"s":""}</div>` + res.map(duaCard).join("") : `<div class="empty">Aucune invocation trouvée.</div>`;
+  };
+  q.addEventListener("input", draw); draw();
+}
+function screenDuaCat(el, slug){
+  const cat = D.dua_categories.find(c=>c.slug===slug);
+  if (!cat) { location.hash = "#d"; return; }
+  el.innerHTML = `<div class="nav"><button class="back" data-back>${BACK} Duaa</button></div>
+    <h1 class="detail" style="display:flex;align-items:center;gap:12px">${dIcon(slug)}<span>${esc(cat.label_fr)}</span></h1>
+    ${D.duas.filter(d => d.category === slug).map(duaCard).join("")}`;
+}
 
 /* --- Livres personnels (perso.json, privé) --- */
 let PERSO = null;
@@ -328,9 +399,9 @@ function route(){
   const el = $("#screen");
   scrolls[el.dataset.route] = scrollY;
   el.dataset.route = h;
-  const m = h.match(/^#p-([\w-]+)$/), mc = h.match(/^#c-([\w-]+)$/);
+  const m = h.match(/^#p-([\w-]+)$/), mc = h.match(/^#c-([\w-]+)$/), md = h.match(/^#dc-([\w-]+)$/);
   el.className = "enter";
-  for (const id of ["#t-home","#t-h","#t-i","#t-l"]) $(id).removeAttribute("aria-current");
+  for (const id of ["#t-home","#t-d","#t-h","#t-i","#t-l"]) $(id).removeAttribute("aria-current");
   const ml = PERSO && h.match(/^#l(?:-([hq])(?:-(\d+))?)?$/);
   if (ml) {
     $("#t-l").setAttribute("aria-current","page");
@@ -338,6 +409,8 @@ function route(){
   }
   else if (m) { screenPractice(el, m[1]); $("#t-home").setAttribute("aria-current","page"); }
   else if (mc) { screenCategory(el, mc[1]); $("#t-home").setAttribute("aria-current","page"); }
+  else if (md) { screenDuaCat(el, md[1]); $("#t-d").setAttribute("aria-current","page"); }
+  else if (h === "#d") { screenDuaHome(el); $("#t-d").setAttribute("aria-current","page"); }
   else if (h === "#h") { screenHadiths(el); $("#t-h").setAttribute("aria-current","page"); }
   else if (h === "#i") { screenInfo(el); $("#t-i").setAttribute("aria-current","page"); }
   else { screenHome(el); $("#t-home").setAttribute("aria-current","page"); }
@@ -350,6 +423,8 @@ document.addEventListener("click", e => {
 window.addEventListener("hashchange", route);
 fetch("data.json").then(r=>r.json()).then(d=>{
   d.hadiths.forEach(h=>{ h._ar = arNorm(h.arabic); h._fr = frNorm(h.french); h._stems = new Set(arTokens(h.arabic).map(stem)); });
+  (d.duas||[]).forEach(x=>{ x._ar = arNorm(x.arabic); x._fr = frNorm([x.title_fr,x.when_fr,x.translation_fr,x.phonetic].join(" ")); x._stems = new Set(arTokens(x.arabic).map(stem)); });
+  $("#t-d").hidden = !(d.duas && d.duas.length);
   D = d; byKey = new Map(d.hadiths.map(h=>[h.collection+":"+h.number, h]));
   // contenu personnel facultatif : l'onglet n'apparaît que si perso.json existe
   return fetch("perso.json").then(r => r.ok ? r.json() : null).catch(() => null).then(p => {

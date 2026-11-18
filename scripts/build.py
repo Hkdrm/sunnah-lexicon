@@ -17,6 +17,7 @@ import urllib.request
 from pathlib import Path
 
 from arabic import parse_attribution, stem, tokens
+from translit import transliterate
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "raw"
@@ -179,6 +180,23 @@ def main() -> None:
             raise SystemExit(f"Traduction sans hadiths cible (ou déjà traduit) : {key}")
     con.execute("UPDATE hadith SET french_origin='jeu de données' WHERE french_origin IS NULL AND french IS NOT NULL")
 
+    # --- Duaa : l'arabe vocalisé vient des parts, la phonétique est générée ---------------------
+    dseed = ROOT / "data/seed"
+    dcats = json.loads((dseed / "duas.json").read_text(encoding="utf-8"))["categories"]
+    for pos, c in enumerate(dcats):
+        con.execute("INSERT INTO dua_category VALUES (?,?,?)", (c["slug"], c["label_fr"], pos))
+    for f in sorted((dseed / "dua_parts").glob("*.json")):
+        for d in json.loads(f.read_text(encoding="utf-8")).get("duas", []):
+            cur = con.execute(
+                "INSERT INTO dua (slug,category,title_fr,when_fr,arabic,phonetic,translation_fr,repeat_fr) VALUES (?,?,?,?,?,?,?,?)",
+                (d["slug"], d["category"], d["title_fr"], d["when_fr"], d["arabic"], transliterate(d["arabic"]),
+                 d["translation_fr"], d.get("repeat_fr")))
+            for pos, (coll, num) in enumerate(d["refs"]):
+                row = con.execute("SELECT id FROM hadith WHERE collection=? AND number=?", (coll, num)).fetchone()
+                if row is None:
+                    raise SystemExit(f"Référence introuvable pour la dua {d['slug']}: {coll} {num}")
+                con.execute("INSERT INTO dua_hadith VALUES (?,?,?)", (cur.lastrowid, row[0], pos))
+
     # --- Pratiques (fiches) : chaque référence doit exister dans le corpus -----------------------
     for pos, c in enumerate(prac["categories"]):
         con.execute("INSERT INTO practice_category VALUES (?,?,?)", (c["slug"], c["label_fr"], pos))
@@ -219,6 +237,12 @@ def main() -> None:
     }
     for p in data["practices"]:
         del p["id"]
+    data["dua_categories"] = q("SELECT slug, label_fr FROM dua_category ORDER BY position")
+    data["duas"] = [dict(d, refs=[[r["collection"], r["number"]] for r in q(
+        "SELECT h.collection, h.number FROM dua_hadith x JOIN hadith h ON h.id=x.hadith_id WHERE x.dua_id=? ORDER BY x.position", d["id"])])
+        for d in q("SELECT id, slug, category, title_fr, when_fr, arabic, phonetic, translation_fr, repeat_fr FROM dua ORDER BY id")]
+    for d in data["duas"]:
+        del d["id"]
     (ROOT / "web" / "data.json").write_text(
         json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(hadiths)} hadiths ({len(data['themes'])} thèmes, {len(data['situations'])} situations, "

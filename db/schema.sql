@@ -103,3 +103,30 @@ CREATE TABLE practice_hadith (
     position    INTEGER NOT NULL,
     PRIMARY KEY (practice_id, hadith_id)
 );
+
+-- Duaa (invocations) : arabe vocalisé, phonétique générée (scripts/translit.py), traduction, sources.
+CREATE TABLE dua_category (
+    slug      TEXT PRIMARY KEY,
+    label_fr  TEXT NOT NULL,
+    position  INTEGER NOT NULL
+);
+
+CREATE TABLE dua (
+    id             INTEGER PRIMARY KEY,
+    slug           TEXT NOT NULL UNIQUE,
+    category       TEXT NOT NULL REFERENCES dua_category(slug),
+    title_fr       TEXT NOT NULL,
+    when_fr        TEXT NOT NULL,
+    arabic         TEXT NOT NULL,
+    phonetic       TEXT NOT NULL,
+    translation_fr TEXT NOT NULL,
+    repeat_fr      TEXT,
+    review_status  TEXT NOT NULL DEFAULT 'à relire'
+);
+
+CREATE TABLE dua_hadith (
+    dua_id    INTEGER NOT NULL REFERENCES dua(id),
+    hadith_id INTEGER NOT NULL REFERENCES hadith(id),
+    position  INTEGER NOT NULL,
+    PRIMARY KEY (dua_id, hadith_id)
+);
