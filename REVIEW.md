@@ -6,6 +6,7 @@ Les tableurs sont dans `review/` (CSV UTF-8, ouvrables dans Excel ou LibreOffice
 | Fichier | Quoi vérifier | Priorité |
 |---|---|---|
 | `6_pratiques.csv` | Les fiches « Pratiques » (siwak, main droite…) : le résumé français est-il fidèle aux hadiths cités ? Aucune qualification juridique n'est donnée volontairement. | **Très haute** |
+| `8_duaa.csv` | Les invocations : **la vocalisation de l'arabe** (les voyelles sont écrites par une IA ; la phonétique en est déduite, donc une voyelle fausse donne une phonétique fausse), puis la traduction. | **Très haute** |
 | `7_traductions.csv` | Les 36 traductions françaises faites par IA, avec l'arabe en regard : sens fidèle, formules et invocations correctes. | **Très haute** |
 | `1_termes.csv` | Les 10 définitions du lexique : exactes, neutres, suffisantes ? | Haute |
 | `5_degres.csv` | Les degrés « lus dans le texte » : à confirmer par un savant nommé (le degré affiché est celui d'An-Nawawi ou une déduction de la présence dans Boukhari/Mouslim, pas un grading indépendant). | Haute |

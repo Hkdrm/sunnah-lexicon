@@ -10,6 +10,7 @@ Fichiers générés dans review/ :
   5_degres.csv           degrés déduits du texte (à confirmer par un savant nommé)
   6_pratiques.csv        fiches pratiques : résumé français à vérifier contre les hadiths cités
   7_traductions.csv      traductions automatiques (arabe en regard) à relire
+  8_duaa.csv             invocations : vocalisation de l'arabe, phonétique, traduction à valider
 
 Colonnes à remplir par le relecteur : « décision » (OK / à corriger / rejeter) et « correction ».
 """
@@ -71,6 +72,12 @@ def main():
     write("7_traductions.csv", ["recueil", "n°", "texte arabe", "traduction française (automatique)", "origine"],
           q("""SELECT collection, number, arabic, french, french_origin FROM hadith
                WHERE french_origin LIKE 'Traduction automatique%' ORDER BY collection, number"""))
+
+    write("8_duaa.csv", ["catégorie", "titre", "quand", "arabe (vocalisé)", "phonétique (générée)", "traduction (FR)", "sources"],
+          q("""SELECT c.label_fr, d.title_fr, d.when_fr, d.arabic, d.phonetic, d.translation_fr,
+                      (SELECT GROUP_CONCAT(h.collection || ' ' || h.number || ' (' || h.grade || ')', ' ; ') FROM dua_hadith x
+                         JOIN hadith h ON h.id=x.hadith_id WHERE x.dua_id=d.id)
+               FROM dua d JOIN dua_category c ON c.slug=d.category ORDER BY c.position, d.id"""))
 
     write("5_degres.csv", ["recueil", "n°", "degré", "base", "recueils cités", "texte arabe (début)"],
           q("""SELECT h.collection, h.number, g.grade, g.basis, COALESCE(h.takhrij,''), SUBSTR(h.arabic,1,120)

@@ -71,9 +71,10 @@ def word_phon(word, prev_open):
         nxt = cl[i + 1] if i + 1 < n else None
         v = vowel_of(marks)
         # --- alif initial : article ou alif de liaison ---
-        if ch == "ا" and (i == 0 or (out and i == 1 and cl[0][0] in "وفبلك" and not (cl[0][1] & {SUKUN}))) and not (marks & {FATHA, DAMMA, KASRA} and False):
+        prefix_ok = 0 < i <= 2 and all(c[0] in "وفبلك" and not (c[1] & {SUKUN}) for c in cl[:i])  # wa-bi-l-... : préfixes collés
+        if ch == "ا" and (i == 0 or prefix_ok):
             starts_word = i == 0
-            prefixed = i == 1
+            prefixed = i > 0
             if nxt and nxt[0] == "ل" and not (nxt[1] & {FATHA, DAMMA, KASRA, TAN_F, TAN_D, TAN_K}):  # article défini (la lam ne porte pas de voyelle)
                 elide = prev_open if starts_word else True
                 after = cl[i + 2] if i + 2 < n else None
@@ -140,7 +141,7 @@ def word_phon(word, prev_open):
                 sound = ""
             elif out and out[-1].endswith("-"):
                 sound = ""  # al-amni : pas d'apostrophe après l'article
-            elif ch in "أإ" and i == 1 and cl[0][0] in "وفبلك" and not out[-1].endswith("-"):
+            elif ch in "أإ" and 0 < i <= 2 and all(c[0] in "وفبلك" for c in cl[:i]) and not out[-1].endswith("-"):
                 sound = "-"  # wa-innâ, wa-ilayhi : pas d'apostrophe après une particule
             if MADDA in marks or (ch == "آ"):
                 out.append((sound + "â")); i += 1; continue

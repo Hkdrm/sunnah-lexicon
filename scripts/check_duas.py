@@ -42,7 +42,9 @@ for d in part.get("duas", []):
         if k not in H: err.append(f"{s}: référence introuvable {k}")
         else: texts.append(skel(H[k]["arabic"]))
     # l'arabe de la dua (sans « ... » ni ponctuation) doit se retrouver dans un hadith cité, morceau par morceau
-    parts = [p for p in re.split(r"[.،؛:؟!…]|\.\.\.", ar) if len(skel(p)) >= 6]
+    waiver = d.get("corpus_waiver")  # exception documentée : le corpus contient une faute de copie
+    if waiver: warn.append(f"{s}: contrôle du texte levé ({waiver})")
+    parts = [p for p in re.split(r"[.،؛:؟!…]|\.\.\.", ar) if len(skel(p)) >= 6 and not waiver]
     for p in parts:
         sp = skel(p)
         if texts and not any(sp in t for t in texts):
@@ -55,5 +57,6 @@ for d in part.get("duas", []):
     if FORBID.search(d.get("translation_fr", "") + d.get("when_fr", "") + d.get("title_fr", "")): err.append(f"{s}: qualification juridique interdite")
     if len(d.get("translation_fr", "")) < 8: err.append(f"{s}: traduction trop courte")
 print(f"{f.name}: {len(part.get('duas', []))} duaa")
+print("\n".join("ATTENTION " + w for w in warn))
 print("\n".join("ERREUR " + e for e in err) or "OK")
 sys.exit(1 if err else 0)

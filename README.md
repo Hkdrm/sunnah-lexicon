@@ -58,6 +58,9 @@ Réglages à faire une fois : **Settings → Pages → Source : GitHub Actions**
 ## Interface
 Pensée pour iPhone : titres larges, listes groupées, barre d'onglets (Pratiques · Hadiths · Infos), écran de détail par pratique, mode sombre.
 
+## Duaa (invocations)
+94 invocations en 15 catégories (voyage, maison, repas, toilettes, sommeil, matin et soir, prière, épreuves, deuil, pardon, protection, nature, vie sociale, complètes) : **arabe vocalisé**, **phonétique** et **traduction**, avec le hadith source. Fichiers : `data/seed/dua_parts/*.json` ; la phonétique est **générée** par `scripts/translit.py` à partir de l'arabe vocalisé (jamais écrite à la main) ; `scripts/check_duas.py` vérifie que chaque invocation figure dans un hadith du corpus. **La vocalisation est écrite par IA et doit être relue** (`review/8_duaa.csv`) : une voyelle fausse donne une phonétique fausse.
+
 ## Pratiques
 `data/seed/practices.json` + `data/seed/parts/*.json` : 206 fiches concrètes en 19 catégories (purification, prière, vendredi et fêtes, repas, habillement, sommeil, maison, voyage, famille, relations, parole, caractère, commerce, maladie et deuil, jeûne, aumône, invocations, Coran et science) (manger de la main droite, siwak avant la prière, ablution, sommeil, salutations…). Chaque fiche cite des hadiths du corpus ; `build.py` échoue si une référence n'existe pas. Les résumés sont rédigés par nous (brouillon) et ne donnent aucune qualification juridique.
 
