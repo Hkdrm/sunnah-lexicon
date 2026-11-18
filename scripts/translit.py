@@ -101,7 +101,7 @@ def word_phon(word, prev_open):
                 first_done = True
                 continue
             # alif de liaison d'un verbe/nom (اغْفِرْ, اسْمِ…)
-            if v is None and nxt and not (nxt[0] in "اويى"):
+            if v is None and nxt and SUKUN in nxt[1] and not (nxt[0] in "اويى"):  # alif de liaison : la consonne suivante porte un soukoun (اغْفِرْ, اسْمِ)
                 elide = prev_open if starts_word else True
                 third = cl[i + 2] if i + 2 < n else None
                 init = "ou" if (third and DAMMA in third[1]) else "i"
